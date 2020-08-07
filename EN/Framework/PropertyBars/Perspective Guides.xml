@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+	
+	<painter-ui xmlns="Corel::Painter::Framework"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://pntrwin-d-xp/schema/12.0/
+			http://pntrwin-d-xp/schema/12.0/PainterFramework.xsd">
+
+	<container flow="equal-horizontal" theme="property-bar-theme" spacing="0">
+		
+		<container flow="equal-vertical" height="value:54;minimum:34;maximum:54;" width="value:45;minimum:45;maximum:45;" spacing="0">
+			<label caption="ToolsPropertyBar|ResetLabel" text-style="h-center" height="value:20;minimum:20;maximum:20;" font-size="12" visible="data-source:property-bar-with-labels;" />
+			<container flow="fill" spacing="0">
+			
+				<image-button
+					tool-tip="PropertyBar|ResetTool"
+					onClick="reset-perspectiveguides"
+					src="Property Bars/Composition/Reset_Perspective_Guide.png" />
+
+			</container>
+
+		</container>
+
+		<divider orientation="vertical" height="value:52;minimum:32;maximum:52;"/>
+
+		<container flow="equal-vertical" height="value:54;minimum:34;maximum:54;" width="value:89;minimum:89;maximum:89;" spacing="0">
+			<label caption="" text-style="h-center" height="value:20;minimum:20;maximum:20;" font-size="12" visible="data-source:property-bar-with-labels;" />
+			<container flow="equal-horizontal" spacing="x:4;">
+				<divider stroke-width="0" width="value:3;minimum:3;maximum:3;" os="win" />
+				<divider stroke-width="0" width="value:2;minimum:2;maximum:2;" os="mac" />
+				
+				<template name="dlg-checkbox">
+					<var name="data_source_checkbox" value="perspectiveguides-enabled"/>
+					<var name="caption_checkbox" value="Controls-PerspectiveGuides|EnableCaption"/>
+					<var name="label_width" value=""/>
+					<var name="enabled_checkbox" value="true"/>
+					<override name="checkbox" item="tool-tip" value="Controls-PerspectiveGuides|EnableTooltip" />
+				</template>
+
+			</container>
+		</container>
+
+		<divider orientation="vertical" height="value:52;minimum:32;maximum:52;"/>
+
+		<container flow="equal-vertical" height="value:54;minimum:34;maximum:54;" width="value:91;minimum:91;maximum:91;" spacing="0">
+			<label caption="" text-style="h-center" height="value:20;minimum:20;maximum:20;" font-size="12" visible="data-source:property-bar-with-labels;" />
+			<container flow="equal-horizontal" spacing="x:4;">
+				<divider stroke-width="0" width="value:3;minimum:3;maximum:3;" os="win" />
+				<divider stroke-width="0" width="value:2;minimum:2;maximum:2;" os="mac" />
+				
+				<template name="dlg-checkbox">
+					<var name="data_source_checkbox" value="perspectiveguides-snapping-enabled"/>
+					<var name="caption_checkbox" value="Controls-PerspectiveGuides|SnapCaption"/>
+					<var name="label_width" value=""/>
+					<var name="enabled_checkbox" value="data-source:perspectiveguides-enabled;"/>
+					<override name="checkbox" item="tool-tip" value="Controls-PerspectiveGuides|SnapTooltip" />
+				</template>
+
+			</container>
+		</container>
+
+		<divider orientation="vertical" height="value:52;minimum:32;maximum:52;"/>
+
+		<container flow="equal-vertical" height="value:54;minimum:34;maximum:54;" width="value:77;minimum:77;maximum:77;" spacing="0">
+			<label caption="" text-style="h-center" height="value:20;minimum:20;maximum:20;" font-size="12" visible="data-source:property-bar-with-labels;" />
+			<container flow="equal-horizontal" spacing="x:4;">
+				<divider stroke-width="0" />
+				<container flow="equal-horizontal" auto-size="true" link="true">
+					<label
+						caption="Controls-PerspectiveGuides|PresetMenu"
+						auto-size="true"
+						enabled="data-source: perspectiveguides-enabled;" />
+					
+					<image-button
+						tool-tip="Controls-PerspectiveGuides|PresetTooltip"
+						menu="perspectiveguides-preset-menu"
+						enabled="data-source: perspectiveguides-enabled;"
+						src="Property Bars/Composition/Perspectiveguides_Preset_Menu.png" />
+
+				</container>
+				<divider stroke-width="0" />
+			</container>
+		</container>
+
+		<divider orientation="vertical" height="value:52;minimum:32;maximum:52;"/>
+
+		<container flow="equal-vertical" height="value:54;minimum:34;maximum:54;" width="value:618;minimum:618;maximum:618;" spacing="0">
+			<label caption="ToolsPropertyBar|OptionsLabel" text-style="h-center" height="value:20;minimum:20;maximum:20;" font-size="12" visible="data-source:property-bar-with-labels;" />
+			<container flow="equal-horizontal" spacing="x:4;">
+				<divider stroke-width="0" width="value:3;minimum:3;maximum:3;" os="win" />
+				<divider stroke-width="0" width="value:2;minimum:2;maximum:2;" os="mac" />
+				
+				<image-button
+					tool-tip="Controls-PerspectiveGuides|VisibilityTooltip"
+					data-source="perspectiveguides-primary-visible"
+					enabled="data-source: perspectiveguides-enabled;"
+					src="Property Bars/Composition/Perspective_Primary_Lines.png" />
+				<divider stroke-width="0" width="value:1;minimum:1;maximum:1;" os="win" />
+				<template name="label-edit-dropdown">
+					<var name="caption" value="Controls-PerspectiveGuides|OpacitySecondaySliderCaption" />
+					<var name="tooltip" value="Controls-PerspectiveGuides|OpacitySliderTooltip" />
+					<var name="min" value="0.0" />
+					<var name="max" value="1.0" />
+					<var name="step" value="0.01" />
+					<var name="format" value="percent" />
+					<var name="precision" value="0" />
+					<var name="data_source" value="PropertyBar-PerspectiveGuides-PrimaryLineOpacity" />
+					<var name="enabled" value="data-source: perspectiveguides-enabled;" />
+				</template>
+
+				<selector
+					flyout="Perspective-Primary-ColorSelectorFlyout.xml"
+					flyout-close-event="PropertyBar-PerspectiveGuides-PrimaryLineColor-flyout"
+					enabled="data-source: perspectiveguides-enabled;"
+					width="value:24;maximum:24;minimum:24;"
+					height="value:24;maximum:24;minimum:24;"
+					default-flyout-size="x:210; y:400;"
+					data-source="PropertyBar-PerspectiveGuides-PrimaryLineColor" />
+				
+				<divider orientation="vertical" height="value:32;minimum:32;maximum:32;"/>
+
+				<image-button
+					tool-tip="Controls-PerspectiveGuides|HorizonEnableTooltip"
+					data-source="perspectiveguides-horizon-visible"
+					enabled="data-source: perspectiveguides-enabled;"
+					src="Property Bars/Composition/Perspective_Horizon_Line.png" />
+				<divider stroke-width="0" width="value:1;minimum:1;maximum:1;" os="win" />
+				<template name="label-edit-dropdown">
+					<var name="caption" value="Controls-PerspectiveGuides|OpacitySecondaySliderCaption" />
+					<var name="tooltip" value="Controls-PerspectiveGuides|OpacityHorizonSliderTooltip" />
+					<var name="min" value="0.0" />
+					<var name="max" value="1.0" />
+					<var name="step" value="0.01" />
+					<var name="format" value="percent" />
+					<var name="precision" value="0" />
+					<var name="data_source" value="PropertyBar-PerspectiveGuides-HorizonLineOpacity" />
+					<var name="enabled" value="data-source: perspectiveguides-enabled;" />
+				</template>
+
+				<selector
+					flyout="Perspective-Horizon-ColorSelectorFlyout.xml"
+					flyout-close-event="PropertyBar-PerspectiveGuides-HorizonLineColor-flyout"
+					enabled="data-source: perspectiveguides-enabled;"
+					width="value:24;maximum:24;minimum:24;"
+					height="value:24;maximum:24;minimum:24;"
+					default-flyout-size="x:210; y:400;"
+					data-source="PropertyBar-PerspectiveGuides-HorizonLineColor" />
+
+				<divider orientation="vertical" height="value:32;minimum:32;maximum:32;"/>
+
+				<image-button
+					tool-tip="Controls-PerspectiveGuides|VisibilityTooltipSecondary"
+					data-source="perspectiveguides-secondary-visible"
+					enabled="data-source: perspectiveguides-enabled;"
+					src="Property Bars/Composition/Perspective_Intermediate_Lines.png" />
+				<divider stroke-width="0" width="value:1;minimum:1;maximum:1;" os="win" />
+				<template name="label-edit-dropdown">
+					<var name="caption" value="Controls-PerspectiveGuides|OpacitySecondaySliderCaption" />
+					<var name="tooltip" value="Controls-PerspectiveGuides|OpacitySecondaySliderTooltip" />
+					<var name="min" value="0.0" />
+					<var name="max" value="1.0" />
+					<var name="step" value="0.01" />
+					<var name="format" value="percent" />
+					<var name="precision" value="0" />
+					<var name="data_source" value="PropertyBar-PerspectiveGuides-SecondaryLineOpacity" />
+					<var name="enabled" value="data-source: perspectiveguides-enabled;" />
+				</template>
+
+				<selector
+					flyout="Perspective-Secondary-ColorSelectorFlyout.xml"
+					flyout-close-event="PropertyBar-PerspectiveGuides-SecondaryLineColor-flyout"
+					enabled="data-source: perspectiveguides-enabled;"
+					width="value:24;maximum:24;minimum:24;"
+					height="value:24;maximum:24;minimum:24;"
+					default-flyout-size="x:210; y:400;"
+					data-source="PropertyBar-PerspectiveGuides-SecondaryLineColor" />
+
+				<template name="label-edit-dropdown">
+					<var name="caption" value="Controls-PerspectiveGuides|OpacitySecondayDensityCaption" />
+					<var name="tooltip" value="Controls-PerspectiveGuides|OpacitySecondayDensityTooltip" />
+					<var name="min" value="0.01" />
+					<var name="max" value="1.0" />
+					<var name="step" value="0.01" />
+					<var name="format" value="percent" />
+					<var name="precision" value="0" />
+					<var name="data_source" value="PropertyBar-PerspectiveGuides-SecondaryLineDensity" />
+					<var name="enabled" value="data-source: perspectiveguides-enabled;" />
+				</template>
+			
+			</container>
+
+		</container>
+
+		<divider orientation="vertical" height="value:52;minimum:32;maximum:52;"/>
+
+		<container flow="equal-vertical" height="value:54;minimum:34;maximum:54;" width="value:76;minimum:76;maximum:76;" spacing="0">
+			<label caption="ToolsPropertyBar|MoreLabel" text-style="h-center" height="value:20;minimum:20;maximum:20;" font-size="12" visible="data-source:property-bar-with-labels;" />
+			<container flow="fill" spacing="0">
+
+				<image-button
+					onClick="Panel|PerspectiveGuides"
+					src="Property Bars/Composition/Perspective_Guide.png" />
+
+			</container>
+
+		</container>
+
+	</container>
+
+</painter-ui>

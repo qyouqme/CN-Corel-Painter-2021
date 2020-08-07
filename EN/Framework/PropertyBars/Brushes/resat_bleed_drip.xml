@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<painter-ui xmlns="Corel::Painter::Framework"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://pntrwin-d-xp/schema/12.0/
+	http://pntrwin-d-xp/schema/12.0/PainterFramework.xsd">
+
+	<container flow="equal-horizontal" theme="property-bar-theme" height="value:54;minimum:34;maximum:54;" spacing="0" auto-size="true">
+		<container flow="equal-vertical" height="value:54;minimum:34;maximum:54;" width="value:288;minimum:288;maximum:288;" spacing="0">
+			<label caption="PropertyBar|MediaLabel" text-style="h-center" height="value:20;minimum:20;maximum:20;" font-size="12" visible-init="data-source:property-bar-with-labels;" />
+
+			<container flow="equal-horizontal" spacing="x:2">
+				<divider stroke-width="0" width="value:3;minimum:3;maximum:3;" os="win" />
+				<divider stroke-width="0" width="value:2;minimum:2;maximum:2;" os="mac" />
+
+				<container flow="equal-horizontal">
+					<extern src="PropertyBars/Brushes/resat_bleed_extern.xml" />
+				</container>
+
+				<container flow="equal-horizontal" width="value:24;minimum:24;maximum:24;">
+					<extern src="PropertyBars/Brushes/blending_slotted_extern.xml" />
+				</container>
+
+				<divider orientation="horizontal" stroke-width="0" width="value:4;minimum:4;maximum:4;"/>
+
+				<image-button
+					tool-tip="Well|EnhandedDripTooltip"
+					data-source="enhanced_drip_liquid"
+					extern-delay="property-bar-cs"
+					width="value:24;minimum:24;maximum:24;"
+					height="value:24;minimum:24;maximum:24;"
+					src="Property Bars/Brush Prop Bars/Enhanced_Drip.png"
+				/>
+
+				<divider stroke-width="0" width="minimum:4;maximum:4;value:4;" />
+			</container>
+		</container>
+		<divider orientation="vertical" height="value:52;minimum:32;maximum:52;"/>
+	</container>
+
+</painter-ui>

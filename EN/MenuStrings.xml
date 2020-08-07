@@ -1,0 +1,1799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Strings.xsl"?>
+<string-table>
+	<category key="MenuBrushPalette">
+		<string key="Record_Stroke" value="录制笔触"/>
+		<string key="Playback_Stroke" value="播放笔触"/>
+		<string key="Auto_Playback" value="自动播放"/>
+		<string key="Save_Stroke" value="储存笔触"/>
+		<string key="Strokes" value="笔触"/>
+		<string key="Use_Stroke_Data" value="使用笔触资料"/>
+		<string key="ShowBrushLibrarySelectorInPopUp" value="显示笔刷材料库选取器"/>
+		<string key="ShowBrushLibrarySelectorInPanel" value="显示笔刷材料库选取器"/>
+		<string key="ShowRecentInPopUp" value="显示最近的笔刷"/>
+		<string key="ShowRecentInPanel" value="显示最近的笔刷"/>
+		<string key="ShowFindMoreBrushesOnlineInPopUp" value="线上寻找笔刷套件促销"/>
+		<string key="ShowFindMoreBrushesOnlineInPanel" value="线上寻找笔刷套件促销"/>
+		<string key="ShowPreviewInPopUp" value="显示笔尖和笔触预览"/>
+		<string key="ShowPreviewInPanel" value="显示笔尖和笔触预览"/>
+		<string key="ShowLayersCompatibilityInPopUp" value="相容图层"/>
+		<string key="ShowLayersCompatibilityInPanel" value="相容图层"/>
+		<string key="CategoryDisplayInPopUp" value="类别显示"/>
+		<string key="CategoryDisplayInPanel" value="类别显示"/>
+		<string key="CategoryDisplayInPanelContext" value="类别显示"/>
+		<string key="VariantDisplayInPopUp" value="变体显示"/>
+		<string key="VariantDisplayInPanel" value="变体显示"/>
+		<string key="VariantDisplayInPanelContext" value="变体显示"/>
+		<string key="CategoriesAsIcons" value="以图标显示类别"/>
+		<string key="CategoriesAsList" value="以列表显示类别"/>
+		<string key="ShowAllCategories" value="显示所有类别"/>
+		<string key="VariantsAsIcons" value="显示笔尖预览"/>
+		<string key="VariantsAsList" value="显示列表"/>
+		<string key="VariantsAsStrokes" value="显示笔触预览"/>
+		<string key="ShowAllVariants" value="显示所有变体"/>
+		<string key="OpenBrushLibraryInPopUp" value="笔刷材料库"/>
+		<string key="OpenBrushLibraryInPanel" value="笔刷材料库"/>
+		<string key="OpenBrushLibraryInNarrowPanel" value="笔刷材料库"/>
+		<string key="HideVariant" value="隐藏变体"/>
+		<string key="RenameVariant" value="重新命名变体..."/>
+		<string key="SetVariantIcon" value="设定自定义图标..."/>
+		<string key="HideCategory" value="隐藏类别"/>
+		<string key="RenameCategory" value="重新命名类别..."/>
+		<string key="SetCategoryIcon" value="设定自定义图标..."/>
+		<string key="ExportCategory" value="输出类别..."/>
+		<string key="ExportVariant" value="输出变体..."/>
+		<string key="ExportBrushesInPopUp" value="导出"/>
+		<string key="ExportBrushesInPanel" value="导出"/>
+		<string key="ExportBrushesInNarrowPanel" value="导出"/>
+		<string key="ExportBrushes_2" value="导出"/>
+		<string key="ExportCurrentVar" value="笔刷..."/>
+		<string key="ExportCategoryUI" value="类别..."/>
+		<string key="ExportLibraryUI" value="笔刷材料库..."/>
+		<string key="ImportBrushes" value="导入"/>
+		<string key="ImportBrushesInPopUp" value="导入"/>
+		<string key="ImportBrushesInPanel" value="导入"/>
+		<string key="ImportBrushesInNarrowPanel" value="导入"/>
+		<string key="ImportBrushes_2" value="导入"/>
+		<string key="ImportVariant" value="笔刷..."/>
+		<string key="ImportVariant2" value="导入变体..."/>
+		<string key="ImportCategory" value="类别..."/>
+		<string key="ImportCategory2" value="导入类别..."/>
+		<string key="ImportLibrary" value="笔刷材料库..."/>
+		<string key="RemoveLibrary" value="移除笔刷材料库..."/>
+		<string key="RemoveCategory" value="移除类别..."/>
+		<string key="RemoveVariant" value="移除变体..."/>
+		<string key="ImportARBBrushDab" value="从 Photoshop 笔刷印章 (ABR) 新增..."/>
+		<string key="FindMoreBrushesOnline" value="线上寻找更多笔刷..."/>
+	</category>
+	<category key="MenuNarrowBrushPalette">
+		<string key="CategoryDisplayInPopUp" value="类别显示"/>
+		<string key="CategoryDisplayInNarrowPanel" value="类别显示"/>
+		<string key="CategoryDisplayInNarrowPanelContext" value="类别显示"/>
+		<string key="ShowFindMoreBrushesOnlineInPanel" value="线上寻找笔刷套件促销"/>
+		<string key="ShowBrushLibrarySelectorInPanel" value="显示笔刷材料库选取器"/>
+		<string key="ShowLayersCompatibilityInNarrowSelector" value="相容的图层"/>
+		<string key="VariantDisplayInPopUp" value="变体显示"/>
+		<string key="VariantDisplayInNarrowPanel" value="变体显示"/>
+		<string key="VariantDisplayInNarrowPanelContext" value="变体显示"/>
+		<string key="CategoriesAsIcons" value="以图标显示类别"/>
+		<string key="CategoriesAsList" value="以列表显示类别"/>
+		<string key="ShowAllCategories" value="显示所有类别"/>
+		<string key="VariantsAsIcons" value="显示笔尖预览"/>
+		<string key="VariantsAsList" value="显示列表"/>
+		<string key="VariantsAsStrokes" value="显示笔触预览"/>
+	</category>
+	<category key="MenuUnknown">
+		<string key="DeleteStroke" value="删除笔触"/>
+	</category>
+	<category key="MenuCanvas">
+		<string key="Canvas" value="画布"/>
+		<string key="Canvas" value="画布(&amp;C)" os="win"/>
+		<string key="Resize" value="改变大小..."/>
+		<string key="Canvas_Size" value="画布尺寸..."/>
+		<string key="Surface_Lighting" value="表面光源..."/>
+		<string key="Clear_Impasto" value="清除厚涂颜料"/>
+		<string key="Tracing_Paper" value="描图纸"/>
+		<string key="Set_Paper_Color" value="设定纸张色彩"/>
+		<string key="Color_Management" value="色彩管理设定..."/>
+		<string key="CM_AssignProfile" value="指定描述档..."/>
+		<string key="CM_ConvertProfile" value="转换为描述档..."/>
+		<string key="CM_ColorProofingToggle" value="色彩校样模式"/>
+		<string key="CM_ColorProofingSettings" value="色彩校样设定..."/>
+		<string key="Rotate_Canvas" value="旋转画布"/>
+		<string key="180" value="180"/>
+		<string key="90_CW" value="顺时针 90 度"/>
+		<string key="90_CCW" value="逆时针 90 度"/>
+		<string key="Arbitrary" value="任意角度..."/>
+		<string key="Flip_Canvas_Horizontal" value="水平翻转画布"/>
+		<string key="Flip_Canvas_Vertical" value="垂直翻转画布"/>
+		<string key="Rotate_180" value="旋转 180 度"/>
+		<string key="Rotate_90_Right" value="向右旋转 90 度"/>
+		<string key="Rotate_90_Left" value="向左旋转 90 度"/>
+		<string key="Rotate_Arbitrary" value="旋转任意角度..."/>
+		<string key="Flip_Horizontal" value="水平翻转"/>
+		<string key="Flip_Vertical" value="垂直翻转"/>
+	</category>
+	<category key="MenuColorSetPal">
+		<string key="New_Empty_Color_Set" value="新增色彩集"/>
+		<string key="New_Color_Set_Image" value="自图像新增色彩集"/>
+		<string key="New_Color_Set_Layer" value="自图层新增色彩集"/>
+		<string key="New_Color_Set_Sel" value="自选区新增色彩集"/>
+		<string key="Open_Legacy_Clrset" value="导入旧版色彩集..."/>
+		<string key="Open_Color_Set" value="输入色彩集..."/>
+		<string key="Save_Color_Set" value="输出色彩集..."/>
+		<string key="Remove_Color_Set" value="移除色彩集..."/>
+		<string key="Show_Grid" value="显示格线"/>
+		<string key="Display_Name" value="显示名称"/>
+		<string key="Find_Swatch" value="寻找色票..."/>
+		<string key="Display_as_RGB" value="显示为 RGB"/>
+		<string key="Restore" value="恢复为预设色彩集"/>
+		<string key="ColorSetLibraries" value="色彩集材料库"/>
+	</category>
+	<category key="MenuColorSize">
+		<string key="Library_View" value="色彩集材料库检视"/>
+		<string key="8_x_8_Pixels" value="8 x 8 像素"/>
+		<string key="8_x_16_Pixels" value="8 x 16 像素"/>
+		<string key="16_x_16_Pixels" value="16 x 16 像素"/>
+		<string key="24_x_24_Pixels" value="24 x 24 像素"/>
+		<string key="Customize" value="自定义..."/>
+	</category>
+	<category key="MenuColorSort">
+		<string key="Sort_Order" value="排列顺序"/>
+		<string key="Saved" value="已储存"/>
+		<string key="HLS" value="HLS"/>
+		<string key="LHS" value="LHS"/>
+		<string key="SHL" value="SHL"/>
+	</category>
+	<category key="MenuColorsPal">
+		<string key="Standard_Colors" value="标准色彩"/>
+		<string key="Small_Colors" value="精简色彩"/>
+		<string key="Display_as_HSV" value="显示为 HSV"/>
+		<string key="Use_Clone_Color" value="使用仿制色彩"/>
+		<string key="Show_Hide_Clone_Button" value="仿制色彩按钮"/>
+		<string key="Show_Hide_Color_Wheel" value="色彩环"/>
+		<string key="Show_Hide_Color_Sliders" value="色彩滑杆"/>
+		<string key="Show_Hide_Color_Swatches" value="色票"/>
+		<string key="Show_Hide_Color_TTip" value="显示/隐藏色彩工具提示"/>
+		<string key="Show_Hide_Analogous_Harmonies" value="近似调和"/>
+		<string key="Show_Hide_Complementary_Harmonies" value="互补调和"/>
+		<string key="Show_Hide_Split_Complementary_Harmonies" value="分割互补调和"/>
+		<string key="Show_Hide_Tetradic_Harmonies" value="矩形调和"/>
+		<string key="Show_Hide_Monochromatic_Light_Harmonies" value="单色浅调和"/>
+		<string key="Show_Hide_Monochromatic_Dark_Harmonies" value="单色深调和"/>
+	</category>
+	<category key="MenuCompositionLayouts">
+		<string key="Compositions" value="构成"/>
+		<string key="SHDivProp" value="显示/隐藏黄金分割"/>
+		<string key="SHLayout_Grid" value="显示/隐藏配置格线"/>
+	</category>
+	<category key="MenuSymmetry">
+		<string key="Symmetry" value="对称"/>
+		<string key="MirrorMode" value="镜像模式"/>
+		<string key="SHMirrors" value="显示/隐藏镜像"/>
+		<string key="KaleidoscopeMode" value="万花筒模式"/>
+		<string key="SHKaleidoscopePlanes" value="显示/隐藏万花筒平面"/>
+	</category>
+	<category key="MenuEdit">
+		<string key="Edit" value="编辑"/>
+		<string key="Edit" value="编辑(&amp;E)" os="win"/>
+		<string key="Undo" value="撤销"/>
+		<string key="Redo" value="重做"/>
+		<string key="Fade" value="淡化..."/>
+		<string key="Cut" value="剪切"/>
+		<string key="Copy" value="复制"/>
+		<string key="Copy_Merged" value="合并复制"/>
+		<string key="Paste" value="粘贴"/>
+		<string key="Paste_In_Place" value="原处粘贴"/>
+		<string key="Paste_In_New_Image" value="在新的图像中粘贴"/>
+		<string key="Clear" value="清除"/>
+	</category>
+	<category key="MenuEffects">
+		<string key="Effects" value="效果"/>
+		<string key="Effects" value="效果(&amp;T)" os="win"/>
+		<string key="Last_Effect" value="上次效果"/>
+		<string key="2nd_Last_Effect" value="倒数第二个效果"/>
+		<string key="Fill" value="填色..."/>
+		<string key="Fill_2" value="其他"/>
+	</category>
+	<category key="MenuEsoterica">
+		<string key="Esoterica" value="神秘特效"/>
+		<string key="Apply_Marbling" value="应用纹路..."/>
+		<string key="Auto_Clone" value="自动仿制"/>
+		<string key="Auto_Van_Gogh" value="自动凡高画笔"/>
+		<string key="Blobs" value="气泡..."/>
+		<string key="Custom_Tile" value="自定义平铺样式..."/>
+		<string key="Grid_Paper" value="方格纸..."/>
+		<string key="Make_Mosaic_Tessell" value="制作马赛克与镶嵌..."/>
+		<string key="Growth" value="衍生..."/>
+		<string key="Highpass" value="高反差..."/>
+		<string key="Maze" value="迷宫..."/>
+		<string key="Place_Elements" value="置入元素..."/>
+		<string key="Pop_Art_Fill" value="普普艺术填色..."/>
+	</category>
+	<category key="MenuFile">
+		<string key="Select_Previous_Variant" value="选取前一个变体"/>
+		<string key="Save_Variant" value="储存变体..."/>
+		<string key="Set_Default_Variant" value="设定预设变体"/>
+		<string key="Remove_Variant" value="移除变体..."/>
+		<string key="Copy_Variant" value="复制变体..."/>
+		<string key="Restore_Default_Variant" value="恢复到预设变体"/>
+		<string key="Restore_All_Variants" value="恢复到全部预设变体"/>
+		<string key="Show_Texture" value="显示材质"/>
+		<string key="Transform_Texture" value="变形材质"/>
+		<string key="Capture_Dab" value="拾取笔尖"/>
+		<string key="New_Brush_Category" value="新笔刷类别..."/>
+		<string key="Remove_Brush_Category" value="移除笔刷类别..."/>
+		<string key="Import_Brush_Library" value="导入 BRS 文件..."/>
+		<string key="Clear" value="清除"/>
+		<string key="Variant" value="变体"/>
+		<string key="Brush" value="笔刷"/>
+		<string key="None" value="无"/>
+		<string key="Color" value="色彩"/>
+		<string key="Checkerboard" value="棋盘"/>
+		<string key="Pattern" value="花纹"/>
+		<string key="Background_Image" value="背景图像"/>
+		<string key="Select_Color" value="选择色彩..."/>
+		<string key="File" value="文件"/>
+		<string key="File" value="文件(&amp;F)" os="win"/>
+		<string key="New" value="新建..."/>
+		<string key="Open" value="打开..."/>
+		<string key="Place" value="导入..."/>
+		<string key="Close" value="关闭"/>
+		<string key="Clone" value="仿制"/>
+		<string key="Save" value="保存"/>
+		<string key="Save_As" value="另存为..."/>
+		<string key="Export_Clone" value="导出来源图像..."/>
+		<string key="Revert" value="恢复"/>
+		<string key="Get_Info" value="简介..."/>
+		<string key="Acquire" value="拾取"/>
+		<string key="Import" value="导入"/>
+		<string key="Export" value="导出"/>
+		<string key="Page_Setup" value="页面设定..."/>
+		<string key="Print" value="打印..."/>
+		<string key="Quit" branded="true" value="结束 {SimpleProductName}" os="mac"/>
+		<string key="Quit" value="退出" os="win"/>
+		<string key="HideSelf" branded="true" value="隐藏 {SimpleProductName}" os="mac"/>
+		<string key="HideOthers" value="隐藏其他" os="mac"/>
+		<string key="ShowAll" value="全部显示" os="mac"/>
+		<string key="(-" value="(-"/>
+		<string key="Send_To_Corel_Photo_Album" value="发送到 Corel Photo Album..."/>
+		<string key="Open_Tutorial_Image" value="打开教学课程图像"/>
+		<string key="Online_Print_Services" value="线上打印服务..."/>
+		<string key="Painter_Menu" branded="true" value="{SimpleProductName}"/>
+		<string key="Recent" value="最近使用的档案"/>
+		<string key="Open_Template" value="开启范本"/>
+		<string key="Email" value="使用电子邮件发送..."/>
+		<string key="Iterative_Save" value="保存连续的绘画图形"/>
+		<string key="Quick_Clone" value="快速仿制"/>
+		<string key="Clone_Source" value="仿制来源"/>
+		<string key="Services" value="服务"/>
+		<string key="Import_OBJ" value="3D (物件)..."/>
+	</category>
+	<category key="MenuFileImport">
+		<string key="Texture" value="材质"/>
+	</category>
+	<category key="MenuFocus">
+		<string key="Focus" value="焦点"/>
+		<string key="Smart_Blur" value="智能模糊..."/>
+		<string key="Camera_Motion_Blur" value="镜头动态残影..."/>
+		<string key="Depth_Of_Field" value="场景深度..."/>
+		<string key="Glass_Distortion" value="玻璃折射变形..."/>
+		<string key="Motion_Blur" value="动态残影..."/>
+		<string key="Sharpen" value="锐利化..."/>
+		<string key="Soften" value="柔化..."/>
+		<string key="Super_Soften" value="超柔化..."/>
+		<string key="Zoom_Blur" value="变焦模糊..."/>
+	</category>
+	<category key="MenuGrid">
+		<string key="Grid" value="虚拟格线"/>
+		<string key="Show_Grid" value="显示虚拟格线"/>
+		<string key="Snap_to_Grid" value="对齐虚拟格线"/>
+		<string key="Grid_Options" value="虚拟格线选项..."/>
+	</category>
+	<category key="MenuGuides">
+		<string key="Guides" value="参考线"/>
+		<string key="Show_Guides" value="显示参考线"/>
+		<string key="Snap_to_Guides" value="对齐参考线"/>
+	</category>
+	<category key="MenuInfoPal">
+		<string key="Canvas_Preview" value="画布预览"/>
+		<string key="Page_Layout_Preview" value="页面配置预览"/>
+	</category>
+	<category key="MenuInfoRGB">
+		<string key="Display_RGB_Values_as" value="显示 RGB 值方法"/>
+		<string key="Actual_Values" value="实际值"/>
+		<string key="Percentage" value="百分比"/>
+		<string key="Hexadecimal" value="十六进位"/>
+	</category>
+	<category key="MenuLayers">
+		<string key="Layers" value="图层"/>
+		<string key="Layers" value="图层(&amp;L)" os="win"/>
+		<string key="New_Layer" value="新建图层"/>
+		<string key="Duplicate_Canvas" value="复制画布"/>
+		<string key="New_Watercolor_Layer" value="新的水彩图层"/>
+		<string key="New_Liquid_Ink_Layer" value="新的油墨图层"/>
+		<string key="New_Thick_Paint_Layer" value="新的厚涂图层"/>
+		<string key="Duplicate_Layer" value="复制图层"/>
+		<string key="Duplicate" value="复制"/>
+		<string key="Duplicate_Group" value="复制群组"/>
+		<string key="Layer_Attributes" value="图层特性..."/>
+		<string key="Move_to_Bottom" value="移至底部"/>
+		<string key="Move_to_Top" value="移至顶部"/>
+		<string key="Move_Down_One_Layer" value="向下移动"/>
+		<string key="Move_Up_One_Layer" value="向上移动"/>
+		<string key="Move_to_Top_Short" value="移至顶部"/>
+		<string key="Move_to_Bottom_Short" value="移至底部"/>
+		<string key="Move_Up_One_Layer_Short" value="向上移动"/>
+		<string key="Move_Down_One_Layer_Short" value="向下移动"/>
+		<string key="MenuLayersAlignSubMenu" value="对齐"/>
+		<string key="MenuLayersMoveSubMenu" value="顺序"/>
+		<string key="MenuLayersMaskSubMenu" value="图层遮罩"/>
+		<string key="MenuLayersContentSubMenu" value="选取图层内容"/>
+		<string key="HamburgerMenuLayersAlignSubMenu" value="对齐"/>
+		<string key="HamburgerMenuLayersMoveSubMenu" value="顺序"/>
+		<string key="HamburgerMenuLayersMaskSubMenu" value="图层遮罩"/>
+		<string key="HamburgerMenuLayersContentSubMenu" value="选取图层内容"/>
+		<string key="HamburgerMenuLayersThumbnailsSubMenu" value="预览图"/>
+		<string key="HamburgerMenuLayerSpecialLayerControlsSubMenu" value="特殊图层控制"/>
+		<string key="Select_All_Layers" value="选择所有图层"/>
+		<string key="Group" value="群组图层"/>
+		<string key="Ungroup" value="解散图层群组"/>
+		<string key="Collapse" value="折叠图层"/>
+		<string key="Drop" value="合并"/>
+		<string key="Drop_All" value="全部合并"/>
+		<string key="Drop_and_Select" value="合并选取图层"/>
+		<string key="Delete_Layer" value="删除图层"/>
+		<string key="Preserve_Transparency" value="保存透明度"/>
+		<string key="Pick_Up_Underlying_Color" value="选择底色"/>
+		<string key="Create_Layer_Mask" value="建立图层遮罩"/>
+		<string key="Create_LM_From_Transp" value="以透明度建立图层遮罩"/>
+		<string key="Selection_From_Layer_Mask" value="载入图层遮罩到选区"/>
+		<string key="Enable_Layer_Mask" value="启用图层遮罩"/>
+		<string key="Delete_Layer_Mask" value="删除图层遮罩"/>
+		<string key="Apply_Layer_Mask" value="套用图层遮罩"/>
+		<string key="Create_Layer_Mask_Short" value="建立"/>
+		<string key="Create_LM_From_Transp_Short" value="以透明度建立"/>
+		<string key="Enable_Layer_Mask_Short" value="启用"/>
+		<string key="Apply_Layer_Mask_Short" value="应用"/>
+		<string key="Delete_Layer_Mask_Short" value="删除"/>
+		<string key="Lift_Canvas_To_WC_Layer" value="移动画布到水彩图层"/>
+		<string key="Lift_Canvas_To_TP_Layer" value="移动画布到厚涂图层"/>
+		<string key="Convert_Floater_To_TP_Layer" value="转换为厚涂图层"/>
+		<string key="Convert_Floater_To_WC_Layer" value="转换为水彩图层"/>
+		<string key="Wet_Entire_WC_Layer" value="弄湿整个水彩图层"/>
+		<string key="Dry_Watercolor_Layer" value="弄干水彩图层"/>
+		<string key="Dry_Digital_Watercolor" value="弄干数位水彩"/>
+		<string key="Diffuse_Digital_WC" value="晕染数位水彩"/>
+		<string key="No_Thumbnail_Layer" value="无"/>
+		<string key="Small_Thumbnail_Layer" value="小"/>
+		<string key="Medium_Thumbnail_Layer" value="中"/>
+		<string key="Large_Thumbnail_Layer" value="大"/>
+		<string key="Deselect" value="取消选中"/>
+		<string key="Lock" value="锁定图层"/>
+		<string key="Unlock_All_Layers" value="解锁所有图层"/>
+		<string key="ShowHide_Layer_Indicators" value="显示／隐藏图层指示器"/>
+		<string key="Options" value="图层选项..."/>
+		<string key="Convert_To_Default_Layer" value="转换为预设图层"/>
+		<string key="Revert_to_Original" value="恢复到至原始状态"/>
+		<string key="Convert_Text_to_Shapes" value="转换文字为向量图形"/>
+		<string key="Dynamic_Plugins" value="扩展插件"/>
+		<string key="No_Thumbnail_Mask" value="无预览图"/>
+		<string key="Small_Thumbnail_Mask" value="小预览图"/>
+		<string key="Medium_Thumbnail_Mask" value="中等预览图"/>
+		<string key="Large_Thumbnail_Mask" value="大预览图"/>
+		<string key="Rename" value="重命名图层"/>
+		<string key="Pause_Diffusion" value="暂停晕染"/>
+		<string key="Edit_Plugin_Layer" value="编辑扩展插件图层"/>
+		<string key="Special_Layer_Buttons" value="显示特殊图层按钮"/>
+		<string key="Thick_Paint_Amount_Slider" value="显示厚涂可见深度滑杆"/>
+	</category>
+	<category key="AlignSubMenu">
+		<string key="LeftEdges" value="左边边缘"/>
+		<string key="HorizontalCenters" value="水平中心"/>
+		<string key="RightEdges" value="右边边缘"/>
+		<string key="TopEdges" value="顶部边缘"/>
+		<string key="VerticalCenters" value="垂直中心"/>
+		<string key="BottomEdges" value="底部边缘"/>
+	</category>
+	<category key="MenuBrushes">
+		<string key="Brushes" value="笔刷"/>
+		<string key="Brushes" value="笔刷(&amp;B)" os="win"/>
+	</category>
+	<category key="MenuMasksPal">
+		<string key="New" value="新增"/>
+		<string key="New_From" value="新增来源..."/>
+		<string key="New_From_Color_Range" value="以色彩范围新增..."/>
+		<string key="Duplicate" value="复制..."/>
+		<string key="Delete" value="删除"/>
+		<string key="Clear" value="清除"/>
+		<string key="Invert" value="反转"/>
+		<string key="Feather" value="羽化..."/>
+		<string key="Channel_Attributes" value="色彩通道特性..."/>
+	</category>
+	<category key="MenuMixerPal">
+		<string key="Add_Swatch_to_Color_Set" value="增加采样色彩至色彩集..."/>
+		<string key="New_Color_Set_Mixer_Pad" value="从混色器新增至色彩集"/>
+		<string key="Load_Mixer_Colors" value="载入混色器色彩..."/>
+		<string key="Save_Mixer_Colors" value="储存混色器色彩..."/>
+		<string key="Reset_Mixer_Colors" value="重设混色器色彩"/>
+		<string key="Open_Mixer_Pad" value="开启混色板..."/>
+		<string key="Save_Mixer_Pad" value="储存混色板..."/>
+		<string key="Clear_Mixer_Pad" value="清除混色板"/>
+		<string key="Change_Mixer_Background" value="更改混色器背景..."/>
+		<string key="Use_Subtractive_Mixing" value="使用去除混色"/>
+		<string key="Dirty_Brush_Mode" value="脏笔刷模式"/>
+		<string key="Restore" value="恢复到预设混色器"/>
+	</category>
+	<category key="MenuModify">
+		<string key="Modify" value="修改"/>
+		<string key="Widen" value="加宽..."/>
+		<string key="Contract" value="收缩..."/>
+		<string key="Widen_Layer_Content" value="扩展选区域"/>
+		<string key="Contract_Layer_Content" value="收缩选区"/>
+		<string key="Smooth" value="平滑"/>
+		<string key="Border" value="边界..."/>
+	</category>
+	<category key="MenuMovie">
+		<string key="Movie" value="动画"/>
+		<string key="Movie" value="动画(&amp;M)" os="win"/>
+		<string key="NewMovie" value="新增动画..."/>
+		<string key="Add_Frames" value="加入画格..."/>
+		<string key="Delete_Frames" value="删除画格..."/>
+		<string key="Erase_Frames" value="清除画格..."/>
+		<string key="Go_To_Frame" value="前往画格..."/>
+		<string key="Clear_New_Frames" value="清除新的画格"/>
+		<string key="Insert_Movie" value="插入动画..."/>
+		<string key="Apply_Script_To_Movie" value="套用脚本到动画"/>
+		<string key="Apply_Stroke_To_Movie" value="套用笔刷笔触到动画"/>
+		<string key="Set_Grain_Position" value="设定材质位置..."/>
+		<string key="Set_Movie_Clone_Source" value="设定动画仿制源"/>
+		<string key="Toggle_Onion_Skin" value="显示洋葱皮图层"/>
+	</category>
+	<category key="MenuObjects">
+		<string key="Objects" value="物体"/>
+		<string key="Create_Drop_Shadow" value="创建下方阴影..."/>
+	</category>
+	<category key="MenuOrientation">
+		<string key="Orientation" value="变形"/>
+		<string key="Rotate" value="旋转"/>
+		<string key="Scale" value="比例"/>
+		<string key="Distort" value="扭曲"/>
+		<string key="Flip_Horizontal" value="水平翻转"/>
+		<string key="Flip_Vertical" value="垂直翻转"/>
+		<string key="Free_Transform" value="自由变形"/>
+		<string key="ResetRef" value="重设参考点"/>
+		<string key="Move" value="移动"/>
+		<string key="Skew" value="倾斜"/>
+		<string key="PersDistort" value="透视扭曲"/>
+		<string key="Commit" value="确认变形"/>
+		<string key="ScaleDlg" value="缩放..."/>
+		<string key="RotateDlg" value="旋转..."/>
+		<string key="FlipHorizontalTransform" value="水平翻转"/>
+		<string key="FlipVerticalTransform" value="垂直翻转"/>
+	</category>
+	<category key="MenuOther">
+		<string key="Next_Document" value="下一文档"/>
+		<string key="Previous_Document" value="前一文档"/>
+		<string key="Lighting_Mover" value="光源搬移器"/>
+		<string key="Tightest_Enclosing_Group" value="最紧的密封群组"/>
+		<string key="Play_Movie" value="播放动画"/>
+		<string key="Close_All_Windows" value="关闭所有的窗口"/>
+		<string key="Select_None" value="没有选取"/>
+		<string key="Memory_Info" value="内存信息"/>
+		<string key="ColorTalk" value="ColorTalk"/>
+		<string key="ColorTalk_Movie" value="ColorTalk 动画"/>
+		<string key="Snap_To_Grid" value="对齐网格线"/>
+		<string key="Insert_Script_Delay" value="插入脚本延迟"/>
+		<string key="Increase_Brush_Size" value="增加笔刷大小"/>
+		<string key="Decrease_Brush_Size" value="减小笔刷大小"/>
+		<string key="Set_Opacity_to_10%" value="设定透明度为 10%"/>
+		<string key="Set_Opacity_to_20%" value="设定透明度为 20%"/>
+		<string key="Set_Opacity_to_30%" value="设定透明度为 30%"/>
+		<string key="Set_Opacity_to_40%" value="设定透明度为 40%"/>
+		<string key="Set_Opacity_to_50%" value="设定透明度为 50%"/>
+		<string key="Set_Opacity_to_60%" value="设定透明度为 60%"/>
+		<string key="Set_Opacity_to_70%" value="设定透明度为 70%"/>
+		<string key="Set_Opacity_to_80%" value="设定透明度为 80%"/>
+		<string key="Set_Opacity_to_90%" value="设定透明度为 90%"/>
+		<string key="Set_Opacity_to_100%" value="设定透明度为 100%"/>
+		<string key="Toggle_Snap_To_Path" value="对齐向量路径"/>
+		<string key="Swap_colors" value="交换色彩"/>
+		<string key="Add_Color_to_Color_Set" value="加入目前色彩至色彩集"/>
+		<string key="Clone_Forwarding" value="向前仿制"/>
+		<string key="Float_Copy" value="浮点数复制"/>
+		<string key="First_FrameNode" value="第一个画格/节点"/>
+		<string key="Last_FrameNode" value="最后一个画格/节点"/>
+		<string key="Next_FrameNode" value="下一画格/节点"/>
+		<string key="Previous_FrameNode" value="前一画格/节点"/>
+		<string key="Delete_SelectionNode" value="删除选区/节点"/>
+		<string key="Delete_Layer" value="删除图层"/>
+		<string key="Move_Selection_Left" value="将选区向左移动"/>
+		<string key="Move_Selection_Right" value="将选区向右移动"/>
+		<string key="Move_Selection_Up" value="将选区向上移动"/>
+		<string key="Move_Selection_Down" value="将选区向下移动"/>
+		<string key="Nudge_Selection_Left" value="将选区向左轻推"/>
+		<string key="Nudge_Selection_Right" value="将选区向右轻推"/>
+		<string key="Nudge_Selection_Up" value="将选区向上轻推"/>
+		<string key="Nudge_Selection_Down" value="将选区向下轻推"/>
+		<string key="Toggle_Impasto" value="切换厚涂"/>
+		<string key="TransformDuplicate" value="再制变形"/>
+		<string key="CreateReference" value="转换为参考图层"/>
+		<string key="SetRefTrans" value="设定参考变形..."/>
+		<string key="ShowHide_TemporalColors" value="切换暂时色彩选取器"/>
+		<string key="ShowHide_CenteredTempCol" value="切换置中暂时色彩选取器"/>
+		<string key="ShowHide_PinnedColors" value="切换色彩选取器"/>
+		<string key="Show_BrushClaw" value="笔刷大小 (屏幕上)"/>
+		<string key="Show_BrushOpacityClaw" value="笔刷透明度 (屏幕上)"/>
+		<string key="Show_ThickPaintLoadClaw" value="厚涂载入 (屏幕上)"/>
+		<string key="ReloadFramework" value="重新载入界面"/>
+		<string key="Other" value="其他"/>
+		<string key="PanelMenus" value="菜单"/>
+		<string key="Toolbox" value="工具"/>
+		<string key="ToggleHQRendering" value="切换高品质显示"/>
+		<string key="Crop_Document" value="裁切"/>
+		<string key="Cancel_Crop_Document" value="取消"/>
+		<string key="Fill_Mode_Color" value="以目前色彩填入"/>
+		<string key="Fill_Mode_Grad" value="以渐变填满"/>
+		<string key="Fill_Mode_CloneSource" value="以仿制来源填入"/>
+		<string key="Fill_Mode_Weave" value="以织布填入"/>
+		<string key="Brush_Size" value="笔刷大小"/>
+		<string key="Set_Opacity" value="设定不透明度"/>
+		<string key="Frame_Node" value="画格/节点"/>
+		<string key="Nudge_Selection" value="轻推选区"/>
+		<string key="Move_Selection" value="搬移选区"/>
+		<string key="Transform" value="变形"/>
+		<string key="Rotate_Canvas" value="旋转画布"/>
+		<string key="Fill_With" value="填色方式"/>
+	</category>
+	<category key="MenuPalettes">
+		<string key="Layers" value="图层"/>
+		<string key="Colors" value="色彩"/>
+		<string key="Harmonies" value="调和"/>
+		<string key="Mixer" value="混色器"/>
+		<string key="Brush_Palette" value="笔刷面板"/>
+		<string key="Color_Sets" value="色彩集"/>
+		<string key="Color_Info" value="色彩信息"/>
+		<string key="Channels" value="色彩通道"/>
+		<string key="Gradients" value="渐层控制项"/>
+		<string key="GradientLibraries" value="渐层材料库"/>
+		<string key="Papers" value="纸张控制项"/>
+		<string key="PaperLibraries" value="纸张材料库"/>
+		<string key="Flowmaps" value="流线贴图控制项"/>
+		<string key="FlowmapLibraries" value="流线贴图材料库"/>
+		<string key="Textures" value="材质控制项"/>
+		<string key="TextureLibraries" value="材质库"/>
+		<string key="Patterns" value="花纹控制项"/>
+		<string key="PatternLibraries" value="花纹材料库"/>
+		<string key="Weaves" value="织布控制项"/>
+		<string key="WeaveLibraries" value="织布材料库"/>
+		<string key="Selection_Portfolio" value="选区组合"/>
+		<string key="Image_Portfolio" value="图像组合"/>
+		<string key="Script" value="脚本"/>
+		<string key="Info" value="信息"/>
+		<string key="Tracker" value="笔迹"/>
+		<string key="Scripts" value="脚本"/>
+		<string key="NozzleLibraries" value="喷嘴材料库"/>
+		<string key="CustomPalettes" value="自定义色盘"/>
+	</category>
+
+	<category key="MenuCustomPal">
+		<string key="RegularIconSize" value="小图标"/>
+		<string key="BiggerIconSize" value="大图标"/>
+	</category>
+
+	<category key="MenuPerspGrid">
+		<string key="Perspective_Grids" value="透视格点"/>
+		<string key="Show_Grid" value="显示格线"/>
+	</category>
+	<category key="MenuPerspGuide">
+		<string key="Perspective_Guides" value="透视参考线"/>
+		<string key="PGVisToggle" value="切换透视参考线显示"/>
+		<string key="PGSnapToggle" value="切换透视参考线笔触"/>
+	</category>
+
+	<category key="MenuPreferences">
+		<string key="General" value="一般..."/>
+		<string key="BrushCursor" value="笔刷游标..."/>
+		<string key="SpecialLayers" value="特殊图层..."/>
+		<string key="Interface" value="界面..."/>
+		<string key="Performance" value="性能..."/>
+		<string key="Brush_Tracking" value="笔刷笔迹..."/>
+		<string key="Customize_Keys" value="自定义键..."/>
+		<string key="Shapes" value="向量图形..."/>
+		<string key="QuickClone" value="快速仿制..."/>
+		<string key="Cloning" value="仿制..."/>
+		<string key="Tablet" value="绘图板..." os="win"/>
+		<string key="Tablet" value="绘图板和 Trackpad..." os="mac"/>
+		<string key="CompanionApps" value="连接..."/>
+		<string key="Preferences" value="偏好选项"/>
+	</category>
+	<category key="MenuRulers">
+		<string key="Rulers" value="尺规"/>
+		<string key="Show_Rulers" value="显示尺规"/>
+		<string key="Snap_to_Ruler_Ticks" value="对齐尺规刻度"/>
+		<string key="Ruler_Options" value="尺规选项..."/>
+	</category>
+	<category key="MenuScriptsPal">
+		<string key="CaptureCustomIcon" value="拾取图标"/>
+		<string key="SetCustomIcon" value="自定义图标..."/>
+		<string key="ShowAll" value="显示所有隐藏项目"/>
+		<string key="HideItem" value="隐藏脚本"/>
+		<string key="Small" value="小"/>
+		<string key="Medium" value="中"/>
+		<string key="Large" value="大"/>
+		<string key="List" value="列表"/>
+		<string key="LibraryView" value="脚本材料库检视"/>
+		<string key="OpenLibraryList" value="脚本材料库"/>
+		<string key="Record_Script" value="录制 Script"/>
+		<string key="Playback_Script" value="播放脚本"/>
+		<string key="Script_Options" value="脚本选项..."/>
+		<string key="Get_Info" value="简介..."/>
+		<string key="ImportScript" value="输入脚本..."/>
+		<string key="ExportScript" value="输出脚本..."/>
+		<string key="ImportLibrary" value="输入脚本材料库..."/>
+		<string key="ExportLibrary" value="输出脚本材料库..."/>
+		<string key="RemoveLibrary" value="移除脚本材料库..."/>
+		<string key="ImportLegacyLibrary" value="输入旧版脚本材料库..."/>
+		<string key="RenameScript" value="重新命名脚本..."/>
+		<string key="HideScript" value="隐藏脚本"/>
+		<string key="New_Script" value="新增脚本..."/>
+		<string key="Open_Script" value="开启脚本"/>
+		<string key="Delete_Script" value="删除脚本"/>
+		<string key="Edit_Script" value="编辑脚本"/>
+		<string key="Cut" value="剪下"/>
+		<string key="Copy" value="复制"/>
+		<string key="Paste" value="贴上"/>
+		<string key="Clear" value="清除"/>
+		<string key="SelectAll" value="全部选取"/>
+		<string key="Deselect" value="取消选取"/>
+		<string key="NewLibrary" value="新增脚本材料库..."/>
+		<string key="OpenLibrary" value="开启材料库"/>
+		<string key="RestoreDefault" value="恢复到预设脚本材料库"/>
+	</category>
+	<category key="MenuLibItemContext">
+		<string key="Rename" value="更名"/>
+		<string key="Delete" value="删除"/>
+	</category>
+	<category key="MenuSelect">
+		<string key="Select" value="选取"/>
+		<string key="Select" value="选取(&amp;S)" os="win"/>
+		<string key="All" value="全部"/>
+		<string key="None" value="无"/>
+		<string key="Invert" value="反转选区"/>
+		<string key="Reselect" value="重选"/>
+		<string key="Float" value="浮动"/>
+		<string key="Stroke_Selection" value="笔划选取边缘"/>
+		<string key="Feather" value="羽化..."/>
+		<string key="Auto_Select" value="自动选择..."/>
+		<string key="Color_Select" value="色彩选择..."/>
+		<string key="Convert_To_Shape" value="转换为向量图形"/>
+		<string key="Transform_Selection" value="变形选区"/>
+		<string key="ShowHide_Marquee" value="显示/隐藏圈选框"/>
+		<string key="Load_Selection" value="载入选取范围..."/>
+		<string key="Save_Selection" value="储存选取范围..."/>
+		<string key="Select_Layer_Content" value="选取图层内容"/>
+		<string key="Select_Group_Content" value="选取群组内容"/>
+		<string key="NewLayer_Copy" value="复制图层"/>
+		<string key="NewLayer_Cut" value="剪切图层"/>
+	</category>
+	<category key="MenuShapes">
+		<string key="Shapes" value="图形"/>
+		<string key="Shapes" value="图形(&amp;A)" os="win"/>
+		<string key="Join_Endpoints" value="加入节点"/>
+		<string key="Average_Points" value="平均节点..."/>
+		<string key="Make_Compound" value="进行组合"/>
+		<string key="Release_Compound" value="释放组合"/>
+		<string key="Set_Duplicate_Transform" value="设定再制变形..."/>
+		<string key="Duplicate" value="再制"/>
+		<string key="Convert_To_Layer" value="转换为图层"/>
+		<string key="Convert_To_Selection" value="转换为选区"/>
+		<string key="Show_Shape_Marquee" value="显示向量图形圈选框"/>
+		<string key="Set_Shape_Attributes" value="设定向量图形属性..."/>
+		<string key="Blend" value="渐变..."/>
+		<string key="Delete_Last_Point" value="删除最后一个节点"/>
+		<string key="Close_Shape" value="关闭"/>
+	</category>
+	<category key="MenuSurfaceControl">
+		<string key="Surface_Control" value="表面控制"/>
+		<string key="Apply_Lighting" value="套用光源..."/>
+		<string key="Apply_Screen" value="应用网点..."/>
+		<string key="Apply_Surface_Tex" value="套用表面材质..."/>
+		<string key="Color_Overlay" value="色彩重迭..."/>
+		<string key="Dye_Concentration" value="色调浓度..."/>
+		<string key="Express_Texture" value="表现材质..."/>
+		<string key="Image_Warp" value="图像弯曲..."/>
+		<string key="Quick_Warp" value="快速弯曲..."/>
+		<string key="Woodcut" value="木刻画..."/>
+		<string key="Distress" value="碎裂..."/>
+		<string key="Serigraphy" value="绢印..."/>
+		<string key="Sketch" value="素描..."/>
+	</category>
+	<category key="MenuTonalControl">
+		<string key="Tonal_Control" value="色调控制"/>
+		<string key="Correct_Colors" value="纠正色彩..."/>
+		<string key="Adjust_Colors" value="调整色彩..."/>
+		<string key="Adj_Sel_Colors" value="调整选取的色彩..."/>
+		<string key="BrightnessContrast" value="亮度/对比..."/>
+		<string key="Equalize" value="等化..."/>
+		<string key="Negative" value="负片"/>
+		<string key="Match_Palette" value="比对面板..."/>
+		<string key="Posterize" value="极色化..."/>
+		<string key="Video_Legal_Colors" value="视讯标准色彩..."/>
+		<string key="Posterize_Color_Set" value="使用色彩集极色化"/>
+	</category>
+	<category key="MenuTrackerPal">
+		<string key="Stroke" value="笔触"/>
+		<string key="Clear_Selected" value="清除选定项"/>
+		<string key="Clear_All" value="清除全部"/>
+		<string key="Lock_Variant" value="锁定变体"/>
+		<string key="Save_Variant" value="储存变体..."/>
+	</category>
+	<category key="Panel">
+		<string key="Color" value="色彩面板 (完整)"/>
+		<string key="ColorCompact" value="色彩面板 (精简)"/>
+		<string key="Harmonies" value="调和"/>
+		<string key="Mixer" value="混色器"/>
+		<string key="ColorSetLibrary" value="色彩集"/>
+		<string key="General" value="一般"/>
+		<string key="StrokeAttributes" value="笔触属性"/>
+		<string key="Opacity" value="不透明度"/>
+		<string key="Grain" value="纹路"/>
+		<string key="Size" value="大小"/>
+		<string key="Feature" value="鬃毛"/>
+		<string key="Spacing" value="间距"/>
+		<string key="Damping" value="平滑化"/>
+		<string key="Angle" value="角度"/>
+		<string key="Bristle" value="静态鬃毛"/>
+		<string key="Well" value="混色"/>
+		<string key="Rake" value="分岔"/>
+		<string key="Multi" value="多重"/>
+		<string key="Mouse" value="滑鼠"/>
+		<string key="Clone Color" value="仿制色彩"/>
+		<string key="Clone Method" value="仿制方式"/>
+		<string key="Impasto" value="厚涂颜料"/>
+		<string key="ImageHose" value="图像水管"/>
+		<string key="Airbrush" value="喷枪"/>
+		<string key="Water" value="水彩"/>
+		<string key="Liquid Ink" value="油墨"/>
+		<string key="Thick Paint" value="厚涂"/>
+		<string key="DigitalWatercolor" value="数位水彩"/>
+		<string key="ArtistsOils" value="画家油画"/>
+		<string key="LBMWatercolor" value="仿真水彩"/>
+		<string key="LBMLiquidOil" value="仿真湿油画"/>
+		<string key="Random" value="笔触抖动"/>
+		<string key="RealBristle" value="仿真鬃毛"/>
+		<string key="HardMedia" value="厚重媒材"/>
+		<string key="Color Variability" value="色彩变化"/>
+		<string key="Color Expression" value="色彩表现"/>
+		<string key="Papers" value="纸张"/>
+		<string key="PaperLibrary" value="纸张材料库"/>
+		<string key="TextureLibrary" value="材质"/>
+		<string key="PatternLibrary" value="花纹"/>
+		<string key="GradientLibrary" value="渐层"/>
+		<string key="NozzleLibrary" value="喷嘴"/>
+		<string key="LookLibrary" value="外观"/>
+		<string key="WeaveLibrary" value="织布材料库面板"/>
+		<string key="ImagePortfolio" value="图像"/>
+		<string key="SelectionPortfolio" value="选区"/>
+		<string key="Textures" value="材质"/>
+		<string key="Synthesis" value="材质合成"/>
+		<string key="TransformTextures" value="变形材质"/>
+		<string key="Patterns" value="花纹"/>
+		<string key="Gradients" value="渐层"/>
+		<string key="GradientNode" value="渐层节点"/>
+		<string key="Weaves" value="织布控制面板"/>
+		<string key="Flowmaps" value="流线贴图"/>
+		<string key="FlowmapLibrary" value="流线贴图材料库"/>
+		<string key="Navigator" value="导航"/>
+		<string key="CloneSource" value="仿制来源"/>
+		<string key="RefImage" value="参考图像"/>
+		<string key="Layers" value="图层"/>
+		<string key="Channels" value="色彩通道"/>
+		<string key="Underpainting" value="底纹效果"/>
+		<string key="MLStyle" value="A.I. 样式"/>
+		<string key="Autopainting" value="自动绘制"/>
+		<string key="Restoration" value="复原"/>
+		<string key="DivineProportion" value="黄金分割"/>
+		<string key="LayoutGrid" value="配置格线"/>
+		<string key="PerspectiveGuides" value="透视参考线"/>
+		<string key="MirrorPainting" value="镜像绘制"/>
+		<string key="Scripts" value="脚本"/>
+		<string key="ShapeAttributes" value="向量图形属性"/>
+		<string key="Text" value="文字"/>
+		<string key="ComputedCircular" value="计算圆形"/>
+		<string key="DabPreview" value="笔尖预览"/>
+		<string key="StrokePreview" value="笔触预览"/>
+		<string key="DabProfile" value="笔尖剖面图"/>
+		<string key="BrushCalibration" value="笔刷校正"/>
+		<string key="ParticlesGeneral" value="微粒 - 一般"/>
+		<string key="ParticlesThinLines" value="微粒 - 细线"/>
+		<string key="ParticlesFlow" value="流线微粒"/>
+		<string key="ParticlesGravity" value="重力微粒"/>
+		<string key="ParticlesSpring" value="弹簧微粒"/>
+		<string key="Hints" value="提示"/>
+		<string key="DynamicStamp" value="动态斑纹"/>
+		<string key="BrushSelector" value="面板 (完整检视)"/>
+		<string key="NarrowBrushSelector" value="面板 (精简)"/>
+		<string key="TextureBrushes" value="材质笔刷"/>
+		<string key="DabTexture" value="涂刷模版"/>
+		<string key="GlazingOpacity" value="釉彩"/>
+		<string key="LooksSelectorPanel" value="外观选取器面板"/>
+		<string key="StrokePreviewPanel" value="笔触预览"/>
+		<string key="ThickPaintWetness" value="厚涂 - 湿度"/>
+		<string key="ThickPaintMedia" value="厚涂 - 媒材"/>
+		<string key="ThickPaintShape" value="厚涂 - 形状"/>
+		<string key="3dViewer" value="3D 视图"/>
+		<string key="WebColorWheel" value="Coolerus"/>
+		<string key="Performance" value="性能"/>
+	</category>
+	<category key="Palette">
+		<string key="DynamicBrushProperties" value="进阶笔刷控制项"/>
+	</category>
+	<category key="MenuWindow">
+		<string key="Window" value="窗口"/>
+		<string key="Window" value="窗口(&amp;W)" os="win"/>
+		<string key="Hide_Application_UI" value="隐藏界面"/>
+		<string key="Hide_Panels" value="隐藏面板"/>
+		<string key="Arrange_Palettes" value="版面"/>
+		<string key="Quick_Switch" value="快速切换"/>
+		<string key="QuickSwitch_Toggle" value="切换配置"/>
+		<string key="QuickSwitch_Tablet" value="配置 1"/>
+		<string key="QuickSwitch_Workstation" value="配置 2"/>
+		<string key="Zoom_In" value="放大"/>
+		<string key="Zoom_Out" value="缩小"/>
+		<string key="Zoom_To_Fit" value="完整显示"/>
+		<string key="Zoom_to_Actual_Pixels" value="实际大小"/>
+		<string key="Center_Document" value="居中文档"/>
+		<string key="Reset_Rotate_Document" value="重设旋转"/>
+		<string key="Rotate_90_CW" value="顺时针旋转 90 度"/>
+		<string key="Rotate_90_CCW" value="逆时针旋转 90 度"/>
+		<string key="Toolbox" value="工具箱"/>
+		<string key="CommandBars" value="指令列"/>
+		<string key="PropertyBar" value="属性列"/>
+		<string key="SimplePropertyBar" value="延伸的属性列"/>
+		<string key="Search" value="搜索"/>
+		<string key="RecentBrushes" value="最近的笔刷"/>
+		<string key="BrushSelector" value="列"/>
+		<string key="FileEditCommandBar" value="文件/编辑"/>
+		<string key="CanvasCommandBar" value="画布"/>
+		<string key="PhotoArtCommandBar" value="照片美化"/>
+		<string key="ShowHide_Toolbox" value="工具箱"/>
+		<string key="ShowHide_Property_Bar" value="属性列"/>
+		<string key="ShowHide_Brush_Selector" value="笔刷选取器"/>
+		<string key="S_H_Color_Variability" value="色彩变化"/>
+		<string key="ShowHide_Color_Expression" value="色彩表现"/>
+		<string key="Custom_Palette" value="自定义面板"/>
+		<string key="Single_Document_View" value="单一文件检视"/>
+		<string key="Save_Layout" value="储存配置..."/>
+		<string key="Delete_Layout" value="删除配置..."/>
+		<string key="Organizer" value="管理器..."/>
+		<string key="Add_Command" value="加入指令..."/>
+		<string key="ShowHide_General" value="一般"/>
+		<string key="ShowHide_Size" value="大小"/>
+		<string key="ShowHide_Spacing" value="间距"/>
+		<string key="ShowHide_Angle" value="角度"/>
+		<string key="ShowHide_Bristle" value="鬃毛"/>
+		<string key="ShowHide_Well" value="涌出"/>
+		<string key="ShowHide_Rake" value="分岔"/>
+		<string key="ShowHide_Random" value="随机"/>
+		<string key="ShowHide_Mouse" value="滑鼠"/>
+		<string key="ShowHide_Cloning" value="仿制"/>
+		<string key="ShowHide_Impasto" value="厚涂颜料"/>
+		<string key="ShowHide_Image_Hose" value="图像水管"/>
+		<string key="ShowHide_Airbrush" value="喷枪"/>
+		<string key="ShowHide_Water" value="水彩"/>
+		<string key="ShowHide_Liquid_Ink" value="油墨"/>
+		<string key="S_H_Digital_Watercolor" value="数位水彩"/>
+		<string key="ShowHide_Artists'_Oils" value="画家油画"/>
+		<string key="Brush_Controls" value="笔刷控制面板"/>
+		<string key="Color_Palettes" value="色彩面板"/>
+		<string key="Library_Palettes" value="材料库面板"/>
+		<string key="ShowHide_RealBristle" value="仿真鬃毛"/>
+		<string key="ShowHide_HardMedia" value="厚重媒材"/>
+		<string key="Toggle_Brush_Drawer" value="切换笔刷绘图器"/>
+		<string key="Actual_Size" value="实际大小"/>
+		<string key="Panels" value="面板"/>
+		<string key="Palettes" value="色盘"/>
+		<string key="Paper_Palettes" value="纸张面板"/>
+		<string key="Flowmap_Palettes" value="流线贴图面板"/>
+		<string key="Media_Palettes" value="媒材面板"/>
+		<string key="Media_Controls_Palettes" value="媒体控制面板"/>
+		<string key="Audio" value="音效"/>
+		<string key="Autopainting_Palettes" value="照片美化面板"/>
+		<string key="Composition_Palettes" value="构成面板"/>
+		<string key="Media Selectors" value="媒体选取器"/>
+		<string key="Presentation_Mode" value="简报模式"/>
+		<string key="EnhancedGroups" value="色盘绘图器"/>
+		<string key="Brush_Palettes" value="笔刷选取器"/>
+		<string key="FileEditTall" value="高 (含群组标签)"/>
+		<string key="FileEditShort" value="短 (不含群组标签)"/>
+		<string key="FileEditColumn" value="栏 (小图标)"/>
+		<string key="FileEditLargeIconSingleRow" value="大图标 - 单列"/>
+		<string key="FileEditLargeIconSingleColumn" value="大图标 - 单栏"/>
+		<string key="PhotoArtTall" value="高 (含群组标签)"/>
+		<string key="PhotoArtShort" value="短 (不含群组标签)"/>
+		<string key="PhotoArtColumn" value="栏 (小图标)"/>
+		<string key="CanvasTall" value="高 (含群组标签)"/>
+		<string key="CanvasShort" value="短 (不含群组标签)"/>
+		<string key="CanvasColumn" value="栏 (小图标)"/>
+	</category>
+	<category key="MenuWorkspace">
+		<string key="Workspace" value="工作区"/>
+		<string key="New_Workspace" value="新增工作区..."/>
+		<string key="Delete_Workspace" value="删除工作区..."/>
+		<string key="Import_Workspace" value="输入工作区..."/>
+		<string key="Export_Workspace" value="导出工作区..."/>
+		<string key="Default" value="预设值"/>
+	</category>
+	<category key="MenuAudio">
+		<string key="AudioExpressionPanel" value="音讯设定面板"/>
+		<string key="EnableAudioExpression" value="启用音讯输入"/>
+		<string key="Input" value="输入"/>
+	</category>
+	<category key="MenuHelp">
+		<string key="About" branded="true" value="关于 {SimpleProductName}"/>
+		<string key="Help" value="说明"/>
+		<string key="Help" value="说明(&amp;H)" os="win"/>
+		<string key="HelpTopics" value="说明主题" os="win"/>
+		<string key="HelpTopics" branded="true" value="{SimpleProductName} 说明" os="mac"/>
+		<string key="Tech_Support" value="技术支援"/>
+		<string key="Messaging_Settings" value="讯息设定..."/>
+		<string key="Tutorials" value="教学课程"/>
+		<string key="Show_Tooltips" value="显示工具提示"/>
+		<string key="Hide_Tooltips" value="隐藏工具提示"/>
+		<string key="The_Corel_Classroom" value="The Corel Classroom"/>
+		<string key="Painter_Videos_Online" value="Painter 线上视讯"/>
+		<string key="Welcome" value="欢迎..."/>
+		<string key="Copyright" value="版权声明"/>
+		<string key="License" value="授权书"/>
+		<string key="Video_Tutorials" value="视讯教学课程"/>
+		<string key="Guidebook" value="使用手册"/>
+		<string key="New_Guidebook" value="评论者指南"/>
+		<string key="GettingStarted" branded="true" value="{SimpleProductName} 介绍 (PDF)"/>
+		<string key="Upgrade_Now" value="立即升级"/>
+		<string key="Check_for_Updates" value="检查更新..."/>
+		<string key="PainterVideos" value="Painter 线上视讯"/>
+		<string key="HelpBook" branded="true" value="{SimpleProductName} 说明"/>
+		<string key="RestorePurchases" value="恢复到已购项目..."/>
+		<string key="WhatsNew" branded="true" value="{SimpleProductName} 中的新内容"/>
+	</category>
+	<category key="MenuPurchase">
+		<string key="Purchase" value="购买"/>
+		<string key="Painter" value="Corel Painter..."/>
+	</category>
+	<category key="Toolbox">
+		<string key="Brush" value="笔刷"/>
+		<string key="Layer_Adjuster" value="图层调整"/>
+		<string key="Rectangular_Selection" value="矩形选区"/>
+		<string key="Oval_Selection" value="椭圆选区"/>
+		<string key="Lasso" value="套索"/>
+		<string key="PolySel" value="多边形选区"/>
+		<string key="Magic_Wand" value="魔术棒"/>
+		<string key="Crop" value="裁切"/>
+		<string key="Selection_Adjuster" value="选区调整工具"/>
+		<string key="Pen" value="笔"/>
+		<string key="Quick_Curve" value="快速曲线"/>
+		<string key="Rectangular_Shape" value="矩形向量图形"/>
+		<string key="Oval_Shape" value="椭圆向量图形"/>
+		<string key="Text" value="文字"/>
+		<string key="Shape_Selection" value="向量图形选择"/>
+		<string key="Scissors" value="剪刀"/>
+		<string key="Add_Point" value="加入节点"/>
+		<string key="Remove_Point" value="移除节点"/>
+		<string key="Convert_Point" value="转换节点"/>
+		<string key="Dropper" value="吸管"/>
+		<string key="Paint_Bucket" value="油漆桶"/>
+		<string key="InteractiveGradient" value="互动式渐层"/>
+		<string key="Magnifier" value="放大镜"/>
+		<string key="Grabber" value="手形工具"/>
+		<string key="Rotate_Page" value="旋转页面"/>
+		<string key="Perspective_Grid" value="透视格点"/>
+		<string key="Rubber_Stamp" value="橡皮图章"/>
+		<string key="Cloner" value="仿制笔"/>
+		<string key="Eraser" value="橡皮擦"/>
+		<string key="Dodge" value="亮化"/>
+		<string key="Burn" value="暗化"/>
+		<string key="Divine_Proportion" value="黄金分割"/>
+		<string key="Layout_Grid" value="配置格线"/>
+		<string key="Brush_Line" value="笔刷线条"/>
+		<string key="Layer_Transform" value="变形"/>
+		<string key="Mirror Painting" value="镜像绘制"/>
+		<string key="Kaleidoscope" value="万花筒"/>
+		<string key="Perspective_Guides" value="透视参考线"/>
+		<string key="Select" value="选取"/>
+		<string key="Shape_Selection_Tools" value="向量图形选择工具"/>
+		<string key="SelectionBrush" value="选区笔刷"/>
+	</category>
+	<category key="Plugins">
+		<string key="Posterize" value="极色化"/>
+		<string key="Equalize" value="等化"/>
+		<string key="Liquid_Metal" value="液态金属"/>
+		<string key="Brightness_and_Contrast" value="亮度和对比"/>
+		<string key="Glow_Brush" value="发光笔刷"/>
+		<string key="Graphic_Print_Brush" value="图形打印笔刷"/>
+		<string key="Overlay_Brush" value="重迭笔刷"/>
+		<string key="Burn" value="暗化"/>
+		<string key="Tear" value="撕裂"/>
+		<string key="Bevel_World" value="修饰斜边"/>
+		<string key="Hue_Brush" value="色相笔刷"/>
+		<string key="Hue_Add_Brush" value="色相加入笔刷"/>
+		<string key="Hue_Sat_Brush" value="色相彩度笔刷"/>
+		<string key="Sat_Add_Brush" value="彩度加入笔刷"/>
+		<string key="Val_Add_Brush" value="值加入笔刷"/>
+		<string key="Val_Add_Sat_Sub_Brush" value="值加入彩度子笔刷"/>
+		<string key="Kaleidoscope" value="万花筒"/>
+		<string key="Liquid_Lens" value="液态滤镜"/>
+		<string key="Glass_Distortion" value="玻璃折射变形"/>
+		<string key="Image_Slicer" value="图像分割器"/>
+		<string key="Bulge_Brush" value="膨胀笔刷"/>
+		<string key="Deep_Well_Brush" value="深度涌出笔刷"/>
+		<string key="Diffuse_Motion_Brush" value="晕染动态笔刷"/>
+		<string key="Diffuse_Pull_Brush" value="晕染拉伸笔刷"/>
+		<string key="Horizontal_Crease_Brush" value="水平皱痕笔刷"/>
+		<string key="Left_Twirl_Brush" value="左旋转笔刷"/>
+		<string key="Liquid_Brush" value="液态笔刷"/>
+		<string key="Pinch_Brush" value="收缩笔刷"/>
+		<string key="Right_Twirl_Brush" value="右旋转笔刷"/>
+		<string key="Simple_Diffuse_Brush" value="简单晕染笔刷"/>
+		<string key="Vertical_Crease_Brush" value="垂直皱痕笔刷"/>
+		<string key="Add_Grain_Brush" value="加入纹路笔刷"/>
+		<string key="Blur_Brush" value="模糊笔刷"/>
+		<string key="Comb_Brush" value="耙齿笔刷"/>
+		<string key="Relief_Brush" value="缓和笔刷"/>
+		<string key="Sharpen_Brush" value="清晰化笔刷"/>
+		<string key="Confusion_Brush" value="模糊笔刷"/>
+		<string key="Scratch_Remover_Brush" value="剪贴簿移除笔刷"/>
+	</category>
+	<category key="UndoPaste">
+		<string key="Undo_" value="撤销"/>
+		<string key="Cannot_Undo" value="无法撤销"/>
+		<string key="Redo_" value="重做"/>
+		<string key="Cannot_Redo" value="无法重做"/>
+	</category>
+	<category key="ScriptExtName">
+		<string key="1" value="笔刷笔触"/>
+		<string key="2" value="构成方式更改"/>
+		<string key="3" value="图层向下移一层"/>
+		<string key="4" value="移到最下层"/>
+		<string key="5" value="图层图像遮罩更改"/>
+		<string key="6" value="解散群组"/>
+		<string key="7" value="选项-浮动"/>
+		<string key="8" value="停用湿画笔"/>
+		<string key="9" value="动态残影"/>
+		<string key="10" value="打印色彩"/>
+		<string key="11" value="Alt-浮动"/>
+		<string key="14" value="填色"/>
+		<string key="15" value="应用网点"/>
+		<string key="16" value="套用表面材质"/>
+		<string key="17" value="调整色调浓度"/>
+		<string key="18" value="色彩重叠"/>
+		<string key="19" value="新增"/>
+		<string key="20" value="锐化"/>
+		<string key="21" value="柔化"/>
+		<string key="22" value="高反差"/>
+		<string key="23" value="极色化"/>
+		<string key="24" value="负片"/>
+		<string key="25" value="矩形选区"/>
+		<string key="27" value="清除"/>
+		<string key="30" value="取消选取"/>
+		<string key="31" value="浮动"/>
+		<string key="32" value="图层移动"/>
+		<string key="33" value="图层删除"/>
+		<string key="34" value="落下"/>
+		<string key="36" value="淡化"/>
+		<string key="37" value="剪下"/>
+		<string key="39" value="贴上"/>
+		<string key="41" value="清除"/>
+		<string key="43" value="扭曲"/>
+		<string key="44" value="旋转"/>
+		<string key="45" value="垂直翻转"/>
+		<string key="46" value="水平翻转"/>
+		<string key="48" value="填色"/>
+		<string key="49" value="删除"/>
+		<string key="50" value="等化"/>
+		<string key="52" value="油漆桶"/>
+		<string key="60" value="气泡"/>
+		<string key="61" value="套用石纹"/>
+		<string key="62" value="套用光源"/>
+		<string key="63" value="玻璃折射变形"/>
+		<string key="64" value="启用湿画笔"/>
+		<string key="65" value="乾"/>
+		<string key="66" value="视讯标准色彩"/>
+		<string key="67" value="亮度/对比"/>
+		<string key="72" value="自动播放"/>
+		<string key="73" value="自动仿制"/>
+		<string key="74" value="格线纸张"/>
+		<string key="77" value="外挂模组滤镜"/>
+		<string key="78" value="比例"/>
+		<string key="79" value="调整大小"/>
+		<string key="89" value="落下"/>
+		<string key="90" value="选取图层"/>
+		<string key="91" value="图层属性更改"/>
+		<string key="93" value="群组"/>
+		<string key="94" value="移到最上层"/>
+		<string key="95" value="图层前向移一层"/>
+		<string key="96" value="再制"/>
+		<string key="97" value="图层羽化更改"/>
+		<string key="98" value="图层不透明度更改"/>
+		<string key="99" value="图层项目遮罩更改"/>
+		<string key="100" value="全部合并"/>
+		<string key="101" value="恢复"/>
+		<string key="103" value="组合分布"/>
+		<string key="104" value="自动遮罩"/>
+		<string key="106" value="自动凡高画笔"/>
+		<string key="109" value="色彩遮罩"/>
+		<string key="110" value="调整色彩"/>
+		<string key="111" value="调整选取的色彩"/>
+		<string key="112" value="羽化遮罩"/>
+		<string key="113" value="图像弯曲"/>
+		<string key="117" value="油漆桶填色"/>
+		<string key="118" value="新增色彩集"/>
+		<string key="119" value="新增色彩到色彩集"/>
+		<string key="120" value="拾取渐层"/>
+		<string key="121" value="渐层选项"/>
+		<string key="122" value="色彩集设定"/>
+		<string key="123" value="编织初稿"/>
+		<string key="124" value="拾取笔刷"/>
+		<string key="125" value="表现于图像中"/>
+		<string key="126" value="使用色彩集极色化"/>
+		<string key="127" value="超柔化"/>
+		<string key="128" value="拾取花纹"/>
+		<string key="129" value="定义花纹"/>
+		<string key="130" value="建立下落式阴影"/>
+		<string key="131" value="Color Talk"/>
+		<string key="132" value="为 Painter3+"/>
+		<string key="133" value="色彩集方形储存"/>
+		<string key="134" value="修剪"/>
+		<string key="135" value="画布尺寸更改"/>
+		<string key="136" value="摺迭"/>
+		<string key="137" value="羽化选区"/>
+		<string key="138" value="羽化图层"/>
+		<string key="139" value="P3 新增文件"/>
+		<string key="140" value="储存"/>
+		<string key="141" value="另存新档"/>
+		<string key="142" value="清除遮罩"/>
+		<string key="143" value="反转遮罩"/>
+		<string key="144" value="偏移花纹花纹"/>
+		<string key="145" value="P3 以不透明度填色"/>
+		<string key="146" value="碎形"/>
+		<string key="147" value="衍生"/>
+		<string key="148" value="表现于图像中"/>
+		<string key="149" value="表现材质"/>
+		<string key="150" value="图层录制"/>
+		<string key="151" value="笔划选取边缘"/>
+		<string key="152" value="扩大"/>
+		<string key="153" value="扩散"/>
+		<string key="154" value="(重做)"/>
+		<string key="155" value="交换 RGB 色彩"/>
+		<string key="156" value="套用表面材质"/>
+		<string key="157" value="加入马赛克花砖"/>
+		<string key="158" value="清除马赛克花砖"/>
+		<string key="159" value="设定马赛克花砖色彩"/>
+		<string key="160" value="开始马赛克"/>
+		<string key="161" value="更改马赛克砖泥色彩"/>
+		<string key="162" value="喷嘴更改"/>
+		<string key="163" value="花纹更改"/>
+		<string key="164" value="变体本身"/>
+		<string key="165" value="纸张本身"/>
+		<string key="166" value="渐层本身"/>
+		<string key="167" value="花纹本身"/>
+		<string key="168" value="织布本身"/>
+		<string key="169" value="喷嘴本身"/>
+		<string key="170" value="图层本身"/>
+		<string key="171" value="另存新档 EPS"/>
+		<string key="172" value="对齐"/>
+		<string key="173" value="建立组合路径"/>
+		<string key="174" value="解除组合路径"/>
+		<string key="175" value="转换为选区"/>
+		<string key="176" value="建立向量图形"/>
+		<string key="177" value="删除文字字元"/>
+		<string key="178" value="输入文字字元"/>
+		<string key="179" value="置入图层"/>
+		<string key="180" value="调整图层控制点"/>
+		<string key="181" value="旋转图层"/>
+		<string key="182" value="歪斜图层"/>
+		<string key="183" value="设定变形"/>
+		<string key="184" value="自由变形"/>
+		<string key="185" value="确认变形"/>
+		<string key="186" value="快速曲线闭合线段"/>
+		<string key="187" value="快速曲线数位"/>
+		<string key="188" value="关闭向量图形"/>
+		<string key="189" value="向量笔开始节点"/>
+		<string key="190" value="向量笔数位化"/>
+		<string key="191" value="控制节点编辑"/>
+		<string key="192" value="删除控制节点"/>
+		<string key="193" value="曲线搬移"/>
+		<string key="194" value="控制节点角落更改"/>
+		<string key="195" value="转换向量图形为图层"/>
+		<string key="196" value="控制节点搬移"/>
+		<string key="197" value="删除控制节点"/>
+		<string key="198" value="加入节点"/>
+		<string key="199" value="删除节点"/>
+		<string key="200" value="剪下曲线"/>
+		<string key="201" value="加入"/>
+		<string key="202" value="重做"/>
+		<string key="203" value="调整向量图形控制点"/>
+		<string key="204" value="旋转向量图形"/>
+		<string key="205" value="歪斜向量图形"/>
+		<string key="206" value="平均节点"/>
+		<string key="207" value="更改向量图形填入色彩"/>
+		<string key="208" value="更改向量图形笔画色彩"/>
+		<string key="209" value="渐变"/>
+		<string key="210" value="更改向量图形填色"/>
+		<string key="211" value="更改向量图形构成方式"/>
+		<string key="212" value="更改向量图形不透明度"/>
+		<string key="213" value="更改向量图形线条宽度"/>
+		<string key="214" value="设定向量图形属性"/>
+		<string key="215" value="向量笔关闭"/>
+		<string key="216" value="向量笔控制线节点编辑"/>
+		<string key="217" value="完整全选取路径"/>
+		<string key="218" value="项目选区路径"/>
+		<string key="219" value="检视遮罩更改"/>
+		<string key="220" value="校正色彩"/>
+		<string key="221" value="快速弯曲"/>
+		<string key="222" value="重设马赛克"/>
+		<string key="223" value="重绘马赛克"/>
+		<string key="224" value="将花砖成像于遮罩"/>
+		<string key="225" value="遵循边缘"/>
+		<string key="226" value="(配置框架资料库)"/>
+		<string key="227" value="设定预设属性"/>
+		<string key="228" value="设定再制变形"/>
+		<string key="229" value="转换为向量图形"/>
+		<string key="230" value="恢复"/>
+		<string key="231" value="加宽选区"/>
+		<string key="232" value="平滑选区"/>
+		<string key="233" value="置入路径"/>
+		<string key="234" value="套索选区"/>
+		<string key="235" value="制作选区"/>
+		<string key="236" value="路径本身"/>
+		<string key="237" value="选取副工具"/>
+		<string key="238" value="开启路径材料库"/>
+		<string key="239" value="椭圆选区"/>
+		<string key="240" value="搬移选区"/>
+		<string key="241" value="选区两侧更改"/>
+		<string key="242" value="选区涂绘更改"/>
+		<string key="243" value="路径列表更改"/>
+		<string key="244" value="群组选区"/>
+		<string key="245" value="扩充选区"/>
+		<string key="246" value="解除选区群组"/>
+		<string key="247" value="切换选区涂绘"/>
+		<string key="248" value="旋转选区"/>
+		<string key="249" value="调整选区"/>
+		<string key="250" value="歪斜选区"/>
+		<string key="251" value="删除选区"/>
+		<string key="252" value="魔术棒"/>
+		<string key="253" value="花纹选项"/>
+		<string key="254" value="按一下仿制"/>
+		<string key="255" value="控制节点扫描"/>
+		<string key="256" value="图层列表属性"/>
+		<string key="257" value="场景深度"/>
+		<string key="258" value="变焦模糊"/>
+		<string key="259" value="镜头动态残影"/>
+		<string key="260" value="迷宫"/>
+		<string key="261" value="笔刷自动分布"/>
+		<string key="262" value="网状排列"/>
+		<string key="263" value="Script 版本号码"/>
+		<string key="264" value="外挂模组复原"/>
+		<string key="265" value="裁切"/>
+		<string key="266" value="Painter5 油漆桶选项"/>
+		<string key="267" value="魔术棒按一下"/>
+		<string key="268" value="魔术棒选项"/>
+		<string key="269" value="新增遮罩"/>
+		<string key="270" value="删除遮罩"/>
+		<string key="271" value="载入选区"/>
+		<string key="272" value="储存选区"/>
+		<string key="273" value="复制遮罩"/>
+		<string key="274" value="复制遮罩到图层"/>
+		<string key="275" value="普普艺术"/>
+		<string key="276" value="自定义花砖"/>
+		<string key="277" value="加入仿制来源节点"/>
+		<string key="278" value="加入仿制目的节点"/>
+		<string key="279" value="反转选区"/>
+		<string key="280" value="收缩选区"/>
+		<string key="281" value="边界选区"/>
+		<string key="282" value="选取使用者遮罩"/>
+		<string key="283" value="应用外挂模组图层"/>
+		<string key="284" value="确认外挂模组图层"/>
+		<string key="285" value="变形选区"/>
+		<string key="286" value="搬移仿制节点"/>
+		<string key="287" value="外挂模组方式"/>
+		<string key="288" value="建立图层"/>
+		<string key="289" value="切换花纹"/>
+		<string key="290" value="遮罩属性更改"/>
+		<string key="291" value="转换选区"/>
+		<string key="292" value="恢复到至原始状态"/>
+		<string key="293" value="选区更改"/>
+		<string key="294" value="设定纸张色彩"/>
+		<string key="295" value="笔触节点 6"/>
+		<string key="296" value="笔触节点 6"/>
+		<string key="297" value="厚涂光源"/>
+		<string key="298" value="切换厚涂"/>
+		<string key="299" value="清除厚涂颜料"/>
+		<string key="300" value="清除湿画笔"/>
+		<string key="301" value="检查喷嘴"/>
+		<string key="302" value="检查花纹"/>
+		<string key="303" value="木刻画"/>
+		<string key="304" value="图像处理器"/>
+		<string key="305" value="碎裂"/>
+		<string key="306" value="圆点色彩"/>
+		<string key="307" value="建立新水彩图层"/>
+		<string key="308" value="建立新油墨图层"/>
+		<string key="309" value="建立文字图层"/>
+		<string key="310" value="输入文字字元"/>
+		<string key="311" value="从文字图层删除文字"/>
+		<string key="312" value="转换为预设图层"/>
+		<string key="313" value="转换文字为向量图形"/>
+		<string key="314" value="文字参数更改"/>
+		<string key="315" value="文字曲线更改"/>
+		<string key="316" value="文字剪下"/>
+		<string key="317" value="文字贴上"/>
+		<string key="318" value="文字清除"/>
+		<string key="319" value="恢复到目前变体"/>
+		<string key="320" value="风向"/>
+		<string key="321" value="乾图层"/>
+		<string key="322" value="湿图层"/>
+		<string key="323" value="湿画布"/>
+		<string key="324" value="扩散"/>
+		<string key="325" value="油墨选项"/>
+		<string key="326" value="素描"/>
+		<string key="327" value="移除选区"/>
+		<string key="328" value="重选"/>
+		<string key="329" value="新增图层遮罩"/>
+		<string key="330" value="删除图层遮罩"/>
+		<string key="331" value="套用图层遮罩"/>
+		<string key="332" value="从透明度新增图层遮罩"/>
+		<string key="333" value="从图层载入选区"/>
+		<string key="334" value="笔触节点"/>
+		<string key="335" value="笔触节点"/>
+		<string key="336" value="快速仿制"/>
+		<string key="337" value="水平翻转画布"/>
+		<string key="338" value="垂直翻转画布"/>
+		<string key="339" value="画布旋转"/>
+		<string key="340" value="敏锐模糊"/>
+		<string key="341" value="底纹效果"/>
+		<string key="342" value="比对面板"/>
+		<string key="343" value="合并复制"/>
+		<string key="344" value="转换成描述档"/>
+		<string key="345" value="多边形选区"/>
+		<string key="346" value="确认变形"/>
+		<string key="347" value="转换为参考图层"/>
+		<string key="356" value="渐层填色"/>
+		<string key="357" value="建立新的厚涂图层"/>
+		<string key="359" value="选区笔刷"/>
+		<string key="360" value="合成"/>
+		<string key="361" value="移动画布到厚涂图层"/>
+		<string key="362" value="建立新的厚涂图层"/>
+		<string key="363" value="转换为厚涂图层"/>
+		<string key="364" value="建立新水彩图层"/>
+		<string key="365" value="转换为水彩图层"/>
+		<string key="366" value="转换画布为预设图层"/>
+	</category>
+
+	<category key="MenuBrushTool">
+		<string key="IncreaseSize" value="增加尺寸"/>
+		<string key="DecreaseSize" value="减少尺寸"/>
+	</category>
+
+	<category key="MenuNavPal">
+		<string key="Color_Management" value="色彩管理"/>
+		<string key="Tracing_Paper" value="切换描图纸"/>
+		<string key="Tracing_Paper_Opac" value="描图纸透明度"/>
+		<string key="Display_Grids" value="显示格线"/>
+		<string key="Display_Impasto" value="显示厚涂颜料"/>
+		<string key="Drawing_Mode" value="绘图模式"/>
+	</category>
+
+	<category key="NavPalChk">
+		<string key="Navigator_Frame" value="导览画格"/>
+		<string key="Navigator_Info" value="信息"/>
+		<string key="Navigator_View" value="检视控制项"/>
+	</category>
+
+	<category key="MenuColorMan">
+		<string key="CurrentColorMan" value="目前的色彩管理名称"/>
+		<string key="Settings" value="色彩管理设定..."/>
+		<string key="AssignProfile" value="指定描述档..."/>
+		<string key="ConvertToProfile" value="转换为描述档..."/>
+	</category>
+
+	<category key="MenuTracingPaper">
+		<string key="Opacity10" value="10%"/>
+		<string key="Opacity20" value="20%"/>
+		<string key="Opacity30" value="30%"/>
+		<string key="Opacity40" value="40%"/>
+		<string key="Opacity50" value="50%"/>
+		<string key="Opacity60" value="60%"/>
+		<string key="Opacity70" value="70%"/>
+		<string key="Opacity80" value="80%"/>
+		<string key="Opacity90" value="90%"/>
+	</category>
+
+	<category key="MenuTextureVisibility">
+		<string key="Visibility10" value="10%"/>
+		<string key="Visibility20" value="20%"/>
+		<string key="Visibility30" value="30%"/>
+		<string key="Visibility40" value="40%"/>
+		<string key="Visibility50" value="50%"/>
+		<string key="Visibility60" value="60%"/>
+		<string key="Visibility70" value="70%"/>
+		<string key="Visibility80" value="80%"/>
+		<string key="Visibility90" value="90%"/>
+	</category>
+
+	<category key="MenuDrawingMode">
+		<string key="Anywhere" value="四处绘图"/>
+		<string key="Outside" value="在外部绘图"/>
+		<string key="Inside" value="在内部绘图"/>
+	</category>
+
+	<category key="MenuImagePortfolio">
+		<string key="Import" value="输入图像组合..."/>
+		<string key="Export" value="输出图像组合..."/>
+		<string key="Remove" value="移除图像组合..."/>
+		<string key="HideItem" value="隐藏图像"/>
+		<string key="RenameItem" value="重新命名图像..."/>
+		<string key="DeleteItem" value="删除图像..."/>
+		<string key="SetCustomIcon" value="设定自定义图标..."/>
+		<string key="Add_Image" value="将图像加入组合..."/>
+		<string key="Hide_Recent" value="隐藏最近项目"/>
+		<string key="NewLibrary" value="新增图像组合..."/>
+		<string key="OpenLibrary" value="开启图像组合..."/>
+		<string key="RestoreDefault" value="恢复到预设图像组合"/>
+		<string key="LibraryView" value="图像组合检视"/>
+		<string key="OpenLibraryList" value="图像组合"/>
+		<string key="CaptureCustomIcon" value="拾取图标"/>
+		<string key="CustomIcon" value="自定义图标..."/>
+		<string key="ShowAll" value="显示所有隐藏项目"/>
+		<string key="Small" value="小"/>
+		<string key="Medium" value="中"/>
+		<string key="Large" value="大"/>
+		<string key="List" value="列表"/>
+	</category>
+
+	<category key="Colorset">
+		<string key="NewLibrary" value="新增色彩集"/>
+		<string key="RenameItem" value="重新命名色彩..."/>
+		<string key="HideItem" value="隐藏色彩"/>
+		<string key="DeleteItem" value="删除色彩"/>
+		<string key="SetDisplaySmall" value="小"/>
+		<string key="SetDisplayMedium" value="中"/>
+		<string key="SetDisplayLarge" value="大"/>
+		<string key="SetDisplayList" value="列表"/>
+		<string key="ShowAll" value="显示所有隐藏项目"/>
+	</category>
+
+	<category key="MenuSelectionsPal">
+		<string key="CaptureCustomIcon" value="拾取图标"/>
+		<string key="CustomIcon" value="自定义图标..."/>
+		<string key="ShowAll" value="显示所有隐藏项目"/>
+		<string key="Small" value="小"/>
+		<string key="Medium" value="中"/>
+		<string key="Large" value="大"/>
+		<string key="List" value="列表"/>
+		<string key="List_Selection" value="列表"/>
+		<string key="Thumbnails_Sel" value="预览图"/>
+		<string key="List_Image" value="列表"/>
+		<string key="Thumbnails_Image" value="预览图"/>
+		<string key="List_Tracker" value="列表"/>
+		<string key="Thumbnails_Tracker" value="预览图"/>
+		<string key="ImportLib" value="输入选区组合..."/>
+		<string key="ExportLib" value="输出选区组合..."/>
+		<string key="RemoveLib" value="移除选区组合..."/>
+		<string key="ImportLegacyLib" value="输入旧版选区组合..."/>
+		<string key="HideItem" value="隐藏选区"/>
+		<string key="RenameItem" value="重新命名选区..."/>
+		<string key="DeleteItem" value="删除选区..."/>
+		<string key="SetCustomIcon" value="设定自定义图标..."/>
+		<string key="NewLibrary" value="新增选区组合..."/>
+		<string key="Reset" value="重设预设选区组合"/>
+		<string key="Capture" value="将选区加入组合..."/>
+		<string key="LibraryView" value="选区组合检视"/>
+		<string key="OpenLibraryList" value="选区组合"/>
+		<string key="Restore" value="恢复到预设选区组合"/>
+	</category>
+
+	<category key="MenuLookPal">
+		<string key="LibraryView" value="外观材料库检视"/>
+		<string key="OpenLibraryList" value="外观材料库"/>
+		<string key="Save_Look" value="储存外观..."/>
+		<string key="Import_Look" value="输入外观..."/>
+		<string key="Export_Look" value="输出外观..."/>
+		<string key="Edit_Look" value="编辑外观..."/>
+		<string key="OpenLibrary" value="输入外观材料库..."/>
+		<string key="OpenDefaultLooksLibrary" value="重设预设外观材料库"/>
+		<string key="Export_Look_Library" value="输出外观材料库..."/>
+		<string key="Remove_Look_Library" value="移除外观材料库..."/>
+		<string key="Import_Look_Library" value="输入外观材料库..."/>
+		<string key="HideItem" value="隐藏外观"/>
+		<string key="RenameItem" value="重新命名外观..."/>
+		<string key="DeleteItem" value="删除外观..."/>
+		<string key="SetCustomIcon" value="设定自定义图标..."/>
+		<string key="NewLibrary" value="新增外观材料库..."/>
+		<string key="Capture" value="拾取外观"/>
+		<string key="CaptureCustomIcon" value="拾取图标"/>
+		<string key="ShowAll" value="显示所有隐藏项目"/>
+		<string key="Small" value="小"/>
+		<string key="Medium" value="中"/>
+		<string key="Large" value="大"/>
+		<string key="List" value="列表"/>
+	</category>
+
+	<category key="MenuNozzlesPal">
+		<string key="NewNozzleLibrary" value="新增喷嘴材料库..."/>
+		<string key="CaptureCustomIcon" value="拾取图标"/>
+		<string key="ShowAll" value="显示所有隐藏项目"/>
+		<string key="Small" value="小"/>
+		<string key="Medium" value="中"/>
+		<string key="Large" value="大"/>
+		<string key="List" value="列表"/>
+		<string key="LibraryView" value="喷嘴材料库检视"/>
+		<string key="OpenLibraryList" value="喷嘴材料库"/>
+		<string key="OpenDefaultLibrary" value="恢复到预设喷嘴材料库"/>
+		<string key="Import_Nozzle_Library" value="输入喷嘴材料库..."/>
+		<string key="Export_Nozzle_Library" value="输出喷嘴材料库..."/>
+		<string key="Remove_Nozzle_Library" value="移除喷嘴材料库..."/>
+		<string key="Load_Nozzle" value="载入喷嘴..."/>
+		<string key="MakeNozzleFromGroup" value="自组制作喷嘴..."/>
+		<string key="MakeNozzleFromMovie" value="自动画制作喷嘴..."/>
+		<string key="AddNozzleToLibrary" value="加入喷嘴至材料库..."/>
+		<string key="Check_Out_Nozzle" value="检查喷嘴..."/>
+		<string key="Set_Nozzle_Scale" value="设定喷嘴比例..."/>
+		<string key="HideItem" value="隐藏喷嘴"/>
+		<string key="RenameItem" value="重新命名喷嘴..."/>
+		<string key="DeleteItem" value="删除喷嘴..."/>
+		<string key="SetCustomIcon" value="设定自定义图标..."/>
+	</category>
+
+	<category key="MenuWeavePal">
+		<string key="CaptureCustomIcon" value="拾取图标"/>
+		<string key="CustomIcon" value="自定义图标..."/>
+		<string key="ShowAll" value="显示所有隐藏项目"/>
+		<string key="Small" value="小"/>
+		<string key="Medium" value="中"/>
+		<string key="Large" value="大"/>
+		<string key="List" value="列表"/>
+		<string key="Get_Color_Set" value="取得色彩集"/>
+		<string key="Put_Color_Set" value="置入色彩集"/>
+		<string key="Edit_Weave" value="编辑织布..."/>
+		<string key="Save_Weave" value="储存织布..."/>
+		<string key="Import_Weave_Library" value="输入织布材料库..."/>
+		<string key="Export_Weave_Library" value="输出织布材料库..."/>
+		<string key="Remove_Weave_Library" value="移除织布材料库..."/>
+		<string key="Open_Legacy_Weave" value="输入旧版织布材料库..."/>
+		<string key="HideItem" value="隐藏织布"/>
+		<string key="RenameItem" value="重新命名织布..."/>
+		<string key="DeleteItem" value="删除织布..."/>
+		<string key="SetCustomIcon" value="设定自定义图标..."/>
+		<string key="NewLibrary" value="新增织布材料库..."/>
+		<string key="Reset" value="恢复到预设织布材料库"/>
+		<string key="ShowControls" value="织布控制面板"/>
+		<string key="ShowLibrary" value="织布材料库面板"/>
+		<string key="OpenLibrary" value="开启织布材料库"/>
+		<string key="LibraryView" value="织布材料库检视"/>
+		<string key="OpenLibraryList" value="织布材料库"/>
+	</category>
+
+
+	<category key="MenuGradientsPal">
+		<string key="ShowControls" value="渐层控制面板"/>
+		<string key="ShowLibrary" value="渐层材料库面板"/>
+		<string key="CaptureCustomIcon" value="拾取图标"/>
+		<string key="CustomIcon" value="自定义图标..."/>
+		<string key="ShowAll" value="显示所有隐藏项目"/>
+		<string key="Small" value="小"/>
+		<string key="Medium" value="中"/>
+		<string key="Large" value="大"/>
+		<string key="List" value="列表"/>
+		<string key="Capture_Gradient" value="拾取渐层"/>
+		<string key="Express_in_Image" value="表现于图像中..."/>
+		<string key="Edit_Gradient" value="编辑渐层..."/>
+		<string key="Save_Gradient" value="储存渐层..."/>
+		<string key="HideItem" value="隐藏渐层"/>
+		<string key="RenameItem" value="重新命名渐层..."/>
+		<string key="DeleteItem" value="删除渐层..."/>
+		<string key="SetCustomIcon" value="设定自定义图标..."/>
+		<string key="NewLibrary" value="新增渐层材料库..."/>
+		<string key="Reset" value="恢复到预设渐层材料库"/>
+		<string key="Import" value="输入渐层材料库..."/>
+		<string key="Export" value="输出渐层材料库..."/>
+		<string key="Remove" value="删除渐层材料库..."/>
+		<string key="ImportLegacy" value="输入旧版渐层材料库..."/>
+		<string key="OpenLibraryList" value="渐层材料库"/>
+		<string key="ImportLibrary" value="输入渐层材料库..."/>
+		<string key="ExportLibrary" value="输出渐层材料库..."/>
+		<string key="LegacyLibrary" value="输入旧版渐层材料库..."/>
+		<string key="LibraryView" value="渐层材料库检视"/>
+		<string key="Restore" value="恢复到预设渐层材料库"/>
+		<string key="GradientPreview" value="显示预览"/>
+		<string key="GradientSliders" value="显示滑杆"/>
+	</category>
+
+	<category key="MenuTexturePal">
+		<string key="CaptureCustomIcon" value="拾取图标"/>
+		<string key="ShowAll" value="显示所有隐藏项目"/>
+		<string key="Small" value="小"/>
+		<string key="Medium" value="中"/>
+		<string key="Large" value="大"/>
+		<string key="List" value="列表"/>
+		<string key="Import_Texture" value="导入材质..."/>
+		<string key="Export_Texture_To_Clone_Source_Image" value="以嵌入材质做为仿制来源图像"/>
+		<string key="ExportTextureToNewLayer" value="导出材质到新图层"/>
+		<string key="Capture_Texture" value="拾取材质..."/>
+		<string key="Export" value="导出材质库..."/>
+		<string key="Import" value="导入材质库..."/>
+		<string key="Remove" value="移除材质库..."/>
+		<string key="HideItem" value="隐藏材质"/>
+		<string key="RenameItem" value="重新命名材质..."/>
+		<string key="DeleteItem" value="删除材质..."/>
+		<string key="SetCustomIcon" value="设定自定义图标..."/>
+		<string key="ShowLibrary" value="材质库面板"/>
+		<string key="NewLibrary" value="新增材质库..."/>
+		<string key="OpenLibraryList" value="材质库"/>
+		<string key="RestoreDefault" value="恢复到预设材质库"/>
+		<string key="LibraryView" value="材质库检视"/>
+		<string key="Invert" value="反转材质"/>
+		<string key="TexturePreview" value="显示预览"/>
+		<string key="TextureSliders" value="显示滑杆"/>
+	</category>
+
+	<category key="MenuPatternPal">
+		<string key="CaptureCustomIcon" value="拾取图标"/>
+		<string key="CustomIcon" value="自定义图标..."/>
+		<string key="ShowAll" value="显示所有隐藏项目"/>
+		<string key="Small" value="小"/>
+		<string key="Medium" value="中"/>
+		<string key="Large" value="大"/>
+		<string key="List" value="列表"/>
+		<string key="Capture_Pattern" value="拾取花纹..."/>
+		<string key="Define_Pattern" value="定义花纹"/>
+		<string key="Make_Fractal_Pattern" value="制作碎形花纹"/>
+		<string key="Add_Image_To_Library" value="将图像加入材料库..."/>
+		<string key="Check_Out_Pattern" value="检查花纹"/>
+		<string key="Export" value="输出花纹材料库..."/>
+		<string key="Import" value="输入花纹材料库..."/>
+		<string key="Remove" value="移除花纹材料库..."/>
+		<string key="HideItem" value="隐藏花纹"/>
+		<string key="RenameItem" value="重新命名花纹..."/>
+		<string key="DeleteItem" value="删除花纹..."/>
+		<string key="SetCustomIcon" value="设定自定义图标..."/>
+		<string key="ShowControls" value="花纹控制面板"/>
+		<string key="ShowLibrary" value="花纹材料库面板"/>
+		<string key="RecentPatterns" value="最近的花纹"/>
+		<string key="NewLibrary" value="新增花纹材料库..."/>
+		<string key="OpenLibraryList" value="花纹材料库"/>
+		<string key="RestoreDefault" value="恢复到预设花纹材料库"/>
+		<string key="LibraryView" value="花纹材料库检视"/>
+		<string key="PatternPreview" value="显示预览"/>
+		<string key="PatternSliders" value="显示滑杆"/>
+		<string key="Rectangular_Pattern" value="矩形花纹"/>
+		<string key="Horizonral_Pattern" value="水平花纹"/>
+		<string key="Vartical_Pattern" value="垂直花纹"/>
+	</category>
+
+	<category key="MenuPapersPal">
+		<string key="CaptureCustomIcon" value="拾取图标"/>
+		<string key="CustomIcon" value="自定义图标..."/>
+		<string key="ShowAll" value="显示所有隐藏项目"/>
+		<string key="Small" value="小"/>
+		<string key="Medium" value="中"/>
+		<string key="Large" value="大"/>
+		<string key="List" value="列表"/>
+		<string key="Capture_Paper" value="拾取纸张..."/>
+		<string key="Make_Paper" value="制作纸张..."/>
+		<string key="Invert_Paper" value="反转纸张"/>
+		<string key="Import_Legacy_Paper" value="输入旧版纸张材料库..."/>
+		<string key="Import_Paper_Library" value="输入纸张材料库..."/>
+		<string key="Export_Paper_Library" value="输出纸张材料库..."/>
+		<string key="Remove_Paper_Library" value="移除纸张材料库..."/>
+		<string key="Default_Paper_Library" value="恢复到预设纸张材料库"/>
+		<string key="HideItem" value="隐藏纸张"/>
+		<string key="RenameItem" value="重新命名纸张..."/>
+		<string key="DeleteItem" value="删除纸张..."/>
+		<string key="SetCustomIcon" value="设定自定义图标..."/>
+		<string key="NewLibrary" value="新纸张材料库..."/>
+		<string key="OpenLibraryList" value="纸张材料库"/>
+		<string key="LibraryView" value="纸张材料库检视"/>
+		<string key="ShowControls" value="纸张控制面板"/>
+		<string key="ShowLibrary" value="纸张材料库面板"/>
+		<string key="PaperPreview" value="显示预览"/>
+		<string key="PaperSliders" value="显示滑杆"/>
+	</category>
+
+	<category key="MenuFlowmapPal">
+		<string key="ShowControls" value="流线贴图控制面板"/>
+		<string key="ShowLibrary" value="流线贴图材料库面板"/>
+		<string key="LibraryView" value="流线贴图材料库检视"/>
+		<string key="OpenLibraryList" value="流线贴图材料库"/>
+		<string key="NewLibrary" value="新增流线贴图材料库..."/>
+		<string key="Invert_Flowmap" value="反转流线贴图"/>
+		<string key="Import_Flowmap_Lib" value="输入流线贴图材料库..."/>
+		<string key="Export_Flowmap_Lib" value="输出流线贴图材料库..."/>
+		<string key="Remove_Flowmap_Lib" value="移除流线贴图材料库..."/>
+		<string key="Default_Flowmap_Lib" value="恢复到为预设流线贴图材料库"/>
+		<string key="Small" value="小"/>
+		<string key="Medium" value="中"/>
+		<string key="Large" value="大"/>
+		<string key="List" value="列表"/>
+		<string key="RenameItem" value="重新命名流线贴图..."/>
+		<string key="CaptureCustomIcon" value="拾取图标"/>
+		<string key="SetCustomIcon" value="设定自定义图标..."/>
+		<string key="ShowAll" value="显示所有隐藏项目"/>
+		<string key="HideItem" value="隐藏流线贴图"/>
+		<string key="DeleteItem" value="删除流线贴图..."/>
+		<string key="Capture_Flowmap" value="拾取流线贴图..."/>
+		<string key="Create_From_Paper" value="从目前纸张建立"/>
+		<string key="FlowMapPreview" value="显示预览"/>
+		<string key="FlowMapSliders" value="显示滑杆"/>
+	</category>
+
+	<category key="MenuCustomPal">
+		<string key="CaptureCustomIcon" value="拾取自定义图标"/>
+		<string key="SetCustomIcon" value="设定自定义图标..."/>
+		<string key="RenameItem" value="重新命名..."/>
+		<string key="DeleteItem" value="删除"/>
+		<string key="SetTextViewMode" value="文字检视"/>
+		<string key="SetIconViewMode" value="图标检视"/>
+		<string key="SetWideIconViewMode" value="宽版图标检视"/>
+		<string key="Rename" value="重新命名自定义面板..."/>
+		<string key="Import" value="输入自定义面板..."/>
+		<string key="Export" value="输出自定义面板..."/>
+		<string key="AddCommand" value="加入指令..."/>
+	</category>
+
+	<!-- Open Source Menu on Clone Source Panel -->
+	<category key="CSPanelOpenSource">
+		<string key="OpenSource" value="浏览..."/>
+		<string key="ImportCurrentTexture" value="目前的材质"/>
+	</category>
+
+	<!-- Options Menu on Clone Source Panel -->
+	<category key="CloneSourceOptions">
+		<string key="OpenSourceImage" value="开启来源图像..."/>
+		<string key="DeleteSourceImage" value="删除来源图像"/>
+		<string key="RenameSourceImage" value="重新命名来源图像..."/>
+		<string key="NoThumbnail" value="无预览图"/>
+		<string key="SmallThumbnail" value="小预览图"/>
+		<string key="MediumThumbnail" value="中等预览图"/>
+		<string key="LargeThumbnail" value="大预览图"/>
+	</category>
+
+	<!--claw commands-->
+	<category key="ClawCommands">
+		<string key="ChangeBrushSize" value="笔刷大小 (屏幕上)"/>
+		<string key="ChangeBrushOpacity" value="笔刷透明度 (屏幕上)"/>
+		<string key="ChangeBrushSqueeze" value="笔刷挤压 (屏幕上)"/>
+		<string key="ChangeBrushAngle" value="笔刷角度 (屏幕上)"/>
+	</category>
+
+	<!-- Perspective guides presets menu -->
+	<category key="PerspectiveGuidesPresets">
+		<string key="Add" value="新增..."/>
+		<string key="Delete" value="删除..."/>
+	</category>
+
+	<category key="MenuEnhancedPaletteGear">
+		<string key="EnhancedGroup" value="色盘绘图器"/>
+		<string key="Rename" value="重新命名..."/>
+	</category>
+
+	<category key="MenuBrushControls">
+		<string key="Shape" value="笔刷形状"/>
+		<string key="Media" value="笔刷媒材"/>
+	</category>
+
+	<category key="MenuColorWheel">
+		<string key="Pin" value="钉选"/>
+		<string key="LeftHanded" value="惯用左手模式"/>
+		<string key="Close" value="关闭"/>
+	</category>
+
+	<category key="UnderpaintingPalette">
+		<string key="Brush_Options" value="笔刷选项"/>
+		<string key="Do_Not_Switch" value="请勿切换笔刷"/>
+		<string key="Switch_To_Cloning_Category" value="切换到仿制笔刷"/>
+		<string key="Enable_Clone_Color" value="启用仿制色彩 (目前笔刷)"/>
+		<string key="Clear_Canvas" value="清除画布"/>
+		<string key="Turn_On_Tracing_Paper" value="切换描图纸"/>
+	</category>
+
+</string-table>

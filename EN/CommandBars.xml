@@ -1,0 +1,2538 @@
+<uiConfig>
+	<applicationInfo name="Corel Painter" version="21.00" framework="Corel Painter"/>
+	<commandBars>
+		<!--Menu Bar-->
+		<commandBarData guid="MainPainterMenuBar" type="menu" nonLocalizableName="Menu Bar" noVertDocking="true">
+			<container>
+				<item guidRef="MenuFile|Painter_Menu" os="mac"/>
+				<item guidRef="MenuFile|File"/>
+				<item guidRef="MenuEdit|Edit"/>
+				<item guidRef="MenuCanvas|Canvas"/>
+				<item guidRef="MenuLayers|Layers"/>
+				<item guidRef="MenuBrushes|Brushes"/>
+				<item guidRef="MenuSelect|Select"/>
+				<item guidRef="MenuShapes|Shapes"/>
+				<item guidRef="MenuEffects|Effects"/>
+				<item guidRef="MenuMovie|Movie" os="win"/>
+				<item guidRef="MenuWindow|Window"/>
+				<item guidRef="MenuHelp|Help"/>
+			</container>
+		</commandBarData>
+		<!--Purchase Menu-->
+		<commandBarData guid="TrialMenu" type="menu" nonLocalizableName="Trial Menu Bar" noVertDocking="true">
+			<container>
+				<item guidRef="MenuPurchase|Purchase"/>
+			</container>
+		</commandBarData>
+		<commandBarData guid="PurchaseMenuBar" type="menu" nonLocalizableName="Purchase Menu Bar" noVertDocking="true">
+			<container>
+				<item guidRef="MenuPurchase|Painter"/>
+			</container>
+		</commandBarData>
+		<!--File-->
+		<commandBarData guid="C3EB32DD-9761-41CB-941F-917BC1F553D8" type="menu" nonLocalizableName="File" flyout="true">
+			<container>
+				<item guidRef="MenuFile|New"/>
+				<item guidRef="MenuFile|Open"/>
+				<item guidRef="MenuFile|Recent"/>
+				<item guidRef="MenuFile|Open_Template"/>
+				<item guidRef="MenuFile|Place"/>
+				<item guidRef="MenuFile|Close"/>
+				<item guidRef="MenuFile|(-"/>
+				<item guidRef="MenuFile|Quick_Clone"/>
+				<item guidRef="MenuFile|Clone"/>
+				<item guidRef="MenuFile|(-"/>
+				<item guidRef="MenuFile|Save"/>
+				<item guidRef="MenuFile|Save_As"/>
+				<item guidRef="MenuFile|Iterative_Save"/>
+				<item guidRef="MenuFile|Revert"/>
+				<item guidRef="MenuFile|(-"/>
+				<item guidRef="MenuFile|Get_Info"/>
+				<item guidRef="MenuFile|(-"/>
+				<item guidRef="MenuFile|Import"/>
+				<item guidRef="MenuFile|(-"/>
+				<item guidRef="MenuFile|Export"/>
+				<item guidRef="MenuFile|(-"/>
+				<item guidRef="MenuFile|Email" disable-key="Sandboxed-File-IO"/>
+				<item guidRef="MenuFile|(-" disable-key="Sandboxed-File-IO"/>
+				<item guidRef="MenuFile|Page_Setup" os="win"/>
+				<item guidRef="MenuFile|Print"/>
+				<item guidRef="MenuFile|(-" os="win"/>
+				<item guidRef="MenuFile|Quit" os="win"/>
+			</container>
+		</commandBarData>
+		<!--Painter Menu-->
+		<commandBarData guid="DCC23A2B-CDC7-44FD-9024-816E9C81C2C8" type="menu" nonLocalizableName="Painter Menu" flyout="true">
+			<item guidRef="MenuHelp|About" customizable="false"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPreferences|Preferences"/>
+			<item guidRef="MenuHelp|Check_for_Updates" enable-key="IPMServices"/>
+			<item guidRef="MenuHelp|Messaging_Settings" enable-key="IPMServices"/>
+			<item guidRef="MenuFile|Services"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFile|HideSelf" readonly="true"/>
+			<item guidRef="MenuFile|HideOthers" readonly="true"/>
+			<item guidRef="MenuFile|ShowAll" readonly="true"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFile|Quit" readonly="true"/>
+		</commandBarData>
+
+		<commandBarData guid="TopLevelHelpMenu" type="menu" nonLocalizableName="Help Menu" flyout="true">
+			<!-- windows help menu-->
+			<item guidRef="MenuHelp|HelpTopics" os="win"/>
+			<item guidRef="MenuFile|(-" os="win"/>
+			<item guidRef="MenuHelp|Tech_Support" os="win"/>
+			<item guidRef="MenuHelp|RestorePurchases" enable-key="InProductPurchasing" os="win"/>
+			<item guidRef="MenuHelp|Messaging_Settings" enable-key="IPMServices" os="win"/>
+			<item guidRef="MenuFile|(-" os="win"/>
+			<item guidRef="Panel|Hints" os="win"/>
+			<item guidRef="MenuHelp|Tutorials" os="win"/>
+			<item guidRef="MenuHelp|PainterVideos" os="win"/>
+			<item guidRef="MenuHelp|Guidebook" os="win"/>
+			<item guidRef="MenuHelp|GettingStarted" os="win"/>
+			<item guidRef="MenuFile|(-" enable-key="IPMServices" os="win"/>
+			<item guidRef="MenuHelp|Check_for_Updates" enable-key="IPMServices" os="win"/>
+			<item guidRef="MenuFile|(-" os="win"/>
+			<item guidRef="MenuHelp|Welcome" enable-key="Welcome-Book" os="win"/>
+			<item guidRef="MenuHelp|About" os="win"/>
+			<!-- mac help menu-->
+			<item guidRef="MenuHelp|HelpBook" os="mac"/>
+			<item guidRef="MenuFile|(-" os="mac"/>
+			<item guidRef="MenuHelp|Tech_Support" os="mac"/>
+			<item guidRef="MenuHelp|RestorePurchases" enable-key="InProductPurchasing" os="mac"/>
+			<item guidRef="MenuFile|(-" os="mac"/>
+			<item guidRef="Panel|Hints" os="mac"/>
+			<item guidRef="MenuHelp|Tutorials" os="mac"/>
+			<item guidRef="MenuHelp|PainterVideos" os="mac"/>
+			<item guidRef="MenuHelp|Guidebook" os="mac"/>
+			<item guidRef="MenuHelp|GettingStarted" os="mac"/>
+			<item guidRef="MenuFile|(-" enable-key="Welcome-Book" os="mac"/>
+			<item guidRef="MenuHelp|Welcome" enable-key="Welcome-Book" os="mac"/>
+		</commandBarData>
+
+		<!--Strokes-->
+		<commandBarData guid="SelectedStrokeSubmenu" type="menu" nonLocalizableName="Strokes" flyout="true">
+			<dynamic datasource="Strokes-List-Datasource" behavior="select" />
+		</commandBarData>
+		<!--Acquire-->
+		<commandBarData guid="2C3A5913-BF55-44BA-B0D5-235C5BA3F659" type="menu" nonLocalizableName="Acquire" flyout="true">
+			<dynamic datasource="Aquire-Plugins-List-Datasource" behavior="select" />
+		</commandBarData>
+		<!--Import-->
+		<commandBarData guid="FileImportMenu" type="menu" nonLocalizableName="Import" flyout="true">
+			<item guidRef="MenuFileImport|Texture"/>
+		</commandBarData>
+		<!--Export-->
+		<commandBarData guid="393CB363-76D6-4684-AE94-6FE86291F6BD" type="menu" nonLocalizableName="Export" flyout="true">
+			<dynamic datasource="Export-Plugins-List-Datasource" behavior="select" />
+		</commandBarData>
+		<!--Edit-->
+		<commandBarData guid="E1F661C3-CEAF-4C0F-8F86-E8BD3DFC262A" type="menu" nonLocalizableName="Edit" flyout="true">
+			<container>
+				<item guidRef="MenuEdit|Undo"/>
+				<item guidRef="MenuEdit|Redo"/>
+				<item guidRef="MenuFile|(-"/>
+				<item guidRef="MenuEdit|Fade"/>
+				<item guidRef="MenuFile|(-"/>
+				<item guidRef="MenuEdit|Cut"/>
+				<item guidRef="MenuEdit|Copy"/>
+				<item guidRef="MenuEdit|Copy_Merged"/>
+				<item guidRef="MenuEdit|Paste"/>
+				<item guidRef="MenuEdit|Paste_In_Place"/>
+				<item guidRef="MenuEdit|Paste_In_New_Image"/>
+				<item guidRef="MenuEdit|Clear"/>
+				<item guidRef="MenuFile|(-"/>
+				<item guidRef="MenuEffects|Fill"/>
+				<item guidRef="MenuFile|(-"/>
+				<item guidRef="MenuOrientation|Free_Transform"/>
+				<item guidRef="MenuOrientation|Orientation"/>
+				<item guidRef="MenuFile|(-"/>
+				<item guidRef="MenuOrientation|Flip_Horizontal"/>
+				<item guidRef="MenuOrientation|Flip_Vertical"/>
+				<item guidRef="MenuFile|(-" os="win"/>
+				<item guidRef="MenuPreferences|Preferences" os="win"/>
+			</container>
+		</commandBarData>
+		<!--Preferences-->
+		<commandBarData guid="3FAB67BA-7313-4BDC-93EF-50D418CDACD3" type="menu" nonLocalizableName="Preferences" flyout="true">
+			<item guidRef="MenuPreferences|General"/>
+			<item guidRef="MenuPreferences|BrushCursor"/>
+			<item guidRef="MenuPreferences|SpecialLayers"/>
+			<item guidRef="MenuPreferences|Interface"/>
+			<item guidRef="MenuPreferences|Performance"/>
+			<item guidRef="MenuPreferences|Shapes"/>
+			<item guidRef="MenuPreferences|Cloning"/>
+			<item guidRef="MenuPreferences|Tablet"/>
+			<item guidRef="MenuPreferences|CompanionApps"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPreferences|Brush_Tracking"/>
+			<item guidRef="MenuPreferences|Customize_Keys"/>
+		</commandBarData>
+		<!--Services-->
+		<commandBarData guid="ServicesMenu" type="menu" nonLocalizableName="Services" flyout="true">
+		</commandBarData>
+		<!--Canvas-->
+		<commandBarData guid="91F0CCBC-7374-47F9-BCF9-6FFB81CC43E6" type="menu" nonLocalizableName="Canvas" flyout="true">
+			<item guidRef="MenuCanvas|Resize"/>
+			<item guidRef="MenuCanvas|Canvas_Size"/>
+			<item guidRef="MenuCanvas|Rotate_Canvas"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuCanvas|Surface_Lighting"/>
+			<item guidRef="MenuOther|Toggle_Impasto"/>
+			<item guidRef="MenuCanvas|Clear_Impasto"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuCanvas|Tracing_Paper"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuCanvas|Set_Paper_Color"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuRulers|Rulers"/>
+			<item guidRef="MenuCompositionLayouts|Compositions"/>
+			<item guidRef="MenuSymmetry|Symmetry"/>
+			<item guidRef="MenuGuides|Guides"/>
+			<item guidRef="MenuGrid|Grid"/>
+			<item guidRef="MenuPerspGuide|Perspective_Guides"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuCanvas|Color_Management"/>
+			<item guidRef="MenuCanvas|CM_AssignProfile"/>
+			<item guidRef="MenuCanvas|CM_ConvertProfile"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuCanvas|CM_ColorProofingToggle"/>
+			<item guidRef="MenuCanvas|CM_ColorProofingSettings"/>
+		</commandBarData>
+		<!--Rotate Canvas-->
+		<commandBarData guid="C4F6B138-33F3-4A38-8404-ACD52BF59B07" type="menu" nonLocalizableName="Rotate Canvas" flyout="true">
+			<item guidRef="MenuCanvas|180"/>
+			<item guidRef="MenuCanvas|90_CW"/>
+			<item guidRef="MenuCanvas|90_CCW"/>
+			<item guidRef="MenuCanvas|Arbitrary"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuCanvas|Flip_Canvas_Horizontal"/>
+			<item guidRef="MenuCanvas|Flip_Canvas_Vertical"/>
+		</commandBarData>
+		<!--Rulers-->
+		<commandBarData guid="9A3EBFB0-A694-489d-9726-55EFBF90ABF0" type="menu" nonLocalizableName="Rulers" flyout="true">
+			<item guidRef="MenuRulers|Show_Rulers"/>
+			<item guidRef="MenuRulers|Snap_to_Ruler_Ticks"/>
+			<item guidRef="MenuRulers|Ruler_Options"/>
+		</commandBarData>
+		<commandBarData guid="B559FF12-8C00-4D0F-8C68-220A6F392D64" type="menu" nonLocalizableName="Composition Layouts" flyout="true">
+			<item guidRef="MenuCompositionLayouts|SHDivProp"/>
+			<item guidRef="MenuCompositionLayouts|SHLayout_Grid"/>
+		</commandBarData>
+		<commandBarData guid="37AAA2B1-A207-4435-B3BE-37482DE836B0" type="menu" nonLocalizableName="Symmetry Modes" flyout="true">
+			<item guidRef="MenuSymmetry|MirrorMode"/>
+			<item guidRef="MenuSymmetry|SHMirrors"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSymmetry|KaleidoscopeMode"/>
+			<item guidRef="MenuSymmetry|SHKaleidoscopePlanes"/>
+		</commandBarData>
+		<!--Guides-->
+		<commandBarData guid="433F8C5C-1A53-4533-BE15-44C7F076925B" type="menu" nonLocalizableName="Guides" flyout="true">
+			<item guidRef="MenuGuides|Show_Guides"/>
+			<item guidRef="MenuGuides|Snap_to_Guides"/>
+		</commandBarData>
+		<!--Grid-->
+		<commandBarData guid="D128CE41-4559-4944-AD90-A4DEF5CCD0C4" type="menu" nonLocalizableName="Grid" flyout="true">
+			<item guidRef="MenuGrid|Show_Grid"/>
+			<item guidRef="MenuGrid|Snap_to_Grid"/>
+			<item guidRef="MenuGrid|Grid_Options"/>
+		</commandBarData>
+		<!--Perspective Guides-->
+		<commandBarData guid="C93E33BF-F8DC-4853-B8EB-5263511A67BE" type="menu" nonLocalizableName="Perspective Guides" flyout="true">
+			<item guidRef="MenuPerspGuide|PGVisToggle"/>
+			<item guidRef="MenuPerspGuide|PGSnapToggle"/>
+		</commandBarData>
+		<!--Layers-->
+		<commandBarData guid="1BE67D89-6721-4E08-A351-8ADF002E71A5" type="menu" nonLocalizableName="Layers" flyout="true">
+			<item guidRef="MenuLayers|New_Layer"/>
+			<item guidRef="MenuLayers|New_Watercolor_Layer"/>
+			<item guidRef="MenuLayers|New_Liquid_Ink_Layer"/>
+			<item guidRef="MenuLayers|New_Thick_Paint_Layer"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Lift_Canvas_To_WC_Layer"/>
+			<item guidRef="MenuLayers|Lift_Canvas_To_TP_Layer"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Group"/>
+			<item guidRef="MenuLayers|Ungroup"/>
+			<item guidRef="MenuLayers|Collapse"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Lock"/>
+			<item guidRef="MenuLayers|Unlock_All_Layers"/>
+			<item guidRef="MenuLayers|Duplicate"/>
+			<item guidRef="MenuLayers|MenuLayersAlignSubMenu"/>
+			<item guidRef="MenuLayers|MenuLayersMoveSubMenu"/>
+			<item guidRef="MenuLayers|Select_All_Layers"/>
+			<item guidRef="MenuLayers|Deselect"/>
+			<item guidRef="MenuLayers|Delete_Layer"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuOther|CreateReference" />
+			<item guidRef="MenuLayers|Convert_To_Default_Layer"/>
+			<item guidRef="MenuLayers|Convert_Text_to_Shapes"/>
+			<item guidRef="MenuLayers|Convert_Floater_To_WC_Layer"/>
+			<item guidRef="MenuLayers|Convert_Floater_To_TP_Layer"/>
+			<item guidRef="MenuLayers|Revert_to_Original"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Drop"/>
+			<item guidRef="MenuLayers|Drop_All"/>
+			<item guidRef="MenuLayers|Drop_and_Select"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Preserve_Transparency"/>
+			<item guidRef="MenuLayers|Pick_Up_Underlying_Color"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|MenuLayersMaskSubMenu"/>
+			<item guidRef="MenuLayers|MenuLayersContentSubMenu"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Wet_Entire_WC_Layer"/>
+			<item guidRef="MenuLayers|Dry_Watercolor_Layer"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Diffuse_Digital_WC"/>
+			<item guidRef="MenuLayers|Dry_Digital_Watercolor"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|ShowHide_Layer_Indicators"/>
+			<item guidRef="MenuLayers|Layer_Attributes"/>
+			<item guidRef="MenuLayers|Options"/>
+		</commandBarData>
+		<!--Align Sub Menu-->
+		<commandBarData guid="LayerAlignSubMenu" type="menu" nonLocalizableName="Align Sub Menu" flyout="true">
+			<item guidRef="AlignSubMenu|LeftEdges"/>
+			<item guidRef="AlignSubMenu|HorizontalCenters"/>
+			<item guidRef="AlignSubMenu|RightEdges"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="AlignSubMenu|TopEdges"/>
+			<item guidRef="AlignSubMenu|VerticalCenters"/>
+			<item guidRef="AlignSubMenu|BottomEdges"/>
+		</commandBarData>
+		<!--Move Sub Menu-->
+		<commandBarData guid="LayerMoveSubMenu" type="menu" nonLocalizableName="Move Sub Menu" flyout="true">
+			<item guidRef="MenuLayers|Move_to_Top_Short"/>
+			<item guidRef="MenuLayers|Move_to_Bottom_Short"/>
+			<item guidRef="MenuLayers|Move_Up_One_Layer_Short"/>
+			<item guidRef="MenuLayers|Move_Down_One_Layer_Short"/>
+		</commandBarData>
+		<!--Layer Mask Sub Menu-->
+		<commandBarData guid="LayerMaskSubMenu" type="menu" nonLocalizableName="Layer Mask Sub Menu" flyout="true">
+			<item guidRef="MenuLayers|Create_Layer_Mask_Short"/>
+			<item guidRef="MenuLayers|Create_LM_From_Transp_Short"/>
+			<item guidRef="MenuLayers|Enable_Layer_Mask_Short"/>
+			<item guidRef="MenuLayers|Apply_Layer_Mask_Short"/>
+			<item guidRef="MenuLayers|Delete_Layer_Mask_Short"/>
+		</commandBarData>
+		<!--Layer Content Sub Menu-->
+		<commandBarData guid="LayerContentSubMenu" type="menu" nonLocalizableName="Layer Content Sub Menu" flyout="true">
+			<item guidRef="MenuSelect|Select_Layer_Content"/>
+			<item guidRef="MenuModify|Widen_Layer_Content"/>
+			<item guidRef="MenuModify|Contract_Layer_Content"/>
+		</commandBarData>
+		<!--Brushes-->
+		<commandBarData guid="MainMenuBrushesMenu" type="menu" nonLocalizableName="Brushes" flyout="true">
+			<item guidRef="MenuFile|Select_Previous_Variant"/>
+			<item guidRef="MenuFile|Capture_Dab"/>
+			<item guidRef="MenuFile|Copy_Variant"/>
+			<item guidRef="MenuFile|Save_Variant"/>
+			<item guidRef="MenuFile|Set_Default_Variant"/>
+			<item guidRef="MenuFile|Remove_Variant"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFile|New_Brush_Category"/>
+			<item guidRef="MenuFile|Remove_Brush_Category"/>
+			<item guidRef="MenuFile|(-" enable-key="InProductPurchasing"/>
+			<item guidRef="MenuBrushPalette|FindMoreBrushesOnline" enable-key="InProductPurchasing"/>
+			<item guidRef="MenuHelp|RestorePurchases" enable-key="InProductPurchasing"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|ImportBrushes_2" />
+			<item guidRef="MenuBrushPalette|ExportBrushes_2" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFile|Restore_Default_Variant"/>
+			<item guidRef="MenuFile|Restore_All_Variants"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFile|Show_Texture"/>
+			<item guidRef="MenuFile|Transform_Texture"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|Record_Stroke"/>
+			<item guidRef="MenuBrushPalette|Playback_Stroke"/>
+			<item guidRef="MenuBrushPalette|Auto_Playback"/>
+			<item guidRef="MenuBrushPalette|Save_Stroke"/>
+			<item guidRef="MenuBrushPalette|Strokes"/>
+			<item guidRef="MenuBrushPalette|Use_Stroke_Data"/>
+		</commandBarData>
+		<!--Dynamic Plugins-->
+		<commandBarData guid="LayerPalettePluginFloaterMenu" type="menu" nonLocalizableName="Dynamic Plugins" flyout="true">
+			<item guidRef="Plugins|Bevel_World"/>
+			<item guidRef="Plugins|Brightness_and_Contrast"/>
+			<item guidRef="Plugins|Burn"/>
+			<item guidRef="Plugins|Equalize"/>
+			<item guidRef="Plugins|Glass_Distortion"/>
+			<item guidRef="Plugins|Kaleidoscope"/>
+			<item guidRef="Plugins|Liquid_Lens"/>
+			<item guidRef="Plugins|Liquid_Metal"/>
+			<item guidRef="Plugins|Posterize"/>
+			<item guidRef="Plugins|Tear"/>
+		</commandBarData>
+		<!--Select-->
+		<commandBarData guid="3301E39E-4BAA-4E34-A27A-9CF067653BE3" type="menu" nonLocalizableName="Select" flyout="true">
+			<item guidRef="MenuSelect|All"/>
+			<item guidRef="MenuSelect|None"/>
+			<item guidRef="MenuSelect|Invert"/>
+			<item guidRef="MenuSelect|Reselect"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelect|Float"/>
+			<item guidRef="MenuSelect|Stroke_Selection"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelect|Select_Layer_Content"/>
+			<item guidRef="MenuSelect|Select_Group_Content"/>
+			<item guidRef="MenuSelect|Auto_Select"/>
+			<item guidRef="MenuSelect|Color_Select"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelect|Feather"/>
+			<item guidRef="MenuModify|Modify"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelect|Convert_To_Shape"/>
+			<item guidRef="MenuSelect|Transform_Selection"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelect|ShowHide_Marquee"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelect|Load_Selection"/>
+			<item guidRef="MenuSelect|Save_Selection"/>
+		</commandBarData>
+		<!--Shapes-->
+		<commandBarData guid="F161780A-E924-4E6F-A15C-0E1FFCACB3B5" type="menu" nonLocalizableName="Shapes" flyout="true">
+			<item guidRef="MenuShapes|Join_Endpoints"/>
+			<item guidRef="MenuShapes|Average_Points"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuShapes|Make_Compound"/>
+			<item guidRef="MenuShapes|Release_Compound"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuShapes|Set_Duplicate_Transform"/>
+			<item guidRef="MenuShapes|Duplicate"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuShapes|Convert_To_Layer"/>
+			<item guidRef="MenuShapes|Convert_To_Selection"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuShapes|Show_Shape_Marquee"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuShapes|Set_Shape_Attributes"/>
+			<item guidRef="MenuShapes|Blend"/>
+		</commandBarData>
+		<!--Effects-->
+		<commandBarData guid="41435804-FEF5-4386-91A5-130DB8AA3274" type="menu" nonLocalizableName="Effects" flyout="true">
+			<item guidRef="MenuEffects|Last_Effect"/>
+			<item guidRef="MenuEffects|2nd_Last_Effect"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuTonalControl|Tonal_Control"/>
+			<item guidRef="MenuSurfaceControl|Surface_Control"/>
+			<item guidRef="MenuFocus|Focus"/>
+			<item guidRef="MenuEsoterica|Esoterica"/>
+			<item guidRef="MenuObjects|Objects"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuEffects|Fill_2"/>
+			<dynamic datasource="Filter-Plugins-List-Datasource" behavior="flyouts" />
+		</commandBarData>
+		<!--Plugin Filter-->
+		<commandBarData guid="35441781-97B2-4527-BC48-566DE7117F57" type="menu" nonLocalizableName="Plugin Filter" flyout="true">
+			<dynamic datasource="Filter-Plugins-List-Datasource-0" behavior="select" />
+		</commandBarData>
+		<!--Movie-->
+		<commandBarData guid="B3C86769-8700-4223-9A00-D1B4DFB50384" type="menu" nonLocalizableName="Movie" flyout="true" os="win">
+			<item guidRef="MenuMovie|NewMovie"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuMovie|Add_Frames"/>
+			<item guidRef="MenuMovie|Delete_Frames"/>
+			<item guidRef="MenuMovie|Erase_Frames"/>
+			<item guidRef="MenuMovie|Go_To_Frame"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuMovie|Toggle_Onion_Skin"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuMovie|Clear_New_Frames"/>
+			<item guidRef="MenuMovie|Insert_Movie"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuMovie|Apply_Stroke_To_Movie"/>
+			<item guidRef="MenuMovie|Set_Grain_Position"/>
+		</commandBarData>
+		<!--Window-->
+		<commandBarData guid="91948B8C-7244-46A5-8690-F68424B52BC4" type="menu" nonLocalizableName="Window" flyout="true">
+			<item guidRef="MenuWindow|Zoom_In"/>
+			<item guidRef="MenuWindow|Zoom_Out"/>
+			<item guidRef="MenuWindow|Zoom_To_Fit"/>
+			<item guidRef="MenuWindow|Zoom_to_Actual_Pixels"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuWorkspace|Workspace"/>
+			<item guidRef="MenuWindow|Arrange_Palettes"/>
+			<item guidRef="MenuWindow|EnhancedGroups"/>
+			<item guidRef="MenuWindow|Custom_Palette"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuWindow|Hide_Application_UI"/>
+			<item guidRef="MenuWindow|Hide_Panels"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuWindow|Brush_Palettes"/>
+			<item guidRef="MenuWindow|Toolbox"/>
+			<item guidRef="MenuWindow|CommandBars"/>
+			<item guidRef="MenuWindow|PropertyBar"/>
+			<item guidRef="MenuWindow|SimplePropertyBar" />
+			<item guidRef="MenuWindow|Search"/>
+			<item guidRef="MenuWindow|RecentBrushes"/>
+			<item guidRef="MenuWindow|Media Selectors"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuWindow|Color_Palettes"/>
+			<item guidRef="MenuWindow|Brush_Controls"/>
+			<item guidRef="MenuWindow|Media_Palettes"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuWindow|Audio"/>
+			<item guidRef="Panel|Hints" />
+			<item guidRef="Panel|Navigator"/>
+			<item guidRef="Panel|CloneSource"/>
+			<item guidRef="Panel|RefImage"/>
+			<item guidRef="Panel|Layers"/>
+			<item guidRef="Panel|Channels"/>
+			<item guidRef="MenuWindow|Autopainting_Palettes"/>
+			<item guidRef="MenuWindow|Composition_Palettes"/>
+			<item guidRef="Panel|Scripts"/>
+			<item guidRef="Panel|ShapeAttributes"/>
+			<item guidRef="Panel|Text"/>
+			<item guidRef="Palette|DynamicBrushProperties"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuWindow|Single_Document_View"/>
+			<item guidRef="MenuWindow|Presentation_Mode"/>
+			<dynamic datasource="Window-Document-List-Datasource" behavior="select" />
+		</commandBarData>
+		<!--Brush Palettes-->
+		<commandBarData guid="BDF0E41C-DD02-4D84-BC6F-783EC42B6D03" type="menu" nonLocalizableName="Window" flyout="true">
+			<item guidRef="Panel|General"/>
+			<item guidRef="Panel|Performance"/>
+			<item guidRef="Panel|StrokePreview"/>
+			<item guidRef="Panel|DabPreview"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushControls|Shape"/>
+			<item guidRef="MenuBrushControls|Media"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="Panel|BrushCalibration"/>
+			<item guidRef="Panel|Mouse"/>
+		</commandBarData>
+
+		<commandBarData guid="BrushControlsShapeSubMenu" type="menu" nonLocalizableName="Shape Control Panels" flyout="true">
+			<item guidRef="Panel|Size"/>
+			<item guidRef="Panel|Angle"/>
+			<item guidRef="Panel|Spacing"/>
+			<item guidRef="Panel|Damping"/> <!-- Smoothing -->
+			<item guidRef="Panel|DabProfile"/>
+			<item guidRef="Panel|DabTexture"/> <!-- Dab Stencil -->
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="Panel|ComputedCircular"/>
+			<item guidRef="Panel|Bristle"/>
+			<item guidRef="Panel|DynamicStamp"/> <!-- Dynamic Speckle -->
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="Panel|Feature"/> <!-- Bristles -->
+			<item guidRef="Panel|RealBristle"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="Panel|ThickPaintShape"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="Panel|ParticlesGeneral"/>
+			<item guidRef="Panel|ParticlesFlow"/>
+			<item guidRef="Panel|ParticlesGravity"/>
+			<item guidRef="Panel|ParticlesSpring"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="Panel|Airbrush"/>
+			<item guidRef="Panel|HardMedia"/>
+			<item guidRef="Panel|Rake"/>
+			<item guidRef="Panel|Multi"/>
+		</commandBarData>
+
+		<commandBarData guid="BrushControlsMediaSubMenu" type="menu" nonLocalizableName="Media Control Panels" flyout="true">
+			<item guidRef="Panel|Grain"/>
+			<item guidRef="Panel|Opacity"/>
+			<item guidRef="Panel|GlazingOpacity"/> <!-- Glazing -->
+			<item guidRef="Panel|StrokeAttributes"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="Panel|Well"/> <!-- Blending -->
+			<item guidRef="Panel|Impasto"/>
+			<item guidRef="Panel|ArtistsOils"/>
+			<item guidRef="Panel|ThickPaintWetness"/>
+			<item guidRef="Panel|ThickPaintMedia"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="Panel|DigitalWatercolor"/>
+			<item guidRef="Panel|Water"/> <!-- Watercolor -->
+			<item guidRef="Panel|LBMWatercolor"/> <!-- Real Watercolor -->
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="Panel|ParticlesThinLines"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="Panel|LBMLiquidOil"/> <!-- Real Wet Oil -->
+			<item guidRef="Panel|Liquid Ink"/>
+			<item guidRef="Panel|ImageHose"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="Panel|Clone Color"/>
+			<item guidRef="Panel|Clone Method"/>
+			<item guidRef="Panel|TextureBrushes"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="Panel|Color Variability"/>
+			<item guidRef="Panel|Color Expression"/>
+			<item guidRef="Panel|Random"/> <!-- Stroke Jitter -->
+		</commandBarData>
+		<!--Brush Panel Palettes-->
+		<commandBarData guid="Brush_Palettes_Flyout" type="menu" nonLocalizableName="Window" flyout="true">
+			<item guidRef="MenuWindow|BrushSelector"/>
+			<item guidRef="Panel|NarrowBrushSelector"/>
+			<item guidRef="Panel|BrushSelector"/>
+		</commandBarData>
+		<!--Command Bars-->
+		<commandBarData guid="Command_Bars_Flyout" type="menu" nonLocalizableName="Command Bars" flyout="true">
+			<item guidRef="MenuWindow|FileEditCommandBar"/>
+			<item guidRef="MenuWindow|CanvasCommandBar"/>
+			<item guidRef="MenuWindow|PhotoArtCommandBar"/>
+		</commandBarData>
+		<!--Media Palettes-->
+		<commandBarData guid="Media_Palettes_Flyout" type="menu" nonLocalizableName="Window" flyout="true">
+			<item guidRef="Panel|Papers"/>
+			<item guidRef="Panel|Flowmaps"/>
+			<item guidRef="Panel|Patterns"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="Panel|Textures"/>
+			<item guidRef="Panel|TransformTextures"/>
+			<item guidRef="Panel|Synthesis"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="Panel|Gradients"/>
+			<item guidRef="Panel|GradientNode"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="Panel|NozzleLibrary"/>
+			<item guidRef="Panel|LookLibrary"/>
+			<item guidRef="Panel|Weaves"/>
+			<item guidRef="Panel|WeaveLibrary"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="Panel|ImagePortfolio"/>
+			<item guidRef="Panel|SelectionPortfolio"/>
+		</commandBarData>
+		<!--Audio menu items-->
+		<commandBarData guid="AudioMenu" type="menu" nonLocalizableName="Audio" flyout="true">
+			<item guidRef="MenuAudio|AudioExpressionPanel"/>
+			<item guidRef="MenuAudio|EnableAudioExpression"/>
+			<item guidRef="MenuAudio|Input"/>
+		</commandBarData>
+		<!--Autopainting Palettes-->
+		<commandBarData guid="Autopainting_Palettes_Flyout" type="menu" nonLocalizableName="Window" flyout="true">
+			<item guidRef="Panel|MLStyle"/>
+			<item guidRef="Panel|Underpainting"/>
+			<item guidRef="Panel|Autopainting"/>
+			<item guidRef="Panel|Restoration"/>
+		</commandBarData>
+		<!--Composition Palettes-->
+		<commandBarData guid="Composition_Palettes_Flyout" type="menu" nonLocalizableName="Window" flyout="true">
+			<item guidRef="Panel|DivineProportion"/>
+			<item guidRef="Panel|LayoutGrid"/>
+			<item guidRef="Panel|PerspectiveGuides"/>
+			<item guidRef="Panel|MirrorPainting"/>
+		</commandBarData>
+		<!--Color Palettes-->
+		<commandBarData guid="8EB3B6D0-454B-4A9E-B931-FD1BEBF6429A" type="menu" nonLocalizableName="Window" flyout="true">
+			<item guidRef="Panel|Color"/>
+			<item guidRef="Panel|ColorCompact"/>
+			<item guidRef="Panel|Harmonies"/>
+			<item guidRef="Panel|Mixer"/>
+			<item guidRef="Panel|ColorSetLibrary"/>
+		</commandBarData>
+		<!--Workspace-->
+		<commandBarData guid="BCDB8246-0559-467B-962F-A683FF1FFF30" type="menu" nonLocalizableName="Workspace" flyout="true">
+			<item guidRef="MenuWorkspace|New_Workspace"/>
+			<item guidRef="MenuWorkspace|Delete_Workspace"/>
+			<item guidRef="MenuWorkspace|Import_Workspace"/>
+			<item guidRef="MenuWorkspace|Export_Workspace"/>
+			<item guidRef="MenuFile|(-"/>
+			<dynamic datasource="Workspace-Menu-List-Datasource" behavior="select" />
+		</commandBarData>
+		<!--Arrange Palettes-->
+		<commandBarData guid="757D9B48-526E-46B2-A623-043C2E162474" type="menu" nonLocalizableName="Arrange Palettes" flyout="true">
+			<item guidRef="MenuWindow|Save_Layout"/>
+			<item guidRef="MenuWindow|Delete_Layout"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuWindow|Quick_Switch"/>
+			<item guidRef="MenuFile|(-"/>
+			<dynamic datasource="Layouts-List-Datasource" behavior="select" />
+		</commandBarData>
+		<!--Enhanced Groups-->
+		<commandBarData guid="EnhancedGroupsMenu" type="menu" nonLocalizableName="Enhanced Groups" flyout="true">
+			<dynamic datasource="Enhanced-Groups-List-Datasource" behavior="toggle-enable" />
+		</commandBarData>
+		<!--Quick Switch-->
+		<commandBarData guid="QuickSwitchOptions" type="menu" nonLocalizableName="Quick Switch Options" flyout="true">
+			<item guidRef="MenuWindow|QuickSwitch_Tablet"/>
+			<item guidRef="MenuWindow|QuickSwitch_Workstation"/>
+			<item guidRef="MenuWindow|QuickSwitch_Toggle"/>
+		</commandBarData>
+		<!--Quick Switch Tablet-->
+		<commandBarData guid="QuickSwitch_Tablet_Options" type="menu" nonLocalizableName="Quick Switch Tablet Options" flyout="true">
+			<dynamic datasource="Quick-Switch-Tablet-Options-List-Datasource" behavior="select" />
+		</commandBarData>
+		<!--Quick Switch Tablet-->
+		<commandBarData guid="QuickSwitch_Workstation_Options" type="menu" nonLocalizableName="Quick Switch Workstation Options" flyout="true">
+			<dynamic datasource="Quick-Switch-Workstation-Options-List-Datasource" behavior="select" />
+		</commandBarData>
+		<!--Custom Palette-->
+		<commandBarData guid="97A32B0B-0759-4A5A-A782-4D68B60BF9B4" type="menu" nonLocalizableName="Custom Palette" flyout="true">
+			<item guidRef="MenuWindow|Organizer"/>
+			<item guidRef="MenuWindow|Add_Command"/>
+			<dynamic datasource="Custom-Palettes-List-Datasource" behavior="toggle-enable"/>
+		</commandBarData>
+		<!--Objects-->
+		<commandBarData guid="CCB8A03D-3532-4D29-AAFB-5651D8D0F6FF" type="menu" nonLocalizableName="Objects" flyout="true">
+			<item guidRef="MenuObjects|Create_Drop_Shadow"/>
+		</commandBarData>
+		<!--Esoterica-->
+		<commandBarData guid="F84B8B6F-0C27-43B8-9759-31079E3CCB1C" type="menu" nonLocalizableName="Esoterica" flyout="true">
+			<item guidRef="MenuEsoterica|Apply_Marbling"/>
+			<item guidRef="MenuEsoterica|Auto_Clone"/>
+			<item guidRef="MenuEsoterica|Auto_Van_Gogh"/>
+			<item guidRef="MenuEsoterica|Blobs"/>
+			<item guidRef="MenuEsoterica|Custom_Tile"/>
+			<item guidRef="MenuEsoterica|Grid_Paper"/>
+			<item guidRef="MenuEsoterica|Make_Mosaic_Tessell"/>
+			<item guidRef="MenuEsoterica|Growth"/>
+			<item guidRef="MenuEsoterica|Highpass"/>
+			<item guidRef="MenuEsoterica|Maze"/>
+			<item guidRef="MenuEsoterica|Place_Elements"/>
+			<item guidRef="MenuEsoterica|Pop_Art_Fill"/>
+		</commandBarData>
+		<!--Focus-->
+		<commandBarData guid="282F82D8-4B81-40BD-9206-9679EA3DF0E1" type="menu" nonLocalizableName="Focus" flyout="true">
+			<item guidRef="MenuFocus|Smart_Blur"/>
+			<item guidRef="MenuFocus|Camera_Motion_Blur"/>
+			<item guidRef="MenuFocus|Depth_Of_Field"/>
+			<item guidRef="MenuFocus|Glass_Distortion"/>
+			<item guidRef="MenuFocus|Motion_Blur"/>
+			<item guidRef="MenuFocus|Sharpen"/>
+			<item guidRef="MenuFocus|Soften"/>
+			<item guidRef="MenuFocus|Super_Soften"/>
+			<item guidRef="MenuFocus|Zoom_Blur"/>
+		</commandBarData>
+		<!--Surface Control-->
+		<commandBarData guid="9C65B222-BF66-4D27-AF2B-484A3F3DF5DD" type="menu" nonLocalizableName="Surface Control" flyout="true">
+			<item guidRef="MenuSurfaceControl|Apply_Lighting"/>
+			<item guidRef="MenuSurfaceControl|Apply_Screen"/>
+			<item guidRef="MenuSurfaceControl|Apply_Surface_Tex"/>
+			<item guidRef="MenuSurfaceControl|Color_Overlay"/>
+			<item guidRef="MenuSurfaceControl|Dye_Concentration"/>
+			<item guidRef="MenuSurfaceControl|Express_Texture"/>
+			<item guidRef="MenuSurfaceControl|Image_Warp"/>
+			<item guidRef="MenuSurfaceControl|Quick_Warp"/>
+			<item guidRef="MenuSurfaceControl|Woodcut"/>
+			<item guidRef="MenuSurfaceControl|Distress"/>
+			<item guidRef="MenuSurfaceControl|Serigraphy"/>
+			<item guidRef="MenuSurfaceControl|Sketch"/>
+		</commandBarData>
+		<!--Tonal Control-->
+		<commandBarData guid="3DB079CD-FBC2-4114-A1A9-F17D244418AF" type="menu" nonLocalizableName="Tonal Control" flyout="true">
+			<item guidRef="MenuTonalControl|Correct_Colors"/>
+			<item guidRef="MenuTonalControl|Adjust_Colors"/>
+			<item guidRef="MenuTonalControl|Adj_Sel_Colors"/>
+			<item guidRef="MenuTonalControl|BrightnessContrast"/>
+			<item guidRef="MenuTonalControl|Equalize"/>
+			<item guidRef="MenuTonalControl|Negative"/>
+			<item guidRef="MenuTonalControl|Match_Palette"/>
+			<item guidRef="MenuTonalControl|Posterize"/>
+			<item guidRef="MenuTonalControl|Video_Legal_Colors"/>
+			<item guidRef="MenuTonalControl|Posterize_Color_Set"/>
+		</commandBarData>
+		<!--Orientation-->
+		<commandBarData guid="F3B6D654-795C-423F-8FFC-F34047A53F13" type="menu" nonLocalizableName="Orientation" flyout="true">
+			<item guidRef="MenuOrientation|ResetRef"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuOrientation|ScaleDlg"/>
+			<item guidRef="MenuOrientation|RotateDlg"/>
+			<item guidRef="MenuOrientation|FlipHorizontalTransform"/>
+			<item guidRef="MenuOrientation|FlipVerticalTransform"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuOrientation|Commit"/>
+		</commandBarData>
+		<!--Modify-->
+		<commandBarData guid="14DDBE74-A558-439B-B68A-478722772DBA" type="menu" nonLocalizableName="Modify" flyout="true">
+			<item guidRef="MenuModify|Widen"/>
+			<item guidRef="MenuModify|Contract"/>
+			<item guidRef="MenuModify|Smooth"/>
+			<item guidRef="MenuModify|Border"/>
+		</commandBarData>
+
+		<!--Palette Popups-->
+		<commandBarData guid="PaletteMenus" type="paletteMenus" nonLocalizableName="Palette Popups">
+			<item guidRef="MenuPalettes|Brush_Palette"/>
+			<item guidRef="MenuPalettes|Layers"/>
+			<item guidRef="MenuPalettes|Colors"/>
+			<item guidRef="MenuPalettes|Mixer"/>
+			<item guidRef="MenuPalettes|Color_Sets"/>
+			<item guidRef="MenuPalettes|Channels"/>
+			<item guidRef="MenuPalettes|Gradients"/>
+			<item guidRef="MenuPalettes|GradientLibraries"/>
+			<item guidRef="MenuPalettes|Papers"/>
+			<item guidRef="MenuPalettes|PaperLibraries"/>
+			<item guidRef="MenuPalettes|Flowmaps"/>
+			<item guidRef="MenuPalettes|FlowmapLibraries"/>
+			<item guidRef="MenuPalettes|Textures"/>
+			<item guidRef="MenuPalettes|TextureLibraries"/>
+			<item guidRef="MenuPalettes|Patterns"/>
+			<item guidRef="MenuPalettes|PatternLibraries"/>
+			<item guidRef="MenuPalettes|Weaves"/>
+			<item guidRef="MenuPalettes|WeaveLibraries"/>
+			<item guidRef="MenuPalettes|Selection_Portfolio"/>
+			<item guidRef="MenuPalettes|Image_Portfolio"/>
+			<item guidRef="MenuPalettes|Scripts"/>
+			<item guidRef="MenuPalettes|NozzleLibraries"/>
+			<item guidRef="MenuPalettes|CustomPalettes"/>
+		</commandBarData>
+
+		<!--Default Layer for Hamberger Menu-->
+		<commandBarData guid="5E32837A-5262-41D9-AC5B-14CD671EF8AF" type="menu" nonLocalizableName="Layer Palette Hamberger Menu" flyout="true">
+			<item guidRef="MenuLayers|New_Layer"/>
+			<item guidRef="MenuLayers|New_Watercolor_Layer"/>
+			<item guidRef="MenuLayers|New_Liquid_Ink_Layer"/>
+			<item guidRef="MenuLayers|New_Thick_Paint_Layer"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Lift_Canvas_To_WC_Layer"/>
+			<item guidRef="MenuLayers|Lift_Canvas_To_TP_Layer"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Group"/>
+			<item guidRef="MenuLayers|Ungroup"/>
+			<item guidRef="MenuLayers|Collapse"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Lock"/>
+			<item guidRef="MenuLayers|Unlock_All_Layers"/>
+			<item guidRef="MenuLayers|Duplicate"/>
+			<item guidRef="MenuLayers|HamburgerMenuLayersAlignSubMenu"/>
+			<item guidRef="MenuLayers|HamburgerMenuLayersMoveSubMenu"/>
+			<item guidRef="MenuLayers|Select_All_Layers"/>
+			<item guidRef="MenuLayers|Deselect"/>
+			<item guidRef="MenuLayers|Delete_Layer"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuOther|CreateReference" />
+			<item guidRef="MenuLayers|Convert_To_Default_Layer"/>
+			<item guidRef="MenuLayers|Convert_Text_to_Shapes"/>
+			<item guidRef="MenuLayers|Convert_Floater_To_WC_Layer"/>
+			<item guidRef="MenuLayers|Convert_Floater_To_TP_Layer"/>
+			<item guidRef="MenuLayers|Revert_to_Original"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Drop"/>
+			<item guidRef="MenuLayers|Drop_All"/>
+			<item guidRef="MenuLayers|Drop_and_Select"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Preserve_Transparency"/>
+			<item guidRef="MenuLayers|Pick_Up_Underlying_Color"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|HamburgerMenuLayersMaskSubMenu"/>
+			<item guidRef="MenuLayers|HamburgerMenuLayersContentSubMenu"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Wet_Entire_WC_Layer"/>
+			<item guidRef="MenuLayers|Dry_Watercolor_Layer"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Diffuse_Digital_WC"/>
+			<item guidRef="MenuLayers|Dry_Digital_Watercolor"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|ShowHide_Layer_Indicators"/>
+			<item guidRef="MenuLayers|Layer_Attributes"/>
+			<item guidRef="MenuLayers|Options"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|HamburgerMenuLayersThumbnailsSubMenu"/>
+			<item guidRef="MenuLayers|HamburgerMenuLayerSpecialLayerControlsSubMenu"/>
+		</commandBarData>
+		<!--New Layer Palette Popup-->
+		<commandBarData guid="cfcda150-67a5-4eed-ad56-b6769dd9b350" type="menu" nonLocalizableName="Layer Palette Popup" flyout="true">
+			<item guidRef="MenuLayers|New_Layer"/>
+			<item guidRef="MenuLayers|Duplicate"/>
+			<item guidRef="MenuLayers|Delete_Layer"/>
+			<item guidRef="MenuLayers|Group"/>
+			<item guidRef="MenuLayers|Ungroup"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Rename"/>
+			<item guidRef="MenuLayers|Layer_Attributes"/>
+			<item guidRef="MenuLayers|Convert_To_Default_Layer"/>
+			<item guidRef="MenuLayers|Convert_Floater_To_TP_Layer"/>
+			<item guidRef="MenuLayers|Convert_Floater_To_WC_Layer"/>
+			<item guidRef="MenuOther|CreateReference"/> <!-- Notice: CreateReference = Convert To Reference Layer-->
+			<item guidRef="MenuLayers|Collapse"/>
+			<item guidRef="MenuOrientation|Flip_Horizontal"/>
+			<item guidRef="MenuOrientation|Flip_Vertical"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Move_to_Top"/>
+			<item guidRef="MenuLayers|Move_to_Bottom"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Create_Layer_Mask"/>
+			<item guidRef="MenuLayers|Create_LM_From_Transp"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuCanvas|Clear_Impasto"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Preserve_Transparency"/>
+			<item guidRef="MenuLayers|Pick_Up_Underlying_Color"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Dry_Digital_Watercolor"/>
+			<item guidRef="MenuLayers|Diffuse_Digital_WC"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelect|Select_Layer_Content"/>
+		</commandBarData>
+
+		<!--Thick Layer Palette Popup-->
+		<commandBarData guid="03E2D321-A9B4-42C0-A951-FDF183EAFC5B" type="menu" nonLocalizableName="Layer Palette Thick Layer Popup" flyout="true">
+			<item guidRef="MenuLayers|New_Thick_Paint_Layer"/>
+			<item guidRef="MenuLayers|Duplicate"/>
+			<item guidRef="MenuLayers|Delete_Layer"/>
+			<item guidRef="MenuLayers|Group"/>
+			<item guidRef="MenuLayers|Ungroup"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Rename"/>
+			<item guidRef="MenuLayers|Options"/>
+			<item guidRef="MenuLayers|Convert_To_Default_Layer"/>
+			<item guidRef="MenuOther|CreateReference"/>
+			<item guidRef="MenuShapes|Convert_To_Selection"/>
+			<item guidRef="MenuLayers|Collapse"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuOrientation|Flip_Horizontal"/>
+			<item guidRef="MenuOrientation|Flip_Vertical"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Move_to_Top"/>
+			<item guidRef="MenuLayers|Move_to_Bottom"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Create_Layer_Mask"/>
+			<item guidRef="MenuLayers|Create_LM_From_Transp"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelect|Select_Layer_Content"/>
+		</commandBarData>
+
+		<!--Watercolor Layer Palette Popup-->
+		<commandBarData guid="9197431B-C1D8-4B33-ACD9-BAC9D4366E5A" type="menu" nonLocalizableName="Layer Palette Watercolor Layer Popup" flyout="true">
+			<item guidRef="MenuLayers|New_Watercolor_Layer"/>
+			<item guidRef="MenuLayers|Duplicate"/>
+			<item guidRef="MenuLayers|Delete_Layer"/>
+			<item guidRef="MenuLayers|Group"/>
+			<item guidRef="MenuLayers|Ungroup"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Rename"/>
+			<item guidRef="MenuLayers|Layer_Attributes"/>
+			<item guidRef="MenuLayers|Convert_To_Default_Layer"/>
+			<item guidRef="MenuOther|CreateReference"/>
+			<item guidRef="MenuLayers|Collapse"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuOrientation|Flip_Horizontal"/>
+			<item guidRef="MenuOrientation|Flip_Vertical"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Move_to_Top"/>
+			<item guidRef="MenuLayers|Move_to_Bottom"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Create_Layer_Mask"/>
+			<item guidRef="MenuLayers|Create_LM_From_Transp"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Pick_Up_Underlying_Color"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Wet_Entire_WC_Layer"/>
+			<item guidRef="MenuLayers|Dry_Watercolor_Layer"/>
+			<item guidRef="MenuLayers|Pause_Diffusion"/>
+			<item guidRef="MenuFile|(-"/>	
+			<item guidRef="MenuSelect|Select_Layer_Content"/>
+		</commandBarData>
+
+		<!--Liquid Link Layer Palette Popup-->
+		<commandBarData guid="48C4A884-39D1-41DD-93EC-E4EEC42D5F97" type="menu" nonLocalizableName="Layer Palette Liquid Link Layer Popup" flyout="true">
+			<item guidRef="MenuLayers|New_Liquid_Ink_Layer"/>
+			<item guidRef="MenuLayers|Duplicate"/>
+			<item guidRef="MenuLayers|Delete_Layer"/>
+			<item guidRef="MenuLayers|Group"/>
+			<item guidRef="MenuLayers|Ungroup"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Rename"/>
+			<item guidRef="MenuLayers|Options"/>
+			<item guidRef="MenuLayers|Convert_To_Default_Layer"/>
+			<item guidRef="MenuOther|CreateReference"/>
+			<item guidRef="MenuShapes|Convert_To_Selection"/>
+			<item guidRef="MenuLayers|Collapse"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuOrientation|Flip_Horizontal"/>
+			<item guidRef="MenuOrientation|Flip_Vertical"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Move_to_Top"/>
+			<item guidRef="MenuLayers|Move_to_Bottom"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Create_Layer_Mask"/>
+			<item guidRef="MenuLayers|Create_LM_From_Transp"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelect|Select_Layer_Content"/>
+		</commandBarData>
+
+		<!--the New Layer Mask is very similiar as LayersPanelLayerMaskContextMenu, but with 2 additional items at top -->
+		<commandBarData guid="8a7df67f-0673-4534-8526-83c9445a7a17" type="menu" nonLocalizableName="Layer Palette New Layer Mask Popup" flyout="true">
+			<item guidRef="MenuLayers|Create_Layer_Mask"/>
+			<item guidRef="MenuLayers|Create_LM_From_Transp"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Rename"/>
+			<item guidRef="MenuLayers|Selection_From_Layer_Mask"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelect|Auto_Select"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelect|None"/>
+			<item guidRef="MenuSelect|Invert"/>
+			<item guidRef="MenuSelect|Feather"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Enable_Layer_Mask"/>
+			<item guidRef="MenuLayers|Delete_Layer_Mask"/>
+			<item guidRef="MenuLayers|Apply_Layer_Mask"/>
+		</commandBarData>
+
+		<!--lock layer-->
+		<commandBarData guid="f9350c75-ba55-4978-9363-0720c89a4198" type="menu" nonLocalizableName="Layer Palette Lock Layer Popup" flyout="true">
+			<item guidRef="MenuLayers|Lock"/>
+			<item guidRef="MenuLayers|Unlock_All_Layers"/>
+		</commandBarData>
+
+		<!--Align Sub Menu-->
+		<commandBarData guid="HamburgerLayerAlignSubMenu" type="menu" nonLocalizableName="Hamburger Align Sub Menu" flyout="true">
+			<item guidRef="AlignSubMenu|LeftEdges"/>
+			<item guidRef="AlignSubMenu|HorizontalCenters"/>
+			<item guidRef="AlignSubMenu|RightEdges"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="AlignSubMenu|TopEdges"/>
+			<item guidRef="AlignSubMenu|VerticalCenters"/>
+			<item guidRef="AlignSubMenu|BottomEdges"/>
+		</commandBarData>
+		<!--Move Sub Menu-->
+		<commandBarData guid="HamburgerLayerMoveSubMenu" type="menu" nonLocalizableName="Hamburger Move Sub Menu" flyout="true">
+			<item guidRef="MenuLayers|Move_to_Top_Short"/>
+			<item guidRef="MenuLayers|Move_to_Bottom_Short"/>
+			<item guidRef="MenuLayers|Move_Up_One_Layer_Short"/>
+			<item guidRef="MenuLayers|Move_Down_One_Layer_Short"/>
+		</commandBarData>
+		<!--Layer Mask Sub Menu-->
+		<commandBarData guid="HamburgerLayerMaskSubMenu" type="menu" nonLocalizableName="Hamburger Layer Mask Sub Menu" flyout="true">
+			<item guidRef="MenuLayers|Create_Layer_Mask_Short"/>
+			<item guidRef="MenuLayers|Create_LM_From_Transp_Short"/>
+			<item guidRef="MenuLayers|Enable_Layer_Mask_Short"/>
+			<item guidRef="MenuLayers|Apply_Layer_Mask_Short"/>
+			<item guidRef="MenuLayers|Delete_Layer_Mask_Short"/>
+		</commandBarData>
+		<!--Layer Content Sub Menu-->
+		<commandBarData guid="HamburgerLayerContentSubMenu" type="menu" nonLocalizableName="Hamburger Layer Content Sub Menu" flyout="true">
+			<item guidRef="MenuSelect|Select_Layer_Content"/>
+			<item guidRef="MenuModify|Widen_Layer_Content"/>
+			<item guidRef="MenuModify|Contract_Layer_Content"/>
+		</commandBarData>
+		<commandBarData guid="HamburgerLayerThumbnailsSubMenu" type="menu" nonLocalizableName="Hamburger Layer Thumbnails Sub Menu" flyout="true">
+			<item guidRef="MenuLayers|No_Thumbnail_Layer"/>
+			<item guidRef="MenuLayers|Small_Thumbnail_Layer"/>
+			<item guidRef="MenuLayers|Medium_Thumbnail_Layer"/>
+			<item guidRef="MenuLayers|Large_Thumbnail_Layer"/>
+		</commandBarData>
+		<commandBarData guid="HamburgerLayerSpecialLayerControlsSubMenu" type="menu" nonLocalizableName="Secial Layer Controls Sub Menu" flyout="true">
+			<item guidRef="MenuLayers|Special_Layer_Buttons"/>
+			<item guidRef="MenuLayers|Thick_Paint_Amount_Slider"/>
+		</commandBarData>
+		<!--Brush Palette PopUp-->
+		<commandBarData guid="BrushLibraryFlyoutPopUpChicken" type="menu" nonLocalizableName="Brush Palette Popup" flyout="true">
+			<item guidRef="MenuFile|Capture_Dab"/>
+			<item guidRef="MenuFile|Copy_Variant"/>
+			<item guidRef="MenuFile|Save_Variant"/>
+			<item guidRef="MenuFile|Set_Default_Variant"/>
+			<item guidRef="MenuFile|Remove_Variant"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFile|New_Brush_Category"/>
+			<item guidRef="MenuFile|Remove_Brush_Category"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|OpenBrushLibraryInPopUp"/>
+			<item guidRef="MenuBrushPalette|RemoveLibrary"/>
+			<item guidRef="MenuFile|(-" enable-key="InProductPurchasing"/>
+			<item guidRef="MenuBrushPalette|FindMoreBrushesOnline" enable-key="InProductPurchasing"/>
+			<item guidRef="MenuHelp|RestorePurchases" enable-key="InProductPurchasing"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|ImportBrushesInPopUp" />
+			<item guidRef="MenuBrushPalette|ExportBrushesInPopUp" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|ShowBrushLibrarySelectorInPopUp" />
+			<item guidRef="MenuBrushPalette|ShowRecentInPopUp" />
+			<item guidRef="MenuBrushPalette|ShowFindMoreBrushesOnlineInPopUp" enable-key="InProductPurchasing" />
+			<item guidRef="MenuBrushPalette|ShowPreviewInPopUp" />
+			<item guidRef="MenuBrushPalette|ShowLayersCompatibilityInPopUp" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|CategoryDisplayInPopUp" />
+			<item guidRef="MenuBrushPalette|VariantDisplayInPopUp" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFile|Restore_Default_Variant"/>
+			<item guidRef="MenuFile|Restore_All_Variants"/>
+		</commandBarData>
+		<!--Brush Palette Panel-->
+		<commandBarData guid="BrushLibraryFlyoutPanelChicken" type="menu" nonLocalizableName="Brush Palette Popup" flyout="true">
+			<item guidRef="MenuFile|Capture_Dab"/>
+			<item guidRef="MenuFile|Copy_Variant"/>
+			<item guidRef="MenuFile|Save_Variant"/>
+			<item guidRef="MenuFile|Set_Default_Variant"/>
+			<item guidRef="MenuFile|Remove_Variant"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFile|New_Brush_Category"/>
+			<item guidRef="MenuFile|Remove_Brush_Category"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|OpenBrushLibraryInPanel"/>
+			<item guidRef="MenuBrushPalette|RemoveLibrary"/>
+			<item guidRef="MenuFile|(-" enable-key="InProductPurchasing"/>
+			<item guidRef="MenuBrushPalette|FindMoreBrushesOnline" enable-key="InProductPurchasing"/>
+			<item guidRef="MenuHelp|RestorePurchases" enable-key="InProductPurchasing"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|ImportBrushesInPanel" />
+			<item guidRef="MenuBrushPalette|ExportBrushesInPanel" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|ShowBrushLibrarySelectorInPanel" />
+			<item guidRef="MenuBrushPalette|ShowRecentInPanel" />
+			<item guidRef="MenuBrushPalette|ShowFindMoreBrushesOnlineInPanel" enable-key="InProductPurchasing" />
+			<item guidRef="MenuBrushPalette|ShowPreviewInPanel" />
+			<item guidRef="MenuBrushPalette|ShowLayersCompatibilityInPanel" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|CategoryDisplayInPanel" />
+			<item guidRef="MenuBrushPalette|VariantDisplayInPanel" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFile|Restore_Default_Variant"/>
+			<item guidRef="MenuFile|Restore_All_Variants"/>
+		</commandBarData>
+		<!--Narrow Brush Palette Panel-->
+		<commandBarData guid="NarrowBrushLibraryMenu" type="menu" nonLocalizableName="Brush Palette Popup" flyout="true">
+			<item guidRef="MenuBrushPalette|OpenBrushLibraryInNarrowPanel"/>
+			<item guidRef="MenuFile|(-" enable-key="InProductPurchasing"/>
+			<item guidRef="MenuBrushPalette|FindMoreBrushesOnline" enable-key="InProductPurchasing"/>
+			<item guidRef="MenuHelp|RestorePurchases" enable-key="InProductPurchasing"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|ImportBrushesInNarrowPanel" />
+			<item guidRef="MenuBrushPalette|ExportBrushesInNarrowPanel" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuNarrowBrushPalette|ShowBrushLibrarySelectorInPanel" />
+			<item guidRef="MenuNarrowBrushPalette|ShowFindMoreBrushesOnlineInPanel" enable-key="InProductPurchasing"/>
+			<item guidRef="MenuNarrowBrushPalette|ShowLayersCompatibilityInNarrowSelector" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuNarrowBrushPalette|CategoryDisplayInNarrowPanel" />
+			<item guidRef="MenuNarrowBrushPalette|VariantDisplayInNarrowPanel" />
+		</commandBarData>
+		<commandBarData guid="MenuBrushPaletteCategoryDisplayInPopUp" type="menu" nonLocalizableName="Brush Palette Category Display Menu" flyout="true">
+			<item guidRef="MenuBrushPalette|CategoriesAsIcons"/>
+			<item guidRef="MenuBrushPalette|CategoriesAsList"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|ShowAllCategories"/>
+		</commandBarData>
+		<commandBarData guid="MenuBrushPaletteCategoryDisplayInPanel" type="menu" nonLocalizableName="Brush Palette Category Display Menu" flyout="true">
+			<item guidRef="MenuBrushPalette|CategoriesAsIcons"/>
+			<item guidRef="MenuBrushPalette|CategoriesAsList"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|ShowAllCategories"/>
+		</commandBarData>
+		<commandBarData guid="MenuBrushPaletteCategoryDisplayInPanelContext" type="menu" nonLocalizableName="Brush Palette Category Display Menu" flyout="true">
+			<item guidRef="MenuBrushPalette|CategoriesAsIcons"/>
+			<item guidRef="MenuBrushPalette|CategoriesAsList"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|ShowAllCategories"/>
+		</commandBarData>
+		<commandBarData guid="MenuBrushPaletteExportInPopUp" type="menu" nonLocalizableName="Brush Palette Export Menu" flyout="true">
+			<item guidRef="MenuBrushPalette|ExportCurrentVar"/>
+			<item guidRef="MenuBrushPalette|ExportCategoryUI"/>
+			<item guidRef="MenuBrushPalette|ExportLibraryUI"/>
+		</commandBarData>
+		<commandBarData guid="MenuBrushPaletteExportInPanel" type="menu" nonLocalizableName="Brush Palette Export Menu" flyout="true">
+			<item guidRef="MenuBrushPalette|ExportCurrentVar"/>
+			<item guidRef="MenuBrushPalette|ExportCategoryUI"/>
+			<item guidRef="MenuBrushPalette|ExportLibraryUI"/>
+		</commandBarData>
+		<commandBarData guid="MenuBrushPaletteExportInNarrowPanel" type="menu" nonLocalizableName="Brush Palette Export Menu" flyout="true">
+			<item guidRef="MenuBrushPalette|ExportCurrentVar"/>
+			<item guidRef="MenuBrushPalette|ExportCategoryUI"/>
+			<item guidRef="MenuBrushPalette|ExportLibraryUI"/>
+		</commandBarData>
+		<commandBarData guid="MenuBrushPaletteImportInPopUp" type="menu" nonLocalizableName="Brush Palette Import Menu" flyout="true">
+			<item guidRef="MenuBrushPalette|ImportVariant"/>
+			<item guidRef="MenuBrushPalette|ImportCategory"/>
+			<item guidRef="MenuBrushPalette|ImportLibrary"/>
+			<item guidRef="MenuBrushPalette|ImportARBBrushDab"/>
+		</commandBarData>
+		<commandBarData guid="MenuBrushPaletteImportInPanel" type="menu" nonLocalizableName="Brush Palette Import Menu" flyout="true">
+			<item guidRef="MenuBrushPalette|ImportVariant"/>
+			<item guidRef="MenuBrushPalette|ImportCategory"/>
+			<item guidRef="MenuBrushPalette|ImportLibrary"/>
+			<item guidRef="MenuBrushPalette|ImportARBBrushDab"/>
+		</commandBarData>
+		<commandBarData guid="MenuBrushPaletteImportInNarrowPanel" type="menu" nonLocalizableName="Brush Palette Import Menu" flyout="true">
+			<item guidRef="MenuBrushPalette|ImportVariant"/>
+			<item guidRef="MenuBrushPalette|ImportCategory"/>
+			<item guidRef="MenuBrushPalette|ImportLibrary"/>
+			<item guidRef="MenuBrushPalette|ImportARBBrushDab"/>
+		</commandBarData>
+		<commandBarData guid="MenuBrushPaletteExport_2" type="menu" nonLocalizableName="Brush Menu Export Submenu" flyout="true">
+			<item guidRef="MenuBrushPalette|ExportCurrentVar"/>
+			<item guidRef="MenuBrushPalette|ExportCategoryUI"/>
+			<item guidRef="MenuBrushPalette|ExportLibraryUI"/>
+		</commandBarData>
+		<commandBarData guid="MenuBrushPaletteImport_2" type="menu" nonLocalizableName="Brush Menu Import Submenu" flyout="true">
+			<item guidRef="MenuBrushPalette|ImportVariant"/>
+			<item guidRef="MenuBrushPalette|ImportCategory"/>
+			<item guidRef="MenuBrushPalette|ImportLibrary"/>
+			<item guidRef="MenuBrushPalette|ImportARBBrushDab"/>
+		</commandBarData>
+		<commandBarData guid="MenuBrushPaletteVariantDisplayInPopUp" type="menu" nonLocalizableName="Brush Palette Variant Display Menu" flyout="true">
+			<item guidRef="MenuBrushPalette|VariantsAsIcons"/>
+			<item guidRef="MenuBrushPalette|VariantsAsList"/>
+			<item guidRef="MenuBrushPalette|VariantsAsStrokes"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|ShowAllVariants"/>
+		</commandBarData>
+		<commandBarData guid="MenuBrushPaletteVariantDisplayInPanel" type="menu" nonLocalizableName="Brush Palette Variant Display Menu" flyout="true">
+			<item guidRef="MenuBrushPalette|VariantsAsIcons"/>
+			<item guidRef="MenuBrushPalette|VariantsAsList"/>
+			<item guidRef="MenuBrushPalette|VariantsAsStrokes"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|ShowAllVariants"/>
+		</commandBarData>
+		<commandBarData guid="MenuBrushPaletteVariantDisplayInPanelContext" type="menu" nonLocalizableName="Brush Palette Variant Display Menu" flyout="true">
+			<item guidRef="MenuBrushPalette|VariantsAsIcons"/>
+			<item guidRef="MenuBrushPalette|VariantsAsList"/>
+			<item guidRef="MenuBrushPalette|VariantsAsStrokes"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|ShowAllVariants"/>
+		</commandBarData>
+		<!-- Narrow Display Menu -->
+		<commandBarData guid="MenuNarrowBrushPaletteVariantDisplayInPanel" type="menu" nonLocalizableName="Brush Palette Variant Display Menu" flyout="true">
+			<item guidRef="MenuNarrowBrushPalette|VariantsAsIcons"/>
+			<item guidRef="MenuNarrowBrushPalette|VariantsAsList"/>
+			<item guidRef="MenuNarrowBrushPalette|VariantsAsStrokes"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|ShowAllVariants"/>
+		</commandBarData>
+		<commandBarData guid="MenuNarrowBrushPaletteCategoryDisplayInPanel" type="menu" nonLocalizableName="Brush Palette Category Display Menu" flyout="true">
+			<item guidRef="MenuNarrowBrushPalette|CategoriesAsIcons"/>
+			<item guidRef="MenuNarrowBrushPalette|CategoriesAsList"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|ShowAllCategories"/>
+		</commandBarData>
+		<commandBarData guid="MenuNarrowBrushPaletteCategoryDisplayInPanelContext" type="menu" nonLocalizableName="Brush Palette Category Display Menu" flyout="true">
+			<item guidRef="MenuNarrowBrushPalette|CategoriesAsIcons"/>
+			<item guidRef="MenuNarrowBrushPalette|CategoriesAsList"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|ShowAllCategories"/>
+		</commandBarData>
+		<commandBarData guid="MenuNarrowBrushPaletteVariantDisplayInPanelContext" type="menu" nonLocalizableName="Brush Palette Variant Display Menu" flyout="true">
+			<item guidRef="MenuNarrowBrushPalette|VariantsAsIcons"/>
+			<item guidRef="MenuNarrowBrushPalette|VariantsAsList"/>
+			<item guidRef="MenuNarrowBrushPalette|VariantsAsStrokes"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|ShowAllVariants"/>
+		</commandBarData>
+		<!--Autopainting Palette Stroke Popup-->
+		<commandBarData guid="BD28D5A5-D2BF-4520-B342-E71E6A0C9953" type="menu" nonLocalizableName="Autopainting Palette Stroke Popup" flyout="true">
+			<item guidRef="MenuBrushPalette|Record_Stroke"/>
+			<item guidRef="MenuBrushPalette|Save_Stroke"/>
+			<item guidRef="MenuUnknown|DeleteStroke" />
+		</commandBarData>
+		<!--Mixer Palette Popup-->
+		<commandBarData guid="MenuMixerPalChickenGuid" type="menu" nonLocalizableName="Mixer Palette Popup" flyout="true">
+			<item guidRef="MenuMixerPal|Add_Swatch_to_Color_Set"/>
+			<item guidRef="MenuMixerPal|New_Color_Set_Mixer_Pad"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuMixerPal|Load_Mixer_Colors"/>
+			<item guidRef="MenuMixerPal|Save_Mixer_Colors"/>
+			<item guidRef="MenuMixerPal|Reset_Mixer_Colors"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuMixerPal|Dirty_Brush_Mode"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuMixerPal|Open_Mixer_Pad"/>
+			<item guidRef="MenuMixerPal|Save_Mixer_Pad"/>
+			<item guidRef="MenuMixerPal|Clear_Mixer_Pad"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuMixerPal|Change_Mixer_Background"/>
+			<dynamic datasource="MixerPads-List-Datasource" behavior="select" />
+			<item guidRef="MenuMixerPal|Restore"/>
+		</commandBarData>
+		<!--Color Set Palette Popup-->
+		<commandBarData guid="ColorSetLibraryChicken" type="menu" nonLocalizableName="Color Set Palette Popup" flyout="true">
+			<item guidRef="MenuColorSetPal|New_Empty_Color_Set"/>
+			<item guidRef="MenuColorSetPal|New_Color_Set_Image"/>
+			<item guidRef="MenuColorSetPal|New_Color_Set_Layer"/>
+			<item guidRef="MenuColorSetPal|New_Color_Set_Sel"/>
+			<item guidRef="MenuMixerPal|New_Color_Set_Mixer_Pad"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuColorSetPal|ColorSetLibraries"/>
+			<item guidRef="MenuColorSetPal|Open_Color_Set"/>
+			<item guidRef="MenuColorSetPal|Save_Color_Set"/>
+			<item guidRef="MenuColorSetPal|Remove_Color_Set"/>
+			<item guidRef="MenuColorSetPal|Open_Legacy_Clrset"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuColorSize|Library_View"/>
+			<item guidRef="MenuColorSort|Sort_Order"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuColorSetPal|Restore"/>
+		</commandBarData>
+		<commandBarData guid="ColorSetOpenLibrariesList" type="menu" nonLocalizableName="The open color set libraries" flyout="true">
+			<dynamic datasource="colorset-library-list" behavior="toggle-enable" />
+		</commandBarData>
+		<!--Sort Order-->
+		<commandBarData guid="9B25F590-B18D-435D-B30B-4843013E1630" type="menu" nonLocalizableName="Sort Order" flyout="true">
+			<item guidRef="MenuColorSort|Saved"/>
+			<item guidRef="MenuColorSort|HLS"/>
+			<item guidRef="MenuColorSort|LHS"/>
+			<item guidRef="MenuColorSort|SHL"/>
+		</commandBarData>
+		<!--Swatch Size-->
+		<commandBarData guid="83ACF359-ADA0-41C1-878D-7F891782FD17" type="menu" nonLocalizableName="Swatch Size" flyout="true">
+			<item guidRef="Colorset|SetDisplaySmall" />
+			<item guidRef="Colorset|SetDisplayMedium" />
+			<item guidRef="Colorset|SetDisplayLarge" />
+			<item guidRef="Colorset|SetDisplayList" />
+			<item guidRef="MenuFile|(-" />
+			<item guidRef="Colorset|RenameItem"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="Colorset|ShowAll"/>
+		</commandBarData>
+		<!--Masks Palette Popup-->
+		<commandBarData guid="ChannelsPaletteChickenGuid" type="menu" nonLocalizableName="Masks Palette Popup" flyout="true">
+			<item guidRef="MenuMasksPal|New"/>
+			<item guidRef="MenuMasksPal|New_From"/>
+			<item guidRef="MenuMasksPal|New_From_Color_Range"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuMasksPal|Duplicate"/>
+			<item guidRef="MenuMasksPal|Delete"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuMasksPal|Clear"/>
+			<item guidRef="MenuMasksPal|Invert"/>
+			<item guidRef="MenuMasksPal|Feather"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuMasksPal|Channel_Attributes"/>
+		</commandBarData>
+		<!--Gradients Library Palette Popup-->
+		<commandBarData guid="GradientLibraryChicken" type="menu" nonLocalizableName="Gradients Palette Popup" flyout="true">
+			<item guidRef="MenuGradientsPal|NewLibrary" />
+			<item guidRef="MenuGradientsPal|Import"/>
+			<item guidRef="MenuGradientsPal|Export"/>
+			<item guidRef="MenuGradientsPal|Remove"/>
+			<item guidRef="MenuGradientsPal|ImportLegacy"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuGradientsPal|LibraryView" />
+			<item guidRef="MenuGradientsPal|OpenLibraryList" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuGradientsPal|Restore" />
+			<item guidRef="MenuGradientsPal|ShowAll" />
+		</commandBarData>
+		<!--Gradients Control Popup-->
+		<commandBarData guid="GradientControlChicken" type="menu" nonLocalizableName="Gradients Palette Popup" flyout="true">
+			<item guidRef="MenuGradientsPal|RenameItem"/>
+			<item guidRef="MenuGradientsPal|CaptureCustomIcon"/>
+			<item guidRef="MenuGradientsPal|SetCustomIcon"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuGradientsPal|Capture_Gradient"/>
+			<item guidRef="MenuGradientsPal|Edit_Gradient"/>
+			<item guidRef="MenuGradientsPal|Save_Gradient"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuGradientsPal|Express_in_Image"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuGradientsPal|HideItem"/>
+			<item guidRef="MenuGradientsPal|DeleteItem"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuGradientsPal|GradientPreview"/>
+			<item guidRef="MenuGradientsPal|GradientSliders"/>
+		</commandBarData>
+		<!--Paper Palette Popup-->
+		<commandBarData guid="PaperControlChicken" type="menu" nonLocalizableName="Paper Palette Popup" flyout="true">
+			<item guidRef="MenuPapersPal|RenameItem"/>
+			<item guidRef="MenuPapersPal|CaptureCustomIcon"/>
+			<item guidRef="MenuPapersPal|SetCustomIcon"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPapersPal|Capture_Paper"/>
+			<item guidRef="MenuPapersPal|Make_Paper"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPapersPal|Invert_Paper"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPapersPal|HideItem"/>
+			<item guidRef="MenuPapersPal|DeleteItem"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPapersPal|PaperPreview"/>
+			<item guidRef="MenuPapersPal|PaperSliders"/>
+		</commandBarData>
+		<!--Paper Palette Popup-->
+		<commandBarData guid="PaperLibraryChicken" type="menu" nonLocalizableName="Paper Palette Popup" flyout="true">
+			<item guidRef="MenuPapersPal|NewLibrary"/>
+			<item guidRef="MenuPapersPal|Import_Paper_Library"/>
+			<item guidRef="MenuPapersPal|Export_Paper_Library"/>
+			<item guidRef="MenuPapersPal|Remove_Paper_Library"/>
+			<item guidRef="MenuPapersPal|Import_Legacy_Paper"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPapersPal|LibraryView"/>
+			<item guidRef="MenuPapersPal|OpenLibraryList"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPapersPal|Default_Paper_Library"/>
+			<item guidRef="MenuPapersPal|ShowAll"/>
+		</commandBarData>
+		<!--Flow Map Palette Popup-->
+		<commandBarData guid="FlowmapControlChicken" type="menu" nonLocalizableName="Flow Map Palette Popup" flyout="true">
+			<item guidRef="MenuFlowmapPal|RenameItem"/>
+			<item guidRef="MenuFlowmapPal|CaptureCustomIcon"/>
+			<item guidRef="MenuFlowmapPal|SetCustomIcon"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFlowmapPal|Capture_Flowmap"/>
+			<item guidRef="MenuFlowmapPal|Create_From_Paper"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFlowmapPal|Invert_Flowmap"/>
+			<item guidRef="MenuFile|(-"/>		
+			<item guidRef="MenuFlowmapPal|HideItem"/>
+			<item guidRef="MenuFlowmapPal|DeleteItem"/>
+			<item guidRef="MenuFile|(-"/>		
+			<item guidRef="MenuFlowmapPal|FlowMapPreview"/>
+			<item guidRef="MenuFlowmapPal|FlowMapSliders"/>
+		</commandBarData>
+		<!--Flow Map Palette Popup-->
+		<commandBarData guid="FlowmapLibraryChicken" type="menu" nonLocalizableName="Flow Map Palette Popup" flyout="true">
+			<item guidRef="MenuFlowmapPal|NewLibrary"/>
+			<item guidRef="MenuFlowmapPal|Import_Flowmap_Lib"/>
+			<item guidRef="MenuFlowmapPal|Export_Flowmap_Lib"/>
+			<item guidRef="MenuFlowmapPal|Remove_Flowmap_Lib"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFlowmapPal|LibraryView"/>
+			<item guidRef="MenuFlowmapPal|OpenLibraryList"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFlowmapPal|Default_Flowmap_Lib"/>
+			<item guidRef="MenuFlowmapPal|ShowAll"/>
+		</commandBarData>
+		<!--Looks Palette Popup-->
+		<commandBarData guid="71CD4F0F-87C3-4310-AA2D-EE4A20D9C8F1" type="menu" nonLocalizableName="Looks Palette Popup" flyout="true">
+			<item guidRef="MenuLookPal|Edit_Look" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLookPal|Save_Look"/>
+			<item guidRef="MenuLookPal|Import_Look" />
+			<item guidRef="MenuLookPal|Export_Look" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLookPal|LibraryView"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLookPal|OpenLibraryList"/>
+			<item guidRef="MenuLookPal|NewLibrary"/>
+			<item guidRef="MenuLookPal|OpenLibrary"/>
+			<item guidRef="MenuLookPal|Export_Look_Library" />
+			<item guidRef="MenuLookPal|Remove_Look_Library" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLookPal|OpenDefaultLooksLibrary" />
+		</commandBarData>
+		<!--Nozzle Palette Popup-->
+		<commandBarData guid="NozzleChickenMenu" type="menu" nonLocalizableName="Nozzles Palette Popup" flyout="true">
+			<item guidRef="MenuNozzlesPal|Load_Nozzle"/>
+			<item guidRef="MenuNozzlesPal|MakeNozzleFromGroup"/>
+			<item guidRef="MenuNozzlesPal|MakeNozzleFromMovie" os="win"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuNozzlesPal|AddNozzleToLibrary"/>
+			<item guidRef="MenuNozzlesPal|Check_Out_Nozzle"/>
+			<item guidRef="MenuNozzlesPal|Set_Nozzle_Scale"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuNozzlesPal|LibraryView" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuNozzlesPal|OpenLibraryList" />
+			<item guidRef="MenuNozzlesPal|NewNozzleLibrary" />
+			<item guidRef="MenuNozzlesPal|Import_Nozzle_Library" />
+			<item guidRef="MenuNozzlesPal|Export_Nozzle_Library" />
+			<item guidRef="MenuNozzlesPal|Remove_Nozzle_Library" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuNozzlesPal|OpenDefaultLibrary"/>
+		</commandBarData>
+		<!--Texture Palette Popup-->
+		<commandBarData guid="TextureLibraryChicken" type="menu" nonLocalizableName="Texture Palette Popup" flyout="true">
+			<item guidRef="MenuTexturePal|NewLibrary"/>
+			<item guidRef="MenuTexturePal|Import"/>
+			<item guidRef="MenuTexturePal|Export"/>
+			<item guidRef="MenuTexturePal|Remove"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuTexturePal|LibraryView" />
+			<item guidRef="MenuTexturePal|OpenLibraryList"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuTexturePal|RestoreDefault"/>
+			<item guidRef="MenuTexturePal|ShowAll"/>
+		</commandBarData>
+		<!-- Texture 'Media Control Panel'->'Textures' panel Palette Popup-->
+		<commandBarData guid="TextureControlChicken" type="menu" nonLocalizableName="Texture Palette Popup" flyout="true">
+			<item guidRef="MenuTexturePal|RenameItem"/>
+			<item guidRef="MenuTexturePal|CaptureCustomIcon"/>
+			<item guidRef="MenuTexturePal|SetCustomIcon"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuTexturePal|Import_Texture"/>
+			<item guidRef="MenuTexturePal|Capture_Texture"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuTexturePal|ExportTextureToNewLayer"/>
+			<item guidRef="MenuTexturePal|Export_Texture_To_Clone_Source_Image"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuTexturePal|Invert"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuTexturePal|HideItem"/>
+			<item guidRef="MenuTexturePal|DeleteItem"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuTexturePal|TexturePreview"/>
+			<item guidRef="MenuTexturePal|TextureSliders"/>
+		</commandBarData>
+		<!--Pattern Palette Popup-->
+		<commandBarData guid="PatternLibraryChicken" type="menu" nonLocalizableName="Pattern Palette Popup" flyout="true">
+			<item guidRef="MenuPatternPal|NewLibrary"/>
+			<item guidRef="MenuPatternPal|Import"/>
+			<item guidRef="MenuPatternPal|Export"/>
+			<item guidRef="MenuPatternPal|Remove"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPatternPal|LibraryView" />
+			<item guidRef="MenuPatternPal|OpenLibraryList"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPatternPal|RestoreDefault"/>
+			<item guidRef="MenuPatternPal|ShowAll"/>
+		</commandBarData>
+		<commandBarData guid="PatternControlChicken" type="menu" nonLocalizableName="Pattern Palette Popup" flyout="true">
+			<item guidRef="MenuPatternPal|RenameItem"/>
+			<item guidRef="MenuPatternPal|CaptureCustomIcon"/>
+			<item guidRef="MenuPatternPal|SetCustomIcon"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPatternPal|Capture_Pattern"/>
+			<item guidRef="MenuPatternPal|Make_Fractal_Pattern"/>
+			<item guidRef="MenuPatternPal|Check_Out_Pattern"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPatternPal|Define_Pattern"/>
+			<item guidRef="MenuPatternPal|Add_Image_To_Library"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPatternPal|Rectangular_Pattern"/>
+			<item guidRef="MenuPatternPal|Horizonral_Pattern"/>
+			<item guidRef="MenuPatternPal|Vartical_Pattern"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPatternPal|HideItem"/>
+			<item guidRef="MenuPatternPal|DeleteItem"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPatternPal|PatternPreview"/>
+			<item guidRef="MenuPatternPal|PatternSliders"/>
+		</commandBarData>
+		<!--Weave Palette Popup-->
+		<commandBarData guid="WeaveLibraryChicken" type="menu" nonLocalizableName="Weave Palette Popup" flyout="true">
+			<item guidRef="MenuWeavePal|ShowControls"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuWeavePal|LibraryView" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuWeavePal|OpenLibraryList" />
+			<item guidRef="MenuWeavePal|NewLibrary" />
+			<item guidRef="MenuWeavePal|Import_Weave_Library"/>
+			<item guidRef="MenuWeavePal|Export_Weave_Library"/>
+			<item guidRef="MenuWeavePal|Remove_Weave_Library"/>
+			<item guidRef="MenuWeavePal|Open_Legacy_Weave"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuWeavePal|Reset" />
+		</commandBarData>
+		<commandBarData guid="WeaveControlChicken" type="menu" nonLocalizableName="Weave Palette Popup" flyout="true">
+			<item guidRef="MenuWeavePal|ShowLibrary"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuWeavePal|RenameItem"/>
+			<item guidRef="MenuWeavePal|CaptureCustomIcon"/>
+			<item guidRef="MenuWeavePal|SetCustomIcon"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuWeavePal|Get_Color_Set"/>
+			<item guidRef="MenuWeavePal|Put_Color_Set"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuWeavePal|Edit_Weave" os="win"/>
+			<item guidRef="MenuWeavePal|Save_Weave"/>
+		</commandBarData>
+
+
+		<!--Selections Palette Popup-->
+		<commandBarData guid="ECE4155F-5AA4-4731-8017-BF32B22CC081" type="menu" nonLocalizableName="Selections Palette Popup" flyout="true">
+			<item guidRef="MenuSelectionsPal|Capture" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelectionsPal|LibraryView" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelectionsPal|OpenLibraryList" />
+			<item guidRef="MenuSelectionsPal|NewLibrary" />
+			<item guidRef="MenuSelectionsPal|ImportLib"/>
+			<item guidRef="MenuSelectionsPal|ExportLib"/>
+			<item guidRef="MenuSelectionsPal|RemoveLib"/>
+			<item guidRef="MenuSelectionsPal|ImportLegacyLib"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelectionsPal|Restore" />
+		</commandBarData>
+		<!--Images Palette Popup-->
+		<commandBarData guid="ED09D8DC-B843-4E5B-8752-E9C08E8FF5B4" type="menu" nonLocalizableName="Images Palette Popup" flyout="true">
+			<item guidRef="MenuImagePortfolio|Add_Image"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuImagePortfolio|LibraryView"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuImagePortfolio|OpenLibraryList"/>
+			<!-- Dynamic -->
+			<item guidRef="MenuImagePortfolio|NewLibrary"/>
+			<item guidRef="MenuImagePortfolio|Import"/>
+			<item guidRef="MenuImagePortfolio|Export"/>
+			<item guidRef="MenuImagePortfolio|Remove"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuImagePortfolio|RestoreDefault"/>
+		</commandBarData>
+		<commandBarData guid="ImagePortfolioOpenMenuGuid" type="menu" nonLocalizableName="What libraries are visible in the image portfolio" flyout="true">
+			<dynamic datasource="portfolio-image-library-list" behavior="toggle-enable" />
+		</commandBarData>
+		<commandBarData guid="MenusImageViewGuid" type="menu" nonLocalizableName="Library View" flyout="true">
+			<item guidRef="MenuImagePortfolio|Small"/>
+			<item guidRef="MenuImagePortfolio|Medium"/>
+			<item guidRef="MenuImagePortfolio|Large"/>
+			<item guidRef="MenuImagePortfolio|List"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuImagePortfolio|RenameItem"/>
+			<item guidRef="MenuImagePortfolio|CaptureCustomIcon"/>
+			<item guidRef="MenuImagePortfolio|SetCustomIcon"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuImagePortfolio|ShowAll"/>
+		</commandBarData>
+		<commandBarData guid="ScriptsLibraryItemContextGuid" type="menu" nonLocalizableName="Right-Click Script Element Menu" flyout="true">
+			<item guidRef="MenuScriptsPal|HideItem"/>
+			<item guidRef="MenuScriptsPal|RenameScript"/>
+			<item guidRef="MenuScriptsPal|Delete_Script"/>
+		</commandBarData>
+		<!--Scripts Palette Popup-->
+		<commandBarData guid="A794B153-19F7-42EB-85E7-5B4413BEAD01" type="menu" nonLocalizableName="Scripts Palette Popup" flyout="true">
+			<item guidRef="MenuScriptsPal|Record_Script"/>
+			<item guidRef="MenuScriptsPal|Playback_Script"/>
+			<item guidRef="MenuMovie|Apply_Script_To_Movie" os="win"/>
+			<item guidRef="MenuScriptsPal|Script_Options"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuScriptsPal|New_Script"/>
+			<item guidRef="MenuScriptsPal|Edit_Script"/>
+			<item guidRef="MenuScriptsPal|Delete_Script"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuScriptsPal|Get_Info"/>
+			<item guidRef="MenuScriptsPal|ImportScript"/>
+			<item guidRef="MenuScriptsPal|ExportScript"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuScriptsPal|LibraryView"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuScriptsPal|NewLibrary"/>
+			<item guidRef="MenuScriptsPal|OpenLibraryList"/>
+			<!-- Dynamic -->
+			<item guidRef="MenuScriptsPal|ImportLibrary"/>
+			<item guidRef="MenuScriptsPal|ExportLibrary"/>
+			<item guidRef="MenuScriptsPal|RemoveLibrary"/>
+			<item guidRef="MenuScriptsPal|ImportLegacyLibrary"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuScriptsPal|RestoreDefault"/>
+		</commandBarData>
+		<commandBarData guid="MenuScriptsLibraryOpenGuid" type="menu" nonLocalizableName="Library Open List" flyout="true">
+			<dynamic datasource="script-library-list" behavior="toggle-enable" />
+		</commandBarData>
+		<commandBarData guid="MenuScriptsLibraryViewGuid" type="menu" nonLocalizableName="Library View" flyout="true">
+			<item guidRef="MenuScriptsPal|Small"/>
+			<item guidRef="MenuScriptsPal|Medium"/>
+			<item guidRef="MenuScriptsPal|Large"/>
+			<item guidRef="MenuScriptsPal|List"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuScriptsPal|RenameScript"/>
+			<item guidRef="MenuScriptsPal|CaptureCustomIcon"/>
+			<item guidRef="MenuScriptsPal|SetCustomIcon"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuScriptsPal|ShowAll"/>
+		</commandBarData>
+		<!--Info Palette RGB-->
+		<commandBarData guid="DD5F4BF5-DB90-4293-A2F2-BFFE9F971EEE" type="menu" nonLocalizableName="Info Palette RGB" flyout="true">
+			<item guidRef="MenuInfoRGB|Actual_Values"/>
+			<item guidRef="MenuInfoRGB|Percentage"/>
+			<item guidRef="MenuInfoRGB|Hexadecimal"/>
+		</commandBarData>
+		<!--Custom Palette Popup-->
+		<commandBarData guid="CustomPalettesPanelMenuGuid" type="menu" nonLocalizableName="Custom Palette Popup" flyout="true">
+			<item guidRef="MenuCustomPal|RegularIconSize"/>
+			<item guidRef="MenuCustomPal|BiggerIconSize"/>
+		</commandBarData>
+		<!--Colors Palette Popup-->
+		<commandBarData guid="ColorWheelPanelMenuGuid" type="menu" nonLocalizableName="Colors Palette Popup" flyout="true">
+			<item guidRef="MenuColorsPal|Show_Hide_Color_Wheel"/>
+			<item guidRef="MenuColorsPal|Show_Hide_Color_Sliders"/>
+			<item guidRef="MenuColorsPal|Show_Hide_Color_Swatches"/>
+			<item guidRef="MenuColorsPal|Show_Hide_Clone_Button"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuColorSetPal|Display_as_RGB"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuColorsPal|Use_Clone_Color"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="Panel|ColorCompact"/>
+		</commandBarData>
+		<commandBarData guid="ColorCompactPanelMenuGuid" type="menu" nonLocalizableName="Colors Palette Popup" flyout="true">
+			<item guidRef="MenuColorsPal|Show_Hide_Clone_Button"/>
+		</commandBarData>
+		<!--Harmonies Palette Popup-->
+		<commandBarData guid="HarmoniesPanelMenuGuid" type="menu" nonLocalizableName="Harmonies Palette Popup" flyout="true">
+			<item guidRef="MenuColorsPal|Show_Hide_Analogous_Harmonies"/>
+			<item guidRef="MenuColorsPal|Show_Hide_Complementary_Harmonies"/>
+			<item guidRef="MenuColorsPal|Show_Hide_Split_Complementary_Harmonies"/>
+			<item guidRef="MenuColorsPal|Show_Hide_Tetradic_Harmonies"/>
+			<item guidRef="MenuColorsPal|Show_Hide_Monochromatic_Light_Harmonies"/>
+			<item guidRef="MenuColorsPal|Show_Hide_Monochromatic_Dark_Harmonies"/>
+		</commandBarData>
+		<!--New Layer popup-->
+		<commandBarData guid="D3E96EBB-04DC-4D09-89C0-375C1CBE5B44" type="menu" nonLocalizableName="New Layer popup" flyout="true">
+			<item guidRef="MenuLayers|New_Layer"/>
+			<item guidRef="MenuLayers|New_Watercolor_Layer"/>
+			<item guidRef="MenuLayers|New_Liquid_Ink_Layer"/>
+			<item guidRef="MenuLayers|New_Thick_Paint_Layer"/>
+		</commandBarData>
+		<!--Layer commands popup-->
+		<commandBarData guid="D916C4A8-2242-4D08-9C83-ED6302B45808" type="menu" nonLocalizableName="Layer Commands popup" flyout="true">
+			<item guidRef="MenuLayers|Group"/>
+			<item guidRef="MenuLayers|Ungroup"/>
+			<item guidRef="MenuLayers|Collapse"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Drop"/>
+		</commandBarData>
+		<!--Underpainting commands popup-->
+		<commandBarData guid="UnderpaintingPanelMenuGuid" type="menu" nonLocalizableName="Underpainting Palette Brush Options Popup" flyout="true">
+			<item guidRef="UnderpaintingPalette|Do_Not_Switch"/>
+			<item guidRef="UnderpaintingPalette|Switch_To_Cloning_Category"/>
+			<item guidRef="UnderpaintingPalette|Enable_Clone_Color" />
+		</commandBarData>
+
+		<commandBarData guid="UnderpaintingPopUpChicken" type="menu" nonLocalizableName="Underpainting" flyout="true">
+			<item guidRef="UnderpaintingPalette|Clear_Canvas"/>
+			<item guidRef="UnderpaintingPalette|Turn_On_Tracing_Paper"/>
+			<item guidRef="UnderpaintingPalette|Brush_Options"/>
+		</commandBarData>
+
+		<!--Toolbox-->
+		<commandBarData guid="Toolbox" type="toolbox" nonLocalizableName="Toolbox">
+			<item guidRef="Toolbox|Brush"/>
+			<item guidRef="Toolbox|Brush_Line" indent="true"/>
+			<item guidRef="MenuOther|Toggle_Snap_To_Path" indent="true"/>
+			<item guidRef="Toolbox|Layer_Adjuster"/>
+			<item guidRef="Toolbox|Layer_Transform" indent="true"/>
+			<item guidRef="Toolbox|Select" indent="true"/>
+			<item guidRef="Toolbox|Crop"/>
+			<item guidRef="Toolbox|Pen"/>
+			<item guidRef="Toolbox|Quick_Curve" indent="true"/>
+			<item guidRef="Toolbox|Rectangular_Shape"/>
+			<item guidRef="Toolbox|Oval_Shape" indent="true"/>
+			<item guidRef="Toolbox|Text"/>
+			<item guidRef="Toolbox|Shape_Selection_Tools" indent="true"/>
+			<item guidRef="Toolbox|Dodge"/>
+			<item guidRef="Toolbox|Burn"/>
+			<item guidRef="Toolbox|Divine_Proportion"/>
+			<item guidRef="Toolbox|Layout_Grid" indent="true"/>
+			<item guidRef="Toolbox|Cloner"/>
+			<item guidRef="Toolbox|Rubber_Stamp" indent="true"/>
+			<item guidRef="Toolbox|Eraser"/>
+			<item guidRef="Toolbox|Dropper"/>
+			<item guidRef="Toolbox|Paint_Bucket"/>
+			<item guidRef="Toolbox|InteractiveGradient"/>
+			<item guidRef="Toolbox|Magnifier"/>
+			<item guidRef="Toolbox|Grabber"/>
+			<item guidRef="Toolbox|Rotate_Page" indent="true"/>
+			<item guidRef="Toolbox|Mirror Painting"/>
+			<item guidRef="Toolbox|Kaleidoscope"/>
+			<item guidRef="Toolbox|Perspective_Guides"/>
+		</commandBarData>
+
+		<commandBarData guid="ToolboxSelectSubMenu" type="menu" nonLocalizableName="Select" flyout="true">
+			<item guidRef="Toolbox|Rectangular_Selection"/>
+			<item guidRef="Toolbox|Oval_Selection" indent="true"/>
+			<item guidRef="Toolbox|Lasso" indent="true"/>
+			<item guidRef="Toolbox|PolySel" indent="true"/>
+			<item guidRef="Toolbox|Magic_Wand"/>
+			<item guidRef="Toolbox|Selection_Adjuster"/>
+			<item guidRef="Toolbox|SelectionBrush"/>
+		</commandBarData>
+
+		<commandBarData guid="ToolboxShapeSelectionToolsSubMenu" type="menu" nonLocalizableName="Shape Selection Tools" flyout="true">
+			<item guidRef="Toolbox|Shape_Selection"/>
+			<item guidRef="Toolbox|Scissors" indent="true"/>
+			<item guidRef="Toolbox|Add_Point" indent="true"/>
+			<item guidRef="Toolbox|Remove_Point" indent="true"/>
+			<item guidRef="Toolbox|Convert_Point" indent="true"/>
+		</commandBarData>
+
+		<!--Other-->
+		<commandBarData guid="MenuOtherMenuBar" type="other" nonLocalizableName="Other">
+			<item guidRef="MenuOther|Add_Color_to_Color_Set"/>
+			<item guidRef="MenuOther|Swap_colors"/>
+			<item guidRef="MenuOther|Toggle_Impasto"/>
+			<item guidRef="MenuFile|Show_Texture"/>
+			<item guidRef="MenuOther|Next_Document"/>
+			<item guidRef="MenuOther|Previous_Document"/>
+			<item guidRef="MenuOther|Tightest_Enclosing_Group"/>
+			<item guidRef="MenuOther|Play_Movie" os="win"/>
+			<item guidRef="MenuOther|Close_All_Windows"/>
+			<item guidRef="MenuOther|Select_None"/>
+			<item guidRef="MenuOther|Memory_Info"/>
+			<item guidRef="MenuWindow|Zoom_to_Actual_Pixels"/>
+			<item guidRef="MenuOther|Snap_To_Grid"/>
+			<item guidRef="MenuOther|Insert_Script_Delay"/>
+			<item guidRef="MenuOther|Brush_Size" indent="true"/>
+			<item guidRef="MenuOther|Show_ThickPaintLoadClaw"/>
+			<item guidRef="MenuOther|Show_BrushOpacityClaw" />
+			<item guidRef="MenuOther|Set_Opacity" indent="true"/>
+			<item guidRef="MenuOther|Clone_Forwarding"/>
+			<item guidRef="MenuOther|Float_Copy"/>
+			<item guidRef="MenuOther|Frame_Node" indent="true"/>
+			<item guidRef="MenuOther|Delete_SelectionNode"/>
+			<item guidRef="MenuOther|Delete_Layer"/>
+			<item guidRef="MenuOther|TransformDuplicate"/>
+			<item guidRef="MenuOther|Nudge_Selection" indent="true"/>
+			<item guidRef="MenuOther|Move_Selection" indent="true"/>
+			<item guidRef="MenuColorsPal|Standard_Colors" />
+			<item guidRef="MenuOther|Transform" indent="true"/>
+			<item guidRef="MenuOther|ShowHide_TemporalColors" />
+			<item guidRef="MenuOther|ShowHide_CenteredTempCol" />
+			<item guidRef="MenuOther|ShowHide_PinnedColors" />
+			<item guidRef="MenuOther|ToggleHQRendering" />
+			<item guidRef="MenuWindow|Center_Document" />
+			<item guidRef="MenuOther|Rotate_Canvas" indent="true"/>
+			<item guidRef="MenuOther|Crop_Document"/>
+			<item guidRef="MenuOther|Cancel_Crop_Document"/>
+			<item guidRef="MenuOther|Fill_With" indent="true"/>
+			<item guidRef="MenuShapes|Delete_Last_Point"/>
+			<item guidRef="MenuShapes|Close_Shape"/>
+			<item guidRef="MenuSelect|NewLayer_Copy"/>
+			<item guidRef="MenuSelect|NewLayer_Cut"/>
+			<item guidRef="MenuHelp|HelpTopics" os="mac"/>
+		</commandBarData>
+
+		<commandBarData guid="MenuOtherBrushSizeSubMenu" type="menu" nonLocalizableName="BrushS ize" flyout="true">
+			<item guidRef="MenuOther|Show_BrushClaw" />
+			<item guidRef="MenuOther|Increase_Brush_Size"/>
+			<item guidRef="MenuOther|Decrease_Brush_Size"/>
+
+		</commandBarData>
+
+		<commandBarData guid="MenuOtherSetOpacitySubMenu" type="menu" nonLocalizableName="Set Opacity" flyout="true">
+			<item guidRef="MenuOther|Set_Opacity_to_10%"/>
+			<item guidRef="MenuOther|Set_Opacity_to_20%"/>
+			<item guidRef="MenuOther|Set_Opacity_to_30%"/>
+			<item guidRef="MenuOther|Set_Opacity_to_40%"/>
+			<item guidRef="MenuOther|Set_Opacity_to_50%"/>
+			<item guidRef="MenuOther|Set_Opacity_to_60%"/>
+			<item guidRef="MenuOther|Set_Opacity_to_70%"/>
+			<item guidRef="MenuOther|Set_Opacity_to_80%"/>
+			<item guidRef="MenuOther|Set_Opacity_to_90%"/>
+			<item guidRef="MenuOther|Set_Opacity_to_100%"/>
+		</commandBarData>
+
+		<commandBarData guid="MenuOtherFrameNodeSubMenu" type="menu" nonLocalizableName="Frame/Node" flyout="true">
+			<item guidRef="MenuOther|First_FrameNode"/>
+			<item guidRef="MenuOther|Last_FrameNode"/>
+			<item guidRef="MenuOther|Next_FrameNode"/>
+			<item guidRef="MenuOther|Previous_FrameNode"/>
+		</commandBarData>
+
+		<commandBarData guid="MenuOtherNudgeSelectionSubMenu" type="menu" nonLocalizableName="Nudge Selection" flyout="true">
+			<item guidRef="MenuOther|Nudge_Selection_Left"/>
+			<item guidRef="MenuOther|Nudge_Selection_Right"/>
+			<item guidRef="MenuOther|Nudge_Selection_Up"/>
+			<item guidRef="MenuOther|Nudge_Selection_Down"/>
+		</commandBarData>
+
+		<commandBarData guid="MenuOtherMoveSelectionSubMenu" type="menu" nonLocalizableName="Move Selection" flyout="true">
+			<item guidRef="MenuOther|Move_Selection_Left"/>
+			<item guidRef="MenuOther|Move_Selection_Right"/>
+			<item guidRef="MenuOther|Move_Selection_Up"/>
+			<item guidRef="MenuOther|Move_Selection_Down"/>
+		</commandBarData>
+
+		<commandBarData guid="MenuOtherTransformSubMenu" type="menu" nonLocalizableName="Transform" flyout="true">
+			<item guidRef="MenuOrientation|Move"/>
+			<item guidRef="MenuOrientation|Scale"/>
+			<item guidRef="MenuOrientation|Rotate"/>
+			<item guidRef="MenuOrientation|Skew"/>
+			<item guidRef="MenuOrientation|Distort"/>
+			<item guidRef="MenuOrientation|PersDistort"/>
+			<item guidRef="MenuOther|SetRefTrans" />
+		</commandBarData>
+
+		<commandBarData guid="MenuOtherRotateCanvasSubMenu" type="menu" nonLocalizableName="Rotate Canvas" flyout="true">
+			<item guidRef="MenuWindow|Reset_Rotate_Document" />
+			<item guidRef="MenuWindow|Rotate_90_CW" />
+			<item guidRef="MenuWindow|Rotate_90_CCW" />
+		</commandBarData>
+
+		<commandBarData guid="MenuOtherFillWithSubMenu" type="menu" nonLocalizableName="Fill With" flyout="true">
+			<item guidRef="MenuOther|Fill_Mode_Color"/>
+			<item guidRef="MenuOther|Fill_Mode_Grad"/>
+			<item guidRef="MenuOther|Fill_Mode_CloneSource"/>
+			<item guidRef="MenuOther|Fill_Mode_Weave"/>
+		</commandBarData>
+
+		<!--Open Tutorial Image-->
+		<commandBarData guid="2B7EB1AD-CACA-4FBC-BE30-A7749B12267B" type="menu" nonLocalizableName="Open Tutorial Image" flyout="true">
+			<dynamic datasource="Template-File-List-Datasource" behavior="select" />
+		</commandBarData>
+
+		<!--Recent documents-->
+		<commandBarData guid="Recent_Documents_Flyout" type="menu" nonLocalizableName="Recent Documents" flyout="true">
+			<dynamic datasource="Recent-File-List-Datasource" behavior="select" />
+		</commandBarData>
+
+		<commandBarData guid="AudioDeviceListFlyout" type="menu" nonLocalizableName="Audio Devices" flyout="true">
+			<dynamic datasource="Audio-Device-List-Datasource" behavior="select" />
+		</commandBarData>
+
+		<!--Panels-->
+		<commandBarData guid="Window_Panels_Flyout" type="menu" flyout="true">
+		</commandBarData>
+
+		<!--Navigator Palette Popup-->
+		<commandBarData guid="NavigatorPalettePopup" type="menu" nonLocalizableName="Navigator Palette Popup" flyout="true">
+			<item guidRef="MenuNavPal|Color_Management"/>
+			<item guidRef="MenuNavPal|Tracing_Paper"/>
+			<item guidRef="MenuNavPal|Tracing_Paper_Opac"/>
+			<item guidRef="MenuNavPal|Display_Grids"/>
+			<item guidRef="MenuNavPal|Display_Impasto"/>
+			<item guidRef="MenuNavPal|Drawing_Mode"/>
+		</commandBarData>
+
+		<!--Navigator Palette Chicken-->
+		<commandBarData guid="NavPalChk" type="menu" nonLocalizableName="Navigator Palette Chicken" flyout="true">
+			<item guidRef="NavPalChk|Navigator_Frame"/>
+			<item guidRef="NavPalChk|Navigator_View"/>
+			<item guidRef="NavPalChk|Navigator_Info"/>
+		</commandBarData>
+
+		<!--Color Management-->
+		<commandBarData guid="Color_Management_Flyout" type="menu" nonLocalizableName="Color Management Flyout" flyout="true">
+			<item guidRef="MenuColorMan|CurrentColorMan"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuColorMan|Settings"/>
+			<item guidRef="MenuColorMan|AssignProfile"/>
+			<item guidRef="MenuColorMan|ConvertToProfile"/>
+		</commandBarData>
+
+		<!--Tracing Paper-->
+		<commandBarData guid="Tracing_Paper_Flyout" type="menu" nonLocalizableName="Tracing Paper Flyout" flyout="true">
+			<item guidRef="MenuTracingPaper|Opacity10"/>
+			<item guidRef="MenuTracingPaper|Opacity20"/>
+			<item guidRef="MenuTracingPaper|Opacity30"/>
+			<item guidRef="MenuTracingPaper|Opacity40"/>
+			<item guidRef="MenuTracingPaper|Opacity50"/>
+			<item guidRef="MenuTracingPaper|Opacity60"/>
+			<item guidRef="MenuTracingPaper|Opacity70"/>
+			<item guidRef="MenuTracingPaper|Opacity80"/>
+			<item guidRef="MenuTracingPaper|Opacity90"/>
+		</commandBarData>
+
+		<!--Texture Visibility-->
+		<commandBarData guid="Texture_Visibility_Flyout" type="menu" nonLocalizableName="Texture Visibility Flyout" flyout="true">
+			<item guidRef="MenuTextureVisibility|Visibility10"/>
+			<item guidRef="MenuTextureVisibility|Visibility20"/>
+			<item guidRef="MenuTextureVisibility|Visibility30"/>
+			<item guidRef="MenuTextureVisibility|Visibility40"/>
+			<item guidRef="MenuTextureVisibility|Visibility50"/>
+			<item guidRef="MenuTextureVisibility|Visibility60"/>
+			<item guidRef="MenuTextureVisibility|Visibility70"/>
+			<item guidRef="MenuTextureVisibility|Visibility80"/>
+			<item guidRef="MenuTextureVisibility|Visibility90"/>
+		</commandBarData>
+
+		<!--Drawing Mode-->
+		<commandBarData guid="Drawing_Mode_Flyout" type="menu" nonLocalizableName="Drawing Mode Flyout" flyout="true">
+			<item guidRef="MenuDrawingMode|Anywhere"/>
+			<item guidRef="MenuDrawingMode|Outside"/>
+			<item guidRef="MenuDrawingMode|Inside"/>
+		</commandBarData>
+
+		<!-- Colorset Context Menu -->
+		<commandBarData guid="ColorsetContextFlyout" type="menu" nonLocalizableName="Colorset Context Menu" flyout="true">
+			<item guidRef="Colorset|HideItem"/>
+			<item guidRef="Colorset|RenameItem"/>
+			<item guidRef="Colorset|DeleteItem"/>
+		</commandBarData>
+
+		<!--Library context menues-->
+		<commandBarData guid="Image_Portfolio_Context_Menu" type="menu" nonLocalizableName="Image Portfolio Context Menu" flyout="true">
+			<item guidRef="MenuImagePortfolio|HideItem"/>
+			<item guidRef="MenuImagePortfolio|RenameItem"/>
+			<item guidRef="MenuImagePortfolio|DeleteItem"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuImagePortfolio|CaptureCustomIcon"/>
+			<item guidRef="MenuImagePortfolio|SetCustomIcon"/>
+		</commandBarData>
+
+		<!--Library context menues-->
+		<commandBarData guid="Selection_Portfolio_Context_Menu" type="menu" nonLocalizableName="Selection Portfolio Context Menu" flyout="true">
+			<item guidRef="MenuSelectionsPal|HideItem"/>
+			<item guidRef="MenuSelectionsPal|RenameItem"/>
+			<item guidRef="MenuSelectionsPal|DeleteItem"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelectionsPal|CaptureCustomIcon"/>
+			<item guidRef="MenuSelectionsPal|SetCustomIcon"/>
+		</commandBarData>
+
+		<!--Library context menues-->
+		<commandBarData guid="Look_Library_Context_Menu" type="menu" nonLocalizableName="Looks Library Context Menu" flyout="true">
+			<item guidRef="MenuLookPal|HideItem"/>
+			<item guidRef="MenuLookPal|RenameItem"/>
+			<item guidRef="MenuLookPal|DeleteItem"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLookPal|CaptureCustomIcon"/>
+			<item guidRef="MenuLookPal|SetCustomIcon"/>
+		</commandBarData>
+
+		<!--Library context menues-->
+		<commandBarData guid="Nozzle_Library_Context_Menu" type="menu" nonLocalizableName="Nozzle Library Context Menu" flyout="true">
+			<item guidRef="MenuNozzlesPal|HideItem"/>
+			<item guidRef="MenuNozzlesPal|RenameItem"/>
+			<item guidRef="MenuNozzlesPal|DeleteItem"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuNozzlesPal|CaptureCustomIcon"/>
+			<item guidRef="MenuNozzlesPal|SetCustomIcon"/>
+		</commandBarData>
+
+		<!--Library context menues-->
+		<commandBarData guid="Weave_Library_Context_Menu" type="menu" nonLocalizableName="Weave Library Context Menu" flyout="true">
+			<item guidRef="MenuWeavePal|HideItem"/>
+			<item guidRef="MenuWeavePal|RenameItem"/>
+			<item guidRef="MenuWeavePal|DeleteItem"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuWeavePal|CaptureCustomIcon"/>
+			<item guidRef="MenuWeavePal|SetCustomIcon"/>
+		</commandBarData>
+
+		<!--Library context menues-->
+		<commandBarData guid="Grad_Library_Context_Menu" type="menu" nonLocalizableName="Gradient Library Context Menu" flyout="true">
+			<item guidRef="MenuGradientsPal|RenameItem"/>
+			<item guidRef="MenuGradientsPal|CaptureCustomIcon"/>
+			<item guidRef="MenuGradientsPal|SetCustomIcon"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuGradientsPal|Capture_Gradient"/>
+			<item guidRef="MenuGradientsPal|Edit_Gradient"/>
+			<item guidRef="MenuGradientsPal|Save_Gradient"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuGradientsPal|Express_in_Image"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuGradientsPal|HideItem"/>
+			<item guidRef="MenuGradientsPal|DeleteItem"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuGradientsPal|GradientPreview"/>
+			<item guidRef="MenuGradientsPal|GradientSliders"/>
+		</commandBarData>
+
+		<!--Library context menues-->
+		<commandBarData guid="Texture_Library_Context_Menu" type="menu" nonLocalizableName="Textures Library Context Menu" flyout="true">
+			<item guidRef="MenuTexturePal|RenameItem"/>
+			<item guidRef="MenuTexturePal|CaptureCustomIcon"/>
+			<item guidRef="MenuTexturePal|SetCustomIcon"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuTexturePal|Import_Texture"/>
+			<item guidRef="MenuTexturePal|Capture_Texture"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuTexturePal|ExportTextureToNewLayer"/>
+			<item guidRef="MenuTexturePal|Export_Texture_To_Clone_Source_Image"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuTexturePal|Invert"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuTexturePal|HideItem"/>
+			<item guidRef="MenuTexturePal|DeleteItem"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuTexturePal|TexturePreview"/>
+			<item guidRef="MenuTexturePal|TextureSliders"/>
+		</commandBarData>
+
+		<!--Library context menues-->
+		<commandBarData guid="Pattern_Library_Context_Menu" type="menu" nonLocalizableName="Patterns Library Context Menu" flyout="true">
+			<item guidRef="MenuPatternPal|RenameItem"/>
+			<item guidRef="MenuPatternPal|CaptureCustomIcon"/>
+			<item guidRef="MenuPatternPal|SetCustomIcon"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPatternPal|Capture_Pattern"/>
+			<item guidRef="MenuPatternPal|Make_Fractal_Pattern"/>
+			<item guidRef="MenuPatternPal|Check_Out_Pattern"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPatternPal|Define_Pattern"/>
+			<item guidRef="MenuPatternPal|Add_Image_To_Library"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPatternPal|Rectangular_Pattern"/>
+			<item guidRef="MenuPatternPal|Horizonral_Pattern"/>
+			<item guidRef="MenuPatternPal|Vartical_Pattern"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPatternPal|HideItem"/>
+			<item guidRef="MenuPatternPal|DeleteItem"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPatternPal|PatternPreview"/>
+			<item guidRef="MenuPatternPal|PatternSliders"/>
+		</commandBarData>
+
+		<!--Library context menues-->
+		<commandBarData guid="Paper_Library_Context_Menu" type="menu" nonLocalizableName="Papers Library Context Menu" flyout="true">
+			<item guidRef="MenuPapersPal|RenameItem"/>
+			<item guidRef="MenuPapersPal|CaptureCustomIcon"/>			
+			<item guidRef="MenuPapersPal|SetCustomIcon"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPapersPal|Capture_Paper"/>			
+			<item guidRef="MenuPapersPal|Make_Paper"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPapersPal|Invert_Paper"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPapersPal|HideItem"/>
+			<item guidRef="MenuPapersPal|DeleteItem"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuPapersPal|PaperPreview"/>
+			<item guidRef="MenuPapersPal|PaperSliders"/>
+		</commandBarData>
+
+		<!--Library context menues-->
+		<commandBarData guid="Flowmap_Library_Context_Menu" type="menu" nonLocalizableName="Flow Maps Library Context Menu" flyout="true">
+			<item guidRef="MenuFlowmapPal|RenameItem"/>
+			<item guidRef="MenuFlowmapPal|CaptureCustomIcon"/>
+			<item guidRef="MenuFlowmapPal|SetCustomIcon"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFlowmapPal|Capture_Flowmap"/>
+			<item guidRef="MenuFlowmapPal|Create_From_Paper"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFlowmapPal|Invert_Flowmap"/>
+			<item guidRef="MenuFile|(-"/>		
+			<item guidRef="MenuFlowmapPal|HideItem"/>
+			<item guidRef="MenuFlowmapPal|DeleteItem"/>
+			<item guidRef="MenuFile|(-"/>		
+			<item guidRef="MenuFlowmapPal|FlowMapPreview"/>
+			<item guidRef="MenuFlowmapPal|FlowMapSliders"/>
+		</commandBarData>
+
+		<!--Brush Variant Library context menu-->
+		<commandBarData guid="Brush_Variant_Context_Menu" type="menu" nonLocalizableName="Brush Variant Context Menu" flyout="true">
+			<item guidRef="MenuBrushPalette|VariantDisplayInPanelContext" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFile|Save_Variant"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFile|Copy_Variant"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|ImportVariant2"/>
+			<item guidRef="MenuBrushPalette|ExportVariant"/>
+			<item guidRef="MenuBrushPalette|RemoveVariant"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|HideVariant"/>
+			<item guidRef="MenuBrushPalette|RenameVariant"/>
+			<item guidRef="MenuFile|Restore_Default_Variant"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|SetVariantIcon"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFile|Restore_All_Variants"/> -->
+		</commandBarData>
+
+		<!--Brush Category Library context menu-->
+		<commandBarData guid="Brush_Category_Context_Menu" type="menu" nonLocalizableName="Brush Category Context Menu" flyout="true">
+			<item guidRef="MenuBrushPalette|CategoryDisplayInPanelContext" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFile|New_Brush_Category"/>
+			<item guidRef="MenuBrushPalette|ImportCategory2"/>
+			<item guidRef="MenuBrushPalette|ExportCategory"/>
+			<item guidRef="MenuBrushPalette|RemoveCategory"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|HideCategory"/>
+			<item guidRef="MenuBrushPalette|RenameCategory"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|SetCategoryIcon"/>
+		</commandBarData>
+
+		<commandBarData guid="Narrow_Panel_Brush_Variant_Context_Menu" type="menu" nonLocalizableName="Brush Variant Context Menu" flyout="true">
+			<item guidRef="MenuNarrowBrushPalette|VariantDisplayInNarrowPanelContext" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFile|Save_Variant"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFile|Copy_Variant"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|ImportVariant2"/>
+			<item guidRef="MenuBrushPalette|ExportVariant"/>
+			<item guidRef="MenuBrushPalette|RemoveVariant"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|HideVariant"/>
+			<item guidRef="MenuBrushPalette|RenameVariant"/>
+			<item guidRef="MenuFile|Restore_Default_Variant"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|SetVariantIcon"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFile|Restore_All_Variants"/> -->
+		</commandBarData>
+
+		<!--Brush Category Library context menu-->
+		<commandBarData guid="Narrow_Panel_Brush_Category_Context_Menu" type="menu" nonLocalizableName="Brush Category Context Menu" flyout="true">
+			<item guidRef="MenuNarrowBrushPalette|CategoryDisplayInNarrowPanelContext" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuFile|New_Brush_Category"/>
+			<item guidRef="MenuBrushPalette|ImportCategory2"/>
+			<item guidRef="MenuBrushPalette|ExportCategory"/>
+			<item guidRef="MenuBrushPalette|RemoveCategory"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|HideCategory"/>
+			<item guidRef="MenuBrushPalette|RenameCategory"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuBrushPalette|SetCategoryIcon"/>
+		</commandBarData>
+
+		<commandBarData guid="MenuBrushCategorySelectionInPopUp" type="menu" nonLocalizableName="Brush Palette Category Selector Menu" flyout="true">
+			<dynamic datasource="brush-category-library-list" behavior="select" />
+		</commandBarData>
+
+		<commandBarData guid="MenuBrushCategorySelectionInPanel" type="menu" nonLocalizableName="Brush Palette Category Selector Menu" flyout="true">
+			<dynamic datasource="brush-category-library-list" behavior="select" />
+		</commandBarData>
+
+		<commandBarData guid="MenuBrushCategorySelectionInNarrowPanel" type="menu" nonLocalizableName="Brush Palette Category Selector Menu" flyout="true">
+			<dynamic datasource="brush-category-library-list" behavior="select" />
+		</commandBarData>
+
+		<!--Color Sets click hold flyout-->
+		<commandBarData guid="ColorSetsCommandsFlyout" type="menu" nonLocalizableName="Color Sets click hold flyout" flyout="true">
+			<item guidRef="MenuColorSetPal|New_Empty_Color_Set"/>
+			<item guidRef="MenuColorSetPal|New_Color_Set_Image"/>
+			<item guidRef="MenuColorSetPal|New_Color_Set_Layer"/>
+			<item guidRef="MenuColorSetPal|New_Color_Set_Sel"/>
+			<item guidRef="MenuMixerPal|New_Color_Set_Mixer_Pad"/>
+		</commandBarData>
+
+		<!--Custom Palettes-->
+		<commandBarData guid="CustomPal_ContextMenu" type="menu" flyout="true">
+			<item guidRef="MenuCustomPal|CaptureCustomIcon"/>
+			<item guidRef="MenuCustomPal|SetCustomIcon"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuCustomPal|RenameItem"/>
+			<item guidRef="MenuCustomPal|DeleteItem"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuCustomPal|SetTextViewMode"/>
+			<item guidRef="MenuCustomPal|SetIconViewMode"/>
+			<item guidRef="MenuCustomPal|SetWideIconViewMode"/>
+		</commandBarData>
+
+		<!-- Open Source Menu on Clone Source Panel -->
+		<commandBarData guid="Clone_Source_Panel_Open" type="menu" nonLocalizableName="CS Open Source Flyout" flyout="true">
+			<item guidRef="CSPanelOpenSource|OpenSource"/>
+			<item guidRef="MenuFile|(-"/>
+			<dynamic datasource="clone-source-panel-open-flyout-list" behavior="click-notify" />
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="CSPanelOpenSource|ImportCurrentTexture"/>
+		</commandBarData>
+
+		<!-- Open Source Menu on Bucket Tool Bar for Clone Source option -->
+		<commandBarData guid="Bucket_Clone_Source_Panel_Open" type="menu" nonLocalizableName="CS Open Source Flyout" flyout="true">
+			<item guidRef="CSPanelOpenSource|OpenSource"/>
+			<item guidRef="MenuFile|(-"/>
+			<dynamic datasource="clone-source-panel-open-flyout-list" behavior="click-notify" />
+		</commandBarData>
+
+		<!-- Options Menu on Clone Source Panel -->
+		<commandBarData guid="Clone_Source_Panel_Options" type="menu" nonLocalizableName="Clone Source Panel Options" flyout="true">
+			<item guidRef="CloneSourceOptions|OpenSourceImage"/>
+			<item guidRef="CloneSourceOptions|DeleteSourceImage"/>
+			<item guidRef="CloneSourceOptions|RenameSourceImage"/>
+		</commandBarData>
+
+		<!-- Perspective guides presets menu -->
+		<commandBarData guid="perspectiveguides-preset-menu" type="menu" nonLocalizableName="Perspective guides presets menu" flyout="true">
+			<item guidRef="PerspectiveGuidesPresets|Add"/>
+			<item guidRef="PerspectiveGuidesPresets|Delete"/>
+			<item guidRef="MenuFile|(-"/>
+			<dynamic datasource="perspectiveguides-preset-entries" behavior="click-notify" />
+		</commandBarData>
+
+		<commandBarData guid="MenuGradientsLibraryViewGuid" type="menu" nonLocalizableName="Gradients Library View Option Menu" flyout="true">
+			<item guidRef="MenuGradientsPal|Small"/>
+			<item guidRef="MenuGradientsPal|Medium"/>
+			<item guidRef="MenuGradientsPal|Large"/>
+			<item guidRef="MenuGradientsPal|List"/>
+		</commandBarData>
+
+		<commandBarData guid="MenuGradientsLibraryOpenGuid" type="menu" nonLocalizableName="Gradients Library Visible Menu" flyout="true">
+			<dynamic datasource="gradient-library-list" behavior="toggle-enable" />
+		</commandBarData>
+
+		<!--Customization Menu Bar-->
+		<commandBarData guid="CustomPal_AddCommandMenu" type="menu" nonLocalizableName="Customization Menu Bar" noVertDocking="true">
+			<container>
+				<item guidRef="MenuOther|Other"/>
+				<item guidRef="MenuOther|PanelMenus"/>
+				<item guidRef="MenuOther|Toolbox"/>
+			</container>
+		</commandBarData>
+
+		<commandBarData guid="CustPalChickenMenu" type="menu" nonLocalizableName="Custom Palettes Context Menu" flyout="true">
+			<item guidRef="MenuCustomPal|Rename"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuCustomPal|Import"/>
+			<item guidRef="MenuCustomPal|Export"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuCustomPal|AddCommand"/>
+		</commandBarData>
+
+		<commandBarData guid="MenuPapersLibraryOpenGuid" type="menu" nonLocalizableName="Papers Library Visible Menu" flyout="true">
+			<dynamic datasource="paper-library-list" behavior="toggle-enable" />
+		</commandBarData>
+		<commandBarData guid="MenuPapersLibraryViewGuid" type="menu" nonLocalizableName="Papers Library View Option Menu" flyout="true">
+			<item guidRef="MenuPapersPal|Small"/>
+			<item guidRef="MenuPapersPal|Medium"/>
+			<item guidRef="MenuPapersPal|Large"/>
+			<item guidRef="MenuPapersPal|List"/>
+		</commandBarData>
+
+
+		<commandBarData guid="MenuFlowmapLibraryOpenGuid" type="menu" nonLocalizableName="Flow Map Library Visible Menu" flyout="true">
+			<dynamic datasource="flowmap-library-list" behavior="toggle-enable" />
+		</commandBarData>
+		<commandBarData guid="MenuFlowmapLibraryViewGuid" type="menu" nonLocalizableName="Flow Map Library View Option Menu" flyout="true">
+			<item guidRef="MenuFlowmapPal|Small"/>
+			<item guidRef="MenuFlowmapPal|Medium"/>
+			<item guidRef="MenuFlowmapPal|Large"/>
+			<item guidRef="MenuFlowmapPal|List"/>
+		</commandBarData>
+
+		<commandBarData guid="MenuLookLibraryOpenGuid" type="menu" nonLocalizableName="Look Library Visible Menu" flyout="true">
+			<dynamic datasource="look-library-list" behavior="toggle-enable" />
+		</commandBarData>
+		<commandBarData guid="MenuLookLibraryViewGuid" type="menu" nonLocalizableName="Look Library View Option Menu" flyout="true">
+			<item guidRef="MenuLookPal|Small"/>
+			<item guidRef="MenuLookPal|Medium"/>
+			<item guidRef="MenuLookPal|Large"/>
+			<item guidRef="MenuLookPal|List"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLookPal|RenameItem"/>
+			<item guidRef="MenuLookPal|CaptureCustomIcon"/>
+			<item guidRef="MenuLookPal|SetCustomIcon"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLookPal|ShowAll"/>
+		</commandBarData>
+		<commandBarData guid="MenuNozzlesLibraryOpenGuid" type="menu" nonLocalizableName="Nozzles Library Visible Menu" flyout="true">
+			<dynamic datasource="nozzle-library-list" behavior="toggle-enable" />
+		</commandBarData>
+		<commandBarData guid="MenuNozzlesLibraryViewGuid" type="menu" nonLocalizableName="Nozzles Library View Option Menu" flyout="true">
+			<item guidRef="MenuNozzlesPal|Small"/>
+			<item guidRef="MenuNozzlesPal|Medium"/>
+			<item guidRef="MenuNozzlesPal|Large"/>
+			<item guidRef="MenuNozzlesPal|List"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuNozzlesPal|RenameItem"/>
+			<item guidRef="MenuNozzlesPal|CaptureCustomIcon"/>
+			<item guidRef="MenuNozzlesPal|SetCustomIcon"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuNozzlesPal|ShowAll"/>
+		</commandBarData>
+		<commandBarData guid="MenuTextureLibraryOpenGuid" type="menu" nonLocalizableName="Texture Library Visible Menu" flyout="true">
+			<dynamic datasource="texture-library-list" behavior="toggle-enable" />
+		</commandBarData>
+		<commandBarData guid="MenuTextureLibraryViewGuid" type="menu" nonLocalizableName="Texture Library View Option Menu" flyout="true">
+			<item guidRef="MenuTexturePal|Small"/>
+			<item guidRef="MenuTexturePal|Medium"/>
+			<item guidRef="MenuTexturePal|Large"/>
+			<item guidRef="MenuTexturePal|List"/>
+		</commandBarData>
+		<commandBarData guid="MenuPatternLibraryOpenGuid" type="menu" nonLocalizableName="Pattern Library Visible Menu" flyout="true">
+			<dynamic datasource="pattern-library-list" behavior="toggle-enable" />
+		</commandBarData>
+		<commandBarData guid="MenuPatternLibraryViewGuid" type="menu" nonLocalizableName="Pattern Library View Option Menu" flyout="true">
+			<item guidRef="MenuPatternPal|Small"/>
+			<item guidRef="MenuPatternPal|Medium"/>
+			<item guidRef="MenuPatternPal|Large"/>
+			<item guidRef="MenuPatternPal|List"/>
+		</commandBarData>
+		<commandBarData guid="MenuWeaveLibraryOpenGuid" type="menu" nonLocalizableName="Weave Library Visible Menu" flyout="true">
+			<dynamic datasource="weave-library-list" behavior="toggle-enable" />
+		</commandBarData>
+		<commandBarData guid="MenuWeaveLibraryViewGuid" type="menu" nonLocalizableName="Weave Library View Option Menu" flyout="true">
+			<item guidRef="MenuWeavePal|Small"/>
+			<item guidRef="MenuWeavePal|Medium"/>
+			<item guidRef="MenuWeavePal|Large"/>
+			<item guidRef="MenuWeavePal|List"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuWeavePal|RenameItem"/>
+			<item guidRef="MenuWeavePal|CaptureCustomIcon"/>
+			<item guidRef="MenuWeavePal|SetCustomIcon"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuWeavePal|ShowAll"/>
+		</commandBarData>
+		<commandBarData guid="MenuSelectionsLibraryOpenGuid" type="menu" nonLocalizableName="Selections Library Visible Menu" flyout="true">
+			<dynamic datasource="portfolio-selection-library-list" behavior="toggle-enable" />
+		</commandBarData>
+		<commandBarData guid="MenuSelectionsLibraryViewGuid" type="menu" nonLocalizableName="Selections Library View Option Menu" flyout="true">
+			<item guidRef="MenuSelectionsPal|Small"/>
+			<item guidRef="MenuSelectionsPal|Medium"/>
+			<item guidRef="MenuSelectionsPal|Large"/>
+			<item guidRef="MenuSelectionsPal|List"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelectionsPal|RenameItem"/>
+			<item guidRef="MenuSelectionsPal|CaptureCustomIcon"/>
+			<item guidRef="MenuSelectionsPal|SetCustomIcon"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelectionsPal|ShowAll"/>
+		</commandBarData>
+		<commandBarData guid="LayersPanelContextMenu" type="menu" nonLocalizableName="Layers Panel Context Menu" flyout="true">
+			<item guidRef="MenuLayers|Layer_Attributes"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Duplicate_Layer"/>
+			<item guidRef="MenuLayers|Delete_Layer"/>
+			<item guidRef="MenuLayers|Convert_To_Default_Layer"/>
+			<item guidRef="MenuLayers|Revert_to_Original"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Preserve_Transparency"/>
+			<item guidRef="MenuLayers|Pick_Up_Underlying_Color"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelect|Select_Layer_Content"/>
+		</commandBarData>
+		<commandBarData guid="LayersPanelContextMenuOnCanvas" type="menu" nonLocalizableName="Layers Panel Context Menu On Canvas" flyout="true">
+			<item guidRef="MenuLayers|Lock"/>
+			<item guidRef="MenuLayers|Unlock_All_Layers"/>
+			<item guidRef="MenuLayers|New_Layer"/>
+			<item guidRef="MenuLayers|Duplicate_Canvas"/>
+			<item guidRef="MenuSelect|Float"/>
+			<item guidRef="MenuLayers|Lift_Canvas_To_WC_Layer"/>
+			<item guidRef="MenuLayers|Lift_Canvas_To_TP_Layer"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuCanvas|Clear_Impasto"/>
+			<item guidRef="MenuOther|Toggle_Impasto"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuCanvas|Surface_Lighting"/>
+			<item guidRef="MenuCanvas|Set_Paper_Color"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Dry_Digital_Watercolor"/>
+			<item guidRef="MenuLayers|Diffuse_Digital_WC"/>
+		</commandBarData>
+		<commandBarData guid="LayersPanelContextMenuOnRegularLayer" type="menu" nonLocalizableName="Layers Panel Context Menu On Regular Layer" flyout="true">
+			<item guidRef="MenuLayers|Rename"/>
+			<item guidRef="MenuLayers|Layer_Attributes"/>
+			<item guidRef="MenuLayers|Convert_To_Default_Layer"/>
+			<item guidRef="MenuLayers|Convert_Floater_To_TP_Layer"/>
+			<item guidRef="MenuLayers|Convert_Floater_To_WC_Layer"/>
+			<item guidRef="MenuOther|CreateReference"/>
+			<item guidRef="MenuLayers|Collapse"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|New_Layer"/>
+			<item guidRef="MenuLayers|Duplicate_Layer"/>
+			<item guidRef="MenuLayers|Delete_Layer"/>
+			<item guidRef="MenuLayers|Group"/>
+			<item guidRef="MenuLayers|Ungroup"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuOrientation|Flip_Horizontal"/>
+			<item guidRef="MenuOrientation|Flip_Vertical"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Move_to_Top"/>
+			<item guidRef="MenuLayers|Move_to_Bottom"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Create_Layer_Mask"/>
+			<item guidRef="MenuLayers|Create_LM_From_Transp"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuCanvas|Clear_Impasto"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Preserve_Transparency"/>
+			<item guidRef="MenuLayers|Pick_Up_Underlying_Color"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Dry_Digital_Watercolor"/>
+			<item guidRef="MenuLayers|Diffuse_Digital_WC"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelect|Select_Layer_Content"/>
+		</commandBarData>
+		<commandBarData guid="LayersPanelContextMenuOnPlugInLayer" type="menu" nonLocalizableName="Layers Panel Context Menu On PlugIn Layers" flyout="true">
+			<item guidRef="MenuLayers|Rename"/>
+			<item guidRef="MenuLayers|Edit_Plugin_Layer"/>
+			<item guidRef="MenuLayers|Convert_To_Default_Layer"/>
+			<item guidRef="MenuLayers|Collapse"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|New_Layer"/>
+			<item guidRef="MenuLayers|Duplicate_Layer"/>
+			<item guidRef="MenuLayers|Delete_Layer"/>
+			<item guidRef="MenuLayers|Group"/>
+			<item guidRef="MenuLayers|Ungroup"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Move_to_Top"/>
+			<item guidRef="MenuLayers|Move_to_Bottom"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Revert_to_Original"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelect|Select_Layer_Content"/>
+		</commandBarData>
+		<commandBarData guid="LayersPanelContextMenuOnWatercolorLayer" type="menu" nonLocalizableName="Layers Panel Context Menu On Watercolor Layer" flyout="true">
+			<item guidRef="MenuLayers|Rename"/>
+			<item guidRef="MenuLayers|Layer_Attributes"/>
+			<item guidRef="MenuLayers|Convert_To_Default_Layer"/>
+			<item guidRef="MenuOther|CreateReference"/>
+			<item guidRef="MenuLayers|Collapse"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|New_Layer"/>
+			<item guidRef="MenuLayers|Duplicate_Layer"/>
+			<item guidRef="MenuLayers|Delete_Layer"/>
+			<item guidRef="MenuLayers|Group"/>
+			<item guidRef="MenuLayers|Ungroup"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuOrientation|Flip_Horizontal"/>
+			<item guidRef="MenuOrientation|Flip_Vertical"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Move_to_Top"/>
+			<item guidRef="MenuLayers|Move_to_Bottom"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Create_Layer_Mask"/>
+			<item guidRef="MenuLayers|Create_LM_From_Transp"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Pick_Up_Underlying_Color"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Wet_Entire_WC_Layer"/>
+			<item guidRef="MenuLayers|Dry_Watercolor_Layer"/>
+			<item guidRef="MenuLayers|Pause_Diffusion"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelect|Select_Layer_Content"/>
+		</commandBarData>
+		<commandBarData guid="LayersPanelContextMenuOnOtherLayer" type="menu" nonLocalizableName="Layers Panel Context Menu On Other Layer" flyout="true">
+			<item guidRef="MenuLayers|Rename"/>
+			<item guidRef="MenuLayers|Options"/>
+			<item guidRef="MenuLayers|Layer_Attributes"/>
+			<item guidRef="MenuLayers|Convert_To_Default_Layer"/>
+			<item guidRef="MenuOther|CreateReference"/>
+			<item guidRef="MenuShapes|Convert_To_Selection"/>
+			<item guidRef="MenuLayers|Collapse"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|New_Layer"/>
+			<item guidRef="MenuLayers|Duplicate_Layer"/>
+			<item guidRef="MenuLayers|Delete_Layer"/>
+			<item guidRef="MenuLayers|Group"/>
+			<item guidRef="MenuLayers|Ungroup"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuOrientation|Flip_Horizontal"/>
+			<item guidRef="MenuOrientation|Flip_Vertical"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Move_to_Top"/>
+			<item guidRef="MenuLayers|Move_to_Bottom"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Create_Layer_Mask"/>
+			<item guidRef="MenuLayers|Create_LM_From_Transp"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelect|Select_Layer_Content"/>
+		</commandBarData>
+		<commandBarData guid="LayersPanelContextMenuOnGroups" type="menu" nonLocalizableName="Layers Panel Context Menu On Groups" flyout="true">
+			<item guidRef="MenuLayers|Rename"/>
+			<item guidRef="MenuLayers|Layer_Attributes"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Duplicate_Group"/>
+			<item guidRef="MenuLayers|Ungroup"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuOrientation|Flip_Horizontal"/>
+			<item guidRef="MenuOrientation|Flip_Vertical"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Move_to_Top"/>
+			<item guidRef="MenuLayers|Move_to_Bottom"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelect|Select_Group_Content"/>
+		</commandBarData>
+		<commandBarData guid="LayersPanelLayerMaskContextMenu" type="menu" nonLocalizableName="Layers Panel Layer Mask Box Context Menu" flyout="true">
+			<item guidRef="MenuLayers|Rename"/>
+			<item guidRef="MenuLayers|Selection_From_Layer_Mask"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelect|Auto_Select"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuSelect|None"/>
+			<item guidRef="MenuSelect|Invert"/>
+			<item guidRef="MenuSelect|Feather"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuLayers|Enable_Layer_Mask"/>
+			<item guidRef="MenuLayers|Delete_Layer_Mask"/>
+			<item guidRef="MenuLayers|Apply_Layer_Mask"/>
+		</commandBarData>
+		<commandBarData guid="ChannelsPanelContextMenu" type="menu" nonLocalizableName="Channels Panel Context Menu" flyout="true">
+			<item guidRef="MenuMasksPal|Duplicate"/>
+			<item guidRef="MenuMasksPal|Delete"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuMasksPal|Clear"/>
+			<item guidRef="MenuMasksPal|Invert"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuMasksPal|Feather"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuMasksPal|Channel_Attributes"/>
+		</commandBarData>
+        <commandBarData guid="ColorWheelContextMenu" type="menu" nonLocalizableName="Color Wheel Context Menu" flyout="true">
+			<item guidRef="MenuColorWheel|Pin"/>
+            <item guidRef="MenuColorsPal|Use_Clone_Color"/>
+			<item guidRef="MenuOther|Swap_colors"/>
+			<item guidRef="MenuColorWheel|LeftHanded"/>
+            <item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuColorWheel|Close"/>
+        </commandBarData>
+        <commandBarData guid="FileEditSubMenu" type="menu" nonLocalizableName="File/Edit Sub Menu" flyout="true">
+			<item guidRef="MenuWindow|FileEditTall"/>
+            <item guidRef="MenuWindow|FileEditShort"/>
+			<item guidRef="MenuWindow|FileEditColumn"/>
+			<item guidRef="MenuFile|(-"/>
+			<item guidRef="MenuWindow|FileEditLargeIconSingleRow"/>
+			<item guidRef="MenuWindow|FileEditLargeIconSingleColumn"/>
+	    </commandBarData>
+		<commandBarData guid="CanvasSubMenu" type="menu" nonLocalizableName="File/Edit Sub Menu" flyout="true">
+			<item guidRef="MenuWindow|CanvasTall"/>
+            <item guidRef="MenuWindow|CanvasShort"/>
+			<item guidRef="MenuWindow|CanvasColumn"/>
+	    </commandBarData>
+		<commandBarData guid="PhotoArtSubMenu" type="menu" nonLocalizableName="Photo Art Sub Menu" flyout="true">
+			<item guidRef="MenuWindow|PhotoArtTall"/>
+            <item guidRef="MenuWindow|PhotoArtShort"/>
+			<item guidRef="MenuWindow|PhotoArtColumn"/>
+	    </commandBarData>
+	</commandBars>
+</uiConfig>

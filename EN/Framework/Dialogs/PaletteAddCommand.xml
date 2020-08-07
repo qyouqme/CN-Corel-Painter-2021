@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<painter-ui xmlns="Corel::Painter::Framework"
+						xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+						xsi:schemaLocation="http://pntrwin-d-xp/schema/12.0/
+																http://pntrwin-d-xp/schema/12.0/PainterFramework.xsd">
+	
+	<dialog caption="PaletteAddCommandDialog|Title"
+		width="410" height="226" flow="equal-vertical" theme="dialog-theme">
+		
+		<template name="dlg-label-combobox">
+            <var name="caption_label" value="PaletteAddCommandDialog|SelectCustomPalette"/>
+            <var name="data_source_combo" value="AddCommandDlg-SelectCustomPalette"/>
+			<var name="combo_width" value="value:176; minimum:176; maximum:176;"/>
+        </template>
+		
+		<container flow="equal-horizontal">
+			<label caption="PaletteAddCommandDialog|PictureInfoText" text-style="right;wrap;"/>
+			<divider orientation="vertical" stroke-width="0" />
+			<static-image src="Dialogs/PaletteAddCommand.png"
+				height="minimum:48;maximum:48;value:48;"
+				width="value:186; minimum:186; maximum:186;"
+			/>
+		</container>
+
+		<container flow="equal-horizontal" spacing="x:3">
+			<label caption="PaletteAddCommandDialog|MenuItem" text-style="right;wrap;"/>
+			<masked-edit
+				text-style="left"
+				data-source="AddCommandDlg-MenuItem"
+				enabled="false"
+				width="value:176; minimum:176; maximum:176;"/>
+		</container>
+		
+		<container flow="equal-horizontal">
+			<divider/>
+			<simple-button caption="PaletteAddCommandDialog|AddBtnLabel"
+				enabled="data-source:PaletteAddCommandDlgAddBtn;"
+				auto-size="true" text-style="fit" anchor="right"
+				onClick="onAddBtnClick"
+				width="value:176; minimum:176; maximum:176;"/>
+		</container>
+		
+	</dialog>	
+</painter-ui>
+

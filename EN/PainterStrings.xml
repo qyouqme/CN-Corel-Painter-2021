@@ -1,0 +1,3530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Strings.xsl"?>
+<string-table>
+
+	<category key="Str#">
+		<string key="1_1" loc-id="1_1" value="正在开启 RIFF 档..."/>
+		<string key="1_2" loc-id="1_2" value="正在以 RIFF 格式保存图案..."/>
+		<string key="1_3" loc-id="1_3" value="正在评估笔刷方向..."/>
+		<string key="1_4" loc-id="1_4" value="正在置入笔刷笔触..."/>
+		<string key="1_5" loc-id="1_5" value="仿制%s"/>
+		<string key="1_6" loc-id="1_6" value="未命名"/>
+		<string key="1_7" loc-id="1_7" value="新建"/>
+		<string key="1_8" loc-id="1_8" value="打开"/>
+		<string key="1_9" loc-id="1_9" value="保存图像为:"/>
+		<string key="1_10" loc-id="1_10" value="正在应用校正至图像..."/>
+		<string key="1_11" value="内存空间不足，无法完成此操作。"/>
+		<string key="1_12" loc-id="1_12" value="非标准数值格式"/>
+		<string key="1_13" loc-id="1_13" value="编号超出范围"/>
+		<string key="1_14" loc-id="1_14" value="无法开启偏好的纸张材料库 &quot;^3&quot;。"/>
+		<string key="1_15" loc-id="1_15" value="找不到纸张资源"/>
+		<string key="1_16" loc-id="1_16" value="正在建立 RIFF 压缩表..."/>
+		<string key="1_17" loc-id="1_17" value="错误的 RIFF 资料"/>
+		<string key="1_18" loc-id="1_18" value="开启太多文件"/>
+		<string key="1_19" loc-id="1_19" value="无法开启文件"/>
+		<string key="1_20" value="供此文件使用的硬盘空间不足。"/>
+		<string key="1_21" loc-id="1_21" value="无法建立文件 &quot;^3&quot;"/>
+		<string key="1_22" loc-id="1_22" value="已删除文件。请记得保存您的文件。"/>
+		<string key="1_23" loc-id="1_23" value="正在仿制图像..."/>
+		<string key="1_24" loc-id="1_24" value="仿制缓存区溢出（这不应该发生）"/>
+		<string key="1_25" loc-id="1_25" value="开启纸张材料库档:"/>
+		<string key="1_26" loc-id="1_26" value="正在转换纸张资源..."/>
+		<string key="1_27" loc-id="1_27" value="正在复制 TIFF 档至内存..."/>
+		<string key="1_28" loc-id="1_28" value="正在以 TIFF 格式保存文件..."/>
+		<string key="1_29" loc-id="1_29" value="正在复制 PICT 档至内存..."/>
+		<string key="1_30" loc-id="1_30" value="正在以 PICT 格式保存文件..."/>
+		<string key="1_31" value="此文件不是 Adobe Photoshop 文件格式。"/>
+		<string key="1_32" loc-id="1_32" value="读取文件资料时发生错误"/>
+		<string key="1_33" value="文件必须是灰阶或 RGB。"/>
+		<string key="1_34" loc-id="1_34" value="正在复制 Photoshop 档至内存..."/>
+		<string key="1_35" loc-id="1_35" value="正在以 Photoshop 格式保存文件..."/>
+		<string key="1_36" loc-id="1_36" value="TIFF 档没有完整解析度图像"/>
+		<string key="1_37" loc-id="1_37" value="未知的 TIFF 压缩类型"/>
+		<string key="1_38" loc-id="1_38" value="TIFF 档有不支持的取样位元数"/>
+		<string key="1_39" loc-id="1_39" value="TIFF 文件不是平面（不支持）"/>
+		<string key="1_40" loc-id="1_40" value="错误的 TIFF 档标头"/>
+		<string key="1_41" loc-id="1_41" value="此处尚未支持 JPEG 压缩"/>
+		<string key="1_42" loc-id="1_42" value="TIFF 档标头中出现错误的资料"/>
+		<string key="1_43" loc-id="1_43" value="图像尺寸太小"/>
+		<string key="1_44" loc-id="1_44" value="已开启的文件必须是图像"/>
+		<string key="1_45" loc-id="1_45" value="正在调整色调浓度..."/>
+		<string key="1_46" loc-id="1_46" value="正在重迭色彩..."/>
+		<string key="1_47" loc-id="1_47" value="正在填色..."/>
+		<string key="1_48" loc-id="1_48" value="正在水平翻转..."/>
+		<string key="1_49" loc-id="1_49" value="正在垂直翻转..."/>
+		<string key="1_50" loc-id="1_50" value="只支持 RGB 和灰阶拾取"/>
+		<string key="1_51" loc-id="1_51" value="扩展插件错误: ^1"/>
+		<string key="1_52" loc-id="1_52" value="拾取中不支持 4 种平面。"/>
+		<string key="1_53" loc-id="1_53" value="不支持的扩展插件版本"/>
+		<string key="1_54" loc-id="1_54" value="错误的扩展插件参数"/>
+		<string key="1_55" loc-id="1_55" value="未连接扫描器"/>
+		<string key="1_56" loc-id="1_56" value="扫描器出现问题"/>
+		<string key="1_57" loc-id="1_57" value="错误的输出模式"/>
+		<string key="1_58" loc-id="1_58" value="扩展插件与 Painter 不兼容"/>
+		<string key="1_59" loc-id="1_59" value="正在读取拾取资料..."/>
+		<string key="1_60" loc-id="1_60" value="正在写入输出资料..."/>
+		<string key="1_61" loc-id="1_61" value="正在执行滤镜..."/>
+		<string key="1_62" loc-id="1_62" value="选择扩展插件目录。扩展插件将在结束和重新启动 Painter 时生效。"/>
+		<string key="1_63" loc-id="1_63" value="无法写入 Macintosh 剪辑"/>
+		<string key="1_64" loc-id="1_64" value="无法读取 Macintosh 剪辑"/>
+		<string key="1_65" loc-id="1_65" value="正在写入 Macintosh 剪辑..."/>
+		<string key="1_66" loc-id="1_66" value="正在读取 Macintosh 剪辑..."/>
+		<string key="1_68" loc-id="1_68" value="撤销"/>
+		<string key="1_69" loc-id="1_69" value="重做"/>
+		<string key="1_70" loc-id="1_70" value="无法撤销"/>
+		<string key="1_71" loc-id="1_71" value="正在打印青版..."/>
+		<string key="1_72" loc-id="1_72" value="正在打印洋红版..."/>
+		<string key="1_73" loc-id="1_73" value="硬盘上开启新图片的空间不足"/>
+		<string key="1_74" loc-id="1_74" value="硬盘上供虚拟化图片的空间不足"/>
+		<string key="1_75" loc-id="1_75" value="硬盘在虚拟内存运作时发生错误 – 文件可能已损毁。"/>
+		<string key="1_76" loc-id="1_76" value="剪切板"/>
+		<string key="1_78" loc-id="1_78" value="无法安装 Painter 扩展插件: ^1"/>
+		<string key="1_79" loc-id="1_79" value="正在以 EPS 格式保存文件..."/>
+		<string key="1_80" loc-id="1_80" value="正在清除全部选区..."/>
+		<string key="1_81" loc-id="1_81" value="正在反转全部选区..."/>
+		<string key="1_82" loc-id="1_82" value="工具箱"/>
+		<string key="1_85" loc-id="1_85" value="变体的最大数量已超过此笔刷。"/>
+		<string key="1_86" loc-id="1_86" value="选择纸张色彩"/>
+		<string key="1_87" loc-id="1_87" value="错误的数字栏位"/>
+		<string key="1_88" loc-id="1_88" value="没有可用的打印机"/>
+		<string key="1_89" loc-id="1_89" value="打印文件时发生错误"/>
+		<string key="1_90" loc-id="1_90" value="正在打印图像..."/>
+		<string key="1_91" loc-id="1_91" value="损坏的纸张资源"/>
+		<string key="1_92" loc-id="1_92" value="正在打印黄版..."/>
+		<string key="1_93" loc-id="1_93" value="正在打印黑版..."/>
+		<string key="1_94" loc-id="1_94" value="自动调整表面材质的范围..."/>
+		<string key="1_95" loc-id="1_95" value="正在应用表面材质..."/>
+		<string key="1_96" loc-id="1_96" value="正在建立发佈资料..."/>
+		<string key="1_97" loc-id="1_97" value="发佈时发生错误。"/>
+		<string key="1_98" loc-id="1_98" value="正在保存撤销..."/>
+		<string key="1_99" loc-id="1_99" value="正在淡化..."/>
+		<string key="1_100" loc-id="1_100" value="正在旋转图层..."/>
+		<string key="1_101" loc-id="1_101" value="正在羽化选区..."/>
+		<string key="1_102" loc-id="1_102" value="%d x %d 像素"/>
+		<string key="1_104" loc-id="1_104" value="无缩图"/>
+		<string key="1_112" loc-id="1_112" value="正在应用纸张材质画面至选区..."/>
+		<string key="1_113" loc-id="1_113" value="正在开启 BMP 档..."/>
+		<string key="1_114" loc-id="1_114" value="正在开启 PCX 档..."/>
+		<string key="1_115" loc-id="1_115" value="正在开启 Targe 档..."/>
+		<string key="1_116" loc-id="1_116" value="正在产生 EPS 档的预览..."/>
+		<string key="1_117" loc-id="1_117" value="无法在应用程式目录内找到 &quot;^1&quot; 目录。请选择您的 Painter 笔刷档，这样才能建立一个笔刷。"/>
+		<string key="1_118" loc-id="1_118" value="找不到自订点文件 – 使用圆点。"/>
+		<string key="1_119" loc-id="1_119" value="无法开启偏好的选区组合档 &quot;^3&quot;。"/>
+		<string key="1_120" loc-id="1_120" value="开启笔刷材料库档:"/>
+		<string key="1_121" loc-id="1_121" value="开启..."/>
+		<string key="1_122" loc-id="1_122" value="关闭"/>
+		<string key="1_123" loc-id="1_123" value="&gt;&gt; 复制 &gt;&gt;"/>
+		<string key="1_124" loc-id="1_124" value="&lt;&lt; 复制 &lt;&lt;"/>
+		<string key="1_125" loc-id="1_125" value="笔刷搬移器"/>
+		<string key="1_126" loc-id="1_126" value="纸张搬移器"/>
+		<string key="1_127" loc-id="1_127" value="开启纸张材料库档:"/>
+		<string key="1_128" loc-id="1_128" value="标准内建"/>
+		<string key="1_129" loc-id="1_129" value="使用者建立"/>
+		<string key="1_130" loc-id="1_130" value="选区搬移器"/>
+		<string key="1_131" loc-id="1_131" value="开启选区组合档:"/>
+		<string key="1_132" loc-id="1_132" value="无法写入 Windows 剪切板"/>
+		<string key="1_133" loc-id="1_133" value="无法读取 Windows 剪切板"/>
+		<string key="1_134" loc-id="1_134" value="正在写入 Windows 剪切板..."/>
+		<string key="1_135" loc-id="1_135" value="正在读取 Windows 剪切板..."/>
+		<string key="1_136" loc-id="1_136" value="正在以点阵图格式保存文件..."/>
+		<string key="1_137" loc-id="1_137" value="正在以 PCX 格式保存文件..."/>
+		<string key="1_138" loc-id="1_138" value="正在以 Targa 格式保存文件..."/>
+		<string key="1_140" loc-id="1_140" value="新笔刷档:"/>
+		<string key="1_141" loc-id="1_141" value="新纸张档:"/>
+		<string key="1_142" loc-id="1_142" value="新选区档:"/>
+		<string key="1_143" loc-id="1_143" value="无法开启空材料库"/>
+		<string key="1_144" loc-id="1_144" value="文件「不」是点阵图格式"/>
+		<string key="1_145" loc-id="1_145" value="文件「不」是 PCX 格式"/>
+		<string key="1_146" loc-id="1_146" value="文件「不」是 Targa 格式"/>
+		<string key="1_148" loc-id="1_148" value="此材料库已开启在另一边。"/>
+		<string key="1_149" loc-id="1_149" value="更改笔刷名称"/>
+		<string key="1_150" loc-id="1_150" value="更改选区名称"/>
+		<string key="1_151" loc-id="1_151" value="更改纸张名称"/>
+		<string key="1_152" loc-id="1_152" value="这些笔刷是唯读笔刷，而且无法开启。"/>
+		<string key="1_154" loc-id="1_154" value="%d X %d - %s"/>
+		<string key="1_155" loc-id="1_155" value="正在扭曲选区..."/>
+		<string key="1_156" loc-id="1_156" value="正在重新缩放图像..."/>
+		<string key="1_157" loc-id="1_157" value="找不到分隔矩阵"/>
+		<string key="1_158" loc-id="1_158" value="找不到分隔设定"/>
+		<string key="1_159" loc-id="1_159" value="无法开启文件 &quot;^0&quot;"/>
+		<string key="1_160" loc-id="1_160" value="H:   %"/>
+		<string key="1_161" loc-id="1_161" value="S:   %"/>
+		<string key="1_162" loc-id="1_162" value="V:   %"/>
+		<string key="1_163" loc-id="1_163" value="正在读取连续编号档..."/>
+		<string key="1_164" loc-id="1_164" value="分配字型的内存不足。"/>
+		<string key="1_165" loc-id="1_165" value="正在写入连续编号档..."/>
+		<string key="1_166" loc-id="1_166" value="正在等化选区..."/>
+		<string key="1_167" loc-id="1_167" value="正在收集长条图..."/>
+		<string key="1_168" loc-id="1_168" value="正在极色化选区..."/>
+		<string key="1_169" loc-id="1_169" value="正在柔化选区..."/>
+		<string key="1_170" loc-id="1_170" value="正在清晰化选区..."/>
+		<string key="1_171" loc-id="1_171" value="正在高反差选区..."/>
+		<string key="1_172" loc-id="1_172" value="正在取消选区..."/>
+		<string key="1_173" loc-id="1_173" value="播放此脚本之前，您必须先开启或制作新图像 – 放弃播放脚本。"/>
+		<string key="1_174" loc-id="1_174" value="无法开启脚本材料库档。"/>
+		<string key="1_175" loc-id="1_175" value="正在制作选区的石纹..."/>
+		<string key="1_176" loc-id="1_176" value="正在应用光源..."/>
+		<string key="1_177" loc-id="1_177" value="正在应用玻璃折射变形..."/>
+		<string key="1_178" loc-id="1_178" value="自动调整玻璃折射变形的范围..."/>
+		<string key="1_179" loc-id="1_179" value="开启脚本材料库档:"/>
+		<string key="1_180" loc-id="1_180" value="无法编辑时间戳印。"/>
+		<string key="1_181" loc-id="1_181" value="无法编辑画家的名字。"/>
+		<string key="1_182" loc-id="1_182" value="选取色彩"/>
+		<string key="1_183" loc-id="1_183" value="Munsell 色彩书"/>
+		<string key="1_184" loc-id="1_184" value="笔刷笔触设计师"/>
+		<string key="1_185" loc-id="1_185" value="材质"/>
+		<string key="1_186" loc-id="1_186" value="外观"/>
+		<string key="1_187" loc-id="1_187" value="选择遮罩色彩"/>
+		<string key="1_188" loc-id="1_188" value="正在应用动态残影至选区..."/>
+		<string key="1_189" loc-id="1_189" value="正在重新缩放选区..."/>
+		<string key="1_191" loc-id="1_191" value="正在选区内执行可打印的色彩..."/>
+		<string key="1_192" loc-id="1_192" value="正在选区内执行视讯标准色彩..."/>
+		<string key="1_193" loc-id="1_193" value="隐藏面板"/>
+		<string key="1_194" loc-id="1_194" value="显示面板"/>
+		<string key="1_195" loc-id="1_195" value="正在读取 EPS 档..."/>
+		<string key="1_196" loc-id="1_196" value="无法开启指定的笔刷外观材料库"/>
+		<string key="1_197" loc-id="1_197" value="找不到指定的笔刷外观"/>
+		<string key="1_198" loc-id="1_198" value="无法打开指定的笔刷材料库 &quot;^1&quot;"/>
+		<string key="1_199" loc-id="1_199" value="材料库 &quot;^2&quot; 中找不到指定的笔刷 &quot;^1&quot;"/>
+		<string key="1_200" loc-id="1_200" value="笔刷外观搬移器"/>
+		<string key="1_202" loc-id="1_202" value="开启笔刷外观材料库档:"/>
+		<string key="1_203" loc-id="1_203" value="开启脚本材料库档:"/>
+		<string key="1_204" loc-id="1_204" value="开新笔刷外观材料库档:"/>
+		<string key="1_205" loc-id="1_205" value="开新脚本材料库档:"/>
+		<string key="1_206" loc-id="1_206" value="更改笔刷外观名称"/>
+		<string key="1_207" loc-id="1_207" value="更改脚本名称"/>
+		<string key="1_209" value="此文件使用不支持的压缩方式。"/>
+		<string key="1_210" loc-id="1_210" value="RIFF 档不是灰阶或 RGB."/>
+		<string key="1_211" loc-id="1_211" value="TIFF 档不是灰阶或 RGB."/>
+		<string key="1_212" loc-id="1_212" value="正在写入主档 EPS 资料..."/>
+		<string key="1_213" loc-id="1_213" value="登录标记无法容纳在打印机页面中。"/>
+		<string key="1_214" loc-id="1_214" value="图像无法容纳在打印机页面中。"/>
+		<string key="1_215" loc-id="1_215" value="无法在水彩图层上使用自动梵谷效果。"/>
+		<string key="1_216" loc-id="1_216" value="产生气泡..."/>
+		<string key="1_217" loc-id="1_217" value="未找到对话方块资源"/>
+		<string key="1_219" loc-id="1_219" value="PICT 格式不支持宽度超过 4095 个像素的图片。"/>
+		<string key="1_220" loc-id="1_220" value="选择 EPS 档"/>
+		<string key="1_221" loc-id="1_221" value="选择字型档"/>
+		<string key="1_222" loc-id="1_222" value="保存 EPS 档"/>
+		<string key="1_223" loc-id="1_223" value="此色彩已在色彩集中。"/>
+		<string key="1_224" loc-id="1_224" value="色彩集中的色彩"/>
+		<string key="1_225" loc-id="1_225" value="色彩集中的色彩"/>
+		<string key="1_226" loc-id="1_226" value="输入色彩集名称"/>
+		<string key="1_227" loc-id="1_227" value="选择色彩集"/>
+		<string key="1_228" loc-id="1_228" value="正在产生遮罩..."/>
+		<string key="1_229" loc-id="1_229" value="无法开启色彩集档"/>
+		<string key="1_230" loc-id="1_230" value="正在复制图层..."/>
+		<string key="1_231" loc-id="1_231" value="输出脚本"/>
+		<string key="1_232" loc-id="1_232" value="无法开启图像组合"/>
+		<string key="1_233" loc-id="1_233" value="图层"/>
+		<string key="1_234" loc-id="1_234" value="复制"/>
+		<string key="1_235" loc-id="1_235" value="图像搬移器"/>
+		<string key="1_236" loc-id="1_236" value="开启图像组合:"/>
+		<string key="1_237" loc-id="1_237" value="新增图像组合:"/>
+		<string key="1_238" loc-id="1_238" value="更改图层名称"/>
+		<string key="1_239" loc-id="1_239" value="图层 %d"/>
+		<string key="1_240" loc-id="1_240" value="输入脚本"/>
+		<string key="1_241" loc-id="1_241" value="正在写入脚本档..."/>
+		<string key="1_242" loc-id="1_242" value="正在读取脚本档..."/>
+		<string key="1_243" loc-id="1_243" value="所录制浮动路径输入非群组项目"/>
+		<string key="1_244" loc-id="1_244" value="非标准录制浮动路径语法"/>
+		<string key="1_245" loc-id="1_245" value="在录制的浮动路径中参考遗失的项目"/>
+		<string key="1_246" loc-id="1_246" value="磁片上保存图层到图像组合的空间不足"/>
+		<string key="1_247" loc-id="1_247" value="您无法在资料图像组合和资源图像组合之间复制图层。"/>
+		<string key="1_248" loc-id="1_248" value="群组 %d"/>
+		<string key="1_249" loc-id="1_249" value="完成操作的硬盘空间不足"/>
+		<string key="1_250" loc-id="1_250" value="无法开启偏好的图像组合 &quot;^3&quot;。"/>
+		<string key="1_251" loc-id="1_251" value="无法开启文件 &quot;^3&quot;"/>
+		<string key="1_252" loc-id="1_252" value="正在调整色彩..."/>
+		<string key="1_253" loc-id="1_253" value="单像素"/>
+		<string key="1_254" loc-id="1_254" value="鬃毛笔刷"/>
+		<string key="1_255" loc-id="1_255" value="R:   ."/>
+		<string key="1_256" loc-id="1_256" value="G:   ."/>
+		<string key="1_257" loc-id="1_257" value="B:   ."/>
+		<string key="1_258" loc-id="1_258" value="%s与阴影"/>
+		<string key="1_259" loc-id="1_259" value="阴影"/>
+		<string key="1_260" loc-id="1_260" value="输入文件名称"/>
+		<string key="1_261" loc-id="1_261" value="连续编号文件名称所含的位数不足，或是号码太大而无法保存整个画格堆迭。"/>
+		<string key="1_262" loc-id="1_262" value="开始连续编号档与结束连续编号档不一致。"/>
+		<string key="1_263" loc-id="1_263" value="选择第一个连续编号档。"/>
+		<string key="1_264" loc-id="1_264" value="选择最后一个连续编号档。"/>
+		<string key="1_265" loc-id="1_265" value="对影目前画格的动画依制来源画格不存在。将使用动画仿制来源的最后画格。"/>
+		<string key="1_266" loc-id="1_266" value="材料库"/>
+		<string key="1_267" loc-id="1_267" value="未命名渐层"/>
+		<string key="1_268" loc-id="1_268" value="高:"/>
+		<string key="1_269" loc-id="1_269" value="宽:"/>
+		<string key="1_270" loc-id="1_270" value="下:"/>
+		<string key="1_271" loc-id="1_271" value="右:"/>
+		<string key="1_272" loc-id="1_272" value="使用色彩集来极色化..."/>
+		<string key="1_273" loc-id="1_273" value="Painter 动画剪辑"/>
+		<string key="1_274" loc-id="1_274" value="正在扭曲图像..."/>
+		<string key="1_275" loc-id="1_275" value="输入动画名称:"/>
+		<string key="1_276" loc-id="1_276" value="选择动画:"/>
+		<string key="1_277" loc-id="1_277" value="选择动画:"/>
+		<string key="1_278" loc-id="1_278" value="选择文件:"/>
+		<string key="1_281" loc-id="1_281" value="高:%d"/>
+		<string key="1_282" loc-id="1_282" value="宽:%d"/>
+		<string key="1_283" loc-id="1_283" value="横列:%d"/>
+		<string key="1_284" loc-id="1_284" value="直栏:%d"/>
+		<string key="1_287" loc-id="1_287" value="已锁定色彩集。"/>
+		<string key="1_288" loc-id="1_288" value="未载入介面 – 键入 Shift-A 与选择编译:编辑面板。"/>
+		<string key="1_289" loc-id="1_289" value="路径 "/>
+		<string key="1_290" loc-id="1_290" value="魔术棒选取 %d"/>
+		<string key="1_291" loc-id="1_291" value="曲线 %d"/>
+		<string key="1_292" loc-id="1_292" value="您必须在建立此笔刷之前拾取笔刷。"/>
+		<string key="1_293" loc-id="1_293" value="其他字形..."/>
+		<string key="1_294" loc-id="1_294" value="错误的色彩集文件 – 线 ^1 发生错误。"/>
+		<string key="1_295" loc-id="1_295" value="正在制作选区的外框显示..."/>
+		<string key="1_296" loc-id="1_296" value="完全呈现选区的内存不足。"/>
+		<string key="1_297" loc-id="1_297" value="遮罩 %d"/>
+		<string key="1_298" loc-id="1_298" value="正在执行 ColorTalk 指令..."/>
+		<string key="1_299" loc-id="1_299" value="找不到纸张"/>
+		<string key="1_300" loc-id="1_300" value="找不到渐层"/>
+		<string key="1_301" loc-id="1_301" value="除非可以看见，否则无法在此图层上绘图。"/>
+		<string key="1_302" loc-id="1_302" value="遮罩群组 %d"/>
+		<string key="1_303" loc-id="1_303" value="动画"/>
+		<string key="1_305" loc-id="1_305" value="选择第一个连续编号档"/>
+		<string key="1_306" loc-id="1_306" value="选择最后一个连续编号档"/>
+		<string key="1_307" loc-id="1_307" value="不允许在“应用脚本至动画”动画中使脚本运作 – 放弃。"/>
+		<string key="1_308" loc-id="1_308" value="无法插入不同尺寸的动画。"/>
+		<string key="1_309" loc-id="1_309" value="正在应用脚本至动画..."/>
+		<string key="1_310" loc-id="1_310" value="无法插入不同保存类型的动画。"/>
+		<string key="1_311" loc-id="1_311" value="%ld 画格"/>
+		<string key="1_312" loc-id="1_312" value="无法开启光源材料库档。"/>
+		<string key="1_313" loc-id="1_313" value="无法开启织布材料库档。"/>
+		<string key="1_314" loc-id="1_314" value="无法开启渐层材料库档。"/>
+		<string key="1_315" loc-id="1_315" value="开启光源材料库档:"/>
+		<string key="1_316" loc-id="1_316" value="开启织布材料库档:"/>
+		<string key="1_317" loc-id="1_317" value="开启渐层材料库档:"/>
+		<string key="1_318" loc-id="1_318" value="光源搬移器"/>
+		<string key="1_319" loc-id="1_319" value="织布搬移器"/>
+		<string key="1_320" loc-id="1_320" value="渐层搬移器"/>
+		<string key="1_321" loc-id="1_321" value="新增光源材料库:"/>
+		<string key="1_322" loc-id="1_322" value="新增织布材料库:"/>
+		<string key="1_323" loc-id="1_323" value="新增渐层材料库:"/>
+		<string key="1_324" loc-id="1_324" value="更改光源名称"/>
+		<string key="1_325" loc-id="1_325" value="更改织布名称"/>
+		<string key="1_326" loc-id="1_326" value="更改渐层名称"/>
+		<string key="1_327" loc-id="1_327" value="不透明度必须介于 0 到 100% 之间。"/>
+		<string key="1_328" loc-id="1_328" value="羽化半径必须介于 0 到 100 像素之间。"/>
+		<string key="1_329" loc-id="1_329" value="模糊必须介于 0 到 100% 之间。"/>
+		<string key="1_331" loc-id="1_331" value="本系统上有太多字体 – 只有某些字体可以使用。"/>
+		<string key="1_332" loc-id="1_332" value="选择图像水管喷嘴目录中的文件:"/>
+		<string key="1_333" loc-id="1_333" value="放弃播放脚本"/>
+		<string key="1_334" loc-id="1_334" value="文件不是图像水管喷嘴格式。"/>
+		<string key="1_335" loc-id="1_335" value="名称必须不能超过 23 个字元。"/>
+		<string key="1_336" value="保存为这种文件格式时，此图像中的图层将与画布合併。若要保存图层，请保存为 RIFF。"/>
+		<string key="1_337" loc-id="1_337" value="录制 Script"/>
+		<string key="1_338" loc-id="1_338" value="停止录制脚本..."/>
+		<string key="1_339" loc-id="1_339" value="两点渐层"/>
+		<string key="1_340" loc-id="1_340" value="无法开启指定的渐层材料库。"/>
+		<string key="1_341" loc-id="1_341" value="材料库 &quot;^2&quot; 中找不到指定的渐层 &quot;^1&quot;"/>
+		<string key="1_342" loc-id="1_342" value="无法开启指定的织布材料库。"/>
+		<string key="1_343" loc-id="1_343" value="材料库 &quot;^2&quot; 中找不到指定的织布 &quot;^1&quot;"/>
+		<string key="1_344" loc-id="1_344" value="材料库 &quot;^2&quot; 中找不到指定的变体 &quot;^1&quot;"/>
+		<string key="1_345" loc-id="1_345" value="目前正在落下图层..."/>
+		<string key="1_346" loc-id="1_346" value="目前正在落下全部图层..."/>
+		<string key="1_347" loc-id="1_347" value="无法开启文件 ^1。"/>
+		<string key="1_348" loc-id="1_348" value="您必须使用遮罩:羽化遮罩以羽化这个图层。"/>
+		<string key="1_349" loc-id="1_349" value="更改的像素百分比数太小..."/>
+		<string key="1_350" loc-id="1_350" value="找不到笔刷"/>
+		<string key="1_351" loc-id="1_351" value="找不到织布"/>
+		<string key="1_352" loc-id="1_352" value="图层的所属群组不允许自群组制作喷嘴。"/>
+		<string key="1_353" loc-id="1_353" value="这个影片的容量没有足够的空间（只能够容纳 ^2个影格）。"/>
+		<string key="1_354" loc-id="1_354" value="无法将影片插入影片本身。"/>
+		<string key="1_355" loc-id="1_355" value="您必须使用遮罩:羽化遮罩以立刻羽化遮罩。"/>
+		<string key="1_356" loc-id="1_356" value="目前正在已选取的色彩产生遮罩..."/>
+		<string key="1_357" loc-id="1_357" value="贴上图层"/>
+		<string key="1_358" loc-id="1_358" value="花纹"/>
+		<string key="1_359" loc-id="1_359" value="这个图层中没有路径可以回复。"/>
+		<string key="1_360" loc-id="1_360" value="无法删除动画的全部画格。"/>
+		<string key="1_362" loc-id="1_362" value="正在读取 AVI 动画..."/>
+		<string key="1_363" loc-id="1_363" value="正在读取 QuickTime 动画..."/>
+		<string key="1_364" loc-id="1_364" value="正在保存 AVI 动画..."/>
+		<string key="1_365" loc-id="1_365" value="正在保存 QuickTime 动画..."/>
+		<string key="1_366" loc-id="1_366" value="找不到这个 AVI 文件的解压缩工具。"/>
+		<string key="1_367" loc-id="1_367" value="不支持这个 AVI 压缩格式。"/>
+		<string key="1_370" loc-id="1_370" value="画布尺寸"/>
+		<string key="1_371" loc-id="1_371" value="图层尺寸"/>
+		<string key="1_372" loc-id="1_372" value="%d°"/>
+		<string key="1_373" loc-id="1_373" value="%3d°"/>
+		<string key="1_374" loc-id="1_374" value="%d 横列"/>
+		<string key="1_375" loc-id="1_375" value="%d 直栏"/>
+		<string key="1_376" loc-id="1_376" value="W:%d"/>
+		<string key="1_377" loc-id="1_377" value="H:%d"/>
+		<string key="1_378" loc-id="1_378" value="T:%d"/>
+		<string key="1_379" loc-id="1_379" value="L:%d"/>
+		<string key="1_380" loc-id="1_380" value="B:%d"/>
+		<string key="1_381" loc-id="1_381" value="R:%d"/>
+		<string key="1_382" loc-id="1_382" value="动画视窗"/>
+		<string key="1_383" loc-id="1_383" value="选取环境光度色彩"/>
+		<string key="1_384" loc-id="1_384" value="选取光源色彩"/>
+		<string key="1_385" loc-id="1_385" value="选取萤幕色彩"/>
+		<string key="1_386" loc-id="1_386" value="正在计算材质..."/>
+		<string key="1_387" loc-id="1_387" value="正在起始化扩展插件..."/>
+		<string key="1_388" loc-id="1_388" value="喷嘴文件向量图形不正确。"/>
+		<string key="1_389" loc-id="1_389" value="正在加入画格..."/>
+		<string key="1_390" loc-id="1_390" value="魔术棒群组 %d"/>
+		<string key="1_392" loc-id="1_392" value="无法重做"/>
+		<string key="1_393" loc-id="1_393" value="正在反转遮罩..."/>
+		<string key="1_394" loc-id="1_394" value="正在柔化遮罩..."/>
+		<string key="1_395" loc-id="1_395" value="正在清除遮罩..."/>
+		<string key="1_396" loc-id="1_396" value="选取格线色彩"/>
+		<string key="1_397" loc-id="1_397" value="选取格线背景色彩"/>
+		<string key="1_398" loc-id="1_398" value="帮助"/>
+		<string key="1_399" loc-id="1_399" value="正向前移动变形资料..."/>
+		<string key="1_400" loc-id="1_400" value="正向后移动变形资料..."/>
+		<string key="1_401" loc-id="1_401" value="正在建立幂范围..."/>
+		<string key="1_402" loc-id="1_402" value="正在 Imaging 材质..."/>
+		<string key="1_403" loc-id="1_403" value="数字超过比例。遮罩的最大羽化值为 50 像素。"/>
+		<string key="1_404" loc-id="1_404" value="不允许建立新图像的脚本记录在播放启用时保存画格 – 中止。"/>
+		<string key="1_405" loc-id="1_405" value="正在以 GIF 格式保存文件..."/>
+		<string key="1_406" loc-id="1_406" value="正在复制 GIF 文件至内存..."/>
+		<string key="1_408" loc-id="1_408" value="GIF 文件标头错误。"/>
+		<string key="1_409" loc-id="1_409" value="不支持 GIF 版本。"/>
+		<string key="1_410" loc-id="1_410" value="GIF 解码错误。"/>
+		<string key="1_411" loc-id="1_411" value="GIF 编码错误"/>
+		<string key="1_412" loc-id="1_412" value="GIF 指令溢出"/>
+		<string key="1_413" loc-id="1_413" value="背景"/>
+		<string key="1_415" loc-id="1_415" value="正在衍生..."/>
+		<string key="1_416" loc-id="1_416" value="找到空的表示式。"/>
+		<string key="1_417" loc-id="1_417" value="表示式没有任何内容。"/>
+		<string key="1_418" loc-id="1_418" value="表示式含有多个参数。"/>
+		<string key="1_419" loc-id="1_419" value="运算子的位置不正确。"/>
+		<string key="1_420" loc-id="1_420" value="运算子遗失右运算元。"/>
+		<string key="1_421" loc-id="1_421" value="作业结果为空的表示式。"/>
+		<string key="1_422" loc-id="1_422" value="作业产生多个结果。"/>
+		<string key="1_423" loc-id="1_423" value="找到空的表示式。"/>
+		<string key="1_424" loc-id="1_424" value="找到多值表示式或太多 ('s。"/>
+		<string key="1_425" loc-id="1_425" value="模棱两可的 '-' 运算。"/>
+		<string key="1_426" loc-id="1_426" value="[]（区块）计数中有错误位数。"/>
+		<string key="1_427" loc-id="1_427" value="错误*（重复）计数。"/>
+		<string key="1_428" loc-id="1_428" value="*（重复）计数超过范围。"/>
+		<string key="1_429" loc-id="1_429" value="不合法的宽字距字数。"/>
+		<string key="1_430" loc-id="1_430" value="无法配置结果字串。"/>
+		<string key="1_431" loc-id="1_431" value="色彩区块计数太大（上限为 128 个执行绪）。"/>
+		<string key="1_432" loc-id="1_432" value="不合法区块运算式语法。"/>
+		<string key="1_433" loc-id="1_433" value="区块运算式中不合法的花纹字元。"/>
+		<string key="1_443" loc-id="1_443" value="正在以 JPEG 格式保存文件..."/>
+		<string key="1_444" loc-id="1_444" value="正在复制 JPEG 文件至内存..."/>
+		<string key="1_445" loc-id="1_445" value="JPEG 解码错误（^1）。"/>
+		<string key="1_446" loc-id="1_446" value="JPEG 编码错误（^1）。"/>
+		<string key="1_447" loc-id="1_447" value="'（' 没有比对 '）'"/>
+		<string key="1_448" loc-id="1_448" value="经纱"/>
+		<string key="1_449" loc-id="1_449" value="经纱色彩"/>
+		<string key="1_450" loc-id="1_450" value="纬纱"/>
+		<string key="1_451" loc-id="1_451" value="纬纱色彩"/>
+		<string key="1_452" loc-id="1_452" value="您是否要将这块大型剪辑转换到剪贴板？"/>
+		<string key="1_453" loc-id="1_453" value="不支持 CMYK 格式 JPEG"/>
+		<string key="1_454" loc-id="1_454" value="运算遗失左运算元。"/>
+		<string key="1_457" loc-id="1_457" value="无法使用空的色彩集完成这个作业。"/>
+		<string key="1_458" loc-id="1_458" value="已超过脚本关键字的最大数量"/>
+		<string key="1_459" loc-id="1_459" value="已找到重复的脚本关键字"/>
+		<string key="1_460" loc-id="1_460" value="找到不合法的 Token 编号"/>
+		<string key="1_461" loc-id="1_461" value="找到重复的 Token 编号"/>
+		<string key="1_462" loc-id="1_462" value="找到不合法的参数编号"/>
+		<string key="1_463" loc-id="1_463" value="找到重复的参数编号"/>
+		<string key="1_464" loc-id="1_464" value="正在建立 Pyramid..."/>
+		<string key="1_465" loc-id="1_465" value="正在写入资料..."/>
+		<string key="1_466" loc-id="1_466" value="正在建立新解析度的图像..."/>
+		<string key="1_467" loc-id="1_467" value="锥体"/>
+		<string key="1_468" loc-id="1_468" value="开启"/>
+		<string key="1_469" loc-id="1_469" value="正在涂绘马赛克花砖..."/>
+		<string key="1_470" loc-id="1_470" value="正在将花砖成像于遮罩..."/>
+		<string key="1_473" loc-id="1_473" value="红"/>
+		<string key="1_474" loc-id="1_474" value="绿"/>
+		<string key="1_475" loc-id="1_475" value="蓝"/>
+		<string key="1_476" loc-id="1_476" value="主要的"/>
+		<string key="1_477" loc-id="1_477" value="X"/>
+		<string key="1_478" loc-id="1_478" value="Y"/>
+		<string key="1_479" loc-id="1_479" value="正在将群组合并成一个单图层..."/>
+		<string key="1_480" loc-id="1_480" value="正在转换镶嵌资料结构成为马赛克花砖..."/>
+		<string key="1_481" loc-id="1_481" value="显示尺规"/>
+		<string key="1_482" loc-id="1_482" value="隐藏尺规"/>
+		<string key="1_483" loc-id="1_483" value="显示导线"/>
+		<string key="1_484" loc-id="1_484" value="隐藏导线"/>
+		<string key="1_485" loc-id="1_485" value="花纹搬移器"/>
+		<string key="1_486" loc-id="1_486" value="喷嘴搬移器"/>
+		<string key="1_487" loc-id="1_487" value="开启花纹材料库:"/>
+		<string key="1_488" loc-id="1_488" value="开启喷嘴材料库:"/>
+		<string key="1_489" loc-id="1_489" value="新增花纹材料库:"/>
+		<string key="1_490" loc-id="1_490" value="新增喷嘴材料库:"/>
+		<string key="1_491" loc-id="1_491" value="更改花纹名称"/>
+		<string key="1_492" loc-id="1_492" value="更改喷嘴名称"/>
+		<string key="1_495" loc-id="1_495" value="设定导线色彩:"/>
+		<string key="1_496" loc-id="1_496" value="显示格线"/>
+		<string key="1_497" loc-id="1_497" value="隐藏格线"/>
+		<string key="1_500" loc-id="1_500" value="输入外观名称"/>
+		<string key="1_501" loc-id="1_501" value="应该立即在编辑器中开启该外观。修改并保存，然后按一下「确定」以自动将其输入。"/>
+		<string key="1_502" loc-id="1_502" value="选取 Sketch Pad"/>
+		<string key="1_522" loc-id="1_522" value="画布尺寸: "/>
+		<string key="1_523" loc-id="1_523" value="目前大小: "/>
+		<string key="1_524" loc-id="1_524" value="新的大小: "/>
+		<string key="1_525" loc-id="1_525" value="保存花纹"/>
+		<string key="1_531" loc-id="1_531" value="内存不足以保存整个预览图。"/>
+		<string key="1_532" loc-id="1_532" value="内存不足以将全部向量图形保存为这个格式。"/>
+		<string key="1_533" loc-id="1_533" value="(目前脚本)"/>
+		<string key="1_534" loc-id="1_534" value="选取砖泥色彩"/>
+		<string key="1_535" loc-id="1_535" value="选取笔触色彩"/>
+		<string key="1_536" loc-id="1_536" value="选取填入色彩"/>
+		<string key="1_537" loc-id="1_537" value="选取中空字色彩"/>
+		<string key="1_538" loc-id="1_538" value="选取已选取的点色彩"/>
+		<string key="1_539" loc-id="1_539" value="选取控制线色彩"/>
+		<string key="1_540" loc-id="1_540" value="向量图形无法保存至图像组合。您必须将向量图形转换为图层，才能够保存至图像组合。"/>
+		<string key="1_541" loc-id="1_541" value="某些向量图形已开启，无法转换至选区。"/>
+		<string key="1_542" value="保存为非 RIFF 格式时，将会遗失向量马赛克资讯。"/>
+		<string key="1_545" loc-id="1_545" value="动画"/>
+		<string key="1_546" loc-id="1_546" value="正在扭曲图像"/>
+		<string key="1_547" loc-id="1_547" value="正在复制图像"/>
+		<string key="1_548" loc-id="1_548" value="内存不足以读取这个文件的向量图形资料。"/>
+		<string key="1_549" loc-id="1_549" value="向量图形资料已损毁或为错误格式 – 无法解压缩"/>
+		<string key="1_550" loc-id="1_550" value="正在建立脚本缩图预览..."/>
+		<string key="1_551" loc-id="1_551" value="录制的向量图形选区不合法或已损毁"/>
+		<string key="1_552" loc-id="1_552" value="录制的向量图形选区不符合目前的图像"/>
+		<string key="1_553" loc-id="1_553" value="设定向量图形属性..."/>
+		<string key="1_554" loc-id="1_554" value="设定向量图形属性..."/>
+		<string key="1_555" loc-id="1_555" value="设定向量图形属性"/>
+		<string key="1_556" loc-id="1_556" value="设定向量图形属性"/>
+		<string key="1_557" loc-id="1_557" value="脚本播放安置比 10 深（可能是脚本呼叫其本身）"/>
+		<string key="1_558" loc-id="1_558" value="马赛克资料已损毁或为错误格式 – 无法解压缩"/>
+		<string key="1_559" loc-id="1_559" value="无法删除笔刷的最后一个变体。"/>
+		<string key="1_560" loc-id="1_560" value="选取%s"/>
+		<string key="1_561" loc-id="1_561" value="超柔化仅能应用于整个图像或图像图层。"/>
+		<string key="1_562" loc-id="1_562" value="无法保存纸张"/>
+		<string key="1_563" loc-id="1_563" value="无法保存至这个容量"/>
+		<string key="1_564" loc-id="1_564" value="内存或资料不足以读取这个文件的扩展插件图层"/>
+		<string key="1_565" loc-id="1_565" value="无法找到为此文件建立图层的扩展插件。扩展插件图层将会转换为 Painter 图层。"/>
+		<string key="1_566" loc-id="1_567" value="无法载入变体。尚未载入与这个变体相关的扩展插件笔刷。"/>
+		<string key="1_567" loc-id="1_568" value="魔术棒遮罩"/>
+		<string key="1_568" loc-id="1_569" value="转换为图层时出现错误。"/>
+		<string key="1_569" loc-id="1_570" value="无法再建立任何遮罩。"/>
+		<string key="1_570" loc-id="1_571" value="扩展插件图层无法保存至图像组合。您必须确认扩展插件图层，才能将图层保存至图像组合。"/>
+		<string key="1_571" loc-id="1_572" value="无法输入预设 Painter 面板文件。"/>
+		<string key="1_572" loc-id="1_573" value="无法输出称为 Painter 面板或 PAINTER.PAL 的文件。"/>
+		<string key="1_573" loc-id="1_574" value="无法确认没有笔触或填入的向量图形。"/>
+		<string key="1_574" loc-id="1_575" value="这个类型的扩展插件图层无法更改尺寸。"/>
+		<string key="1_575" loc-id="1_576" value="扩展插件图层无法分配群组。."/>
+		<string key="1_576" loc-id="1_577" value="扩展插件图层无法移至图层列表的群组内。"/>
+		<string key="1_577" loc-id="1_578" value="迷宫太小以致于无法工作。"/>
+		<string key="1_578" loc-id="1_579" value="随机根源不得为 0。"/>
+		<string key="1_579" loc-id="1_580" value="厚度必须介于 1 到 32 之间。"/>
+		<string key="1_580" loc-id="1_581" value="解决方案路径太长，无法完全显示。"/>
+		<string key="1_581" loc-id="1_582" value="找不到解决方案路径！"/>
+		<string key="1_582" loc-id="1_583" value="花纹数必须介于 1 到 3 之间。"/>
+		<string key="1_583" loc-id="1_584" value="无法在脚本列表中开启的脚本上进行录制。"/>
+		<string key="1_584" loc-id="1_585" value="这个 TIFF 文件含有多重使用者遮罩，只会读取第一个遮罩。"/>
+		<string key="1_585" loc-id="1_586" value="旋转的画布上不允许裁剪。"/>
+		<string key="1_586" loc-id="1_587" value="画格堆迭上不允许裁剪。"/>
+		<string key="1_587" loc-id="1_588" value="加入另一个控制项将会使控制面板超过目前的萤幕宽度。"/>
+		<string key="1_588" loc-id="1_589" value="无法使用启用的扩展插件笔刷绘入遮罩。"/>
+		<string key="1_589" loc-id="1_590" value="警告:扩展插件图层确认失败。"/>
+		<string key="1_590" loc-id="1_591" value="建立新图层失败"/>
+		<string key="1_591" loc-id="1_592" value="建立新遮罩失败"/>
+		<string key="1_592" loc-id="1_593" value="魔术棒资料解压缩失败"/>
+		<string key="1_593" loc-id="1_594" value="无法建立超过 16 个的自订面板。"/>
+		<string key="1_594" loc-id="1_595" value="无法利用相同名称为两个自订面板命名。"/>
+		<string key="1_595" loc-id="1_596" value="无法将面板配置名称命名为预设。"/>
+		<string key="1_596" loc-id="1_597" value="名称不能超过 %d 个字元。"/>
+		<string key="1_597" loc-id="1_598" value="Photoshop 文件无法拥有超过 998 个路径。您的图像中含有超过 998 个路径。仅会保存前 998 个路径。"/>
+		<string key="1_598" loc-id="1_599" value="无法建立超过 16 个的面板配置。"/>
+		<string key="1_599" loc-id="1_600" value="打印机不支持 Postscript"/>
+		<string key="1_600" loc-id="1_601" value="无法建立厚度超过 63 个等级的群组"/>
+		<string key="1_601" loc-id="1_602" value="堆积区域中没有足够的空间可供您启动 Internet 浏览器！若要释放可用内存，请结束可用应用程式。"/>
+		<string key="1_602" loc-id="1_603" value="无法将此撕裂。"/>
+		<string key="1_603" loc-id="1_604" value="无法开启暂存文件。"/>
+		<string key="1_604" loc-id="1_605" value="指定的名称已经存在。请选择不同的名称。"/>
+		<string key="1_605" loc-id="1_606" value="无法开启偏好的色彩设定文件 &quot;^3&quot;。"/>
+		<string key="1_606" loc-id="1_607" value="图层已经锁定。"/>
+		<string key="1_607" loc-id="1_608" value="正在处理木刻效果..."/>
+		<string key="1_608" loc-id="1_609" value="正在处理图像处理器效果..."/>
+		<string key="1_609" loc-id="1_610" value="正在处理碎裂效果..."/>
+		<string key="1_610" loc-id="1_611" value="正在计算圆点色彩设定..."/>
+		<string key="1_611" loc-id="1_612" value="正在拾取圆点色彩分隔..."/>
+		<string key="1_612" loc-id="1_613" value="灰点图层 %d"/>
+		<string key="1_613" loc-id="1_614" value="红点图层 %d"/>
+		<string key="1_614" loc-id="1_615" value="绿点图层 %d"/>
+		<string key="1_615" loc-id="1_616" value="蓝点图层 %d"/>
+		<string key="1_616" loc-id="1_617" value="黄点图层 %d"/>
+		<string key="1_617" loc-id="1_618" value="青点图层 %d"/>
+		<string key="1_618" loc-id="1_619" value="洋红点图层 %d"/>
+		<string key="1_619" loc-id="1_620" value="白点图层 %d"/>
+		<string key="1_620" loc-id="1_621" value="黑点图层 %d"/>
+		<string key="1_621" loc-id="1_622" value="橙点图层 %d"/>
+		<string key="1_622" loc-id="1_623" value="保存外观时，您必须先开启图像，然后制作一个矩形选区。这个区域通常为笔刷笔触，将会变成外观图示。"/>
+		<string key="1_623" loc-id="1_624" value="保存笔刷时，您必须先开启图像，然后制作一个矩形选区。这个区域通常为一张笔刷图片，将会变成笔刷图示。"/>
+		<string key="1_624" loc-id="1_625" value="油墨图层 %d"/>
+		<string key="1_625" loc-id="1_626" value="油墨笔刷无法在遮罩图层上使用"/>
+		<string key="1_627" loc-id="1_628" value="非油墨笔刷无法在油墨图层上使用"/>
+		<string key="1_628" loc-id="1_629" value="纇别 &quot;^3&quot; 中没有变体"/>
+		<string key="1_629" loc-id="1_630" value="无法开启笔刷类别图示的 JPEG 文件。"/>
+		<string key="1_630" loc-id="1_631" value="笔刷类别图示 JPEG 文件必须为 30 像素 x 30像素。"/>
+		<string key="1_631" loc-id="1_632" value="水彩图层 %d"/>
+		<string key="1_632" loc-id="1_633" value="找到快显选单资源"/>
+		<string key="1_633" loc-id="1_634" value="&lt;Beta 使用者&gt;"/>
+		<string key="1_634" loc-id="1_635" value="&lt;Beta 序号&gt;"/>
+		<string key="1_635" loc-id="1_636" value="文字"/>
+		<string key="1_636" loc-id="1_637" value="文字 &quot;%s&quot;"/>
+		<string key="1_639" loc-id="1_640" value="已利用 16 位元的色彩厚度建立 &quot;^3&quot;。请利用 8 位元的色彩厚度，在原始应用程式中重新保存文件。"/>
+		<string key="1_640" loc-id="1_641" value="无法开启 Painter 6 或更旧版的面板文件"/>
+		<string key="1_642" value="已侦测到不支持的效果/调整图层。按一下“确定”以开启没有效果的图像。"/>
+		<string key="1_643" loc-id="1_643" value="数位水彩笔刷无法在遮罩图层上使用"/>
+		<string key="1_644" loc-id="1_644" value="隐藏应用程式使用者介面"/>
+		<string key="1_645" loc-id="1_645" value="显示应用程式使用者介面"/>
+		<string key="1_646" loc-id="1_646" value="隐藏面板"/>
+		<string key="1_647" loc-id="1_647" value="显示面板"/>
+		<string key="1_648" loc-id="1_648" value="此文件是由不同版本的 Painter 所建立，开启此文件可能会造成部分编辑功能无法使用 。"/>
+		<string key="1_649" loc-id="1_649" value="无法使用此笔刷在图层遮罩上绘图"/>
+		<string key="1_650" loc-id="1_650" value="厚涂图层 %d"/>
+		<string key="1_651" loc-id="1_651" value="将材质合成至材料库..."/>
+		<string key="1_652" loc-id="1_652" value="厚涂笔刷无法在图层遮罩上使用。"/>
+		<string key="1_653" loc-id="1_653" value="请在文件中建立矩形选区。&#xA;&#xA;附注: 从大选区合成材质可能需花费较长时间。"/>
+		<string key="1_654" loc-id="1_654" value="保存文件时发生错误。图层名称「%s」已超过 16 382 x 16 382 像素的最大大小。请选取该图层，将其内容复制  到新的图层，然后删除现有图层."/>
+		<string key="1_655" loc-id="1_655" value="保存文件时发生错误。画布已超过 16 382 x 16 382 像素的最大大小。请选择「画布 &gt; 调整大小」，缩小画布的大小."/>
+		<string key="1_656" loc-id="1_656" value="新的画布已超过最大大小。建议画布的大小应小于 16 382 x 16 382 像素."/>
+		<string key="1_657" loc-id="1_657" value="画布已锁定时无法进行修改。"/>
+		<string key="1_658" loc-id="1_658" value="您无法在隐藏的图层上绘图。请确认图层可显示并再试一次。"/>
+		<string key="1_659" loc-id="1_659" value="您无法在隐藏的画布上绘图。请确认画布可显示并再试一次。"/>
+	</category>
+
+	<category key="Str#">
+		<string key="10_1" loc-id="10_1" value="遗漏操作代码"/>
+		<string key="10_2" loc-id="10_2" value="未知的操作代码"/>
+		<string key="10_3" loc-id="10_3" value="遗漏左边括弧"/>
+		<string key="10_4" loc-id="10_4" value="遗漏逗号"/>
+		<string key="10_5" loc-id="10_5" value="遗漏右边括弧"/>
+		<string key="10_6" loc-id="10_6" value="遗漏号码"/>
+		<string key="10_7" loc-id="10_7" value="错误号码格式"/>
+		<string key="10_8" loc-id="10_8" value="遗漏有引号的字串"/>
+		<string key="10_9" loc-id="10_9" value="遗漏结束引号子 "/>
+		<string key="10_10" loc-id="10_10" value="错误日期格式"/>
+		<string key="10_11" loc-id="10_11" value="错误时间格式"/>
+		<string key="10_12" loc-id="10_12" value="行结束的地方有额外的栏位"/>
+		<string key="10_13" loc-id="10_13" value="错误百分比值"/>
+		<string key="10_14" loc-id="10_14" value="需要「勾选」或「取消勾选」"/>
+		<string key="10_15" loc-id="10_15" value="值超出范围 - 太小"/>
+		<string key="10_16" loc-id="10_16" value="值超出范围 - 太大"/>
+		<string key="10_17" loc-id="10_17" value="遗漏参数:&quot;^2&quot;"/>
+		<string key="10_18" loc-id="10_18" value="预期是 &quot;^2&quot;，取得 &quot;^3&quot;"/>
+		<string key="10_19" loc-id="10_19" value="文件在连续作业的中途结束"/>
+		<string key="10_20" loc-id="10_20" value="连续操作代码应该是 &quot;^2&quot;，之前是 &quot;^3&quot;"/>
+		<string key="10_21" loc-id="10_21" value="读取框架伫列的内存不足"/>
+		<string key="10_22" loc-id="10_22" value="非标准十六进位值"/>
+		<string key="10_23" loc-id="10_23" value="未设定输入文件"/>
+	</category>
+
+	<!--These are for the warnings message boxes-->
+	<category key="Str#">
+		<string key="111_30" value="您的仿制笔刷无效，因为没有可以仿制的原始图像。从“文件”菜单中，选择“仿制”或“仿制来源”以设定仿制对应。保持开启原始图像."/>
+		<string key="111_51" value="您的水彩笔刷不能在非水彩图层上使用。"/>
+		<string key="111_52" value="您无法使用仿制填色，因为没有可以仿制的原始图像。从“文件”选单上，选择“仿制”或“仿制来源”以设定仿制对应。保持开启原始图像."/>
+		<string key="111_69" value="这是试用版本，无法使用保存、另存新档、打印、汇出及复制到剪切板的功能。如需 Corel Painter 的相关详细资讯，请参阅 Corel 的网站：www.painterartist.com。"/>
+		<string key="111_81" value="描图纸已经打开，无法调整亮度和对比。是否要关闭描图纸？"/>
+		<string key="111_83" value="拥有该名称的脚本已经存在。是否要替换它？"/>
+		<string key="111_95" value="拥有该名称的外观已经存在。是否要替换它？"/>
+		<string key="111_110" value="您的仿制笔刷无效，因为无法使用欲仿制的原始图像来源。从“文件”选单上，使用“仿制”或“仿制来源”设定仿制对应。保持打开原始图像。取消中止播放。"/>
+		<string key="111_114" value="您的仿制外观无效，因为没有可以仿制的原始图像。从“文件”选单上，使用“仿制”或“仿制来源”设定仿制对应。保持开启原始图像."/>
+		<string key="111_129" value="读取第 ^1 行的以下脚本: ¬^0¬时侦测到错误"/>
+		<string key="111_130" value="在水彩图层上只能使用水彩笔刷。"/>
+		<string key="111_132" value="尚未安装选单 ^1 上的滤镜扩展插件 ^0."/>
+		<string key="111_140" value="矩形选区不能延伸到图像的边缘之外。"/>
+		<string key="111_218" value="由于遮罩图层上不允许使用“湿颜料”，您的水彩笔刷无法工作."/>
+		<string key="111_219" value="在群组上不能绘图。从开启的群组选取一个项目，以便绘图。"/>
+		<string key="111_540" value="在 &quot;{1}.xml&quot;线条 {2} 直栏 {3}中出现错误:"/>
+	</category>
+
+	<!--These are for the caution message boxes-->
+	<category key="Str#">
+		<string key="222_3" value="尚未建立目前笔刷大小。\n点击“建立”按钮以便建立笔刷大小。"/>
+		<string key="222_8" value="该 ^0 笔刷样式已经存在。是否要替换它？"/>
+		<string key="222_25" value="拥有该名称的选区已经存在。是否要替换它？"/>
+		<string key="222_28" value="^0 变体已经存在。是否要替换它？"/>
+		<string key="222_29" value="您的笔刷笔触没有出现，因为目前的选区模式已经对其进行遮罩。使用编辑视窗中的选取模式以进行重设。"/>
+		<string key="222_31" value="删除 &quot;{3}&quot;{4}  的 {1} &quot;{2}&quot; 变体"/>
+		<string key="222_31_1" value=" 并撤销出厂预设值?"/>
+		<string key="222_33" value="您是否确定要删除笔触 &quot;{-}&quot;？"/>
+		<string key="222_85" value="是否真的要删除全部的快取变体，然后将笔刷文件撤销为原始状态？"/>
+		<string key="222_89" value="光源已经存在，你是否想要替换呢？"/>
+		<string key="222_131" value="拥有该名称的图像已经存在。是否要替换它？"/>
+		<string key="222_134" value="拥有该名称的花纹已经存在。是否要替换它？"/>
+		<string key="222_136" value="除非已载入喷嘴，否则您的图像水管笔刷将无法绘图。"/>
+		<string key="222_143" value="是否要删除此图片的全部导线？"/>
+		<string key="222_174" value="拥有该名称的渐层已经存在。是否要替换它？"/>
+		<string key="222_183" value="您确定要删除选取的色彩吗 ?"/>
+		<string key="222_188" value="ColorTalk 程式已经存在。是否要替换它？"/>
+		<string key="222_190" value="拥有该名称的织布已经存在。是否要替换它？"/>
+		<string key="222_202" value="石纹公式已经存在。是否要替换它？"/>
+		<string key="222_206" value="您是否确定要删除花纹公式  &quot;^1&quot;？"/>
+		<string key="222_209" value="您拥有一个无法转换为 Photoshop 路径的现用未变形选区。您是否要继续？"/>
+		<string key="222_217" value="拥有该名称的面板配置已经存在。是否要替换它？"/>
+		<string key="222_229" value="所有最近的更改将丢失，同时所有的指令将重设为先前设定。\n\n是否继续？"/>
+		<string key="222_230" value="所有的自订将丢失，同时所有的指令将撤销为出厂预设值。是否继续？"/>
+		<string key="222_302" value="您是否确定要清除此马赛克的全部花砖？"/>
+		<string key="222_319" value="笔触 &quot;^0&quot; 已经存在。是否要替换它？"/>
+		<string key="222_529_1" value="是否希望为此变体建立您自己的预设值？"/>
+		<string key="222_529_2" value="您希望替换预设变体？"/>
+		<string key="222_531" value="拥有这个色彩的另一个点图层已经存在 – 您是否仍要建立这个图层？"/>
+		<string key="222_538" value="该预设已经存在。是否要替换它？"/>
+		<string key="222_565" value="无法找到为此文件建立图层的扩展插件。扩展插件图层将会转换为 Painter 图层。"/>
+		<string key="222_584" value="这个 TIFF 文件含有多重使用者遮罩，只会读取第一个遮罩。"/>
+		<string key="222_632" value="找到快显选单资源"/>
+		<string key="222_146_1" value="命名为 &quot;^1&quot; 的项已经存在于此位置。您是否希望用正在保存的项替换它？"/>
+		<string key="222_146_2" value="此操作将弄干您的数位水彩图层。"/>
+	</category>
+
+	<!--For the function short note_alert3(short message_number1, short message_number2, short num)-->
+	<category key="Str#">
+		<string key="note_alert3_1" value="{-} 发生错误"/>
+		<string key="note_alert3_2" value="^0 中发生错误。织布花纹语言语法错误:^1  相关详细资讯，请参阅「技术说明 ４:织布结构」。"/>
+		<string key="pluginAlert" value="执行 Illustrator 扩展插件: '{1}{2}{3}{4}'时出现错误"/>
+		<string key="BoundingBox" value="&quot;{-}&quot; 没有 BoundingBox，不会以有效的 Illustrator 文件呈现。"/>
+	</category>
+
+	<category key="Str#">
+		<string key="1004_6" loc-id="1004_6" value="橡皮擦"/>
+		<string key="1004_7" loc-id="1004_7" value="橡皮擦"/>
+		<string key="1004_8" loc-id="1004_8" value="扁平橡皮擦"/>
+		<string key="1004_9" loc-id="1004_9" value="大著色区域"/>
+	</category>
+
+	<category key="Str#">
+		<string key="1005_1" loc-id="1005_1" value="材料库"/>
+		<string key="1005_2" loc-id="1005_2" value="纸张"/>
+		<string key="1005_3" loc-id="1005_3" value="花纹"/>
+		<string key="1005_4" loc-id="1005_4" value="渐层"/>
+		<string key="1005_5" loc-id="1005_5" value="织布"/>
+		<string key="1005_6" loc-id="1005_6" value="外观"/>
+		<string key="1005_7" loc-id="1005_7" value="喷嘴"/>
+		<string key="1005_8" loc-id="1005_8" value="脚本"/>
+		<string key="1005_9" loc-id="1005_9" value="笔刷"/>
+		<string key="1005_10" loc-id="1005_10" value="组合"/>
+		<string key="1005_11" loc-id="1005_11" value="图像"/>
+		<string key="1005_12" loc-id="1005_12" value="选区"/>
+		<string key="1005_13" loc-id="1005_13" value="输入工作区"/>
+		<string key="1005_14" loc-id="1005_14" value="输出工作区"/>
+		<string key="1005_15" loc-id="1005_15" value="出厂预设"/>
+	</category>
+
+	<category key="Str#">
+		<string key="1006_1" loc-id="1006_1" value="预设值"/>
+	</category>
+
+	<category key="Str#">
+		<string key="11_1" loc-id="11_1" value=" Bold"/>
+		<string key="11_2" loc-id="11_2" value=" Italic"/>
+		<string key="11_3" loc-id="11_3" value=" Bold Italic"/>
+	</category>
+
+	<category key="Str#">
+		<string key="12_15" loc-id="12_15" value="运算元"/>
+		<string key="12_16" loc-id="12_16" value="运算子"/>
+		<string key="12_17" loc-id="12_17" value="函数"/>
+		<string key="12_18" loc-id="12_18" value="常数"/>
+		<string key="12_19" loc-id="12_19" value="预览"/>
+		<string key="12_20" loc-id="12_20" value="变数"/>
+	</category>
+
+	<category key="Str#">
+		<string key="13_5" loc-id="13_5" value="色相"/>
+		<string key="13_74" loc-id="13_74" value="0"/>
+		<string key="13_75" loc-id="13_75" value="1"/>
+		<string key="13_76" loc-id="13_76" value="0.5"/>
+		<string key="13_77" loc-id="13_77" value="0.333"/>
+		<string key="13_78" loc-id="13_78" value="0.667"/>
+		<string key="13_79" loc-id="13_79" value="0.25"/>
+		<string key="13_80" loc-id="13_80" value="0.75"/>
+		<string key="13_81" loc-id="13_81" value="0.1"/>
+		<string key="13_82" loc-id="13_82" value="0.2"/>
+		<string key="13_83" loc-id="13_83" value="0.3"/>
+		<string key="13_84" loc-id="13_84" value="0.4"/>
+		<string key="13_85" loc-id="13_85" value="0.6"/>
+		<string key="13_86" loc-id="13_86" value="0.7"/>
+		<string key="13_87" loc-id="13_87" value="0.8"/>
+		<string key="13_88" loc-id="13_88" value="0.9"/>
+		<string key="13_92" loc-id="13_92" value="2"/>
+		<string key="13_93" loc-id="13_93" value="3"/>
+		<string key="13_94" loc-id="13_94" value="4"/>
+	</category>
+
+	<category key="Str#">
+		<string key="14_1" loc-id="14_1" value="表示图像的红色原色。"/>
+		<string key="14_2" loc-id="14_2" value="表示图像的绿色原色。"/>
+		<string key="14_3" loc-id="14_3" value="表示图像的蓝色原色。"/>
+		<string key="14_4" loc-id="14_4" value="表示图像的遮罩图层。附注:零遮罩表示选区的内部，值为 1 的遮罩表示选区的外部"/>
+		<string key="14_5" loc-id="14_5" value="表示图像的色相（色彩）原色。附注:色相 0 为蓝色，而且色相缠绕。彩度为 0，或者值为 0 或 1 时，表示未定义色相。"/>
+		<string key="14_6" loc-id="14_6" value="表示图像的彩度（色彩）原色。附注:彩度值为 0 时表示纯灰阶。彩度值为 1 时表示纯色彩。值为 0 或 1 时，表示未定义彩度。"/>
+		<string key="14_7" loc-id="14_7" value="表示图像的值（亮度）原色。值为 0 时，表示为黑色。值为 1 时，表示为白色。附注:光谱出现于值为 0.5 而彩度为 1 时。"/>
+		<string key="14_8" loc-id="14_8" value="表示处理分隔图像色彩的青版。附注:处理色彩以 CMYK 色表示。"/>
+		<string key="14_9" loc-id="14_9" value="表示处理分隔图像色彩的洋红版。附注:处理色彩以 CMYK 色表示。"/>
+		<string key="14_10" loc-id="14_10" value="表示处理分隔图像色彩的黄版。附注:处理色彩以 CMYK 色表示。"/>
+		<string key="14_11" loc-id="14_11" value="表示处理分隔图像色彩的黑版。附注:处理色彩以 CMYK 色表示。"/>
+		<string key="14_12" loc-id="14_12" value="在图层上操作时，表示背景图像的红色原色。"/>
+		<string key="14_13" loc-id="14_13" value="在图层上操作时，表示背景图像的绿色原色。"/>
+		<string key="14_14" loc-id="14_14" value="在图层上操作时，表示背景图像的蓝色原色。"/>
+		<string key="14_15" loc-id="14_15" value="在图层上操作时，表示背景图像的遮罩原色。"/>
+		<string key="14_16" loc-id="14_16" value="在图层上操作时，表示背景图像的色相（色彩）原色。"/>
+		<string key="14_17" loc-id="14_17" value="在图层上操作时，表示背景图像的彩度（色彩）原色。"/>
+		<string key="14_18" loc-id="14_18" value="在图层上操作时，表示背景图像的值（亮度）原色。"/>
+		<string key="14_19" loc-id="14_19" value="在图层上操作时，表示处理分隔背景图像色彩的青版。附注:处理色彩以 CMYK 色表示。"/>
+		<string key="14_20" loc-id="14_20" value="在图层上操作时，表示处理分隔背景图像色彩的洋红版。附注:处理色彩以 CMYK 色表示。"/>
+		<string key="14_21" loc-id="14_21" value="在图层上操作时，表示处理分隔背景图像色彩的黄版。附注:处理色彩以 CMYK 色表示。"/>
+		<string key="14_22" loc-id="14_22" value="在图层上操作时，表示处理分隔背景图像色彩的黑版。附注:处理色彩以 CMYK 色表示。"/>
+		<string key="14_23" loc-id="14_23" value="表示目前色彩的红色原色。"/>
+		<string key="14_24" loc-id="14_24" value="表示目前色彩的绿色原色。"/>
+		<string key="14_25" loc-id="14_25" value="表示目前色彩的蓝色原色。"/>
+		<string key="14_26" loc-id="14_26" value="表示目前色彩的遮罩原色。"/>
+		<string key="14_27" loc-id="14_27" value="表示目前色彩的色相（色彩）原色。"/>
+		<string key="14_28" loc-id="14_28" value="表示目前色彩的彩度（色彩）原色。"/>
+		<string key="14_29" loc-id="14_29" value="表示目前色彩的值（亮度）原色。"/>
+		<string key="14_30" loc-id="14_30" value="表示背景色彩的红色原色。"/>
+		<string key="14_31" loc-id="14_31" value="表示背景色彩的绿色原色。"/>
+		<string key="14_32" loc-id="14_32" value="表示背景色彩的蓝色原色。"/>
+		<string key="14_33" loc-id="14_33" value="表示背景色彩的遮罩原色。"/>
+		<string key="14_34" loc-id="14_34" value="表示背景色彩的色相（色彩）原色。"/>
+		<string key="14_35" loc-id="14_35" value="表示背景色彩的彩度（色彩）原色。"/>
+		<string key="14_36" loc-id="14_36" value="表示背景色彩的值（亮度）原色。"/>
+		<string key="14_37" loc-id="14_37" value="为常数的 placeholder"/>
+		<string key="14_38" loc-id="14_38" value="这是设定运算子。"/>
+		<string key="14_39" loc-id="14_39" value="这是加法运算子。"/>
+		<string key="14_40" loc-id="14_40" value="这是减法运算子。"/>
+		<string key="14_41" loc-id="14_41" value="这是乘法运算子。"/>
+		<string key="14_42" loc-id="14_42" value="这是除法运算子。"/>
+		<string key="14_43" loc-id="14_43" value="这是加入运算子。"/>
+		<string key="14_44" loc-id="14_44" value="这是从运算子减去。"/>
+		<string key="14_45" loc-id="14_45" value="这是与运算子相乘。"/>
+		<string key="14_46" loc-id="14_46" value="这是由运算子除去。"/>
+		<string key="14_47" loc-id="14_47" value="分号用于结束 ColorTalk 中的陈述式。"/>
+		<string key="14_48" loc-id="14_48" value="逗号用于分隔参数和函数。"/>
+		<string key="14_49" loc-id="14_49" value="开始括号用于含有巢状运算式，以及限定函数。"/>
+		<string key="14_50" loc-id="14_50" value="结束括号用于含有巢状运算式，以及限定函数。"/>
+		<string key="14_51" loc-id="14_51" value="表示操作选区内像素的 x 座标位置。x 值为 0 表示选区的左侧，值为 1 表示选区的右侧。"/>
+		<string key="14_52" loc-id="14_52" value="表示操作选区内像素的 y 座标位置。y 值为 0 表示选区的顶层，值为 y 表示选区的底层。"/>
+		<string key="14_53" loc-id="14_53" value="表示在 0 到 1 之间变化时的随机杂讯。"/>
+		<string key="14_54" loc-id="14_54" value="表示随机杂讯，而其会建立在 0 到 1 之间变化的直条。"/>
+		<string key="14_55" loc-id="14_55" value="表示随机杂讯，而其会建立在 0 到 1 之间变化的横条。"/>
+		<string key="14_56" loc-id="14_56" value="拥有两个参数的函数，会回传两个最小的值。"/>
+		<string key="14_57" loc-id="14_57" value="拥有两个参数的函数，会回传两个最大的值。"/>
+		<string key="14_58" loc-id="14_58" value="拥有两个参数的函数，会回传第一个参数至第二个参数的幂。"/>
+		<string key="14_59" loc-id="14_59" value="拥有一个参数的函数，会回传第一个参数的对数底数。"/>
+		<string key="14_60" loc-id="14_60" value="拥有一个参数的函数，会回传 e 到第一个参数的幂。"/>
+		<string key="14_61" loc-id="14_61" value="拥有一个参数的函数，会回传第一个参数的正弦（以弧度表示）。"/>
+		<string key="14_62" loc-id="14_62" value="拥有一个参数的函数，会回传第一个参数的馀弦（以弧度表示）。"/>
+		<string key="14_63" loc-id="14_63" value="拥有三个参数的函数，其会使用第三个参数插入第一和第二个参数。如果第三个参数为 0，则会回传第一个参数的值。"/>
+		<string key="14_64" loc-id="14_64" value="拥有两个参数的函数，会交换两个参数，而且该函数必须为直接的原色规定式。"/>
+		<string key="14_65" loc-id="14_65" value="拥有一个参数的函数，会回传第一个参数的立方根。"/>
+		<string key="14_66" loc-id="14_66" value="拥有一个参数的函数会回传单位正弦。usin(x) = (sin(x / (2*PI)) + 1)/2；这个函数会经过单位的整个期间，并且回传 0 至 1 的结果。"/>
+		<string key="14_67" loc-id="14_67" value="拥有一个参数的函数会回传单位馀弦。usin(x) = (cos(x / (2*PI)) + 1)/2；这个函数会经过单位的整个期间，并且回传 0 至 1 的结果。"/>
+		<string key="14_68" loc-id="14_68" value="两个参数的函数。如果第一个参数大于或等于第二个参数，那么会回传的值为 1。否则会回传的值为 0。"/>
+		<string key="14_69" loc-id="14_69" value="拥有 y 和 x 这两个参数的函数，会计算由节点（范围由 -PI 至 +PI）定义的角度。"/>
+		<string key="14_70" loc-id="14_70" value="拥有一个参数的函数，而且该函数会减去参数至 0 到 1 的范围。"/>
+		<string key="14_71" loc-id="14_71" value="拥有 y 和 x 这两个参数的函数，会计算由节点（范围由 0 至 1）定义的单位角度。"/>
+		<string key="14_72" loc-id="14_72" value="超过位置对应函数的过程，而该位置对应函数代表选区内部资料的水平位置。"/>
+		<string key="14_73" loc-id="14_73" value="拥有一个参数的函数，会回传第一个参数的绝对值。"/>
+		<string key="14_74" loc-id="14_74" value="此为常数 0"/>
+		<string key="14_75" loc-id="14_75" value="此为常数 1"/>
+		<string key="14_76" loc-id="14_76" value="此为常数1/2"/>
+		<string key="14_77" loc-id="14_77" value="此为常数1/3"/>
+		<string key="14_78" loc-id="14_78" value="此为常数2/3"/>
+		<string key="14_79" loc-id="14_79" value="此为常数1/4"/>
+		<string key="14_80" loc-id="14_80" value="此为常数3/4"/>
+		<string key="14_81" loc-id="14_81" value="此为常数0.1"/>
+		<string key="14_82" loc-id="14_82" value="此为常数0.2"/>
+		<string key="14_83" loc-id="14_83" value="此为常数0.3"/>
+		<string key="14_84" loc-id="14_84" value="此为常数0.4"/>
+		<string key="14_85" loc-id="14_85" value="此为常数0.6"/>
+		<string key="14_86" loc-id="14_86" value="此为常数0.7"/>
+		<string key="14_87" loc-id="14_87" value="此为常数0.8"/>
+		<string key="14_88" loc-id="14_88" value="此为常数0.9"/>
+		<string key="14_89" loc-id="14_89" value="表示像素（在 0 到 1 之间变化）目前纸张纹路的纸。"/>
+		<string key="14_90" loc-id="14_90" value="表示选区中心至像素（范围为中心的 0 至角落的 1）的距离。"/>
+		<string key="14_91" loc-id="14_91" value="表示目前像素与选区中心的角度。3 点钟位置测得的值为 0。该变数值的范围介于 0 到 1。"/>
+		<string key="14_92" loc-id="14_92" value="表示常数值 2"/>
+		<string key="14_93" loc-id="14_93" value="表示常数值 3"/>
+		<string key="14_94" loc-id="14_94" value="表示常数值 4"/>
+		<string key="14_95" loc-id="14_95" value="为使用者的暂时变数"/>
+		<string key="14_96" loc-id="14_96" value="为使用者的暂时变数"/>
+		<string key="14_97" loc-id="14_97" value="为使用者的暂时变数"/>
+		<string key="14_98" loc-id="14_98" value="为使用者的暂时变数"/>
+		<string key="14_99" loc-id="14_99" value="为使用者的暂时变数"/>
+		<string key="14_100" loc-id="14_100" value="为使用者的暂时变数"/>
+		<string key="14_101" loc-id="14_101" value="为使用者的暂时变数"/>
+		<string key="14_102" loc-id="14_102" value="为使用者的暂时变数"/>
+		<string key="14_103" loc-id="14_103" value="为使用者的暂时变数"/>
+		<string key="14_104" loc-id="14_104" value="某个参数的函数会回传参数绝对值 1.0。结果自然会介于 0 到 1 的范围。"/>
+	</category>
+
+	<category key="Str#">
+		<string key="16031_1" loc-id="16031_1" value="geneva"/>
+		<string key="16031_2" loc-id="16031_2" value="9"/>
+		<string key="16031_5" loc-id="16031_5" value="9"/>
+		<string key="16031_10" loc-id="16031_10" value="monaco"/>
+		<string key="16031_11" loc-id="16031_11" value="9"/>
+		<string key="16031_12" loc-id="16031_12" value="8"/>
+		<string key="16031_13" loc-id="16031_13" value="10"/>
+		<string key="16031_14" loc-id="16031_14" value="9"/>
+		<string key="16031_15" loc-id="16031_15" value="11"/>
+		<string key="16031_16" loc-id="16031_16" value="11"/>
+		<string key="16031_17" loc-id="16031_17" value="11"/>
+		<string key="16031_18" loc-id="16031_18" value="9"/>
+		<string key="16031_19" loc-id="16031_19" value="10"/>
+		<string key="16031_20" loc-id="16031_20" value="geneva"/>
+	</category>
+
+	<category key="Str#">
+		<string key="16050_1" loc-id="16050_1" value="-108"/>
+		<string key="16050_2" loc-id="16050_2" value="滤镜无法完成，因为没有足够的内存（滤镜）。&#xA;&#xA;[^0]"/>
+		<string key="16050_3" loc-id="16050_3" value="271"/>
+		<string key="16050_4" loc-id="16050_4" value="滤镜无法完成，因为没有足够的内存（滤镜）。&#xA;&#xA;[^0]"/>
+		<string key="16050_5" loc-id="16050_5" value="-101"/>
+		<string key="16050_6" loc-id="16050_6" value="这个文件为无效格式，无法开启。"/>
+		<string key="16050_7" loc-id="16050_7" value="-102"/>
+		<string key="16050_8" loc-id="16050_8" value="在这个文件中找不到有效的 BoundingBox。"/>
+		<string key="16050_9" loc-id="16050_9" value="-103"/>
+		<string key="16050_10" loc-id="16050_10" value="BoundingBox 为错误或未知的格式。"/>
+		<string key="16050_11" loc-id="16050_11" value="-104"/>
+		<string key="16050_12" loc-id="16050_12" value="无法解析文件。"/>
+		<string key="16050_13" loc-id="16050_13" value="-105"/>
+		<string key="16050_14" loc-id="16050_14" value="文件含有超过 255 个字元的行，无法开启。"/>
+		<string key="16050_16" loc-id="16050_16" value="文件输入器无法完成，因为没有足够的空间可以建立新物件。"/>
+		<string key="16050_17" loc-id="16050_17" value="&lt;其他&gt;"/>
+		<string key="16050_18" loc-id="16050_18" value="滤镜因为未知的错误而无法完成。&#xA;&#xA;[^0]"/>
+	</category>
+
+	<category key="Str#">
+		<string key="17_1" loc-id="17_1" value="笔刷笔触"/>
+		<string key="17_2" loc-id="17_2" value="构成方式更改"/>
+		<string key="17_3" loc-id="17_3" value="图层向下移一层"/>
+		<string key="17_4" loc-id="17_4" value="移到最下层"/>
+		<string key="17_5" loc-id="17_5" value="图层图像遮罩更改"/>
+		<string key="17_6" loc-id="17_6" value="解散群组"/>
+		<string key="17_7" loc-id="17_7" value="选项-浮动"/>
+		<string key="17_8" loc-id="17_8" value="停用湿画笔"/>
+		<string key="17_9" loc-id="17_9" value="动态残影"/>
+		<string key="17_10" loc-id="17_10" value="打印色彩"/>
+		<string key="17_11" loc-id="17_11" value="Alt-浮动"/>
+		<string key="17_14" loc-id="17_14" value="填色"/>
+		<string key="17_15" loc-id="17_15" value="应用网点"/>
+		<string key="17_16" loc-id="17_16" value="套用表面材质"/>
+		<string key="17_17" loc-id="17_17" value="调整色调浓度"/>
+		<string key="17_18" loc-id="17_18" value="色彩重迭"/>
+		<string key="17_19" loc-id="17_19" value="新增"/>
+		<string key="17_20" loc-id="17_20" value="锐利化"/>
+		<string key="17_21" loc-id="17_21" value="柔化"/>
+		<string key="17_22" loc-id="17_22" value="高反差"/>
+		<string key="17_23" loc-id="17_23" value="极色化"/>
+		<string key="17_24" loc-id="17_24" value="负片"/>
+		<string key="17_25" loc-id="17_25" value="矩形选区"/>
+		<string key="17_27" loc-id="17_27" value="清除"/>
+		<string key="17_30" loc-id="17_30" value="取消选取"/>
+		<string key="17_31" loc-id="17_31" value="浮动"/>
+		<string key="17_32" loc-id="17_32" value="图层搬移"/>
+		<string key="17_33" loc-id="17_33" value="图层删除"/>
+		<string key="17_34" loc-id="17_34" value="落下"/>
+		<string key="17_36" loc-id="17_36" value="淡化"/>
+		<string key="17_37" loc-id="17_37" value="剪下"/>
+		<string key="17_39" loc-id="17_39" value="贴上"/>
+		<string key="17_41" loc-id="17_41" value="清除"/>
+		<string key="17_43" loc-id="17_43" value="扭曲"/>
+		<string key="17_44" loc-id="17_44" value="旋转"/>
+		<string key="17_45" loc-id="17_45" value="垂直翻转"/>
+		<string key="17_46" loc-id="17_46" value="水平翻转"/>
+		<string key="17_48" loc-id="17_48" value="填色"/>
+		<string key="17_50" loc-id="17_50" value="等化"/>
+		<string key="17_52" loc-id="17_52" value="油漆桶"/>
+		<string key="17_60" loc-id="17_60" value="气泡"/>
+		<string key="17_61" loc-id="17_61" value="套用石纹"/>
+		<string key="17_62" loc-id="17_62" value="套用光源"/>
+		<string key="17_63" loc-id="17_63" value="玻璃折射变形"/>
+		<string key="17_64" loc-id="17_64" value="启用湿画笔"/>
+		<string key="17_65" loc-id="17_65" value="干"/>
+		<string key="17_66" loc-id="17_66" value="视讯标准色彩"/>
+		<string key="17_67" loc-id="17_67" value="亮度/对比"/>
+		<string key="17_72" loc-id="17_72" value="自动播放"/>
+		<string key="17_73" loc-id="17_73" value="自动仿制"/>
+		<string key="17_74" loc-id="17_74" value="格线纸张"/>
+		<string key="17_77" loc-id="17_77" value="扩展插件滤镜"/>
+		<string key="17_78" loc-id="17_78" value="比例"/>
+		<string key="17_79" loc-id="17_79" value="调整大小"/>
+		<string key="17_89" loc-id="17_89" value="落下"/>
+		<string key="17_90" loc-id="17_90" value="选取图层"/>
+		<string key="17_91" loc-id="17_91" value="图层属性更改"/>
+		<string key="17_93" loc-id="17_93" value="群组"/>
+		<string key="17_94" loc-id="17_94" value="移到最上层"/>
+		<string key="17_95" loc-id="17_95" value="图层前向移一层"/>
+		<string key="17_96" loc-id="17_96" value="再制"/>
+		<string key="17_97" loc-id="17_97" value="图层羽化更改"/>
+		<string key="17_98" loc-id="17_98" value="图层不透明度更改"/>
+		<string key="17_99" loc-id="17_99" value="图层项目遮罩更改"/>
+		<string key="17_100" loc-id="17_100" value="全部合併"/>
+		<string key="17_101" loc-id="17_101" value="恢复"/>
+		<string key="17_103" loc-id="17_103" value="组合分佈"/>
+		<string key="17_104" loc-id="17_104" value="自动遮罩"/>
+		<string key="17_106" loc-id="17_106" value="自动梵谷"/>
+		<string key="17_109" loc-id="17_109" value="色彩遮罩"/>
+		<string key="17_110" loc-id="17_110" value="调整色彩"/>
+		<string key="17_111" loc-id="17_111" value="调整选取的色彩"/>
+		<string key="17_112" loc-id="17_112" value="羽化遮罩"/>
+		<string key="17_113" loc-id="17_113" value="图像弯曲"/>
+		<string key="17_117" loc-id="17_117" value="渐层填色"/>
+		<string key="17_118" loc-id="17_118" value="新增色彩集"/>
+		<string key="17_119" loc-id="17_119" value="新增色彩到色彩集"/>
+		<string key="17_120" loc-id="17_120" value="拾取渐层"/>
+		<string key="17_121" loc-id="17_121" value="渐层选项"/>
+		<string key="17_122" loc-id="17_122" value="色彩集设定"/>
+		<string key="17_123" loc-id="17_123" value="编织初稿"/>
+		<string key="17_124" loc-id="17_124" value="拾取笔刷"/>
+		<string key="17_125" loc-id="17_125" value="表现于图像中"/>
+		<string key="17_126" loc-id="17_126" value="使用色彩集极色化"/>
+		<string key="17_127" loc-id="17_127" value="超柔化"/>
+		<string key="17_128" loc-id="17_128" value="拾取花纹"/>
+		<string key="17_129" loc-id="17_129" value="定义花纹"/>
+		<string key="17_130" loc-id="17_130" value="建立下落式阴影"/>
+		<string key="17_132" loc-id="17_132" value="为 Painter3+"/>
+		<string key="17_133" loc-id="17_133" value="色彩集方形保存"/>
+		<string key="17_134" loc-id="17_134" value="修剪"/>
+		<string key="17_135" loc-id="17_135" value="画布尺寸更改"/>
+		<string key="17_136" loc-id="17_136" value="摺迭"/>
+		<string key="17_137" loc-id="17_137" value="羽化选区"/>
+		<string key="17_138" loc-id="17_138" value="羽化图层"/>
+		<string key="17_139" loc-id="17_139" value="P3 新增文件"/>
+		<string key="17_140" loc-id="17_140" value="保存"/>
+		<string key="17_141" loc-id="17_141" value="另存新档"/>
+		<string key="17_142" loc-id="17_142" value="清除遮罩"/>
+		<string key="17_143" loc-id="17_143" value="反转遮罩"/>
+		<string key="17_144" loc-id="17_144" value="偏移花纹花纹"/>
+		<string key="17_145" loc-id="17_145" value="P3 以不透明度填色"/>
+		<string key="17_146" loc-id="17_146" value="碎形"/>
+		<string key="17_147" loc-id="17_147" value="衍生"/>
+		<string key="17_148" loc-id="17_148" value="表现于图像中"/>
+		<string key="17_149" loc-id="17_149" value="表现材质"/>
+		<string key="17_150" loc-id="17_150" value="图层录制"/>
+		<string key="17_151" loc-id="17_151" value="笔划选取边缘"/>
+		<string key="17_152" loc-id="17_152" value="扩大"/>
+		<string key="17_153" loc-id="17_153" value="扩散"/>
+		<string key="17_154" loc-id="17_154" value="(重做)"/>
+		<string key="17_155" loc-id="17_155" value="交换 RGB 色彩"/>
+		<string key="17_156" loc-id="17_156" value="套用表面材质"/>
+		<string key="17_157" loc-id="17_157" value="加入马赛克花砖"/>
+		<string key="17_158" loc-id="17_158" value="清除马赛克花砖"/>
+		<string key="17_159" loc-id="17_159" value="设定马赛克花砖色彩"/>
+		<string key="17_160" loc-id="17_160" value="开始马赛克"/>
+		<string key="17_161" loc-id="17_161" value="更改马赛克砖泥色彩"/>
+		<string key="17_162" loc-id="17_162" value="喷嘴更改"/>
+		<string key="17_163" loc-id="17_163" value="花纹更改"/>
+		<string key="17_164" loc-id="17_164" value="变体本身"/>
+		<string key="17_165" loc-id="17_165" value="纸张本身"/>
+		<string key="17_166" loc-id="17_166" value="渐层本身"/>
+		<string key="17_167" loc-id="17_167" value="花纹本身"/>
+		<string key="17_168" loc-id="17_168" value="织布本身"/>
+		<string key="17_169" loc-id="17_169" value="喷嘴本身"/>
+		<string key="17_170" loc-id="17_170" value="图层本身"/>
+		<string key="17_171" loc-id="17_171" value="另存新档 EPS"/>
+		<string key="17_172" loc-id="17_172" value="对齐"/>
+		<string key="17_173" loc-id="17_173" value="建立组合路径"/>
+		<string key="17_174" loc-id="17_174" value="解除组合路径"/>
+		<string key="17_175" loc-id="17_175" value="转换为选区"/>
+		<string key="17_176" loc-id="17_176" value="建立向量图形"/>
+		<string key="17_177" loc-id="17_177" value="删除文字字元"/>
+		<string key="17_178" loc-id="17_178" value="输入文字字元"/>
+		<string key="17_179" loc-id="17_179" value="置入图层"/>
+		<string key="17_180" loc-id="17_180" value="调整图层控制点"/>
+		<string key="17_181" loc-id="17_181" value="旋转图层"/>
+		<string key="17_182" loc-id="17_182" value="歪斜图层"/>
+		<string key="17_183" loc-id="17_183" value="设定变形"/>
+		<string key="17_184" loc-id="17_184" value="自由变形"/>
+		<string key="17_185" loc-id="17_185" value="确认变形"/>
+		<string key="17_186" loc-id="17_186" value="快速曲线闭合线段"/>
+		<string key="17_187" loc-id="17_187" value="快速曲线数位"/>
+		<string key="17_188" loc-id="17_188" value="关闭向量图形"/>
+		<string key="17_189" loc-id="17_189" value="向量笔开始节点"/>
+		<string key="17_190" loc-id="17_190" value="向量笔数位化"/>
+		<string key="17_191" loc-id="17_191" value="控制节点编辑"/>
+		<string key="17_192" loc-id="17_192" value="删除控制节点"/>
+		<string key="17_193" loc-id="17_193" value="曲线搬移"/>
+		<string key="17_194" loc-id="17_194" value="控制节点角落更改"/>
+		<string key="17_195" loc-id="17_195" value="转换向量图形为图层"/>
+		<string key="17_196" loc-id="17_196" value="控制节点搬移"/>
+		<string key="17_197" loc-id="17_197" value="删除控制节点"/>
+		<string key="17_198" loc-id="17_198" value="加入节点"/>
+		<string key="17_199" loc-id="17_199" value="删除节点"/>
+		<string key="17_200" loc-id="17_200" value="剪下曲线"/>
+		<string key="17_201" loc-id="17_201" value="加入"/>
+		<string key="17_202" loc-id="17_202" value="再制"/>
+		<string key="17_203" loc-id="17_203" value="调整向量图形控制点"/>
+		<string key="17_204" loc-id="17_204" value="旋转向量图形"/>
+		<string key="17_205" loc-id="17_205" value="歪斜向量图形"/>
+		<string key="17_206" loc-id="17_206" value="平均节点"/>
+		<string key="17_207" loc-id="17_207" value="更改向量图形填入色彩"/>
+		<string key="17_208" loc-id="17_208" value="更改向量图形笔画色彩"/>
+		<string key="17_209" loc-id="17_209" value="渐变"/>
+		<string key="17_210" loc-id="17_210" value="更改向量图形填色"/>
+		<string key="17_211" loc-id="17_211" value="更改向量图形构成方式"/>
+		<string key="17_212" loc-id="17_212" value="更改向量图形不透明度"/>
+		<string key="17_213" loc-id="17_213" value="更改向量图形线条宽度"/>
+		<string key="17_214" loc-id="17_214" value="设定向量图形属性"/>
+		<string key="17_215" loc-id="17_215" value="向量笔关闭"/>
+		<string key="17_216" loc-id="17_216" value="向量笔控制线节点编辑"/>
+		<string key="17_217" loc-id="17_217" value="完整全选取路径"/>
+		<string key="17_218" loc-id="17_218" value="项目选区路径"/>
+		<string key="17_219" loc-id="17_219" value="检视遮罩更改"/>
+		<string key="17_220" loc-id="17_220" value="校正色彩"/>
+		<string key="17_221" loc-id="17_221" value="快速弯曲"/>
+		<string key="17_222" loc-id="17_222" value="重设马赛克"/>
+		<string key="17_223" loc-id="17_223" value="重绘马赛克"/>
+		<string key="17_224" loc-id="17_224" value="将花砖成像于遮罩"/>
+		<string key="17_225" loc-id="17_225" value="遵循边缘"/>
+		<string key="17_226" loc-id="17_226" value="(配置框架资料库)"/>
+		<string key="17_227" loc-id="17_227" value="设定预设属性"/>
+		<string key="17_228" loc-id="17_228" value="设定再制变形"/>
+		<string key="17_229" loc-id="17_229" value="转换为向量图形"/>
+		<string key="17_230" loc-id="17_230" value="恢复"/>
+		<string key="17_231" loc-id="17_231" value="加宽选区"/>
+		<string key="17_232" loc-id="17_232" value="平滑选区"/>
+		<string key="17_233" loc-id="17_233" value="置入路径"/>
+		<string key="17_234" loc-id="17_234" value="套索选区"/>
+		<string key="17_235" loc-id="17_235" value="制作选区"/>
+		<string key="17_236" loc-id="17_236" value="路径本身"/>
+		<string key="17_237" loc-id="17_237" value="选取副工具"/>
+		<string key="17_238" loc-id="17_238" value="开启路径材料库"/>
+		<string key="17_239" loc-id="17_239" value="椭圆选区"/>
+		<string key="17_240" loc-id="17_240" value="搬移选区"/>
+		<string key="17_241" loc-id="17_241" value="选区两侧更改"/>
+		<string key="17_242" loc-id="17_242" value="选区涂绘更改"/>
+		<string key="17_243" loc-id="17_243" value="路径清单更改"/>
+		<string key="17_244" loc-id="17_244" value="群组选区"/>
+		<string key="17_245" loc-id="17_245" value="扩充选区"/>
+		<string key="17_246" loc-id="17_246" value="解除选区群组"/>
+		<string key="17_247" loc-id="17_247" value="切换选区涂绘"/>
+		<string key="17_248" loc-id="17_248" value="旋转选区"/>
+		<string key="17_249" loc-id="17_249" value="调整选区"/>
+		<string key="17_250" loc-id="17_250" value="歪斜选区"/>
+		<string key="17_251" loc-id="17_251" value="删除选区"/>
+		<string key="17_252" loc-id="17_252" value="魔术棒"/>
+		<string key="17_253" loc-id="17_253" value="花纹选项"/>
+		<string key="17_254" loc-id="17_254" value="按一下仿制"/>
+		<string key="17_255" loc-id="17_255" value="控制节点扫描"/>
+		<string key="17_256" loc-id="17_256" value="图层列表属性"/>
+		<string key="17_257" loc-id="17_257" value="场景深度"/>
+		<string key="17_258" loc-id="17_258" value="变焦模糊"/>
+		<string key="17_259" loc-id="17_259" value="镜头动态残影"/>
+		<string key="17_260" loc-id="17_260" value="迷宫"/>
+		<string key="17_261" loc-id="17_261" value="笔刷自动分佈"/>
+		<string key="17_262" loc-id="17_262" value="网状排列"/>
+		<string key="17_263" loc-id="17_263" value="Script 版本号码"/>
+		<string key="17_264" loc-id="17_264" value="扩展插件撤销"/>
+		<string key="17_265" loc-id="17_265" value="裁切"/>
+		<string key="17_266" loc-id="17_266" value="Painter5 油漆桶选项"/>
+		<string key="17_267" loc-id="17_267" value="魔术棒按一下"/>
+		<string key="17_268" loc-id="17_268" value="魔术棒选项"/>
+		<string key="17_269" loc-id="17_269" value="新增遮罩"/>
+		<string key="17_270" loc-id="17_270" value="删除遮罩"/>
+		<string key="17_271" loc-id="17_271" value="载入选区"/>
+		<string key="17_272" loc-id="17_272" value="保存选区"/>
+		<string key="17_273" loc-id="17_273" value="复制遮罩"/>
+		<string key="17_274" loc-id="17_274" value="复制遮罩到图层"/>
+		<string key="17_275" loc-id="17_275" value="普普艺术"/>
+		<string key="17_276" loc-id="17_276" value="自订花砖"/>
+		<string key="17_277" loc-id="17_277" value="加入仿制来源节点"/>
+		<string key="17_278" loc-id="17_278" value="加入仿制目的节点"/>
+		<string key="17_279" loc-id="17_279" value="反转选区"/>
+		<string key="17_280" loc-id="17_280" value="收缩选区"/>
+		<string key="17_281" loc-id="17_281" value="边界选区"/>
+		<string key="17_282" loc-id="17_282" value="选取使用者遮罩"/>
+		<string key="17_283" loc-id="17_283" value="应用扩展插件图层"/>
+		<string key="17_284" loc-id="17_284" value="确认扩展插件图层"/>
+		<string key="17_285" loc-id="17_285" value="变形选区"/>
+		<string key="17_286" loc-id="17_286" value="搬移仿制节点"/>
+		<string key="17_287" loc-id="17_287" value="扩展插件方式"/>
+		<string key="17_288" loc-id="17_288" value="建立图层"/>
+		<string key="17_289" loc-id="17_289" value="切换花纹"/>
+		<string key="17_290" loc-id="17_290" value="遮罩属性更改"/>
+		<string key="17_291" loc-id="17_291" value="转换选区"/>
+		<string key="17_292" loc-id="17_292" value="回复至原始状态"/>
+		<string key="17_293" loc-id="17_293" value="选区更改"/>
+		<string key="17_294" loc-id="17_294" value="设定纸张色彩"/>
+		<string key="17_295" loc-id="17_295" value="笔触节点 6"/>
+		<string key="17_296" loc-id="17_296" value="笔触节点 6"/>
+		<string key="17_297" loc-id="17_297" value="厚涂光源"/>
+		<string key="17_298" loc-id="17_298" value="切换厚涂"/>
+		<string key="17_299" loc-id="17_299" value="清除厚涂颜料"/>
+		<string key="17_300" loc-id="17_300" value="清除湿画笔"/>
+		<string key="17_301" loc-id="17_301" value="检查喷嘴"/>
+		<string key="17_302" loc-id="17_302" value="检查花纹"/>
+		<string key="17_303" loc-id="17_303" value="木刻画"/>
+		<string key="17_304" loc-id="17_304" value="图像处理器"/>
+		<string key="17_305" loc-id="17_305" value="碎裂"/>
+		<string key="17_306" loc-id="17_306" value="圆点色彩"/>
+		<string key="17_307" loc-id="17_307" value="建立新水彩图层"/>
+		<string key="17_308" loc-id="17_308" value="建立新油墨图层"/>
+		<string key="17_309" loc-id="17_309" value="建立文字图层"/>
+		<string key="17_310" loc-id="17_310" value="输入文字字元"/>
+		<string key="17_311" loc-id="17_311" value="从文字图层删除文字"/>
+		<string key="17_312" loc-id="17_312" value="转换为预设图层"/>
+		<string key="17_313" loc-id="17_313" value="转换文字为向量图形"/>
+		<string key="17_314" loc-id="17_314" value="文字参数更改"/>
+		<string key="17_315" loc-id="17_315" value="文字曲线更改"/>
+		<string key="17_316" loc-id="17_316" value="文字剪下"/>
+		<string key="17_317" loc-id="17_317" value="文字贴上"/>
+		<string key="17_318" loc-id="17_318" value="文字清除"/>
+		<string key="17_319" loc-id="17_319" value="回复目前变体"/>
+		<string key="17_320" loc-id="17_320" value="风向"/>
+		<string key="17_321" loc-id="17_321" value="干图层"/>
+		<string key="17_322" loc-id="17_322" value="湿图层"/>
+		<string key="17_323" loc-id="17_323" value="湿画布"/>
+		<string key="17_324" loc-id="17_324" value="扩散"/>
+		<string key="17_325" loc-id="17_325" value="油墨选项"/>
+		<string key="17_326" loc-id="17_326" value="素描"/>
+		<string key="17_327" loc-id="17_327" value="移除选区"/>
+		<string key="17_328" loc-id="17_328" value="重选"/>
+		<string key="17_329" loc-id="17_329" value="新增图层遮罩"/>
+		<string key="17_330" loc-id="17_330" value="删除图层遮罩"/>
+		<string key="17_331" loc-id="17_331" value="套用图层遮罩"/>
+		<string key="17_332" loc-id="17_332" value="从透明度新增图层遮罩"/>
+		<string key="17_333" loc-id="17_333" value="从图层载入选区"/>
+		<string key="17_334" loc-id="17_334" value="笔触节点"/>
+		<string key="17_335" loc-id="17_335" value="笔触节点"/>
+		<string key="17_336" loc-id="17_336" value="快速仿制"/>
+		<string key="17_337" loc-id="17_337" value="水平翻转画布"/>
+		<string key="17_338" loc-id="17_338" value="垂直翻转画布"/>
+		<string key="17_339" loc-id="17_339" value="画布旋转"/>
+		<string key="17_340" loc-id="17_340" value="敏锐模糊"/>
+		<string key="17_341" loc-id="17_341" value="底纹效果"/>
+		<string key="17_342" loc-id="17_342" value="比对面板"/>
+		<string key="17_343" loc-id="17_343" value="合併复制"/>
+		<string key="17_344" loc-id="17_344" value="转换成描述档"/>
+		<string key="17_345" loc-id="17_345" value="多边形选区"/>
+		<string key="17_346" loc-id="17_346" value="确认变形"/>
+		<string key="17_347" loc-id="17_347" value="转换为参考图层"/>
+		<string key="17_352" loc-id="17_352" value="填色"/>
+		<string key="17_353" loc-id="17_352" value="色彩重迭"/>
+		<string key="17_356" loc-id="17_356" value="渐层填色"/>
+	</category>
+
+	<category key="Str#">
+		<string key="2_1" loc-id="2_1" value="渗透度"/>
+		<string key="2_2" loc-id="2_2" value="大小"/>
+		<string key="2_3" loc-id="2_3" value="±大小"/>
+		<string key="2_4" loc-id="2_4" value="±H"/>
+		<string key="2_5" loc-id="2_5" value="±S"/>
+		<string key="2_6" loc-id="2_6" value="±V"/>
+		<string key="2_7" loc-id="2_7" value="% 的大小"/>
+		<string key="2_8" loc-id="2_8" value="角度"/>
+		<string key="2_9" loc-id="2_9" value="稀薄"/>
+		<string key="2_10" loc-id="2_10" value="随机式"/>
+		<string key="2_11" loc-id="2_11" value="间距/大小"/>
+		<string key="2_12" loc-id="2_12" value="最小间距"/>
+		<string key="2_13" loc-id="2_13" value="速度比例"/>
+		<string key="2_14" loc-id="2_14" value="速度力道"/>
+		<string key="2_15" loc-id="2_15" value="鬃毛数"/>
+		<string key="2_16" loc-id="2_16" value="色彩浓度"/>
+		<string key="2_17" loc-id="2_17" value="色彩混合"/>
+		<string key="2_18" loc-id="2_18" value="量"/>
+		<string key="2_19" loc-id="2_19" value="频率"/>
+		<string key="2_20" loc-id="2_20" value="压力比例"/>
+		<string key="2_21" loc-id="2_21" value="压力力道"/>
+		<string key="2_22" loc-id="2_22" value="浓度"/>
+		<string key="2_23" loc-id="2_23" value="范围"/>
+		<string key="2_24" loc-id="2_24" value="湿缘"/>
+		<string key="2_25" loc-id="2_25" value="比例"/>
+		<string key="2_26" loc-id="2_26" value="羽化"/>
+		<string key="2_27" loc-id="2_27" value="角度范围"/>
+		<string key="2_28" loc-id="2_28" value="角度间隔"/>
+		<string key="2_29" loc-id="2_29" value="笔尖位置变化"/>
+		<string key="2_30" loc-id="2_30" value="笔尖间距"/>
+		<string key="2_31" loc-id="2_31" value="笔刷填色媒材"/>
+		<string key="2_32" loc-id="2_32" value="仿制位置变化"/>
+		<string key="2_33" loc-id="2_33" value="水彩"/>
+		<string key="2_34" loc-id="2_34" value="亮度"/>
+		<string key="2_35" loc-id="2_35" value="随机式"/>
+		<string key="2_36" loc-id="2_36" value="接触角度"/>
+		<string key="2_38" loc-id="2_38" value="笔刷比例"/>
+		<string key="2_39" loc-id="2_39" value="转弯量"/>
+		<string key="2_40" loc-id="2_40" value="色彩变化"/>
+		<string key="2_41" loc-id="2_41" value="亮度"/>
+		<string key="2_42" loc-id="2_42" value="距离"/>
+		<string key="2_43" loc-id="2_43" value="高度"/>
+		<string key="2_44" loc-id="2_44" value="扩散"/>
+		<string key="2_45" loc-id="2_45" value="泛光"/>
+		<string key="2_46" loc-id="2_46" value="曝光"/>
+		<string key="2_47" loc-id="2_47" value="量"/>
+		<string key="2_48" loc-id="2_48" value="间距"/>
+		<string key="2_49" loc-id="2_49" value="偏移"/>
+		<string key="2_50" loc-id="2_50" value="波"/>
+		<string key="2_51" loc-id="2_51" value="波长"/>
+		<string key="2_52" loc-id="2_52" value="面"/>
+		<string key="2_53" loc-id="2_53" value="拉"/>
+		<string key="2_54" loc-id="2_54" value="品质"/>
+		<string key="2_55" loc-id="2_55" value="量"/>
+		<string key="2_56" loc-id="2_56" value="半径"/>
+		<string key="2_57" loc-id="2_57" value="反白"/>
+		<string key="2_58" loc-id="2_58" value="阴影"/>
+		<string key="2_59" loc-id="2_59" value="不透明度"/>
+		<string key="2_60" loc-id="2_60" value="最大值"/>
+		<string key="2_61" loc-id="2_61" value="最小值"/>
+		<string key="2_62" loc-id="2_62" value="门槛 1"/>
+		<string key="2_63" loc-id="2_63" value="门槛 2"/>
+		<string key="2_64" loc-id="2_64" value="撤销程度"/>
+		<string key="2_65" loc-id="2_65" value="变化"/>
+		<string key="2_66" loc-id="2_66" value="交迭淡出"/>
+		<string key="2_67" loc-id="2_67" value="角度"/>
+		<string key="2_68" loc-id="2_68" value="稀薄"/>
+		<string key="2_69" loc-id="2_69" value="间距"/>
+		<string key="2_70" loc-id="2_70" value="角度"/>
+		<string key="2_74" loc-id="2_74" value="晕染量"/>
+		<string key="2_75" loc-id="2_75" value="遮罩门槛"/>
+		<string key="2_76" loc-id="2_76" value="不透明度"/>
+		<string key="2_77" loc-id="2_77" value="羽化"/>
+		<string key="2_78" loc-id="2_78" value="色相偏移"/>
+		<string key="2_79" loc-id="2_79" value="彩度"/>
+		<string key="2_80" loc-id="2_80" value="值"/>
+		<string key="2_81" loc-id="2_81" value="色相范围"/>
+		<string key="2_82" loc-id="2_82" value="彩度范围"/>
+		<string key="2_83" loc-id="2_83" value="亮度范围"/>
+		<string key="2_84" loc-id="2_84" value="厚度"/>
+		<string key="2_85" loc-id="2_85" value="丛生"/>
+		<string key="2_86" loc-id="2_86" value="驼毛比例"/>
+		<string key="2_87" loc-id="2_87" value="比例/大小"/>
+		<string key="2_89" loc-id="2_89" value="集中"/>
+		<string key="2_90" loc-id="2_90" value="显示"/>
+		<string key="2_91" loc-id="2_91" value="扩散"/>
+		<string key="2_92" loc-id="2_92" value="光滑"/>
+		<string key="2_93" loc-id="2_93" value="角度"/>
+		<string key="2_94" loc-id="2_94" value="色相羽化"/>
+		<string key="2_95" loc-id="2_95" value="彩度羽化"/>
+		<string key="2_96" loc-id="2_96" value="亮度羽化"/>
+		<string key="2_97" loc-id="2_97" value="灰阶门槛"/>
+		<string key="2_98" loc-id="2_98" value="纹路"/>
+		<string key="2_99" loc-id="2_99" value="对比"/>
+		<string key="2_100" loc-id="2_100" value="色彩扩散"/>
+		<string key="2_101" loc-id="2_101" value="偏移"/>
+		<string key="2_102" loc-id="2_102" value="角度"/>
+		<string key="2_103" loc-id="2_103" value="图片"/>
+		<string key="2_104" loc-id="2_104" value="打光"/>
+		<string key="2_105" loc-id="2_105" value="平坦度"/>
+		<string key="2_106" loc-id="2_106" value="变薄"/>
+		<string key="2_107" loc-id="2_107" value="随机"/>
+		<string key="2_108" loc-id="2_108" value="厚度"/>
+		<string key="2_109" loc-id="2_109" value="分支"/>
+		<string key="2_110" loc-id="2_110" value="最大程度"/>
+		<string key="2_111" loc-id="2_111" value="分叉"/>
+		<string key="2_112" loc-id="2_112" value="分叉比例"/>
+		<string key="2_113" loc-id="2_113" value="力道"/>
+		<string key="2_114" loc-id="2_114" value="特徵大小"/>
+		<string key="2_115" loc-id="2_115" value="柔软度"/>
+		<string key="2_116" loc-id="2_116" value="门槛"/>
+		<string key="2_117" loc-id="2_117" value="方向"/>
+		<string key="2_118" loc-id="2_118" value="柔软度"/>
+		<string key="2_119" loc-id="2_119" value="反射"/>
+		<string key="2_120" loc-id="2_120" value="力道"/>
+		<string key="2_121" loc-id="2_121" value="角度比例"/>
+		<string key="2_122" loc-id="2_122" value="宽度"/>
+		<string key="2_123" loc-id="2_123" value="长度"/>
+		<string key="2_124" loc-id="2_124" value="压力"/>
+		<string key="2_125" loc-id="2_125" value="砖泥"/>
+		<string key="2_126" loc-id="2_126" value="宽度"/>
+		<string key="2_127" loc-id="2_127" value="长度"/>
+		<string key="2_128" loc-id="2_128" value="剪下"/>
+		<string key="2_129" loc-id="2_129" value="砖泥"/>
+		<string key="2_130" loc-id="2_130" value="不透明度"/>
+		<string key="2_131" loc-id="2_131" value="宽度"/>
+		<string key="2_132" loc-id="2_132" value="斜接限制"/>
+		<string key="2_133" loc-id="2_133" value="不透明度"/>
+		<string key="2_134" loc-id="2_134" value="平坦度"/>
+		<string key="2_135" loc-id="2_135" value="效果"/>
+		<string key="2_136" loc-id="2_136" value="对比"/>
+		<string key="2_137" loc-id="2_137" value="亮度"/>
+		<string key="2_138" loc-id="2_138" value="残影距离"/>
+		<string key="2_139" loc-id="2_139" value="砖块宽度"/>
+		<string key="2_140" loc-id="2_140" value="砖块高"/>
+		<string key="2_141" loc-id="2_141" value="泥砖厚度"/>
+		<string key="2_142" loc-id="2_142" value="残影半径"/>
+		<string key="2_143" loc-id="2_143" value="X 偏移"/>
+		<string key="2_144" loc-id="2_144" value="Y 偏移"/>
+		<string key="2_145" loc-id="2_145" value="点"/>
+		<string key="2_146" loc-id="2_146" value="半径分数"/>
+		<string key="2_147" loc-id="2_147" value="过大"/>
+		<string key="2_148" loc-id="2_148" value="泛光量"/>
+		<string key="2_149" loc-id="2_149" value="延迟时间"/>
+		<string key="2_150" loc-id="2_150" value="品质"/>
+		<string key="2_151" loc-id="2_151" value="平滑度"/>
+		<string key="2_152" loc-id="2_152" value="黑色边缘"/>
+		<string key="2_153" loc-id="2_153" value="蚀刻时间"/>
+		<string key="2_154" loc-id="2_154" value="蚀刻边缘"/>
+		<string key="2_155" loc-id="2_155" value="厚重"/>
+		<string key="2_156" loc-id="2_156" value="扩散"/>
+		<string key="2_157" loc-id="2_157" value="色彩数"/>
+		<string key="2_158" loc-id="2_158" value="色彩边缘"/>
+		<string key="2_159" loc-id="2_159" value="量"/>
+		<string key="2_160" loc-id="2_160" value="平滑化"/>
+		<string key="2_161" loc-id="2_161" value="变化"/>
+		<string key="2_162" loc-id="2_162" value="门槛"/>
+		<string key="2_163" loc-id="2_163" value="反白"/>
+		<string key="2_164" loc-id="2_164" value="阴影"/>
+		<string key="2_165" loc-id="2_165" value="色相比重"/>
+		<string key="2_166" loc-id="2_166" value="距离比重"/>
+		<string key="2_167" loc-id="2_167" value="彩度比重"/>
+		<string key="2_168" loc-id="2_168" value="亮度比重"/>
+		<string key="2_169" loc-id="2_169" value="边缘尺寸"/>
+		<string key="2_170" loc-id="2_170" value="边缘值"/>
+		<string key="2_171" loc-id="2_171" value="门槛"/>
+		<string key="2_172" loc-id="2_172" value="量"/>
+		<string key="2_173" loc-id="2_173" value="选取"/>
+		<string key="2_174" loc-id="2_174" value="风干速度"/>
+		<string key="2_175" loc-id="2_175" value="蒸发门槛值"/>
+		<string key="2_176" loc-id="2_176" value="晕染量"/>
+		<string key="2_177" loc-id="2_177" value="比例"/>
+		<string key="2_178" loc-id="2_178" value="敏感度"/>
+		<string key="2_179" loc-id="2_179" value="平滑化"/>
+		<string key="2_180" loc-id="2_180" value="纹路"/>
+		<string key="2_181" loc-id="2_181" value="高门槛"/>
+		<string key="2_182" loc-id="2_182" value="低门槛"/>
+		<string key="2_183" loc-id="2_183" value="色彩"/>
+	</category>
+
+	<category key="Str#">
+		<string key="22_1" loc-id="22_1" value="笔触"/>
+		<string key="22_2" loc-id="22_2" value="笔触节点"/>
+		<string key="22_3" loc-id="22_3" value="笔触终止"/>
+		<string key="22_4" loc-id="22_4" value="变体"/>
+		<string key="22_5" loc-id="22_5" value="长参数"/>
+		<string key="22_6" loc-id="22_6" value="短参数"/>
+		<string key="22_7" loc-id="22_7" value="次色"/>
+		<string key="22_8" loc-id="22_8" value="纸张材质"/>
+		<string key="22_9" loc-id="22_9" value="动态残影"/>
+		<string key="22_10" loc-id="22_10" value="强制打印色彩"/>
+		<string key="22_11" loc-id="22_11" value="开始时间"/>
+		<string key="22_12" loc-id="22_12" value="结束时间"/>
+		<string key="22_13" loc-id="22_13" value="画家名称"/>
+		<string key="22_14" loc-id="22_14" value="矩型填色"/>
+		<string key="22_15" loc-id="22_15" value="应用网点"/>
+		<string key="22_16" loc-id="22_16" value="套用表面材质"/>
+		<string key="22_17" loc-id="22_17" value="调整色调浓度"/>
+		<string key="22_18" loc-id="22_18" value="色彩重迭"/>
+		<string key="22_19" loc-id="22_19" value="新增"/>
+		<string key="22_20" loc-id="22_20" value="锐利化"/>
+		<string key="22_21" loc-id="22_21" value="柔化"/>
+		<string key="22_22" loc-id="22_22" value="高反差"/>
+		<string key="22_23" loc-id="22_23" value="极色化"/>
+		<string key="22_24" loc-id="22_24" value="负片"/>
+		<string key="22_25" loc-id="22_25" value="矩形选区"/>
+		<string key="22_26" loc-id="22_26" value="中空字选区"/>
+		<string key="22_27" loc-id="22_27" value="清除选区"/>
+		<string key="22_28" loc-id="22_28" value="中空区选区缩制模式"/>
+		<string key="22_29" loc-id="22_29" value="显示圈选框"/>
+		<string key="22_30" loc-id="22_30" value="取消选取"/>
+		<string key="22_31" loc-id="22_31" value="浮动"/>
+		<string key="22_32" loc-id="22_32" value="搬移图层"/>
+		<string key="22_33" loc-id="22_33" value="删除图层"/>
+		<string key="22_34" loc-id="22_34" value="落下"/>
+		<string key="22_35" loc-id="22_35" value="撤销"/>
+		<string key="22_36" loc-id="22_36" value="淡化"/>
+		<string key="22_37" loc-id="22_37" value="剪下"/>
+		<string key="22_38" loc-id="22_38" value="复制"/>
+		<string key="22_39" loc-id="22_39" value="贴上"/>
+		<string key="22_40" loc-id="22_40" value="贴入新增图像"/>
+		<string key="22_41" loc-id="22_41" value="清除"/>
+		<string key="22_42" loc-id="22_42" value="工具选取"/>
+		<string key="22_43" loc-id="22_43" value="扭曲"/>
+		<string key="22_44" loc-id="22_44" value="旋转"/>
+		<string key="22_45" loc-id="22_45" value="垂直翻转"/>
+		<string key="22_46" loc-id="22_46" value="水平翻转"/>
+		<string key="22_47" loc-id="22_47" value="播放"/>
+		<string key="22_48" loc-id="22_48" value="填色"/>
+		<string key="22_49" loc-id="22_49" value="删除选区"/>
+		<string key="22_50" loc-id="22_50" value="等化"/>
+		<string key="22_51" loc-id="22_51" value="油漆桶选项"/>
+		<string key="22_52" loc-id="22_52" value="油漆桶按一下"/>
+		<string key="22_53" loc-id="22_53" value="笔触节点"/>
+		<string key="22_54" loc-id="22_54" value="播放参考矩形"/>
+		<string key="22_55" loc-id="22_55" value="开启"/>
+		<string key="22_56" loc-id="22_56" value="仿制开启"/>
+		<string key="22_57" loc-id="22_57" value="关闭"/>
+		<string key="22_58" loc-id="22_58" value="仿制"/>
+		<string key="22_59" loc-id="22_59" value="更改文件"/>
+		<string key="22_60" loc-id="22_60" value="气泡"/>
+		<string key="22_61" loc-id="22_61" value="套用石纹"/>
+		<string key="22_62" loc-id="22_62" value="套用光源"/>
+		<string key="22_63" loc-id="22_63" value="玻璃折射变形"/>
+		<string key="22_64" loc-id="22_64" value="湿画笔开启"/>
+		<string key="22_65" loc-id="22_65" value="干"/>
+		<string key="22_66" loc-id="22_66" value="视讯标准色彩"/>
+		<string key="22_67" loc-id="22_67" value="亮度/对比"/>
+		<string key="22_68" loc-id="22_68" value="录制笔触"/>
+		<string key="22_69" loc-id="22_69" value="播放笔触"/>
+		<string key="22_70" loc-id="22_70" value="停止笔触播放"/>
+		<string key="22_71" loc-id="22_71" value="播放笔触"/>
+		<string key="22_72" loc-id="22_72" value="自动播放"/>
+		<string key="22_73" loc-id="22_73" value="自动仿制"/>
+		<string key="22_74" loc-id="22_74" value="格线纸张"/>
+		<string key="22_75" loc-id="22_75" value="根源填色资料"/>
+		<string key="22_76" loc-id="22_76" value="设定仿制来源"/>
+		<string key="22_77" loc-id="22_77" value="扩展插件滤镜"/>
+		<string key="22_78" loc-id="22_78" value="比例"/>
+		<string key="22_79" loc-id="22_79" value="调整大小"/>
+		<string key="22_80" loc-id="22_80" value="检视旋转角度"/>
+		<string key="22_81" loc-id="22_81" value="指示字串"/>
+		<string key="22_86" loc-id="22_86" value="纹路位置"/>
+		<string key="22_88" loc-id="22_88" value="油漆桶限制矩形"/>
+		<string key="22_89" loc-id="22_89" value="落下"/>
+		<string key="22_90" loc-id="22_90" value="选取图层"/>
+		<string key="22_91" loc-id="22_91" value="设定图层名称"/>
+		<string key="22_92" loc-id="22_92" value="关闭图层群组"/>
+		<string key="22_93" loc-id="22_93" value="解散图层群组"/>
+		<string key="22_94" loc-id="22_94" value="使图层移到最下层"/>
+		<string key="22_95" loc-id="22_95" value="使图层向下移一层"/>
+		<string key="22_96" loc-id="22_96" value="复制图层"/>
+		<string key="22_97" loc-id="22_97" value="设定图层羽化"/>
+		<string key="22_98" loc-id="22_98" value="设定图层不透明度"/>
+		<string key="22_99" loc-id="22_99" value="将图层设定至图像遮罩"/>
+		<string key="22_100" loc-id="22_100" value="全部合併"/>
+		<string key="22_101" loc-id="22_101" value="图层回复"/>
+		<string key="22_102" loc-id="22_102" value="图像组合"/>
+		<string key="22_103" loc-id="22_103" value="置入图层"/>
+		<string key="22_104" loc-id="22_104" value="自动选择"/>
+		<string key="22_105" loc-id="22_105" value="开始随机编号"/>
+		<string key="22_106" loc-id="22_106" value="自动梵谷"/>
+		<string key="22_107" loc-id="22_107" value="渐层"/>
+		<string key="22_108" loc-id="22_108" value="编织"/>
+		<string key="22_109" loc-id="22_109" value="选取色彩"/>
+		<string key="22_110" loc-id="22_110" value="调整色彩"/>
+		<string key="22_111" loc-id="22_111" value="调整选取的色彩"/>
+		<string key="22_112" loc-id="22_112" value="羽化选区"/>
+		<string key="22_113" loc-id="22_113" value="图像弯曲"/>
+		<string key="22_114" loc-id="22_114" value="喷嘴"/>
+		<string key="22_115" loc-id="22_115" value="填色"/>
+		<string key="22_116" loc-id="22_116" value="油漆桶选项"/>
+		<string key="22_117" loc-id="22_117" value="油漆桶按一下"/>
+		<string key="22_118" loc-id="22_118" value="新增色彩集"/>
+		<string key="22_119" loc-id="22_119" value="新增色彩到色彩集"/>
+		<string key="22_120" loc-id="22_120" value="拾取渐层"/>
+		<string key="22_121" loc-id="22_121" value="渐层选项"/>
+		<string key="22_122" loc-id="22_122" value="色彩集"/>
+		<string key="22_123" loc-id="22_123" value="编辑编织"/>
+		<string key="22_124" loc-id="22_124" value="拾取笔刷"/>
+		<string key="22_125" loc-id="22_125" value="表现于图像中"/>
+		<string key="22_126" loc-id="22_126" value="使用色彩集极色化"/>
+		<string key="22_127" loc-id="22_127" value="超柔化"/>
+		<string key="22_128" loc-id="22_128" value="拾取花纹"/>
+		<string key="22_129" loc-id="22_129" value="定义花纹"/>
+		<string key="22_130" loc-id="22_130" value="建立下落式阴影"/>
+		<string key="22_132" loc-id="22_132" value="为 Painter 3"/>
+		<string key="22_133" loc-id="22_133" value="色彩集方形保存"/>
+		<string key="22_134" loc-id="22_134" value="修剪"/>
+		<string key="22_135" loc-id="22_135" value="设定画布尺寸"/>
+		<string key="22_136" loc-id="22_136" value="摺迭"/>
+		<string key="22_137" loc-id="22_137" value="羽毛设定选区"/>
+		<string key="22_138" loc-id="22_138" value="羽化设定图层"/>
+		<string key="22_139" loc-id="22_139" value="新增"/>
+		<string key="22_140" loc-id="22_140" value="保存"/>
+		<string key="22_141" loc-id="22_141" value="另存新档"/>
+		<string key="22_142" loc-id="22_142" value="清除遮罩"/>
+		<string key="22_143" loc-id="22_143" value="反转遮罩"/>
+		<string key="22_144" loc-id="22_144" value="偏移花纹原点"/>
+		<string key="22_145" loc-id="22_145" value="填色不透明度"/>
+		<string key="22_146" loc-id="22_146" value="制作碎形花纹"/>
+		<string key="22_147" loc-id="22_147" value="衍生"/>
+		<string key="22_148" loc-id="22_148" value="表示渐层"/>
+		<string key="22_149" loc-id="22_149" value="表现材质"/>
+		<string key="22_150" loc-id="22_150" value="图层阶层更改"/>
+		<string key="22_151" loc-id="22_151" value="笔划选取边缘"/>
+		<string key="22_152" loc-id="22_152" value="扩大"/>
+		<string key="22_153" loc-id="22_153" value="扩散"/>
+		<string key="22_154" loc-id="22_154" value="重做"/>
+		<string key="22_155" loc-id="22_155" value="交换 RGB 色彩"/>
+		<string key="22_156" loc-id="22_156" value="套用表面材质"/>
+		<string key="22_157" loc-id="22_157" value="放置花砖"/>
+		<string key="22_158" loc-id="22_158" value="清除花砖"/>
+		<string key="22_159" loc-id="22_159" value="色彩花砖"/>
+		<string key="22_160" loc-id="22_160" value="初始化马赛克"/>
+		<string key="22_161" loc-id="22_161" value="更改泥砖色彩"/>
+		<string key="22_162" loc-id="22_162" value="喷嘴更改"/>
+		<string key="22_163" loc-id="22_163" value="花纹更改"/>
+		<string key="22_164" loc-id="22_164" value="变体本身"/>
+		<string key="22_165" loc-id="22_165" value="纸张本身"/>
+		<string key="22_166" loc-id="22_166" value="渐层本身"/>
+		<string key="22_167" loc-id="22_167" value="花纹本身"/>
+		<string key="22_168" loc-id="22_168" value="织布本身"/>
+		<string key="22_169" loc-id="22_169" value="喷嘴本身"/>
+		<string key="22_170" loc-id="22_170" value="图层本身"/>
+		<string key="22_171" loc-id="22_171" value="另存新档 EPS"/>
+		<string key="22_172" loc-id="22_172" value="对齐"/>
+		<string key="22_173" loc-id="22_173" value="建立组合路径"/>
+		<string key="22_174" loc-id="22_174" value="解除组合路径"/>
+		<string key="22_175" loc-id="22_175" value="转换为选区"/>
+		<string key="22_176" loc-id="22_176" value="制作新向量图形"/>
+		<string key="22_177" loc-id="22_177" value="删除文字字元"/>
+		<string key="22_178" loc-id="22_178" value="输入文字字元"/>
+		<string key="22_179" loc-id="22_179" value="置入图层"/>
+		<string key="22_180" loc-id="22_180" value="调整图层控制点"/>
+		<string key="22_181" loc-id="22_181" value="利用控制点旋转图层"/>
+		<string key="22_182" loc-id="22_182" value="利用控制点歪斜图层"/>
+		<string key="22_183" loc-id="22_183" value="设定变形"/>
+		<string key="22_184" loc-id="22_184" value="自由变形"/>
+		<string key="22_185" loc-id="22_185" value="确认变形"/>
+		<string key="22_186" loc-id="22_186" value="快速曲线数位以关闭"/>
+		<string key="22_187" loc-id="22_187" value="快速曲线数位"/>
+		<string key="22_188" loc-id="22_188" value="快速曲线关闭"/>
+		<string key="22_189" loc-id="22_189" value="向量笔节点"/>
+		<string key="22_191" loc-id="22_191" value="控制节点编辑"/>
+		<string key="22_192" loc-id="22_192" value="删除控制节点"/>
+		<string key="22_193" loc-id="22_193" value="搬移曲线"/>
+		<string key="22_194" loc-id="22_194" value="控制节点角落更改"/>
+		<string key="22_195" loc-id="22_195" value="转换为图层"/>
+		<string key="22_196" loc-id="22_196" value="搬移控制节点"/>
+		<string key="22_197" loc-id="22_197" value="删除控制节点"/>
+		<string key="22_198" loc-id="22_198" value="加入控制节点"/>
+		<string key="22_199" loc-id="22_199" value="移除控制节点"/>
+		<string key="22_200" loc-id="22_200" value="剪刀曲线"/>
+		<string key="22_201" loc-id="22_201" value="加入节点"/>
+		<string key="22_202" loc-id="22_202" value="再制"/>
+		<string key="22_203" loc-id="22_203" value="调整向量图形控制点"/>
+		<string key="22_204" loc-id="22_204" value="以控制点旋转向量图形"/>
+		<string key="22_205" loc-id="22_205" value="以控制点歪斜向量图形"/>
+		<string key="22_206" loc-id="22_206" value="平均控制节点"/>
+		<string key="22_207" loc-id="22_207" value="更改向量图形填入色彩"/>
+		<string key="22_208" loc-id="22_208" value="更改向量图形笔画色彩"/>
+		<string key="22_209" loc-id="22_209" value="渐变"/>
+		<string key="22_210" loc-id="22_210" value="更改向量图形填色"/>
+		<string key="22_211" loc-id="22_211" value="更改向量图形构成方式"/>
+		<string key="22_212" loc-id="22_212" value="更改向量图形不透明度"/>
+		<string key="22_213" loc-id="22_213" value="更改向量图形笔触宽度"/>
+		<string key="22_214" loc-id="22_214" value="设定向量图形属性"/>
+		<string key="22_216" loc-id="22_216" value="向量笔斜面编辑"/>
+		<string key="22_217" loc-id="22_217" value="完整全选取路径"/>
+		<string key="22_218" loc-id="22_218" value="项目选区路径"/>
+		<string key="22_219" loc-id="22_219" value="检视遮罩"/>
+		<string key="22_220" loc-id="22_220" value="校正色彩"/>
+		<string key="22_221" loc-id="22_221" value="快速弯曲"/>
+		<string key="22_222" loc-id="22_222" value="重设马赛克"/>
+		<string key="22_223" loc-id="22_223" value="重绘马赛克"/>
+		<string key="22_224" loc-id="22_224" value="将花砖成像于遮罩"/>
+		<string key="22_225" loc-id="22_225" value="遵循边缘"/>
+		<string key="22_226" loc-id="22_226" value="配置框架资料库"/>
+		<string key="22_227" loc-id="22_227" value="设定向量图形属性"/>
+		<string key="22_228" loc-id="22_228" value="设定再制变形"/>
+		<string key="22_229" loc-id="22_229" value="转换为向量图形"/>
+		<string key="22_230" loc-id="22_230" value="恢复"/>
+		<string key="22_231" loc-id="22_231" value="加宽选区"/>
+		<string key="22_232" loc-id="22_232" value="平滑选区"/>
+		<string key="22_233" loc-id="22_233" value="置入路径"/>
+		<string key="22_234" loc-id="22_234" value="套索选区"/>
+		<string key="22_235" loc-id="22_235" value="制作选区"/>
+		<string key="22_236" loc-id="22_236" value="路径本身"/>
+		<string key="22_237" loc-id="22_237" value="选取副工具"/>
+		<string key="22_238" loc-id="22_238" value="开启路径材料库"/>
+		<string key="22_239" loc-id="22_239" value="椭圆选区"/>
+		<string key="22_240" loc-id="22_240" value="搬移选区"/>
+		<string key="22_241" loc-id="22_241" value="选区两侧更改"/>
+		<string key="22_242" loc-id="22_242" value="选区涂绘更改"/>
+		<string key="22_243" loc-id="22_243" value="路径清单更改"/>
+		<string key="22_244" loc-id="22_244" value="群组选区"/>
+		<string key="22_245" loc-id="22_245" value="扩充选区"/>
+		<string key="22_246" loc-id="22_246" value="解除选区群组"/>
+		<string key="22_247" loc-id="22_247" value="切换选区涂绘"/>
+		<string key="22_248" loc-id="22_248" value="旋转选区"/>
+		<string key="22_249" loc-id="22_249" value="调整选区"/>
+		<string key="22_250" loc-id="22_250" value="歪斜选区"/>
+		<string key="22_251" loc-id="22_251" value="删除选区"/>
+		<string key="22_252" loc-id="22_252" value="魔术棒"/>
+		<string key="22_253" loc-id="22_253" value="花纹选项"/>
+		<string key="22_254" loc-id="22_254" value="按一下仿制"/>
+		<string key="22_255" loc-id="22_255" value="控制节点扫描"/>
+		<string key="22_256" loc-id="22_256" value="图层列表属性"/>
+		<string key="22_257" loc-id="22_257" value="场景深度"/>
+		<string key="22_258" loc-id="22_258" value="变焦模糊"/>
+		<string key="22_259" loc-id="22_259" value="镜头动态残影"/>
+		<string key="22_260" loc-id="22_260" value="迷宫"/>
+		<string key="22_261" loc-id="22_261" value="笔刷自动分佈"/>
+		<string key="22_262" loc-id="22_262" value="网状排列"/>
+		<string key="22_263" loc-id="22_263" value="Script 版本号码"/>
+		<string key="22_264" loc-id="22_264" value="PI 撤销"/>
+		<string key="22_265" loc-id="22_265" value="裁切"/>
+		<string key="22_266" loc-id="22_266" value="油漆桶选项"/>
+		<string key="22_267" loc-id="22_267" value="魔术棒按一下"/>
+		<string key="22_268" loc-id="22_268" value="魔术棒选项"/>
+		<string key="22_269" loc-id="22_269" value="新增遮罩"/>
+		<string key="22_270" loc-id="22_270" value="删除遮罩"/>
+		<string key="22_271" loc-id="22_271" value="载入选区"/>
+		<string key="22_272" loc-id="22_272" value="保存选区"/>
+		<string key="22_273" loc-id="22_273" value="复制遮罩"/>
+		<string key="22_274" loc-id="22_274" value="复制遮罩到图层"/>
+		<string key="22_275" loc-id="22_275" value="普普艺术"/>
+		<string key="22_276" loc-id="22_276" value="自订花砖"/>
+		<string key="22_277" loc-id="22_277" value="加入仿制来源节点"/>
+		<string key="22_278" loc-id="22_278" value="加入仿制目的节点"/>
+		<string key="22_279" loc-id="22_279" value="反转选区"/>
+		<string key="22_280" loc-id="22_280" value="收缩选区"/>
+		<string key="22_281" loc-id="22_281" value="边界选区"/>
+		<string key="22_282" loc-id="22_282" value="选取使用者遮罩"/>
+		<string key="22_283" loc-id="22_283" value="应用扩展插件图层"/>
+		<string key="22_284" loc-id="22_284" value="确认扩展插件图层"/>
+		<string key="22_285" loc-id="22_285" value="变形选区"/>
+		<string key="22_286" loc-id="22_286" value="搬移仿制节点"/>
+		<string key="22_287" loc-id="22_287" value="扩展插件方式"/>
+		<string key="22_288" loc-id="22_288" value="建立图层"/>
+		<string key="22_289" loc-id="22_289" value="切换花纹"/>
+		<string key="22_290" loc-id="22_290" value="遮罩属性"/>
+		<string key="22_291" loc-id="22_291" value="转换选区"/>
+		<string key="22_292" loc-id="22_292" value="回复至原始状态"/>
+		<string key="22_293" loc-id="22_293" value="选区更改"/>
+		<string key="22_294" loc-id="22_294" value="纸张色彩"/>
+		<string key="22_295" loc-id="22_295" value="绘图"/>
+		<string key="22_296" loc-id="22_296" value="绘图"/>
+		<string key="22_297" loc-id="22_297" value="厚涂光源"/>
+		<string key="22_298" loc-id="22_298" value="切换厚涂"/>
+		<string key="22_299" loc-id="22_299" value="清除厚涂颜料"/>
+		<string key="22_300" loc-id="22_300" value="清除湿画笔"/>
+		<string key="22_301" loc-id="22_301" value="检查喷嘴"/>
+		<string key="22_302" loc-id="22_302" value="检查花纹"/>
+		<string key="22_303" loc-id="22_303" value="木刻画"/>
+		<string key="22_304" loc-id="22_304" value="图像处理器"/>
+		<string key="22_305" loc-id="22_305" value="碎裂"/>
+		<string key="22_306" loc-id="22_306" value="圆点色彩"/>
+		<string key="22_307" loc-id="22_307" value="建立新水彩图层"/>
+		<string key="22_308" loc-id="22_308" value="建立新油墨图层"/>
+		<string key="22_309" loc-id="22_309" value="建立文字图层"/>
+		<string key="22_310" loc-id="22_310" value="输入文字字元"/>
+		<string key="22_311" loc-id="22_311" value="从文字图层删除文字"/>
+		<string key="22_312" loc-id="22_312" value="转换为预设图层"/>
+		<string key="22_313" loc-id="22_313" value="转换文字为向量图形"/>
+		<string key="22_314" loc-id="22_314" value="文字参数更改"/>
+		<string key="22_315" loc-id="22_315" value="文字曲线更改"/>
+		<string key="22_316" loc-id="22_316" value="文字剪下"/>
+		<string key="22_317" loc-id="22_317" value="文字贴上"/>
+		<string key="22_318" loc-id="22_318" value="文字清除"/>
+		<string key="22_319" loc-id="22_319" value="回复目前变体"/>
+		<string key="22_320" loc-id="22_320" value="风向"/>
+		<string key="22_321" loc-id="22_321" value="干水彩图层"/>
+		<string key="22_322" loc-id="22_322" value="弄溼整个水彩图层"/>
+		<string key="22_323" loc-id="22_323" value="将画布图层移到水彩图层"/>
+		<string key="22_324" loc-id="22_324" value="晕染水彩图层"/>
+		<string key="22_325" loc-id="22_325" value="油墨图层属性"/>
+		<string key="22_326" loc-id="22_326" value="素描"/>
+		<string key="22_334" loc-id="22_334" value="笔触节点"/>
+		<string key="22_335" loc-id="22_335" value="笔触节点"/>
+		<string key="22_336" loc-id="22_336" value="快速仿制"/>
+		<string key="22_340" loc-id="22_340" value="敏锐模糊"/>
+		<string key="22_341" loc-id="22_341" value="底纹效果"/>
+		<string key="22_342" loc-id="22_342" value="比对面板"/>
+		<string key="22_343" loc-id="22_343" value="合併复制"/>
+		<string key="22_344" loc-id="22_344" value="转换成描述档"/>
+		<string key="22_345" loc-id="22_345" value="多边形选区"/>
+		<string key="22_346" loc-id="22_346" value="确认变形"/>
+		<string key="22_347" loc-id="22_347" value="转换为参考图层"/>
+		<string key="22_348" loc-id="22_348" value="对称绘制"/>
+		<string key="22_349" loc-id="22_349" value=""/>
+		<string key="22_350" loc-id="22_350" value="流线贴图材质"/>
+		<string key="22_352" loc-id="22_352" value="填色不透明度"/>
+		<string key="22_353" loc-id="22_18" value="色彩重迭"/>
+	</category>
+
+	<category key="Str#">
+		<string key="23_1" loc-id="23_1" value="纹路"/>
+		<string key="23_2" loc-id="23_2" value="浓度"/>
+		<string key="23_3" loc-id="23_3" value="方法"/>
+		<string key="23_4" loc-id="23_4" value="反转纸张材质"/>
+		<string key="23_7" loc-id="23_7" value="纸张比例"/>
+		<string key="23_8" loc-id="23_8" value="笔尖位置变化"/>
+		<string key="23_9" loc-id="23_9" value="前进"/>
+		<string key="23_10" loc-id="23_10" value="最小前进"/>
+		<string key="23_11" loc-id="23_11" value="笔触数"/>
+		<string key="23_12" loc-id="23_12" value="色彩浓度"/>
+		<string key="23_13" loc-id="23_13" value="色彩混合"/>
+		<string key="23_14" loc-id="23_14" value="仿制位置变化"/>
+		<string key="23_15" loc-id="23_15" value="仿制位置频率"/>
+		<string key="23_16" loc-id="23_16" value="湿缘"/>
+		<string key="23_17" loc-id="23_17" value="多重"/>
+		<string key="23_18" loc-id="23_18" value="使用仿制色彩"/>
+		<string key="23_19" loc-id="23_19" value="表现大小快显"/>
+		<string key="23_20" loc-id="23_20" value="表现抖动快显"/>
+		<string key="23_21" loc-id="23_21" value="表现纹路快显"/>
+		<string key="23_22" loc-id="23_22" value="表现浓度快显"/>
+		<string key="23_23" loc-id="23_23" value="表现色彩快显"/>
+		<string key="23_24" loc-id="23_24" value="表现角度快显"/>
+		<string key="23_25" loc-id="23_25" value="大小"/>
+		<string key="23_26" loc-id="23_26" value="±大小"/>
+		<string key="23_27" loc-id="23_27" value="% 的大小"/>
+		<string key="23_28" loc-id="23_28" value="角度"/>
+		<string key="23_29" loc-id="23_29" value="角度"/>
+		<string key="23_30" loc-id="23_30" value="角度间隔"/>
+		<string key="23_31" loc-id="23_31" value="稀薄"/>
+		<string key="23_32" loc-id="23_32" code="pn_tip" value="笔刷笔尖"/>
+		<string key="23_33" loc-id="23_33" value="建立"/>
+		<string key="23_34" loc-id="23_34" value="±V"/>
+		<string key="23_35" loc-id="23_35" value="±H"/>
+		<string key="23_36" loc-id="23_36" value="±S"/>
+		<string key="23_37" loc-id="23_37" value="新增笔刷模型"/>
+		<string key="23_38" loc-id="23_38" value="扩散式鬃毛"/>
+		<string key="23_39" loc-id="23_39" value="边缘柔化"/>
+		<string key="23_41" loc-id="23_41" value="接触角度"/>
+		<string key="23_42" loc-id="23_42" value="鬃毛比例"/>
+		<string key="23_43" loc-id="23_43" value="转弯"/>
+		<string key="23_44" loc-id="23_44" value="风干程度"/>
+		<string key="23_45" loc-id="23_45" value="随机纹路"/>
+		<string key="23_46" loc-id="23_46" value="随机仿制"/>
+		<string key="23_47" loc-id="23_47" value="表现色彩浓度快显"/>
+		<string key="23_48" loc-id="23_48" value="表现色彩混合快显"/>
+		<string key="23_49" loc-id="23_49" value="贴上晕染"/>
+		<string key="23_50" loc-id="23_50" value="遮罩门槛"/>
+		<string key="23_51" loc-id="23_51" value="延迟"/>
+		<string key="23_52" loc-id="23_52" value="阶层 1 快显"/>
+		<string key="23_53" loc-id="23_53" value="阶层 2 快显"/>
+		<string key="23_54" loc-id="23_54" value="阶层 3 快显"/>
+		<string key="23_55" loc-id="23_55" value="使用笔刷格线"/>
+		<string key="23_56" loc-id="23_56" value="加入至遮罩"/>
+		<string key="23_57" loc-id="23_57" value="笔尖类型"/>
+		<string key="23_58" loc-id="23_58" value="笔触类型"/>
+		<string key="23_59" loc-id="23_59" value="鬃毛厚度"/>
+		<string key="23_60" loc-id="23_60" value="鬃毛丛生"/>
+		<string key="23_61" loc-id="23_61" value="鬃毛驼毛比例"/>
+		<string key="23_62" loc-id="23_62" value="鬃毛比例/大小"/>
+		<string key="23_63" loc-id="23_63" value="透明遮罩"/>
+		<string key="23_64" loc-id="23_64" value="遮罩色彩"/>
+		<string key="23_65" loc-id="23_65" value="显示选区圈选框"/>
+		<string key="23_66" loc-id="23_66" value="遮罩落下"/>
+		<string key="23_67" loc-id="23_67" value="纤维水平比例"/>
+		<string key="23_68" loc-id="23_68" value="纤维垂质比例"/>
+		<string key="23_69" loc-id="23_69" value="纤维水平厚度"/>
+		<string key="23_70" loc-id="23_70" value="纤维垂质厚度"/>
+		<string key="23_71" loc-id="23_71" value="纤维类型"/>
+		<string key="23_72" loc-id="23_72" value="置入色彩"/>
+		<string key="23_73" loc-id="23_73" value="取得色彩"/>
+		<string key="23_74" loc-id="23_74" value="构成方式"/>
+		<string key="23_75" loc-id="23_75" value="喷嘴比例"/>
+		<string key="23_76" loc-id="23_76" value="花纹比例"/>
+		<string key="23_77" loc-id="23_77" value="只有打印色彩"/>
+		<string key="23_78" loc-id="23_78" value="仿制类型"/>
+		<string key="23_79" loc-id="23_79" value="遵守仿制来源选区"/>
+		<string key="23_80" loc-id="23_80" value="复制仿制来源选区"/>
+		<string key="23_81" loc-id="23_81" value="四个节点的拼接"/>
+		<string key="23_82" loc-id="23_82" value="表现特徵大小快显"/>
+		<string key="23_83" loc-id="23_83" value="表现流量快显"/>
+		<string key="23_84" loc-id="23_84" value="平面涌出"/>
+		<string key="23_85" loc-id="23_85" value="表现大小反转"/>
+		<string key="23_86" loc-id="23_86" value="表现抖动反转"/>
+		<string key="23_87" loc-id="23_87" value="表现不透明度反转"/>
+		<string key="23_88" loc-id="23_88" value="表现纹路反转"/>
+		<string key="23_89" loc-id="23_89" value="表现色彩反转"/>
+		<string key="23_90" loc-id="23_90" value="表现角度反转"/>
+		<string key="23_91" loc-id="23_91" value="表现色彩浓度反转"/>
+		<string key="23_92" loc-id="23_92" value="表现色彩混合反转"/>
+		<string key="23_93" loc-id="23_93" value="表现特徵大小反转"/>
+		<string key="23_94" loc-id="23_94" value="表现流量反转"/>
+		<string key="23_95" loc-id="23_95" value="扩散滑杆"/>
+		<string key="23_96" loc-id="23_96" value="最小扩散滑杆"/>
+		<string key="23_97" loc-id="23_97" value="流量滑杆"/>
+		<string key="23_98" loc-id="23_98" value="最小流量滑杆"/>
+		<string key="23_99" loc-id="23_99" value="滑鼠压力"/>
+		<string key="23_100" loc-id="23_100" value="滑鼠倾斜"/>
+		<string key="23_101" loc-id="23_101" value="滑鼠支点"/>
+		<string key="23_102" loc-id="23_102" value="滑鼠滚轮"/>
+		<string key="23_103" loc-id="23_103" value="特徵大小"/>
+		<string key="23_104" loc-id="23_104" value="打湿"/>
+		<string key="23_105" loc-id="23_105" value="最大半径"/>
+		<string key="23_106" loc-id="23_106" value="最小半径分数"/>
+		<string key="23_107" loc-id="23_107" value="笔刷来源"/>
+		<string key="23_108" loc-id="23_108" value="色彩变化类型"/>
+		<string key="23_109" loc-id="23_109" value="连续时间沉淀"/>
+		<string key="23_110" loc-id="23_110" value="方向"/>
+		<string key="23_111" loc-id="23_111" value="N 立方体半透明"/>
+		<string key="23_112" loc-id="23_112" value="厚涂深度"/>
+		<string key="23_113" loc-id="23_113" value="厚涂平滑"/>
+		<string key="23_114" loc-id="23_114" value="表现深度快显"/>
+		<string key="23_115" loc-id="23_115" value="表现深度反转"/>
+		<string key="23_116" loc-id="23_116" value="阶层 1 反转"/>
+		<string key="23_117" loc-id="23_117" value="阶层 2 反转"/>
+		<string key="23_118" loc-id="23_118" value="阶层 3 反转"/>
+		<string key="23_119" loc-id="23_119" value="厚涂绘至快显"/>
+		<string key="23_120" loc-id="23_120" value="厚涂深度方式"/>
+		<string key="23_121" loc-id="23_121" value="厚涂反转注记框"/>
+		<string key="23_122" loc-id="23_122" value="厚涂负片深度注记框"/>
+		<string key="23_123" loc-id="23_123" value="厚涂犁痕"/>
+		<string key="23_124" loc-id="23_124" value="纸张对比"/>
+		<string key="23_125" loc-id="23_125" value="纸张亮度"/>
+		<string key="23_126" loc-id="23_126" value="自动选区图层注记框"/>
+		<string key="23_127" loc-id="23_127" value="保存透明度注记框"/>
+		<string key="23_128" loc-id="23_128" value="深度构成方式快显"/>
+		<string key="23_129" loc-id="23_129" value="选择底色注记框"/>
+		<string key="23_130" loc-id="23_130" value="平滑度"/>
+		<string key="23_131" loc-id="23_131" value="容量"/>
+		<string key="23_132" loc-id="23_132" value="最小容量"/>
+		<string key="23_133" loc-id="23_133" value="油墨类型"/>
+		<string key="23_134" loc-id="23_134" value="最小特徵大小"/>
+		<string key="23_135" loc-id="23_135" value="表现容量快显"/>
+		<string key="23_136" loc-id="23_136" value="表现容量反转"/>
+		<string key="23_137" loc-id="23_137" value="随机容量"/>
+		<string key="23_138" loc-id="23_138" value="随机大小"/>
+		<string key="23_139" loc-id="23_139" value="鬃毛片段"/>
+		<string key="23_140" loc-id="23_140" value="随机鬃毛容量"/>
+		<string key="23_141" loc-id="23_141" value="随机鬃毛大小"/>
+		<string key="23_142" loc-id="23_142" value="湿度"/>
+		<string key="23_143" loc-id="23_143" value="选取"/>
+		<string key="23_144" loc-id="23_144" value="风干速度"/>
+		<string key="23_145" loc-id="23_145" value="蒸发门槛"/>
+		<string key="23_146" loc-id="23_146" value="晕染量"/>
+		<string key="23_147" loc-id="23_147" value="毛细係数"/>
+		<string key="23_148" loc-id="23_148" value="纹路渗入"/>
+		<string key="23_149" loc-id="23_149" value="晕染方向量"/>
+		<string key="23_150" loc-id="23_150" value="晕染精确"/>
+		<string key="23_151" loc-id="23_151" value="方向性纹路"/>
+		<string key="23_152" code="pn_direction_angle_slider" value="角度"/>
+		<string key="23_153" code="pn_direction_bleed_slider" value="涌出色彩混合"/>
+		<string key="23_154" code="pn_direction_color_slider" value="方向"/>
+		<string key="23_155" code="pn_direction_depth_slider" value="厚涂颜料"/>
+		<string key="23_156" code="pn_direction_feature_slider" value="特徵"/>
+		<string key="23_157" code="pn_direction_flow_slider" value="喷枪"/>
+		<string key="23_158" code="pn_direction_grain_slider" value="笔刷纹路"/>
+		<string key="23_159" code="pn_direction_jitter_slider" value="随机"/>
+		<string key="23_160" code="pn_direction_opacity_slider" value="笔刷透亮度"/>
+		<string key="23_161" code="pn_direction_rank_slider" value="图像水管"/>
+		<string key="23_162" code="pn_direction_resaturation_slider" value="涌出色彩浓度"/>
+		<string key="23_163" code="pn_direction_size_slider" value="表现"/>
+		<string key="23_164" code="pn_direction_volume_slider" value="油墨"/>
+
+		<string key="23_167" code="pn_delayed_diffuse_check_box" value="湿晕染"/>
+		<string key="23_168" code="pn_oil_load_slider" value="画家油画"/>
+		<string key="23_169" code="pn_oil_viscosity_slider" value="画家油画"/>
+		<string key="23_170" code="pn_oil_blend_slider" value="画家油画"/>
+		<string key="23_171" code="pn_oil_bristling_slider" value="画家油画笔刷"/>
+		<string key="23_172" code="pn_oil_clumpiness_slider" value="画家油画笔刷"/>
+		<string key="23_173" code="pn_oil_trailoff_slider" value="画家油画笔刷"/>
+		<string key="23_174" code="pn_oil_wetness_slider" value="画家油画画布"/>
+		<string key="23_175" code="pn_boost_slider" value="提升"/>
+
+		<string key="23_177" code="pn_oil_dirty_mode_check_box" value="画家油画画布"/>
+		<string key="23_178" code="pn_oil_tip" value="仿真鬃毛"/>
+		<string key="23_179" code="pn_deformable_brush" value="仿真鬃毛"/>
+		<string key="23_180" code="pn_fanness_slider" value="仿真鬃毛笔刷"/>
+		<string key="23_181" code="pn_roundness_slider" value="仿真鬃毛笔刷"/>
+		<string key="23_182" code="pn_profile_slider" value="仿真鬃毛笔刷"/>
+		<string key="23_183" code="pn_length_slider" value="仿真鬃毛笔刷"/>
+		<string key="23_184" code="pn_rigidity_slider" value="仿真鬃毛笔刷"/>
+		<string key="23_185" code="pn_friction_slider" value="仿真鬃毛表面"/>
+		<string key="23_186" code="pn_height_min_slider" value="仿真鬃毛表面"/>
+		<string key="23_187" code="pn_vmin_squeeze_slider" value="压扁"/>
+		<string key="23_188" code="pn_vmax_squeeze_slider" value="压扁"/>
+		<string key="23_189" code="pn_hmin_squeeze_slider" value="压扁"/>
+		<string key="23_190" code="pn_hmax_squeeze_slider" value="压扁"/>
+		<string key="23_191" code="pn_hmsqueeze_step_slider" value="压扁"/>
+		<string key="23_192" code="pn_transition_start_slider" value="转换范围"/>
+		<string key="23_193" code="pn_transition_finish_slider" value="转换范围"/>
+		<string key="23_194" code="pn_lbm_wetness" value="湿度"/>
+		<string key="23_195" code="pn_lbm_paper_roughness" value="纸张粗糙度"/>
+		<string key="23_196" code="pn_lbm_paper_permeability" value="流量阻抗"/>
+		<string key="23_197" code="pn_lbm_evaporation" value="蒸发"/>
+		<string key="23_198" code="pn_lbm_paper_absorbtion" value="风干速度"/>
+		<string key="23_199" code="pn_lbm_viscosity" value="粘滞度"/>
+		<string key="23_200" code="pn_lbm_granulation" value="颗粒化"/>
+		<string key="23_201" code="pn_lbm_fixture_rate" value="沉淀速率"/>
+		<string key="23_202" code="pn_lbm_pigment_weight" value="重量"/>
+		<string key="23_203" code="pn_lbm_pickup_rate" value="选取"/>
+		<string key="23_204" code="pn_lbm_concentration" value="浓度"/>
+		<string key="23_205" code="pn_lbm_oil_blend_rate" value="渐变率"/>
+		<string key="23_206" code="pn_mouse_rotation" value="滑鼠旋转"/>
+		<string key="23_207" code="pn_use_stroke_attributes" value="使用笔触属性"/>
+		<string key="23_208" code="pn_merge_mode" value="合併模式"/>
+		<string key="23_209" code="pn_stroke_opacity" value="笔触不透明度"/>
+		<string key="23_210" code="pn_dab_opacity" value="笔尖透亮度"/>
+		<string key="23_211" code="pn_hardness" value="硬度"/>
+		<string key="23_212" code="pn_lbm_use_flowmap_as_source" value="以流线贴图作为来源"/>
+		<string key="23_213" code="pn_flowmap_scale" value="流线贴图比例"/>
+		<string key="23_214" code="pn_flowmap_brightness" value="流线贴图亮度"/>
+		<string key="23_215" code="pn_flowmap_contrast" value="流线贴图对比"/>
+		<string key="23_216" code="pn_flowmap_invert" value="反转流线贴图材质"/>
+		<string key="23_217" code="pn_selected_flowmap_id" value=" 选取的流线贴图 Id"/>
+		<string key="23_218" code="pn_radius_jitter" value="半径抖动"/>
+		<string key="23_219" code="pn_angle_jitter" value="角度抖动"/>
+		<string key="23_220" code="pn_feature_size_jitter" value="特徵大小抖动"/>
+		<string key="23_221" code="pn_flow_jitter" value="流量抖动"/>
+		<string key="23_222" code="pn_opacity_jitter" value="透光度抖动"/>
+		<string key="23_223" code="pn_grain_jitter" value="颗粒度抖动"/>
+		<string key="23_224" code="pn_graduation_jitter" value="刻度抖动"/>
+		<string key="23_225" code="pn_depth_jitter" value="深度抖动"/>
+		<string key="23_226" code="pn_radius_jitter_scale" value="抖动平滑度"/>
+		<string key="23_227" code="pn_angle_jitter_scale" value="抖动平滑度"/>
+		<string key="23_228" code="pn_feature_size_jitter_scale" value="抖动平滑度"/>
+		<string key="23_229" code="pn_flow_jitter_scale" value="抖动平滑度"/>
+		<string key="23_230" code="pn_opacity_jitter_scale" value="抖动平滑度"/>
+		<string key="23_231" code="pn_grain_jitter_scale" value="抖动平滑度"/>
+		<string key="23_232" code="pn_graduation_jitter_scale" value="抖动平滑度"/>
+		<string key="23_233" code="pn_depth_jitter_scale" value="抖动平滑度"/>
+		<string key="23_234" code="pn_color_variability_jitter_scale" value="抖动平滑度"/>
+		<string key="23_235" code="pn_min_feature_size_fraction" value="最小特徵大小分数"/>
+		<string key="23_236" code="pn_min_opacity_fraction" value="最小透光度分数"/>
+		<string key="23_237" code="pn_min_grain_fraction" value="最小颗粒度分数"/>
+		<string key="23_238" code="pn_min_bleed_fraction" value="最小出血分数"/>
+		<string key="23_239" code="pn_min_resat_fraction" value="最小色彩浓度分数"/>
+		<string key="23_240" code="pn_min_depth_fraction" value="最小深度分数"/>
+
+		<string key="23_241" code="pn_particle_use_glow" value="发光"/>
+		<string key="23_242" code="pn_particle_flow_randomize_chaos" value="随机化混乱"/>
+		<string key="23_243" code="pn_particle_count" value="计数"/>
+		<string key="23_244" code="pn_particle_weight" value="重量"/>
+		<string key="23_245" code="pn_particle_weight_jitter" value="重量抖动"/>
+		<string key="23_246" code="pn_particle_damping" value="打湿"/>
+		<string key="23_247" code="pn_particle_damping_jitter" value="打溼抖动"/>
+		<string key="23_248" code="pn_particle_global_noise" value="全面混乱"/>
+		<string key="23_249" code="pn_particle_local_noise" value="局部混乱"/>
+		<string key="23_250" code="pn_particle_global_noise_scale" value="平滑度"/>
+		<string key="23_251" code="pn_particle_local_noise_scale" value="平滑度"/>
+		<string key="23_252" code="pn_particle_wind_strength" value="强制"/>
+		<string key="23_253" code="pn_particle_wind_direction" value="方向"/>
+		<string key="23_254" code="pn_particle_flowmap" value="流线贴图"/>
+		<string key="23_255" code="pn_particle_orbit_velocity" value="速度"/>
+		<string key="23_256" code="pn_particle_orbit_acceleration" value="加速度"/>
+		<string key="23_257" code="pn_particle_orbit_gravity" value="旋转率"/>
+		<string key="23_258" code="pn_particle_emission_jitter" value="位置抖动"/>
+		<string key="23_259" code="pn_particle_emission_lum_sketch" value="亮度"/>
+		<string key="23_260" code="pn_particle_emission_grad_sketch" value="边缘"/>
+		<string key="23_261" code="pn_particle_spring_stiffness" value="硬度"/>
+		<string key="23_262" code="pn_particle_spring_stiffness_jitter" value="硬度抖动"/>
+		<string key="23_263" code="pn_particle_spring_length_jitter" value="随机长度"/>
+		<string key="23_264" code="pn_particle_spring_min_length" value="最小长度"/>
+		<string key="23_265" code="pn_particle_spring_path_opacity" value="路径透光度"/>
+		<string key="23_266" code="pn_particle_spring_link_opacity" value="弹簧透光度"/>
+		<string key="23_267" code="pn_particle_spring_geometry" value="外观"/>
+		<string key="23_268" code="pn_rotation_slider" value="纸张旋转"/>
+		<string key="23_269" code="pn_flowmap_rotation_slider" value="流线贴图旋转"/>
+		<string key="23_270" code="pn_ds_speckle_count" value="计数"/>
+		<string key="23_271" code="pn_ds_speckle_thickness" value="大小"/>
+		<string key="23_272" code="pn_ds_speckle_min_thickness" value="最小尺寸"/>
+		<string key="23_273" code="pn_ds_speckle_thickness_clumpiness" value="大小"/>
+		<string key="23_274" code="pn_ds_speckle_thickness_clumpiness_scale" value="抖动平滑度"/>
+		<string key="23_275" code="pn_ds_speckle_opacity_clumpiness" value="不透明度"/>
+		<string key="23_276" code="pn_ds_speckle_opacity_clumpiness_scale" value="抖动平滑度"/>
+		<string key="23_277" code="pn_ds_speckle_thickness_clumpiness_jitter" value="抖动"/>
+		<string key="23_278" code="pn_ds_speckle_opacity_clumpiness_jitter" value="抖动"/>
+		<string key="23_279" code="pn_ds_speckle_hard_edge" value="边缘"/>
+		<string key="23_280" code="pn_ds_speckle_thickness_animator" value="表现"/>
+		<string key="23_281" code="pn_ds_speckle_thickness_invert" value="反转"/>
+		<string key="23_282" code="pn_use_alpha_wells" value="增强图层混色"/>
+		<string key="23_283" code="pn_use_alpha_dryout" value="风干透明度"/>
+		<string key="23_284" code="pn_generic_audio_expression_enabled" value="音效"/>
+		<string key="23_285" code="pn_generic_audio_expression_enabled" value="音效"/>
+		<string key="23_286" code="pn_generic_audio_expression_enabled" value="音效"/>
+		<string key="23_287" code="pn_generic_audio_expression_enabled" value="音效"/>
+		<string key="23_288" code="pn_generic_audio_expression_enabled" value="音效"/>
+		<string key="23_289" code="pn_generic_audio_expression_enabled" value="音效"/>
+		<string key="23_290" code="pn_generic_audio_expression_enabled" value="音效"/>
+		<string key="23_291" code="pn_generic_audio_expression_enabled" value="音效"/>
+		<string key="23_292" code="pn_generic_audio_expression_enabled" value="音效"/>
+		<string key="23_293" code="pn_generic_audio_expression_enabled" value="音效"/>
+		<string key="23_294" code="pn_generic_audio_expression_enabled" value="音效"/>
+		<string key="23_295" code="pn_generic_audio_expression_enabled" value="音效"/>
+		<string key="23_296" code="pn_generic_audio_expression_enabled" value="音效"/>
+		<string key="23_297" code="pn_generic_audio_expression_enabled" value="音效"/>
+		<string key="23_298" code="pn_generic_audio_expression_enabled" value="音效"/>
+		<string key="23_299" code="pn_generic_audio_expression_enabled" value="音效"/>
+		<string key="23_300" code="pn_generic_audio_expression_enabled" value="音效"/>
+		<string key="23_301" code="pn_generic_audio_expression_enabled" value="音效"/>
+		<string key="23_302" code="pn_generic_audio_expression_enabled" value="音效"/>
+		<string key="23_303" code="pn_generic_audio_expression_enabled" value="音效"/>
+		<string key="23_304" code="pn_generic_audio_expression_enabled" value="音效"/>
+	</category>
+
+	<category key="ScriptParams">
+		<!-- this is replacement for Str#24 -->
+		<!-- General-->
+		<string key="pn_direction_opacity_slider" value="方向"/>
+		<string key="pn_direction_grain_slider" value="方向"/>
+		<string key="pn_boost_slider" value="提升"/>
+		<string key="pn_brush_source" value="来源"/>
+		<!-- Size-->
+		<string key="pn_direction_size_slider" value="方向"/>
+		<string key="pn_feature_size_slider" value="大小"/>
+		<string key="pn_direction_feature_slider" value="方向"/>
+		<string key="pn_expr_feature_size_invert" value="反转"/>
+		<!-- Spacing-->
+		<string key="pn_ncubicintermediates_slider" value="点"/>
+		<!-- Angle-->
+		<string key="pn_direction_angle_slider" value="方向"/>
+		<!-- Well-->
+		<string key="pn_direction_resaturation_slider" value="方向"/>
+		<string key="pn_direction_bleed_slider" value="方向"/>
+		<!-- Random-->
+		<string key="pn_direction_jitter_slider" value="方向"/>
+		<!-- Mouse-->
+		<string key="pn_mouse_pressure_slider" value="压力"/>
+		<string key="pn_mouse_bearing_slider" value="支点"/>
+		<string key="pn_mouse_wheel_slider" value="滚轮"/>
+		<!-- Impasto-->
+		<string key="pn_direction_depth_slider" value="方向"/>
+		<!-- Image Hose-->
+		<string key="pn_direction_rank_slider" value="方向"/>
+		<!-- Airbrush -->
+		<string key="pn_direction_flow_slider" value="方向"/>
+		<!-- Wet-->
+		<string key="pn_delayed_diffuse_check_box" value="延迟晕染"/>
+		<!-- Liquid Ink-->
+		<string key="pn_direction_volume_slider" value="方向"/>
+		<!-- Artist Oil-->
+		<string key="pn_oil_load_slider" value="量"/>
+		<string key="pn_oil_viscosity_slider" value="粘滞度"/>
+		<string key="pn_oil_blend_slider" value="渐变"/>
+		<string key="pn_oil_bristling_slider" value="鬃毛"/>
+		<string key="pn_oil_clumpiness_slider" value="丛生"/>
+		<string key="pn_oil_trailoff_slider" value="痕迹延伸"/>
+		<string key="pn_oil_wetness_slider" value="湿度"/>
+		<string key="pn_oil_dirty_mode_check_box" value="髒模式"/>
+		<!-- RealBristle -->
+		<string key="pn_oil_tip" value="组合"/>
+		<string key="pn_deformable_brush" value="启用"/>
+		<string key="pn_fanness_slider" value="散开"/>
+		<string key="pn_roundness_slider" value="圆滑度"/>
+		<string key="pn_profile_slider" value="剖面图长度"/>
+		<string key="pn_length_slider" value="鬃毛长度"/>
+		<string key="pn_rigidity_slider" value="鬃毛硬度"/>
+		<string key="pn_friction_slider" value="摩擦"/>
+		<string key="pn_height_min_slider" value="高"/>
+		<!-- Hard media -->
+		<string key="pn_tip" value="组合"/>
+		<string key="pn_mouse_tilt_slider" value="角度"/>
+		<string key="pn_vmin_squeeze_slider" value="垂直最小值"/>
+		<string key="pn_vmax_squeeze_slider" value="垂直最大值"/>
+		<string key="pn_hmin_squeeze_slider" value="水平最小值"/>
+		<string key="pn_hmax_squeeze_slider" value="水平最大值"/>
+		<string key="pn_hmsqueeze_step_slider" value="步进"/>
+		<string key="pn_transition_start_slider" value="开始"/>
+		<string key="pn_transition_finish_slider" value="完成"/>
+	</category>
+
+	<category key="Str#">
+		<string key="24_1" loc-id="24_1" value="色彩 1"/>
+		<string key="24_2" loc-id="24_2" value="色彩 2"/>
+		<string key="24_3" loc-id="24_3" value="色彩 3"/>
+		<string key="24_4" loc-id="24_4" value="来源 X"/>
+		<string key="24_5" loc-id="24_5" value="来源 Y"/>
+		<string key="24_6" loc-id="24_6" value="标籤 X"/>
+		<string key="24_7" loc-id="24_7" value="标籤 Y"/>
+		<string key="24_8" loc-id="24_8" value="计数"/>
+		<string key="24_9" loc-id="24_9" value="最小尺寸"/>
+		<string key="24_10" loc-id="24_10" value="最大尺寸"/>
+		<string key="24_11" loc-id="24_11" value="次取样"/>
+		<string key="24_12" loc-id="24_12" value="随机纹路"/>
+		<string key="24_13" loc-id="24_13" value="边缘柔化"/>
+		<string key="24_14" loc-id="24_14" value="扩散式鬃毛"/>
+		<string key="24_15" loc-id="24_15" value="使用仿制色彩"/>
+		<string key="24_16" loc-id="24_16" value="新增笔刷模型"/>
+		<string key="24_17" loc-id="24_17" value="Multiple Bristles"/>
+		<string key="24_18" loc-id="24_18" value="前进"/>
+		<string key="24_19" loc-id="24_19" value="最小前进"/>
+		<string key="24_20" loc-id="24_20" value="置入"/>
+		<string key="24_21" loc-id="24_21" value="变化"/>
+		<string key="24_22" loc-id="24_22" value="频率"/>
+		<string key="24_23" loc-id="24_23" value="接触角度"/>
+		<string key="24_24" loc-id="24_24" value="笔刷比例"/>
+		<string key="24_25" loc-id="24_25" value="转弯量"/>
+		<string key="24_26" loc-id="24_26" value="鬃毛"/>
+		<string key="24_27" loc-id="24_27" value="色彩浓度"/>
+		<string key="24_28" loc-id="24_28" value="色彩混合"/>
+		<string key="24_29" loc-id="24_29" value="风干程度"/>
+		<string key="24_30" loc-id="24_30" value="湿缘"/>
+		<string key="24_31" loc-id="24_31" value="晕染"/>
+		<string key="24_32" loc-id="24_32" value="最大值"/>
+		<string key="24_33" loc-id="24_33" value="最小值"/>
+		<string key="24_34" loc-id="24_34" value="门槛 1"/>
+		<string key="24_35" loc-id="24_35" value="门槛 2"/>
+		<string key="24_36" loc-id="24_36" value="材料库"/>
+		<string key="24_37" loc-id="24_37" value="笔刷"/>
+		<string key="24_38" loc-id="24_38" value="变体"/>
+		<string key="24_39" loc-id="24_39" value="纹路"/>
+		<string key="24_40" loc-id="24_40" value="浓度"/>
+		<string key="24_41" loc-id="24_41" value="单一"/>
+		<string key="24_42" loc-id="24_42" value="多重"/>
+		<string key="24_43" loc-id="24_43" value="分岔"/>
+		<string key="24_44" loc-id="24_44" value="水管"/>
+		<string key="24_45" loc-id="24_45" value="圆形"/>
+		<string key="24_46" loc-id="24_46" value="1 种像素"/>
+		<string key="24_47" loc-id="24_47" value="鬃毛"/>
+		<string key="24_48" loc-id="24_48" value="拾取"/>
+		<string key="24_49" loc-id="24_49" value="忽略"/>
+		<string key="24_51" loc-id="24_51" value="大小"/>
+		<string key="24_52" loc-id="24_52" value="±大小"/>
+		<string key="24_53" loc-id="24_53" value="大小间隔"/>
+		<string key="24_54" loc-id="24_54" value="压扁"/>
+		<string key="24_55" loc-id="24_55" value="角度"/>
+		<string key="24_56" loc-id="24_56" value="角度范围"/>
+		<string key="24_57" loc-id="24_57" value="角度间隔"/>
+		<string key="24_58" loc-id="24_58" value="丛生"/>
+		<string key="24_59" loc-id="24_59" value="厚度"/>
+		<string key="24_60" loc-id="24_60" value="驼毛比例"/>
+		<string key="24_61" loc-id="24_61" value="比例/大小"/>
+		<string key="24_62" loc-id="24_62" value="不透明度"/>
+		<string key="24_63" loc-id="24_63" value="色调浓度"/>
+		<string key="24_64" loc-id="24_64" value="隐藏力道"/>
+		<string key="24_65" loc-id="24_65" value="色彩"/>
+		<string key="24_66" loc-id="24_66" value="随机仿制来源"/>
+		<string key="24_67" loc-id="24_67" value="±H"/>
+		<string key="24_68" loc-id="24_68" value="±S"/>
+		<string key="24_69" loc-id="24_69" value="±V"/>
+		<string key="24_70" loc-id="24_70" value="色彩集方形"/>
+		<string key="24_71" loc-id="24_71" value="亮度"/>
+		<string key="24_72" loc-id="24_72" value="对比"/>
+		<string key="24_73" loc-id="24_73" value="忽略"/>
+		<string key="24_82" loc-id="24_82" value="上"/>
+		<string key="24_83" loc-id="24_83" value="左"/>
+		<string key="24_84" loc-id="24_84" value="下"/>
+		<string key="24_85" loc-id="24_85" value="右"/>
+		<string key="24_86" loc-id="24_86" value="过度取样"/>
+		<string key="24_87" loc-id="24_87" value="宽度"/>
+		<string key="24_88" loc-id="24_88" value="高"/>
+		<string key="24_89" loc-id="24_89" value="DPU"/>
+		<string key="24_90" loc-id="24_90" value="纸张色彩"/>
+		<string key="24_91" loc-id="24_91" value="为动画"/>
+		<string key="24_92" loc-id="24_92" value="画格数"/>
+		<string key="24_93" loc-id="24_93" value="文件名称"/>
+		<string key="24_94" loc-id="24_94" value="文件类型"/>
+		<string key="24_95" loc-id="24_95" value="旗标"/>
+		<string key="24_96" loc-id="24_96" value="笔尖数"/>
+		<string key="24_97" loc-id="24_97" value="笔触数"/>
+		<string key="24_98" loc-id="24_98" value="刻度"/>
+		<string key="24_99" loc-id="24_99" value="目前色彩"/>
+		<string key="24_100" loc-id="24_100" value="花纹"/>
+		<string key="24_101" loc-id="24_101" value="渐层"/>
+		<string key="24_102" loc-id="24_102" value="编织"/>
+		<string key="24_103" loc-id="24_103" value="反转"/>
+		<string key="24_104" loc-id="24_104" value="量"/>
+		<string key="24_105" loc-id="24_105" value="缠绕"/>
+		<string key="24_106" loc-id="24_106" value="DX"/>
+		<string key="24_107" loc-id="24_107" value="DY"/>
+		<string key="24_108" loc-id="24_108" value="不透明度"/>
+		<string key="24_109" loc-id="24_109" value="整个图像"/>
+		<string key="24_110" loc-id="24_110" value="黑点"/>
+		<string key="24_111" loc-id="24_111" value="白点"/>
+		<string key="24_112" loc-id="24_112" value="伽玛"/>
+		<string key="24_113" loc-id="24_113" value="伽玛宽度"/>
+		<string key="24_114" loc-id="24_114" value="未遮罩"/>
+		<string key="24_115" loc-id="24_115" value="遮罩内部"/>
+		<string key="24_116" loc-id="24_116" value="遮罩外部"/>
+		<string key="24_117" loc-id="24_117" value="遮罩落下"/>
+		<string key="24_118" loc-id="24_118" value="显示选区圈选框"/>
+		<string key="24_119" loc-id="24_119" value="不透明度"/>
+		<string key="24_120" loc-id="24_120" value="羽化"/>
+		<string key="24_121" loc-id="24_121" value="图层路径"/>
+		<string key="24_122" loc-id="24_122" value="上"/>
+		<string key="24_123" loc-id="24_123" value="左"/>
+		<string key="24_124" loc-id="24_124" value="名称"/>
+		<string key="24_125" loc-id="24_125" value="边缘"/>
+		<string key="24_126" loc-id="24_126" value="力道"/>
+		<string key="24_127" loc-id="24_127" value="特徵大小"/>
+		<string key="24_128" loc-id="24_128" value="柔软度"/>
+		<string key="24_129" loc-id="24_129" value="不显示"/>
+		<string key="24_130" loc-id="24_130" value="以色彩显示遮罩"/>
+		<string key="24_131" loc-id="24_131" value="以中空字显示遮罩"/>
+		<string key="24_132" loc-id="24_132" value="透明遮罩"/>
+		<string key="24_133" loc-id="24_133" value="遮罩色彩"/>
+		<string key="24_134" loc-id="24_134" value="偏移"/>
+		<string key="24_135" loc-id="24_135" value="材料库"/>
+		<string key="24_136" loc-id="24_136" value="织布"/>
+		<string key="24_137" loc-id="24_137" value="经纱花纹"/>
+		<string key="24_138" loc-id="24_138" value="纬纱花纹"/>
+		<string key="24_139" loc-id="24_139" value="经纱色彩花纹"/>
+		<string key="24_140" loc-id="24_140" value="纬纱色彩花纹"/>
+		<string key="24_141" loc-id="24_141" value="编织"/>
+		<string key="24_142" loc-id="24_142" value="方形"/>
+		<string key="24_143" loc-id="24_143" value="纤维"/>
+		<string key="24_144" loc-id="24_144" value="纬纱比例"/>
+		<string key="24_145" loc-id="24_145" value="经纱比例"/>
+		<string key="24_146" loc-id="24_146" value="纬纱厚度"/>
+		<string key="24_147" loc-id="24_147" value="经纱厚度"/>
+		<string key="24_148" loc-id="24_148" value="场景数"/>
+		<string key="24_149" loc-id="24_149" value="线性"/>
+		<string key="24_150" loc-id="24_150" value="立方体"/>
+		<string key="24_151" loc-id="24_151" value="球体"/>
+		<string key="24_152" loc-id="24_152" value="X"/>
+		<string key="24_153" loc-id="24_153" value="Y"/>
+		<string key="24_154" loc-id="24_154" value="DX"/>
+		<string key="24_155" loc-id="24_155" value="DY"/>
+		<string key="24_156" loc-id="24_156" value="半径"/>
+		<string key="24_157" loc-id="24_157" value="材料库"/>
+		<string key="24_158" loc-id="24_158" value="渐层"/>
+		<string key="24_159" loc-id="24_159" value="线性"/>
+		<string key="24_160" loc-id="24_160" value="放射状"/>
+		<string key="24_161" loc-id="24_161" value="圆形"/>
+		<string key="24_162" loc-id="24_162" value="螺旋"/>
+		<string key="24_163" loc-id="24_163" value="上"/>
+		<string key="24_164" loc-id="24_164" value="上-下"/>
+		<string key="24_165" loc-id="24_165" value="上-上"/>
+		<string key="24_166" loc-id="24_166" value="下"/>
+		<string key="24_167" loc-id="24_167" value="下-上"/>
+		<string key="24_168" loc-id="24_168" value="下-下"/>
+		<string key="24_169" loc-id="24_169" value="角度"/>
+		<string key="24_170" loc-id="24_170" value="螺旋形"/>
+		<string key="24_171" loc-id="24_171" value="渐层名称"/>
+		<string key="24_172" loc-id="24_172" value="X 偏移"/>
+		<string key="24_173" loc-id="24_173" value="Y 偏移"/>
+		<string key="24_174" loc-id="24_174" value="X 间距"/>
+		<string key="24_175" loc-id="24_175" value="Y 间距"/>
+		<string key="24_176" loc-id="24_176" value="线宽"/>
+		<string key="24_177" loc-id="24_177" value="格线色彩"/>
+		<string key="24_178" loc-id="24_178" value="背景色彩"/>
+		<string key="24_179" loc-id="24_179" value="透明"/>
+		<string key="24_180" loc-id="24_180" value="灰阶门槛"/>
+		<string key="24_181" loc-id="24_181" value="纹路"/>
+		<string key="24_182" loc-id="24_182" value="对比"/>
+		<string key="24_183" loc-id="24_183" value="半径"/>
+		<string key="24_184" loc-id="24_184" value="反白"/>
+		<string key="24_185" loc-id="24_185" value="阴影"/>
+		<string key="24_186" loc-id="24_186" value="角度"/>
+		<string key="24_187" loc-id="24_187" value="稀薄"/>
+		<string key="24_188" loc-id="24_188" value="X"/>
+		<string key="24_189" loc-id="24_189" value="Y"/>
+		<string key="24_190" loc-id="24_190" value="置中"/>
+		<string key="24_191" loc-id="24_191" value="曝光"/>
+		<string key="24_192" loc-id="24_192" value="红色泛光"/>
+		<string key="24_193" loc-id="24_193" value="绿色泛光"/>
+		<string key="24_194" loc-id="24_194" value="蓝色泛光"/>
+		<string key="24_195" loc-id="24_195" value="光源数"/>
+		<string key="24_196" loc-id="24_196" value="X 位置"/>
+		<string key="24_197" loc-id="24_197" value="Y 位置"/>
+		<string key="24_198" loc-id="24_198" value="距离"/>
+		<string key="24_199" loc-id="24_199" value="方向 X"/>
+		<string key="24_200" loc-id="24_200" value="方向 Y"/>
+		<string key="24_201" loc-id="24_201" value="方向 Z"/>
+		<string key="24_202" loc-id="24_202" value="扩散角度"/>
+		<string key="24_203" loc-id="24_203" value="亮度"/>
+		<string key="24_204" loc-id="24_204" value="光源色彩"/>
+		<string key="24_205" loc-id="24_205" value="间距"/>
+		<string key="24_206" loc-id="24_206" value="偏移"/>
+		<string key="24_207" loc-id="24_207" value="垂直"/>
+		<string key="24_208" loc-id="24_208" value="水平"/>
+		<string key="24_209" loc-id="24_209" value="拉"/>
+		<string key="24_210" loc-id="24_210" value="波"/>
+		<string key="24_211" loc-id="24_211" value="波长"/>
+		<string key="24_212" loc-id="24_212" value="面"/>
+		<string key="24_213" loc-id="24_213" value="品质"/>
+		<string key="24_214" loc-id="24_214" value="色相范围"/>
+		<string key="24_215" loc-id="24_215" value="色相羽化"/>
+		<string key="24_216" loc-id="24_216" value="色彩浓度范围"/>
+		<string key="24_217" loc-id="24_217" value="色彩浓度羽化"/>
+		<string key="24_218" loc-id="24_218" value="值范围"/>
+		<string key="24_219" loc-id="24_219" value="值羽化"/>
+		<string key="24_220" loc-id="24_220" value="中央色彩"/>
+		<string key="24_221" loc-id="24_221" value="反转"/>
+		<string key="24_225" loc-id="24_225" value="材料库"/>
+		<string key="24_226" loc-id="24_226" value="材质"/>
+		<string key="24_227" loc-id="24_227" value="操作"/>
+		<string key="24_228" loc-id="24_228" value="横列原点"/>
+		<string key="24_229" loc-id="24_229" value="直栏原点"/>
+		<string key="24_230" loc-id="24_230" value="Invert Grain"/>
+		<string key="24_231" loc-id="24_231" value="比例"/>
+		<string key="24_232" loc-id="24_232" value="程度"/>
+		<string key="24_233" loc-id="24_233" value="文件名称"/>
+		<string key="24_234" loc-id="24_234" value="X"/>
+		<string key="24_235" loc-id="24_235" value="Y"/>
+		<string key="24_236" loc-id="24_236" value="项目名称"/>
+		<string key="24_237" loc-id="24_237" value="年"/>
+		<string key="24_238" loc-id="24_238" value="月"/>
+		<string key="24_239" loc-id="24_239" value="日"/>
+		<string key="24_240" loc-id="24_240" value="时"/>
+		<string key="24_241" loc-id="24_241" value="分"/>
+		<string key="24_242" loc-id="24_242" value="秒"/>
+		<string key="24_243" loc-id="24_243" value="哪一天"/>
+		<string key="24_244" loc-id="24_244" value="名称"/>
+		<string key="24_245" loc-id="24_245" value="对话名称"/>
+		<string key="24_246" loc-id="24_246" value="起始根源"/>
+		<string key="24_247" loc-id="24_247" value="文字"/>
+		<string key="24_248" loc-id="24_248" value="页面旋转角度*"/>
+		<string key="24_249" loc-id="24_249" value="量"/>
+		<string key="24_250" loc-id="24_250" value="值"/>
+		<string key="24_251" loc-id="24_251" value="角度"/>
+		<string key="24_252" loc-id="24_252" value="X 比例"/>
+		<string key="24_253" loc-id="24_253" value="Y 比例"/>
+		<string key="24_254" loc-id="24_254" value="喷嘴文件名称"/>
+		<string key="24_255" loc-id="24_255" value="加入上方"/>
+		<string key="24_256" loc-id="24_256" value="加入左边"/>
+		<string key="24_257" loc-id="24_257" value="加入下方"/>
+		<string key="24_258" loc-id="24_258" value="加入右边"/>
+		<string key="24_259" loc-id="24_259" value="阴影 DX"/>
+		<string key="24_260" loc-id="24_260" value="阴影 DY"/>
+		<string key="24_261" loc-id="24_261" value="摺迭下落式阴影群组"/>
+		<string key="24_262" loc-id="24_262" value="不透明度"/>
+		<string key="24_263" loc-id="24_263" value="半径"/>
+		<string key="24_264" loc-id="24_264" value="角度"/>
+		<string key="24_265" loc-id="24_265" value="稀薄"/>
+		<string key="24_266" loc-id="24_266" value="遮罩落下"/>
+		<string key="24_267" loc-id="24_267" value="使用笔刷格线"/>
+		<string key="24_268" loc-id="24_268" value="图像"/>
+		<string key="24_269" loc-id="24_269" value="遮罩"/>
+		<string key="24_270" loc-id="24_270" value="卡通画格"/>
+		<string key="24_271" loc-id="24_271" value="目前色彩"/>
+		<string key="24_272" loc-id="24_272" value="渐层"/>
+		<string key="24_273" loc-id="24_273" value="仿制来源"/>
+		<string key="24_274" loc-id="24_274" value="编织"/>
+		<string key="24_275" loc-id="24_275" value="根源节点 X"/>
+		<string key="24_276" loc-id="24_276" value="根源节点 Y"/>
+		<string key="24_277" loc-id="24_277" value="色相最小值"/>
+		<string key="24_278" loc-id="24_278" value="色相最大值"/>
+		<string key="24_279" loc-id="24_279" value="色彩浓度最小值"/>
+		<string key="24_280" loc-id="24_280" value="色彩浓度最大值"/>
+		<string key="24_281" loc-id="24_281" value="最小值"/>
+		<string key="24_282" loc-id="24_282" value="最大值"/>
+		<string key="24_283" loc-id="24_283" value="色相缠绕"/>
+		<string key="24_284" loc-id="24_284" value="整个图像"/>
+		<string key="24_285" loc-id="24_285" value="框架"/>
+		<string key="24_286" loc-id="24_286" value="相邻像素"/>
+		<string key="24_287" loc-id="24_287" value="卡通画格"/>
+		<string key="24_288" loc-id="24_288" value="选区"/>
+		<string key="24_297" loc-id="24_297" value="门槛"/>
+		<string key="24_298" loc-id="24_298" value="矩形"/>
+		<string key="24_300" loc-id="24_300" value="遮罩"/>
+		<string key="24_303" loc-id="24_303" value="量"/>
+		<string key="24_304" loc-id="24_304" value="打光"/>
+		<string key="24_305" loc-id="24_305" value="图片"/>
+		<string key="24_306" loc-id="24_306" value="曝光"/>
+		<string key="24_307" loc-id="24_307" value="光源数"/>
+		<string key="24_308" loc-id="24_308" value="亮度"/>
+		<string key="24_309" loc-id="24_309" value="浓度"/>
+		<string key="24_310" loc-id="24_310" value="方向 X"/>
+		<string key="24_311" loc-id="24_311" value="方向 Y"/>
+		<string key="24_312" loc-id="24_312" value="方向 Z"/>
+		<string key="24_313" loc-id="24_313" value="红"/>
+		<string key="24_314" loc-id="24_314" value="绿"/>
+		<string key="24_315" loc-id="24_315" value="蓝"/>
+		<string key="24_316" loc-id="24_316" value="打光"/>
+		<string key="24_317" loc-id="24_317" value="反射"/>
+		<string key="24_318" loc-id="24_318" value="柔化"/>
+		<string key="24_319" loc-id="24_319" value="反转"/>
+		<string key="24_320" loc-id="24_320" value="方向"/>
+		<string key="24_321" loc-id="24_321" value="花砖数"/>
+		<string key="24_322" loc-id="24_322" value="中心 X"/>
+		<string key="24_323" loc-id="24_323" value="中心 Y"/>
+		<string key="24_324" loc-id="24_324" value="砖泥色彩"/>
+		<string key="24_325" loc-id="24_325" value="宽度"/>
+		<string key="24_326" loc-id="24_326" value="高"/>
+		<string key="24_327" loc-id="24_327" value="压力"/>
+		<string key="24_328" loc-id="24_328" value="砖泥"/>
+		<string key="24_329" loc-id="24_329" value="框架节点"/>
+		<string key="24_330" loc-id="24_330" value="开始框架节点"/>
+		<string key="24_331" loc-id="24_331" value="X"/>
+		<string key="24_332" loc-id="24_332" value="Y"/>
+		<string key="24_333" loc-id="24_333" value="随机剪下"/>
+		<string key="24_334" loc-id="24_334" value="随机长度"/>
+		<string key="24_335" loc-id="24_335" value="随机宽度"/>
+		<string key="24_336" loc-id="24_336" value="随机砖泥"/>
+		<string key="24_337" loc-id="24_337" value="材料库"/>
+		<string key="24_338" loc-id="24_338" value="喷嘴"/>
+		<string key="24_339" loc-id="24_339" value="喷嘴比例"/>
+		<string key="24_340" loc-id="24_340" value="材料库"/>
+		<string key="24_341" loc-id="24_341" value="花纹"/>
+		<string key="24_342" loc-id="24_342" value="花纹比例"/>
+		<string key="24_343" loc-id="24_343" value="旗标 2"/>
+		<string key="24_344" loc-id="24_344" value="点类型"/>
+		<string key="24_349" loc-id="24_349" value="长度"/>
+		<string key="24_350" loc-id="24_350" value="字串资料"/>
+		<string key="24_351" loc-id="24_351" value="向量图形类型"/>
+		<string key="24_352" loc-id="24_352" value="透视係数"/>
+		<string key="24_353" loc-id="24_353" value="计数"/>
+		<string key="24_354" loc-id="24_354" value="斜面种类"/>
+		<string key="24_355" loc-id="24_355" value="色彩空间种类"/>
+		<string key="24_356" loc-id="24_356" value="弧长渐变"/>
+		<string key="24_357" loc-id="24_357" value="对齐开始节点"/>
+		<string key="24_358" loc-id="24_358" value="笔触"/>
+		<string key="24_359" loc-id="24_359" value="笔触色彩"/>
+		<string key="24_360" loc-id="24_360" value="笔触宽度"/>
+		<string key="24_361" loc-id="24_361" value="笔触不透明度"/>
+		<string key="24_363" loc-id="24_363" value="加入"/>
+		<string key="24_364" loc-id="24_364" value="斜接限制"/>
+		<string key="24_365" loc-id="24_365" value="填色"/>
+		<string key="24_366" loc-id="24_366" value="填满色彩"/>
+		<string key="24_367" loc-id="24_367" value="填色不透明度"/>
+		<string key="24_368" loc-id="24_368" value="双单填色"/>
+		<string key="24_369" loc-id="24_369" value="平坦度"/>
+		<string key="24_370" loc-id="24_370" value="向量图形名称"/>
+		<string key="24_371" loc-id="24_371" value="倾斜"/>
+		<string key="24_372" loc-id="24_372" value="X 比例"/>
+		<string key="24_373" loc-id="24_373" value="Y 比例"/>
+		<string key="24_374" loc-id="24_374" value="像素"/>
+		<string key="24_375" loc-id="24_375" value="路径名称"/>
+		<string key="24_376" loc-id="24_376" value="只有打印色彩"/>
+		<string key="24_377" loc-id="24_377" value="矩形"/>
+		<string key="24_378" loc-id="24_378" value="水平"/>
+		<string key="24_379" loc-id="24_379" value="垂直"/>
+		<string key="24_380" loc-id="24_380" value="偏移"/>
+		<string key="24_381" loc-id="24_381" value="量"/>
+		<string key="24_382" loc-id="24_382" value="放大"/>
+		<string key="24_383" loc-id="24_383" value="缩放中心 X"/>
+		<string key="24_384" loc-id="24_384" value="缩放中心 Y"/>
+		<string key="24_385" loc-id="24_385" value="最小尺寸"/>
+		<string key="24_386" loc-id="24_386" value="最大尺寸"/>
+		<string key="24_387" loc-id="24_387" value="花纹"/>
+		<string key="24_388" loc-id="24_388" value="花纹编号"/>
+		<string key="24_389" loc-id="24_389" value="显示解决方案"/>
+		<string key="24_390" loc-id="24_390" value="根源"/>
+		<string key="24_391" loc-id="24_391" value="厚度"/>
+		<string key="24_392" loc-id="24_392" value="重复数"/>
+		<string key="24_393" loc-id="24_393" value="节点数"/>
+		<string key="24_394" loc-id="24_394" value="程度数"/>
+		<string key="24_395" loc-id="24_395" value="半径分数"/>
+		<string key="24_396" loc-id="24_396" value="视窗过大"/>
+		<string key="24_397" loc-id="24_397" value="泛光量"/>
+		<string key="24_398" loc-id="24_398" value="点力道"/>
+		<string key="24_399" loc-id="24_399" value="显示重复"/>
+		<string key="24_400" loc-id="24_400" value="延迟时间"/>
+		<string key="24_401" loc-id="24_401" value="切口内部"/>
+		<string key="24_402" loc-id="24_402" value="透明玻璃"/>
+		<string key="24_403" loc-id="24_403" value="剪下上方"/>
+		<string key="24_404" loc-id="24_404" value="剪下左边"/>
+		<string key="24_405" loc-id="24_405" value="剪下下方"/>
+		<string key="24_406" loc-id="24_406" value="剪下右边"/>
+		<string key="24_407" loc-id="24_407" value="容错度"/>
+		<string key="24_408" loc-id="24_408" value="色彩羽化"/>
+		<string key="24_409" loc-id="24_409" value="无毛边"/>
+		<string key="24_410" loc-id="24_410" value="点色彩"/>
+		<string key="24_411" loc-id="24_411" value="遵守来源选区"/>
+		<string key="24_412" loc-id="24_412" value="复制来源选区"/>
+		<string key="24_413" loc-id="24_413" value="四个节点的拼接"/>
+		<string key="24_414" loc-id="24_414" value="砖泥色彩"/>
+		<string key="24_415" loc-id="24_415" value="使用砖泥"/>
+		<string key="24_416" loc-id="24_416" value="残影半径"/>
+		<string key="24_417" loc-id="24_417" value="残影距离"/>
+		<string key="24_418" loc-id="24_418" value="厚度"/>
+		<string key="24_419" loc-id="24_419" value="砖块宽度"/>
+		<string key="24_420" loc-id="24_420" value="砖块高"/>
+		<string key="24_421" loc-id="24_421" value="为来源"/>
+		<string key="24_422" loc-id="24_422" value="索引"/>
+		<string key="24_423" loc-id="24_423" value="X 更改"/>
+		<string key="24_424" loc-id="24_424" value="Y 更改"/>
+		<string key="24_425" loc-id="24_425" value="扩展插件方式"/>
+		<string key="24_426" loc-id="24_426" value="魔术棒目的地"/>
+		<string key="24_427" loc-id="24_427" value="迷宫色彩"/>
+		<string key="24_428" loc-id="24_428" value="遮罩类型"/>
+		<string key="24_429" loc-id="24_429" value="遮罩编号"/>
+		<string key="24_430" loc-id="24_430" value="替换"/>
+		<string key="24_431" loc-id="24_431" value="加入"/>
+		<string key="24_432" loc-id="24_432" value="减去"/>
+		<string key="24_433" loc-id="24_433" value="交会"/>
+		<string key="24_434" loc-id="24_434" value="显示"/>
+		<string key="24_435" loc-id="24_435" value="不转换路径"/>
+		<string key="24_436" loc-id="24_436" value="要转换路径"/>
+		<string key="24_437" loc-id="24_437" value="取消开启"/>
+		<string key="24_438" loc-id="24_438" value="自动选取图层"/>
+		<string key="24_439" loc-id="24_439" value="保存透明度"/>
+		<string key="24_440" loc-id="24_440" value="缠绕矩形"/>
+		<string key="24_441" loc-id="24_441" value="缠绕水平"/>
+		<string key="24_442" loc-id="24_442" value="缠绕垂直"/>
+		<string key="24_443" loc-id="24_443" value="半落下偏移"/>
+		<string key="24_444" loc-id="24_444" value="花纹名称"/>
+		<string key="24_445" loc-id="24_445" value="厚涂可以看见"/>
+		<string key="24_446" loc-id="24_446" value="版本"/>
+		<string key="24_447" loc-id="24_447" value="类别"/>
+		<string key="24_448" loc-id="24_448" value="名称"/>
+		<string key="24_449" loc-id="24_449" value="参数大小"/>
+		<string key="24_450" loc-id="24_450" value="黑色边缘"/>
+		<string key="24_451" loc-id="24_451" value="蚀刻边缘"/>
+		<string key="24_452" loc-id="24_452" value="厚重"/>
+		<string key="24_453" loc-id="24_453" value="扩散"/>
+		<string key="24_454" loc-id="24_454" value="色彩边缘"/>
+		<string key="24_455" loc-id="24_455" value="蚀刻时间"/>
+		<string key="24_456" loc-id="24_456" value="色彩数"/>
+		<string key="24_459" loc-id="24_459" value="量"/>
+		<string key="24_460" loc-id="24_460" value="操作"/>
+		<string key="24_461" loc-id="24_461" value="平滑化"/>
+		<string key="24_462" loc-id="24_462" value="变化"/>
+		<string key="24_463" loc-id="24_463" value="门槛"/>
+		<string key="24_464" loc-id="24_464" value="输出黑色"/>
+		<string key="24_465" loc-id="24_465" value="输出彩色"/>
+		<string key="24_466" loc-id="24_466" value="反白"/>
+		<string key="24_467" loc-id="24_467" value="阴影"/>
+		<string key="24_468" loc-id="24_468" value="色相比重"/>
+		<string key="24_469" loc-id="24_469" value="距离比重"/>
+		<string key="24_470" loc-id="24_470" value="彩度比重"/>
+		<string key="24_471" loc-id="24_471" value="亮度比重"/>
+		<string key="24_472" loc-id="24_472" value="孔径类型"/>
+		<string key="24_473" loc-id="24_473" value="锐利化红色"/>
+		<string key="24_474" loc-id="24_474" value="锐利化绿色"/>
+		<string key="24_475" loc-id="24_475" value="锐利化蓝色"/>
+		<string key="24_476" loc-id="24_476" value="边缘尺寸"/>
+		<string key="24_477" loc-id="24_477" value="边缘值"/>
+		<string key="24_478" loc-id="24_478" value="使用色彩集"/>
+		<string key="24_479" loc-id="24_479" value="自动色彩"/>
+		<string key="24_480" loc-id="24_480" value="使用录制的色彩"/>
+		<string key="24_481" loc-id="24_481" value="比对色彩"/>
+		<string key="24_482" loc-id="24_482" value="填满色彩"/>
+		<string key="24_483" loc-id="24_483" value="选择底色"/>
+		<string key="24_484" loc-id="24_484" value="平滑度"/>
+		<string key="24_485" loc-id="24_485" value="容量"/>
+		<string key="24_486" loc-id="24_486" value="最小容量"/>
+		<string key="24_487" loc-id="24_487" value="油墨类型"/>
+		<string key="24_488" loc-id="24_488" value="最小特徵大小"/>
+		<string key="24_489" loc-id="24_489" value="随机容量"/>
+		<string key="24_490" loc-id="24_490" value="随机大小"/>
+		<string key="24_491" loc-id="24_491" value="鬃毛片段"/>
+		<string key="24_492" loc-id="24_492" value="随机鬃毛容量"/>
+		<string key="24_493" loc-id="24_493" value="随机鬃毛大小"/>
+		<string key="24_494" loc-id="24_494" value="湿度"/>
+		<string key="24_495" loc-id="24_495" value="选取"/>
+		<string key="24_496" loc-id="24_496" value="风干速度"/>
+		<string key="24_497" loc-id="24_497" value="蒸发门槛"/>
+		<string key="24_498" loc-id="24_498" value="晕染量"/>
+		<string key="24_499" loc-id="24_499" value="毛细门槛"/>
+		<string key="24_500" loc-id="24_500" value="纹路渗入"/>
+		<string key="24_501" loc-id="24_501" value="晕染方向"/>
+		<string key="24_502" loc-id="24_502" value="晕染方向量"/>
+		<string key="24_503" loc-id="24_503" value="晕染精确"/>
+		<string key="24_504" loc-id="24_504" value="方向性纹路"/>
+		<string key="24_505" loc-id="24_505" value="色彩表示"/>
+		<string key="24_507" loc-id="24_507" value="清除图像"/>
+		<string key="24_508" loc-id="24_508" value="启用扫描纸"/>
+		<string key="24_509" loc-id="24_509" value="切换到仿制笔刷"/>
+		<string key="24_510" loc-id="24_510" value="绘制模式"/>
+		<string key="24_511" loc-id="24_511" value="对称绘制"/>
+		<string key="24_512" loc-id="24_512" value="旋转"/>
+		<string key="24_513" loc-id="24_513" value="垂直平面"/>
+		<string key="24_514" loc-id="24_514" value="水平平面"/>
+		<string key="24_515" loc-id="24_515" value="线段数"/>
+		<string key="24_516" loc-id="24_516" value="中心 X"/>
+		<string key="24_517" loc-id="24_517" value="中心 Y"/>
+		<string key="24_518" loc-id="24_518" value="工具"/>
+		<string key="24_519" loc-id="24_519" value="使用普普艺术"/>
+		<string key="24_520" loc-id="24_520" value="气泡方式"/>
+		<string key="24_521" loc-id="24_521" value="使用碎裂"/>
+		<string key="24_522" loc-id="24_522" value="构成方式"/>
+		<string key="24_523" loc-id="24_523" value="深度构成方式"/>
+		<string key="24_524" loc-id="24_524" value="厚涂绘至"/>
+		<string key="24_525" loc-id="24_525" value="厚涂深度方式"/>
+		<string key="24_526" loc-id="24_526" value="大小表现"/>
+		<string key="24_527" loc-id="24_527" value="笔触抖动表现"/>
+		<string key="24_528" loc-id="24_528" value="纹路表现"/>
+		<string key="24_529" loc-id="24_529" value="不透明度表现"/>
+		<string key="24_530" loc-id="24_530" value="色彩表现"/>
+		<string key="24_531" loc-id="24_531" value="角度表现"/>
+		<string key="24_532" loc-id="24_532" value="色彩浓度表现"/>
+		<string key="24_533" loc-id="24_533" value="混合色彩表现"/>
+		<string key="24_534" loc-id="24_534" value="特徵大小表现"/>
+		<string key="24_535" loc-id="24_535" value="流量表现"/>
+		<string key="24_536" loc-id="24_536" value="阶层 1 表现"/>
+		<string key="24_537" loc-id="24_537" value="阶层 2 表现"/>
+		<string key="24_538" loc-id="24_538" value="阶层 3 表现"/>
+		<string key="24_539" loc-id="24_539" value="深度表现"/>
+		<string key="24_540" loc-id="24_540" value="容量表现"/>
+		<string key="24_541" loc-id="24_541" value="使用色调浓度"/>
+		<string key="24_542" loc-id="24_542" value="使用应用网点"/>
+		<string key="24_543" loc-id="24_543" value="使用色彩重迭"/>
+		<string key="24_544" loc-id="24_544" value="使用场景深度"/>
+		<string key="24_545" loc-id="24_545" value="另存新档类型"/>
+		<string key="24_546" loc-id="24_546" value="格线种类"/>
+		<string key="24_547" loc-id="24_547" value="X 间距单位"/>
+		<string key="24_548" loc-id="24_548" value="Y 间距单位"/>
+		<string key="24_549" loc-id="24_549" value="厚度单位"/>
+		<string key="24_550" loc-id="24_550" value="使用表现材质"/>
+		<string key="24_551" loc-id="24_551" value="使用调整色彩"/>
+		<string key="24_552" loc-id="24_552" value="使用调整选取的色彩"/>
+		<string key="24_553" loc-id="24_553" value="宽度单位"/>
+		<string key="24_554" loc-id="24_554" value="高度单位"/>
+		<string key="24_555" loc-id="24_555" value="解析度单位"/>
+		<string key="24_556" loc-id="24_556" value="使用玻璃折射变形"/>
+		<string key="24_557" loc-id="24_557" value="贴图"/>
+		<string key="24_558" loc-id="24_558" value="品质"/>
+		<string key="24_559" loc-id="24_559" value="使用根源填色"/>
+		<string key="24_560" loc-id="24_560" value="使用表面材质"/>
+		<string key="24_561" loc-id="24_561" value="系统"/>
+		<string key="24_562" loc-id="24_562" value="仿制类型"/>
+		<string key="24_563" loc-id="24_563" value="使用"/>
+		<string key="24_564" loc-id="24_564" value="纸张旋转"/>
+		<string key="24_565" loc-id="24_565" value="流线贴图旋转"/>
+	</category>
+
+	<category key="Str#">
+		<string key="25_1" loc-id="25_1" value="向量图形 %d"/>
+		<string key="25_2" loc-id="25_2" value="矩形 %d"/>
+		<string key="25_3" loc-id="25_3" value="椭圆 %d"/>
+		<string key="25_4" loc-id="25_4" value="线条 %d"/>
+		<string key="25_5" loc-id="25_5" value="&lt;无法使用&gt;"/>
+		<string key="25_6" loc-id="25_6" value="文字 %d"/>
+		<string key="25_7" loc-id="25_7" value="渐变群组 %d"/>
+		<string key="25_8" loc-id="25_8" value="执行 Illustrator 扩展插件:'%c%c%c%c' 时出现错误"/>
+		<string key="25_9" loc-id="25_9" value="附注:"/>
+		<string key="25_10" loc-id="25_10" value="  URL:"/>
+	</category>
+
+	<category key="Str#">
+		<string key="26_7" loc-id="26_7" value="色彩"/>
+		<string key="26_29" loc-id="26_29" value="隐藏圈选框"/>
+		<string key="26_30" loc-id="26_30" value="没有选取"/>
+		<string key="26_32" loc-id="26_32" value="搬移图层差"/>
+		<string key="26_49" loc-id="26_49" value="删除图层"/>
+		<string key="26_55" loc-id="26_55" value="开启"/>
+		<string key="26_64" loc-id="26_64" value="湿画笔关闭"/>
+		<string key="26_92" loc-id="26_92" value="开启图层群组"/>
+		<string key="26_93" loc-id="26_93" value="群组图层"/>
+		<string key="26_94" loc-id="26_94" value="图层移到最上层"/>
+		<string key="26_95" loc-id="26_95" value="将图层向前搬移一层"/>
+		<string key="26_99" loc-id="26_99" value="设定图层项目遮罩"/>
+		<string key="26_104" loc-id="26_104" value="自动遮罩"/>
+		<string key="26_109" loc-id="26_109" value="色彩遮罩"/>
+		<string key="26_112" loc-id="26_112" value="羽化遮罩"/>
+		<string key="26_218" loc-id="26_218" value="项目/拾取选区路径"/>
+		<string key="26_288" loc-id="26_288" value="建立水彩"/>
+	</category>
+
+	<category key="Str#">
+		<string key="27_1" loc-id="27_1" value="无法初始化 Illustrator 扩展插件介面。内存不足。"/>
+		<string key="27_2" loc-id="27_2" value="内存不足，无法执行这个扩展插件。"/>
+		<string key="27_3" loc-id="27_3" value=" %s没有建置。"/>
+		<string key="27_4" loc-id="27_4" value="样本图层"/>
+		<string key="27_5" loc-id="27_5" value="格案格式"/>
+		<string key="27_6" loc-id="27_6" value="无法执行未知的新版扩展插件；必须为%s或更旧的版本。"/>
+		<string key="27_7" loc-id="27_7" value=" %s:无法从单一文件初始化 %d 个以上的扩展插件。"/>
+		<string key="27_8" loc-id="27_8" value="正在处理扩展插件 ..."/>
+		<string key="27_9" loc-id="27_9" value="组合 %d"/>
+		<string key="27_10" loc-id="27_10" value="输出为 Illustrator 文件"/>
+		<string key="27_11" loc-id="27_11" value="贴上 %d"/>
+		<string key="27_12" loc-id="27_12" value="本文件含有向量图形；无法输出为 Illustrator 文件。"/>
+		<string key="27_13" loc-id="27_13" value="&quot;%s&quot; 没有 BoundingBox，不会以有效的 Illustrator 文件呈现。"/>
+		<string key="27_14" loc-id="27_14" value="%s:将 Illustrator 扩展插件插入选单时发生错误。 "/>
+	</category>
+
+	<category key="Str#">
+		<string key="28_1" loc-id="28_1" value="拾取"/>
+		<string key="28_2" loc-id="28_2" value="Adobe Illustrator 文件..."/>
+		<string key="28_3" loc-id="28_3" value="拾取"/>
+		<string key="28_4" loc-id="28_4" value="Illustrator EPSF 文件..."/>
+	</category>
+
+	<category key="Str#">
+		<string key="29_1" loc-id="29_1" value=""/>
+		<string key="29_2" loc-id="29_2" value=""/>
+		<string key="29_3" loc-id="29_3" value="喷枪"/>
+		<string key="29_4" loc-id="29_4" value="中量喷溅"/>
+		<string key="29_5" loc-id="29_5" value="橡皮擦"/>
+		<string key="29_6" loc-id="29_6" value="橡皮擦"/>
+		<string key="29_7" loc-id="29_7" value="橡皮擦"/>
+		<string key="29_8" loc-id="29_8" value="橡皮擦"/>
+		<string key="29_9" loc-id="29_9" value="水彩"/>
+		<string key="29_10" loc-id="29_10" value="弄干橡皮擦"/>
+		<string key="29_11" loc-id="29_11" value="油墨"/>
+		<string key="29_12" loc-id="29_12" value="橡皮擦"/>
+		<string key="29_13" loc-id="29_13" value="仿制笔"/>
+		<string key="29_14" loc-id="29_14" value="鬃毛笔刷仿制笔"/>
+	</category>
+
+	<category key="Str#">
+		<string key="298_1" loc-id="298_1" value="%s 按键组合已用于 %s 指令。接爱变更将把此快捷键自 %s 移除。"/>
+		<string key="298_2" loc-id="298_2" value="开启按键组"/>
+		<string key="298_3" loc-id="298_3" value="保存按键组"/>
+		<string key="298_4" loc-id="298_4" value="保存摘要"/>
+		<string key="298_5" loc-id="298_5" value="程式指令"/>
+		<string key="298_6" loc-id="298_6" value="快捷键"/>
+		<string key="298_19" loc-id="298_19" value="&lt;tr&gt;&#xA;				&lt;th width=&quot;40&quot;&gt;&#xA;					&amp;nbsp;&lt;/TD&gt;&#xA;					&lt;th align=&quot;left&quot; colSpan=&quot;2&quot;&gt;&#xA;						指令&lt;/th&gt;&#xA;					&lt;th width=&quot;75&quot;&gt;&#xA;					&lt;/th&gt;&#xA;					&lt;th align=&quot;left&quot;&gt;&#xA;						快捷键&lt;/th&gt;&lt;/tr&gt;"/>
+		<string key="298_33" loc-id="298_33" value="&lt;tr&gt;&#xA;				&lt;td class=&quot;bottomBorder&quot; width=&quot;40&quot;&gt;&amp;nbsp;&lt;/td&gt;&#xA;				&lt;th class=&quot;bottomBorder&quot; align=&quot;left&quot; colSpan=&quot;2&quot;&gt;&#xA;					工具&lt;/th&gt;&#xA;				&lt;th class=&quot;bottomBorder&quot; width=&quot;75&quot;&gt;&#xA;					&amp;nbsp;&lt;/th&gt;&#xA;				&lt;th class=&quot;bottomBorder&quot; align=&quot;left&quot;&gt;&#xA;					快捷键&lt;/th&gt;&lt;/tr&gt;&#xA;			"/>
+		<string key="298_34" loc-id="298_34" value="程式选单"/>
+		<string key="298_35" loc-id="298_35" value="面板选单"/>
+		<string key="298_36" loc-id="298_36" value="工具"/>
+		<string key="298_37" loc-id="298_37" value="其他"/>
+		<string key="298_38" loc-id="298_38" value="保存新按键组"/>
+		<string key="298_39" loc-id="298_39" value="新按键组名称"/>
+		<string key="298_40" loc-id="298_40" value="按键组名称"/>
+		<string key="298_41" loc-id="298_41" value="%s 按键组合已预留给作业系统使用。请选择不同的按键组。"/>
+		<string key="298_42" loc-id="298_42" value="预设值"/>
+	</category>
+
+	<category key="Str#">
+		<string key="299_1" loc-id="299_1" value="柔软度"/>
+		<string key="299_2" loc-id="299_2" value="量"/>
+		<string key="299_3" loc-id="299_3" value="图片"/>
+		<string key="299_4" loc-id="299_4" value="打光"/>
+		<string key="299_5" loc-id="299_5" value="亮度"/>
+		<string key="299_6" loc-id="299_6" value="曝光"/>
+		<string key="299_7" loc-id="299_7" value="集中"/>
+		<string key="299_8" loc-id="299_8" value="显示"/>
+		<string key="299_9" loc-id="299_9" value="平滑化"/>
+		<string key="299_10" loc-id="299_10" value="高"/>
+		<string key="299_11" loc-id="299_11" value="反射"/>
+	</category>
+
+	<category key="Str#">
+		<string key="3_28" loc-id="3_28" value="Painter 色彩"/>
+		<string key="3_38" loc-id="3_38" value="Painter Help"/>
+		<string key="3_60" loc-id="3_60" value=".5"/>
+		<string key="3_61" loc-id="3_61" value=".6"/>
+		<string key="3_69" loc-id="3_70" value="混色器色票"/>
+		<string key="3_72" loc-id="3_73" value="混色板.MXS"/>
+		<string key="3_110" loc-id="3_111" value="回复 {1}"/>
+		<string key="3_94" loc-id="3_96" value="织布"/>
+		<string key="3_96" loc-id="3_98" value="花纹"/>
+		<string key="3_100" loc-id="3_102" value="Trees&amp;Leaves1"/>
+		<string key="3_102" loc-id="3_104" value="Trees&amp;Leaves2"/>
+	</category>
+
+	<category key="Str#">
+		<string key="3002_1" loc-id="3002_1" value="其他字形..."/>
+		<string key="3002_2" loc-id="3002_2" value="%4.1f°"/>
+	</category>
+
+	<category key="Str#">
+		<string key="3004_1" loc-id="3004_1" value="新细明体"/>
+		<string key="3004_2" loc-id="3004_2" value="次"/>
+		<string key="3004_3" loc-id="3004_3" value="第一种为 Windows 的预设字形，第二种为 Mac 的预设字形"/>
+	</category>
+
+	<category key="Str#">
+		<!-- Localization Font Exclusion List -->
+		<string key="3006_1" loc-id="3006_1" value=""/> <!-- ex. Taipei -->
+	</category>
+
+	<category key="Str#">
+		<string key="31_1" loc-id="31_1" value="geneva"/>
+		<string key="31_2" loc-id="31_2" value="9"/>
+		<string key="31_5" loc-id="31_5" value="9"/>
+		<string key="31_10" loc-id="31_10" value="monaco"/>
+		<string key="31_11" loc-id="31_11" value="9"/>
+	</category>
+
+	<category key="Str#">
+		<string key="32_1" loc-id="32_1" value="ScriptIO:无法开启脚本文件"/>
+		<string key="32_2" loc-id="32_2" value="ScriptIO:超过配置文件录制的内存"/>
+		<string key="32_3" loc-id="32_3" value="ScriptIO:标题页的脚本档数量超过范围"/>
+		<string key="32_4" loc-id="32_4" value="ScriptIO:无法配置页面 0"/>
+		<string key="32_5" loc-id="32_5" value="ScriptIO:无法读取脚本档的标题页"/>
+		<string key="32_6" loc-id="32_6" value="ScriptIO:在脚本档标题中，脚本的最大数量错误"/>
+		<string key="32_7" loc-id="32_7" value="ScriptIO:在脚本档标题中，脚本的数量错误"/>
+		<string key="32_8" loc-id="32_8" value="ScriptIO:在脚本档标题中，资料对应记录的最大数量错误"/>
+		<string key="32_9" loc-id="32_9" value="ScriptIO:在脚本档标题中，点阵图位置错误。"/>
+		<string key="32_10" loc-id="32_10" value="ScriptIO:脚本档关闭时，使用者数量不为 0"/>
+		<string key="32_11" loc-id="32_11" value="ScriptIO:页面超过范围！"/>
+		<string key="32_12" loc-id="32_12" value="ScriptIO:脚本数量超过范围"/>
+		<string key="32_13" loc-id="32_13" value="ScriptIO:超过资料对应记录！!"/>
+		<string key="32_14" loc-id="32_14" value="ScriptIO:资料对应偏移超过范围"/>
+		<string key="32_15" loc-id="32_15" value="ScriptIO:script_session_address 超过唯读对话的结尾"/>
+		<string key="32_16" loc-id="32_16" value="ScriptIO:script_session_put_bytes 至唯读对话"/>
+		<string key="32_17" loc-id="32_17" value="ScripLst:过长参数更改编号不合法"/>
+		<string key="32_18" loc-id="32_18" value="ScripLst:过短参数更改编号不合法"/>
+		<string key="32_19" loc-id="32_19" value="ScripLst:token 编号不合法"/>
+		<string key="32_20" loc-id="32_20" value="ScripLst:在脚本列表产生过程中，剖析二进位脚本时出现错误"/>
+		<string key="32_21" loc-id="32_21" value="ScripLst:scr_chan == null"/>
+		<string key="32_22" loc-id="32_22" value="ScripLst:错误 session_address"/>
+		<string key="32_23" loc-id="32_23" value="ScripLst:错误 session_get_bytes"/>
+		<string key="32_24" loc-id="32_24" value="ScripLst:错误 session_put_bytes"/>
+	</category>
+
+	<category key="Str#">
+		<string key="33_1" loc-id="33_1" value="%d 项目"/>
+		<string key="33_2" loc-id="33_2" value="%d X %d 项目"/>
+		<string key="33_3" loc-id="33_3" value="%d X %d X %d 项目"/>
+		<string key="33_4" loc-id="33_4" value="无"/>
+		<string key="33_5" loc-id="33_5" value="预设值"/>
+		<string key="33_6" loc-id="33_6" value="您是否确定要删除笔触 &quot;%s&quot;？"/>
+	</category>
+
+	<category key="Str#">
+		<string key="4_1" loc-id="4_1" value="按一下以更改框架动作。目前框架没有效果。"/>
+		<string key="4_2" loc-id="4_2" value="按一下以更改框架动作。正在框架内部绘制。"/>
+		<string key="4_3" loc-id="4_3" value="按一下这裡以更改框架动作。正在框架外部绘制。"/>
+		<string key="4_4" loc-id="4_4" value="按一下这裡，以利用工具绘制或选取正在编辑的图像。"/>
+		<string key="4_5" loc-id="4_5" value="按一下以水平捲动图像。"/>
+		<string key="4_6" loc-id="4_6" value="按一下以垂直捲动图像。"/>
+	</category>
+
+	<category key="Str#">
+		<string key="400_1" loc-id="400_1" value="最小尺寸"/>
+		<string key="400_2" loc-id="400_2" value="最大尺寸"/>
+		<string key="400_3" loc-id="400_3" value="正在应用场景深度..."/>
+		<string key="400_4" loc-id="400_4" value="量"/>
+		<string key="400_5" loc-id="400_5" value="正在应用缩放残影..."/>
+		<string key="400_6" loc-id="400_6" value="偏移"/>
+		<string key="400_7" loc-id="400_7" value="正在应用镜头动态残影... "/>
+		<string key="400_8" loc-id="400_8" value="正在置入项目..."/>
+		<string key="400_9" loc-id="400_9" value="正在涂绘迷宫..."/>
+		<string key="400_10" loc-id="400_10" value="正在建立迷宫..."/>
+		<string key="400_11" loc-id="400_11" value="选取遮罩色彩:"/>
+		<string key="400_12" loc-id="400_12" value="隐藏圈选框"/>
+		<string key="400_13" loc-id="400_13" value="显示圈选框"/>
+		<string key="400_14" loc-id="400_14" value="Alpha"/>
+		<string key="400_15" loc-id="400_15" value="显示为 RGB"/>
+		<string key="400_16" loc-id="400_16" value="显示为 HSV"/>
+		<string key="400_17" loc-id="400_17" value="显示图层指示器"/>
+		<string key="400_18" loc-id="400_18" value="隐藏图层指示器"/>
+		<string key="400_19" value="显示工具小技巧"/>
+		<string key="400_20" value="隐藏工具小技巧"/>
+		<string key="400_23" loc-id="400_23" value=" 遮罩"/>
+		<string key="400_24" loc-id="400_24" value="笔刷"/>
+		<string key="400_25" loc-id="400_25" value="笔刷外观"/>
+		<string key="400_26" loc-id="400_26" value="织布"/>
+		<string key="400_27" loc-id="400_27" value="渐层"/>
+		<string key="400_28" loc-id="400_28" value="脚本"/>
+		<string key="400_29" loc-id="400_29" value="喷嘴"/>
+		<string key="400_30" loc-id="400_30" value="找不到偏好的%s &quot;%s&quot;。您可以选择另一个%s，然后继续脚本，或者您可以选择停止脚本。"/>
+		<string key="400_31" loc-id="400_31" value="找不到偏好的%s &quot;%s&quot;。您可以选择连结图示至另一个 %s，或者您可以选择保留目前的设定."/>
+		<string key="400_32" loc-id="400_32" value="继续脚本"/>
+		<string key="400_33" loc-id="400_33" value="停止脚本"/>
+		<string key="400_34" loc-id="400_34" value="新增连结"/>
+		<string key="400_35" loc-id="400_35" value="保持目前连结"/>
+		<string key="400_36" loc-id="400_36" value="纸张"/>
+		<string key="400_37" loc-id="400_37" value="http://www.painterartist.com/"/>
+		<string key="400_38" loc-id="400_38" value="选择预设浏览器:"/>
+		<string key="400_39" loc-id="400_39" value="透明图层"/>
+		<string key="400_40" loc-id="400_40" value="正在处理自订花砖..."/>
+		<string key="400_41" loc-id="400_41" value="正在模糊自订花砖..."/>
+		<string key="400_42" loc-id="400_42" value="新图示档:"/>
+		<string key="400_43" loc-id="400_43" value="锁定"/>
+		<string key="400_44" loc-id="400_44" value="解除锁定"/>
+		<string key="400_45" loc-id="400_45" value="显示工具箱"/>
+		<string key="400_46" loc-id="400_46" value="隐藏工具箱"/>
+		<string key="400_47" loc-id="400_47" value="显示笔刷选取器列"/>
+		<string key="400_48" loc-id="400_48" value="隐藏笔刷选取器列"/>
+		<string key="400_49" loc-id="400_49" value="显示美术材料"/>
+		<string key="400_50" loc-id="400_50" value="隐藏美术材料"/>
+		<string key="400_51" loc-id="400_51" value="显示物件"/>
+		<string key="400_52" loc-id="400_52" value="隐藏物件"/>
+		<string key="400_53" loc-id="400_53" value="显示属性列"/>
+		<string key="400_54" loc-id="400_54" value="隐藏属性列"/>
+		<string key="400_55" loc-id="400_55" value="显示色彩集"/>
+		<string key="400_56" loc-id="400_56" value="隐藏色彩集"/>
+		<string key="400_57" loc-id="400_57" value="www.painterartist.com"/>
+		<string key="400_58" loc-id="400_58" value="线上支持..."/>
+		<string key="400_59" loc-id="400_59" value="动态图层"/>
+		<string key="400_60" loc-id="400_60" value="向量图形"/>
+		<string key="400_61" loc-id="400_61" value="群组"/>
+		<string key="400_62" loc-id="400_62" value="新增来源"/>
+		<string key="400_63" loc-id="400_63" value="自动选择"/>
+		<string key="400_64" loc-id="400_64" value="色彩"/>
+		<string key="400_65" loc-id="400_65" value="选取色彩"/>
+		<string key="400_66" loc-id="400_66" value="羽化"/>
+		<string key="400_67" loc-id="400_67" value="羽化选区"/>
+		<string key="400_68" loc-id="400_68" value="加宽选区"/>
+		<string key="400_69" loc-id="400_69" value="收缩选区"/>
+		<string key="400_70" loc-id="400_70" value="边界选区"/>
+		<string key="400_71" loc-id="400_71" value="加宽选区的方法:"/>
+		<string key="400_72" loc-id="400_72" value="收缩选区的方法:"/>
+		<string key="400_73" loc-id="400_73" value="建立边界:"/>
+		<string key="400_74" loc-id="400_74" value="自订"/>
+		<string key="400_75" loc-id="400_75" value="目前笔刷:"/>
+		<string key="400_76" loc-id="400_76" value="目前纸张:"/>
+		<string key="400_77" loc-id="400_77" value="目前渐层:"/>
+		<string key="400_78" loc-id="400_78" value="目前花纹:"/>
+		<string key="400_79" loc-id="400_79" value="目前织布:"/>
+		<string key="400_80" loc-id="400_80" value="目前笔刷外观:"/>
+		<string key="400_81" loc-id="400_81" value="目前选区:"/>
+		<string key="400_82" loc-id="400_82" value="目前图层:"/>
+		<string key="400_83" loc-id="400_83" value="目前光源:"/>
+		<string key="400_84" loc-id="400_84" value="目前脚本:"/>
+		<string key="400_85" loc-id="400_85" value="目前喷嘴:"/>
+		<string key="400_86" loc-id="400_86" value="选取点色彩:"/>
+		<string key="400_87" loc-id="400_87" value="选取背景色彩:"/>
+		<string key="400_88" loc-id="400_88" value="选取迷宫色彩:"/>
+		<string key="400_89" loc-id="400_89" value="面板名称"/>
+		<string key="400_90" loc-id="400_90" value="新增面板:"/>
+		<string key="400_91" loc-id="400_91" value="面板配置"/>
+		<string key="400_92" loc-id="400_92" value="新增面板配置:"/>
+		<string key="400_93" loc-id="400_93" value="F%2d          %s"/>
+		<string key="400_94" loc-id="400_94" value="Shift-F%2d    %s"/>
+		<string key="400_95" loc-id="400_95" value="正在产生选区..."/>
+		<string key="400_96" loc-id="400_96" value="正在为已选取的色彩产生选区..."/>
+		<string key="400_97" loc-id="400_97" value="正在反转选区..."/>
+		<string key="400_98" loc-id="400_98" value="正在柔化选区..."/>
+		<string key="400_99" loc-id="400_99" value="数字超过比例。选区的最大羽化值为 50 像素。"/>
+		<string key="400_100" loc-id="400_100" value="马赛克遮罩"/>
+		<string key="400_104" loc-id="400_104" value="参考图层"/>
+		<string key="400_105" loc-id="400_105" value="预设值"/>
+		<string key="400_106" loc-id="400_106" value="%d°"/>
+		<string key="400_107" loc-id="400_107" value=" 未检查"/>
+		<string key="400_108" loc-id="400_108" value=" 已检查"/>
+		<string key="400_109" loc-id="400_109" value=" 红: %d 绿: %d 蓝: %d"/>
+		<string key="400_110" loc-id="400_110" value="在%s中"/>
+		<string key="400_111" loc-id="400_111" value="上次效果"/>
+		<string key="400_112" loc-id="400_112" value="倒数第二个效果"/>
+		<string key="400_114" loc-id="400_114" value="注册..."/>
+		<string key="400_115" loc-id="400_115" value="图层浮动物件"/>
+		<string key="400_116" loc-id="400_116" value="笔刷控制项"/>
+		<string key="400_117" loc-id="400_117" value="显示笔刷控制项"/>
+		<string key="400_118" loc-id="400_118" value="隐藏笔刷控制项"/>
+		<string key="400_119" loc-id="400_119" value="关闭"/>
+		<string key="400_120" loc-id="400_120" value="开启"/>
+		<string key="400_121" loc-id="400_121" value="美术材料"/>
+		<string key="400_122" loc-id="400_122" value="物件"/>
+		<string key="400_123" loc-id="400_123" value="画布"/>
+		<string key="400_124" loc-id="400_124" value="applFont"/>
+		<string key="400_125" loc-id="400_125" value="Tahoma"/>
+		<string key="400_126" loc-id="400_126" value="±H"/>
+		<string key="400_127" loc-id="400_127" value="±S"/>
+		<string key="400_128" loc-id="400_128" value="±V"/>
+		<string key="400_129" loc-id="400_129" value="±R"/>
+		<string key="400_130" loc-id="400_130" value="±G"/>
+		<string key="400_131" loc-id="400_131" value="±B"/>
+		<string key="400_132" loc-id="400_132" value="选择色彩"/>
+		<string key="400_133" loc-id="400_133" value="显示向量图形圈选框"/>
+		<string key="400_134" loc-id="400_134" value="隐藏向量图形圈选框"/>
+		<string key="400_135" loc-id="400_135" value="笔刷材料库"/>
+		<string key="400_136" loc-id="400_136" value="笔刷变体"/>
+		<string key="400_137" loc-id="400_137" value="选取笔刷材料库"/>
+		<string key="400_138" loc-id="400_138" value="选取介面"/>
+		<string key="400_139" loc-id="400_139" value="全部可读的文件"/>
+		<string key="400_141" loc-id="400_141" value="选取遮罩"/>
+		<string key="400_142" loc-id="400_142" value="取消选取遮罩"/>
+		<string key="400_143" loc-id="400_143" value="选择笔刷外观"/>
+		<string key="400_144" loc-id="400_144" value="选择图像组合"/>
+		<string key="400_145" loc-id="400_145" value="选择渐层"/>
+		<string key="400_146" loc-id="400_146" value="选择光源预设"/>
+		<string key="400_147" loc-id="400_147" value="选择喷嘴"/>
+		<string key="400_148" loc-id="400_148" value="选择纸张"/>
+		<string key="400_149" loc-id="400_149" value="选择选区"/>
+		<string key="400_150" loc-id="400_150" value="选择花纹"/>
+		<string key="400_151" loc-id="400_151" value="选择脚本"/>
+		<string key="400_152" loc-id="400_152" value="选择编织"/>
+		<string key="400_153" loc-id="400_153" value="显示格线"/>
+		<string key="400_154" loc-id="400_154" value="隐藏格线"/>
+		<string key="400_155" loc-id="400_155" value="www.painterartist.com"/>
+		<string key="400_156" loc-id="400_156" value="目前花纹"/>
+		<string key="400_157" loc-id="400_157" value="开启脚本"/>
+		<string key="400_158" loc-id="400_158" value="播放脚本"/>
+		<string key="400_159" loc-id="400_159" value="正在处理素描效果..."/>
+		<string key="400_196" loc-id="400_196" value="%s透明度"/>
+		<string key="400_197" loc-id="400_197" value="显示为十六进位"/>
+		<string key="400_198" loc-id="400_198" value="保存混色器色彩"/>
+		<string key="400_199" loc-id="400_199" value="载入混色器色彩"/>
+		<string key="400_200" loc-id="400_200" value="保存混色板"/>
+		<string key="400_201" loc-id="400_201" value="开启混色板"/>
+		<string key="400_208" loc-id="400_208" value=" 图层遮罩"/>
+		<string key="400_209" loc-id="400_209" value="停用图层遮罩"/>
+		<string key="400_210" loc-id="400_210" value="启用图层遮罩"/>
+		<string key="400_211" loc-id="400_211" value="%3d°"/>
+		<string key="400_212" loc-id="400_212" value="色相"/>
+		<string key="400_213" loc-id="400_213" value="彩度"/>
+		<string key="400_214" loc-id="400_214" value="值"/>
+		<string key="400_215" loc-id="400_215" value="红"/>
+		<string key="400_216" loc-id="400_216" value="绿"/>
+		<string key="400_217" loc-id="400_217" value="蓝"/>
+		<string key="400_218" loc-id="400_218" value="www.painterartist.com"/>
+		<string key="400_219" loc-id="400_219" value="立即升级"/>
+		<string key="400_221" loc-id="400_221" value="www.painterartist.com"/>
+		<string key="400_222" loc-id="400_222" value="初始化内容"/>
+		<string key="400_225" loc-id="400_225" value=" 并撤销出厂预设值"/>
+		<string key="400_226" loc-id="400_226" value="是否希望为此变体建立您自己的预设值？"/>
+		<string key="400_227" loc-id="400_227" value="您希望替换预设变体？"/>
+		<string key="400_228" loc-id="400_228" value="命名为 &quot;^1&quot; 的项已经存在于此位置。您是否希望用正在保存的项替换它？"/>
+		<string key="400_229" loc-id="400_229" value="此操作将弄干您的数位水彩图层。"/>
+		<string key="400_230" loc-id="400_230" value="播放:"/>
+		<string key="400_231" loc-id="400_231" value="%d FPS"/>
+		<string key="400_233" loc-id="400_233" value="解除锁定变体"/>
+		<string key="400_234" loc-id="400_234" value="正在处理敏锐模糊效果..."/>
+		<string key="400_235" loc-id="400_235" value="正在处理边缘效果..."/>
+		<string key="400_237" loc-id="400_237" value="正在开启 PSP 档..."/>
+		<string key="400_243" loc-id="400_243" value="正在以 PNG 格式保存文件..."/>
+		<string key="400_244" loc-id="400_244" value="正在复制 PNG 文件至内存..."/>
+		<string key="400_245" loc-id="400_245" value="保存为此格式时，此图像中的图层将会合併。"/>
+		<string key="400_245" value="保存为此格式时，此图像中的图层将会合併。"/>
+		<string key="400_246" loc-id="400_246" value="切换工作区..."/>
+		<string key="400_247" loc-id="400_247" value="关闭"/>
+		<string key="400_248" loc-id="400_248" value="启用"/>
+	</category>
+
+	<category key="Str#">
+		<string key="401_1" loc-id="401_1" value="切换描图纸（按住选择描图纸不透明度）"/>
+		<string key="401_2" loc-id="401_2" value="切换格线"/>
+		<string key="401_3" loc-id="401_3" value="色彩管理关闭"/>
+		<string key="401_4" loc-id="401_4" value="切换厚涂效果"/>
+		<string key="401_5" loc-id="401_5" value="四处绘图"/>
+		<string key="401_6" loc-id="401_6" value="在外部绘图"/>
+		<string key="401_7" loc-id="401_7" value="在内部绘图"/>
+		<string key="401_8" loc-id="401_8" value="导览"/>
+		<string key="401_9" loc-id="401_9" value="比例"/>
+	</category>
+
+	<category key="Str#">
+		<string key="402_1" loc-id="402_1" value="显示色彩"/>
+		<string key="402_2" loc-id="402_2" value="隐藏色彩"/>
+		<string key="402_3" loc-id="402_3" value="显示混色器"/>
+		<string key="402_4" loc-id="402_4" value="隐藏混色器"/>
+		<string key="402_5" loc-id="402_5" value="显示色彩集"/>
+		<string key="402_6" loc-id="402_6" value="隐藏色彩集"/>
+		<string key="402_7" loc-id="402_7" value="显示色彩资讯"/>
+		<string key="402_8" loc-id="402_8" value="隐藏色彩资讯"/>
+		<string key="402_9" loc-id="402_9" value="显示一般"/>
+		<string key="402_10" loc-id="402_10" value="隐藏一般"/>
+		<string key="402_11" loc-id="402_11" value="显示大小"/>
+		<string key="402_12" loc-id="402_12" value="隐藏大小"/>
+		<string key="402_13" loc-id="402_13" value="显示间距"/>
+		<string key="402_14" loc-id="402_14" value="隐藏间距"/>
+		<string key="402_15" loc-id="402_15" value="显示角度"/>
+		<string key="402_16" loc-id="402_16" value="隐藏角度"/>
+		<string key="402_17" loc-id="402_17" value="显示鬃毛"/>
+		<string key="402_18" loc-id="402_18" value="隐藏鬃毛"/>
+		<string key="402_19" loc-id="402_19" value="显示涌出"/>
+		<string key="402_20" loc-id="402_20" value="隐藏涌出"/>
+		<string key="402_21" loc-id="402_21" value="显示分岔"/>
+		<string key="402_22" loc-id="402_22" value="隐藏分岔"/>
+		<string key="402_23" loc-id="402_23" value="显示随机"/>
+		<string key="402_24" loc-id="402_24" value="隐藏随机"/>
+		<string key="402_25" loc-id="402_25" value="显示滑鼠"/>
+		<string key="402_26" loc-id="402_26" value="隐藏滑鼠"/>
+		<string key="402_27" loc-id="402_27" value="显示仿制"/>
+		<string key="402_28" loc-id="402_28" value="隐藏仿制"/>
+		<string key="402_29" loc-id="402_29" value="显示厚涂颜料"/>
+		<string key="402_30" loc-id="402_30" value="隐藏厚涂颜料"/>
+		<string key="402_31" loc-id="402_31" value="显示图像水管"/>
+		<string key="402_32" loc-id="402_32" value="隐藏图像水管"/>
+		<string key="402_33" loc-id="402_33" value="显示喷枪"/>
+		<string key="402_34" loc-id="402_34" value="隐藏喷枪"/>
+		<string key="402_35" loc-id="402_35" value="显示水彩"/>
+		<string key="402_36" loc-id="402_36" value="隐藏水彩"/>
+		<string key="402_37" loc-id="402_37" value="显示油墨"/>
+		<string key="402_38" loc-id="402_38" value="隐藏油墨"/>
+		<string key="402_39" loc-id="402_39" value="显示数位水彩"/>
+		<string key="402_40" loc-id="402_40" value="隐藏数位水彩"/>
+		<string key="402_41" loc-id="402_41" value="显示画家油画"/>
+		<string key="402_42" loc-id="402_42" value="隐藏画家油画"/>
+		<string key="402_43" loc-id="402_43" value="显示色彩变化"/>
+		<string key="402_44" loc-id="402_44" value="隐藏色彩变化"/>
+		<string key="402_45" loc-id="402_45" value="显示色彩表现"/>
+		<string key="402_46" loc-id="402_46" value="隐藏色彩表现"/>
+		<string key="402_47" loc-id="402_47" value="显示仿真鬃毛"/>
+		<string key="402_48" loc-id="402_48" value="隐藏仿真鬃毛"/>
+		<string key="402_49" loc-id="402_49" value="显示图层"/>
+		<string key="402_50" loc-id="402_50" value="隐藏图层"/>
+		<string key="402_51" loc-id="402_51" value="显示色频"/>
+		<string key="402_52" loc-id="402_52" value="隐藏色频"/>
+		<string key="402_53" loc-id="402_53" value="显示资讯"/>
+		<string key="402_54" loc-id="402_54" value="隐藏资讯"/>
+		<string key="402_55" loc-id="402_55" value="显示笔迹"/>
+		<string key="402_56" loc-id="402_56" value="隐藏笔迹"/>
+		<string key="402_57" loc-id="402_57" value="显示纸张"/>
+		<string key="402_58" loc-id="402_58" value="隐藏纸张"/>
+		<string key="402_59" loc-id="402_59" value="显示渐层"/>
+		<string key="402_60" loc-id="402_60" value="隐藏渐层"/>
+		<string key="402_61" loc-id="402_61" value="显示花纹"/>
+		<string key="402_62" loc-id="402_62" value="隐藏花纹"/>
+		<string key="402_63" loc-id="402_63" value="显示织布"/>
+		<string key="402_64" loc-id="402_64" value="隐藏织布"/>
+		<string key="402_65" loc-id="402_65" value="显示图像组合"/>
+		<string key="402_66" loc-id="402_66" value="隐藏图像组合"/>
+		<string key="402_67" loc-id="402_67" value="显示选区组合"/>
+		<string key="402_68" loc-id="402_68" value="隐藏选区组合"/>
+		<string key="402_69" loc-id="402_69" value="显示文字"/>
+		<string key="402_70" loc-id="402_70" value="隐藏文字"/>
+		<string key="402_71" loc-id="402_71" value="显示脚本"/>
+		<string key="402_72" loc-id="402_72" value="隐藏脚本"/>
+		<string key="402_73" loc-id="402_73" value="显示底纹效果"/>
+		<string key="402_74" loc-id="402_74" value="隐藏底纹效果"/>
+		<string key="402_75" loc-id="402_75" value="显示撤销"/>
+		<string key="402_76" loc-id="402_76" value="隐藏撤销"/>
+		<string key="402_77" loc-id="402_77" value="显示快速指南"/>
+		<string key="402_78" loc-id="402_78" value="隐藏快速指南"/>
+		<string key="402_79" loc-id="402_79" value="显示自动绘制"/>
+		<string key="402_80" loc-id="402_80" value="隐藏自动绘制"/>
+		<string key="402_81" loc-id="402_81" value="显示黄金分割"/>
+		<string key="402_82" loc-id="402_82" value="隐藏黄金分割"/>
+		<string key="402_83" loc-id="402_83" value="显示配置格线"/>
+		<string key="402_84" loc-id="402_84" value="隐藏配置格线"/>
+		<string key="402_85" loc-id="402_85" value="显示来源图像"/>
+		<string key="402_86" loc-id="402_86" value="隐藏来源图像"/>
+		<string key="402_89" loc-id="402_89" value="显示镜射"/>
+		<string key="402_90" loc-id="402_90" value="隐藏镜射"/>
+		<string key="402_91" loc-id="402_91" value="显示万花筒平面"/>
+		<string key="402_92" loc-id="402_92" value="隐藏万花筒平面"/>
+	</category>
+
+	<category key="Str#">
+		<string key="50_1" loc-id="50_1" value="请选取您想要保存的面板."/>
+		<string key="50_2" loc-id="50_2" value="请选择您要从介面上移除的面板。"/>
+		<string key="50_3" loc-id="50_3" value="新增面板文件:"/>
+		<string key="50_4" loc-id="50_4" value="开启面板文件:"/>
+		<string key="50_5" loc-id="50_5" value="请选取您想要移除的面板."/>
+	</category>
+
+	<category key="Str#">
+		<string key="502_1" loc-id="502_1" value="在 &quot;%s.xml&quot; 线条 %ld 直栏 %ld 中出现错误:"/>
+		<string key="502_2" loc-id="502_2" value="未知的副元素名称"/>
+		<string key="502_3" loc-id="502_3" value="未知的属性名称"/>
+		<string key="502_4" loc-id="502_4" value="看不见笔刷定义"/>
+		<string key="502_5" loc-id="502_5" value="可能出现常值 &quot;正&quot; 或 &quot;假&quot;"/>
+		<string key="502_6" loc-id="502_6" value="不合法的格式控制参数属性"/>
+		<string key="502_7" loc-id="502_7" value="不合法的笔刷类型参数属性"/>
+		<string key="502_8" loc-id="502_8" value="不合法的实体笔刷参数属性"/>
+		<string key="502_9" loc-id="502_9" value="不合法的笔尖应用参数属性"/>
+		<string key="502_10" loc-id="502_10" value="不合法的笔触路径参数属性"/>
+		<string key="502_11" loc-id="502_11" value="不合法的色彩参数属性"/>
+		<string key="502_12" loc-id="502_12" value="不合法的仿制参数属性"/>
+		<string key="502_13" loc-id="502_13" value="不合法的涌出参数属性"/>
+		<string key="502_14" loc-id="502_14" value="不合法的即时表现参数属性"/>
+		<string key="502_15" loc-id="502_15" value="不合法的扩展插件参数属性"/>
+		<string key="502_16" loc-id="502_16" value="不合法的介面自订参数属性"/>
+		<string key="502_17" loc-id="502_17" value="不合法的笔尖类型常值"/>
+		<string key="502_18" loc-id="502_18" value="不合法的笔尖旗标遮罩常值"/>
+		<string key="502_19" loc-id="502_19" value="笔尖旗标常值中的废弃项目"/>
+		<string key="502_20" loc-id="502_20" value="不合法的笔刷资源常值"/>
+		<string key="502_21" loc-id="502_21" value="扩展插件笔触类型常值中的丢弃项目"/>
+		<string key="502_22" loc-id="502_22" value="错误的扩展插件笔触类型编号"/>
+		<string key="502_23" loc-id="502_23" value="不合法的笔触类型常值"/>
+		<string key="502_24" loc-id="502_24" value="扩展插件向量笔类型常值中的丢弃项目"/>
+		<string key="502_25" loc-id="502_25" value="错误的扩展插件向量笔类型编号"/>
+		<string key="502_26" loc-id="502_26" value="不合法的向量笔类型常值"/>
+		<string key="502_27" loc-id="502_27" value="不合法的油墨类型常值"/>
+		<string key="502_28" loc-id="502_28" value="不合法的行为旗标遮罩常值"/>
+		<string key="502_29" loc-id="502_29" value="行为旗标常值中的废弃项目"/>
+		<string key="502_30" loc-id="502_30" value="不合法的向量笔控制旗标遮罩常值"/>
+		<string key="502_31" loc-id="502_31" value="向量笔控制旗标常值中的废弃项目"/>
+		<string key="502_32" loc-id="502_32" value="不合法的描述档常值"/>
+		<string key="502_33" loc-id="502_33" value="不合法的 Z 绘图类型常值"/>
+		<string key="502_34" loc-id="502_34" value="不合法的 Z 绘图遮罩常值"/>
+		<string key="502_35" loc-id="502_35" value="Z 绘图旗标常值中的废弃项目"/>
+		<string key="502_36" loc-id="502_36" value="不合法的色彩变化类型常值"/>
+		<string key="502_37" loc-id="502_37" value="不合法的动画师常值"/>
+		<string key="502_38" loc-id="502_38" value="不合法的仿制类型常值"/>
+		<string key="502_39" loc-id="502_39" value="不合法的仿制旗标遮罩常值"/>
+		<string key="502_40" loc-id="502_40" value="仿制旗标常值中的废弃项目"/>
+		<string key="502_41" loc-id="502_41" value="不合法的十六进位资料常值"/>
+		<string key="502_42" loc-id="502_42" value="十六进位资料常值中的废弃项目"/>
+		<string key="502_44" loc-id="502_44" value="不合法的四个字母资源类型常值"/>
+		<string key="502_45" loc-id="502_45" value="不合法的笔刷控制旗标遮罩常值"/>
+		<string key="502_46" loc-id="502_46" value="笔刷控制旗标常值中的废弃项目"/>
+		<string key="502_47" loc-id="502_47" value="不合法的笔刷控制旗标 2 遮罩常值"/>
+		<string key="502_48" loc-id="502_48" value="笔刷控制旗标 2 常值中的废弃项目"/>
+		<string key="502_49" loc-id="502_49" value="错误色彩语法 – 范例: (255,255,255)"/>
+		<string key="502_50" loc-id="502_50" value="浮动超过范围"/>
+		<string key="502_51" loc-id="502_51" value="变形的浮动"/>
+		<string key="502_52" loc-id="502_52" value="整数超过范围"/>
+		<string key="502_53" loc-id="502_53" value="变形的整数"/>
+		<string key="502_54" loc-id="502_54" value="未指定的属性"/>
+		<string key="502_55" loc-id="502_55" value="属性已指定两次"/>
+		<string key="502_56" loc-id="502_56" value="不合法的厚涂类型常值"/>
+	</category>
+
+	<category key="Str#">
+		<string key="503_1" loc-id="503_1" value="在 &quot;%s:CategoryData.xml&quot; 线条 %ld 直栏 %ld 中出现错误: "/>
+		<string key="503_2" loc-id="503_2" value="看不见笔刷类别资料"/>
+	</category>
+
+	<category key="Str#">
+		<string key="504_1" loc-id="504_1" value="内存不足"/>
+		<string key="504_2" loc-id="504_2" value="语法错误"/>
+		<string key="504_3" loc-id="504_3" value="找不到元素"/>
+		<string key="504_4" loc-id="504_4" value="未良好成形（无效 token）"/>
+		<string key="504_5" loc-id="504_5" value="未关闭 token"/>
+		<string key="504_6" loc-id="504_6" value="未关闭 token"/>
+		<string key="504_7" loc-id="504_7" value="不符合标籤"/>
+		<string key="504_8" loc-id="504_8" value="复制属性"/>
+		<string key="504_9" loc-id="504_9" value="文件元素之后的垃圾"/>
+		<string key="504_10" loc-id="504_10" value="不合法的参数实体参考"/>
+		<string key="504_11" loc-id="504_11" value="未定义的实体"/>
+		<string key="504_12" loc-id="504_12" value="递迴实体参考"/>
+		<string key="504_13" loc-id="504_13" value="非同步实体"/>
+		<string key="504_14" loc-id="504_14" value="参考无效字元编号"/>
+		<string key="504_15" loc-id="504_15" value="参考二进位实体"/>
+		<string key="504_16" loc-id="504_16" value="参考属性的外部实体"/>
+		<string key="504_17" loc-id="504_17" value="xml 处理指示不在外部实体的始点"/>
+		<string key="504_18" loc-id="504_18" value="未知的编码"/>
+		<string key="504_19" loc-id="504_19" value="XML 宣告中指定的编码不正确"/>
+		<string key="504_20" loc-id="504_20" value="未关闭 CDATA 部份"/>
+		<string key="504_21" loc-id="504_21" value="处理外部实体参考时出现错误"/>
+		<string key="504_22" loc-id="504_22" value="文件不独立"/>
+		<string key="504_23" loc-id="504_23" value="未预期剖析状态 – 请传送侦错报告"/>
+	</category>
+
+	<category key="Str#">
+		<string key="6_1" loc-id="6_1" value="像素"/>
+		<string key="6_2" loc-id="6_2" value="英吋"/>
+		<string key="6_3" loc-id="6_3" value="公分"/>
+		<string key="6_4" loc-id="6_4" value="点"/>
+		<string key="6_5" loc-id="6_5" value="派卡"/>
+		<string key="6_6" loc-id="6_6" value="栏"/>
+		<string key="6_7" loc-id="6_7" value="每英吋像素"/>
+		<string key="6_8" loc-id="6_8" value="每公分像素"/>
+		<string key="6_9" loc-id="6_9" value="宽:"/>
+		<string key="6_10" loc-id="6_10" value="高:"/>
+		<string key="6_11" loc-id="6_11" value="解析度:"/>
+	</category>
+
+	<category key="Str#">
+	</category>
+
+	<category key="Str#">
+	</category>
+
+	<category key="Str#">
+		<string key="7_1" loc-id="7_1" value="笔刷笔触"/>
+		<string key="7_5" loc-id="7_5" value="Invert Grain"/>
+		<string key="7_6" loc-id="7_6" value="Multiple Bristles"/>
+		<string key="7_7" loc-id="7_7" value="使用仿制色彩"/>
+		<string key="7_15" loc-id="7_15" value="建立"/>
+		<string key="7_18" loc-id="7_18" value="开始时间"/>
+		<string key="7_19" loc-id="7_19" value="结束时间"/>
+		<string key="7_20" loc-id="7_20" value="画家名称"/>
+		<string key="7_21" loc-id="7_21" value="矩型填色"/>
+		<string key="7_31" loc-id="7_31" value="油漆桶填色"/>
+	</category>
+
+	<category key="Str#">
+		<string key="8_4" loc-id="8_4" value="绘图"/>
+	</category>
+
+	<category key="Str#">
+		<string key="800_1" loc-id="800_1" value="笔刷创造器"/>
+		<string key="800_2" loc-id="800_2" value="笔触预览"/>
+		<string key="800_3" loc-id="800_3" value="显示描图纸"/>
+		<string key="800_4" loc-id="800_4" value="隐藏描图纸"/>
+		<string key="800_5" loc-id="800_5" value="显示厚涂颜料"/>
+		<string key="800_6" loc-id="800_6" value="隐藏厚涂颜料"/>
+		<string key="800_7" loc-id="800_7" value="显示工具"/>
+		<string key="800_8" loc-id="800_8" value="隐藏工具"/>
+		<string key="800_9" loc-id="800_9" value="显示色彩"/>
+		<string key="800_10" loc-id="800_10" value="隐藏色彩"/>
+		<string key="800_11" loc-id="800_11" value="显示历史"/>
+		<string key="800_12" loc-id="800_12" value="隐藏历史"/>
+		<string key="800_13" loc-id="800_13" value="显示纸张"/>
+		<string key="800_14" loc-id="800_14" value="隐藏纸张"/>
+		<string key="800_15" loc-id="800_15" value="显示花纹"/>
+		<string key="800_16" loc-id="800_16" value="隐藏花纹"/>
+		<string key="800_17" loc-id="800_17" value="显示渐层"/>
+		<string key="800_18" loc-id="800_18" value="隐藏渐层"/>
+		<string key="800_19" loc-id="800_19" value="选取色彩"/>
+		<string key="800_20" loc-id="800_20" value="图层类型:预设值"/>
+		<string key="800_21" loc-id="800_21" value="图层类型:油墨"/>
+		<string key="800_22" loc-id="800_22" value="图层类型:水彩"/>
+		<string key="800_23" loc-id="800_23" value="大小"/>
+		<string key="800_24" loc-id="800_24" value="清除"/>
+		<string key="800_25" loc-id="800_25" value="离开"/>
+		<string key="800_26" loc-id="800_26" value="正在产生笔刷变体预览..."/>
+		<string key="800_27" loc-id="800_27" value="随机化目前选区"/>
+		<string key="800_28" loc-id="800_28" value="随机化"/>
+		<string key="800_29" loc-id="800_29" value="转换器"/>
+		<string key="800_30" loc-id="800_30" value="笔触设计师"/>
+		<string key="800_31" loc-id="800_31" value="随机量"/>
+		<string key="800_32" loc-id="800_32" value="清除剪切板"/>
+		<string key="800_33" loc-id="800_33" value="比例"/>
+		<string key="800_34" loc-id="800_34" value="笔刷大小"/>
+		<string key="800_35" loc-id="800_35" value="转换目前选区"/>
+		<string key="800_36" loc-id="800_36" value="铅笔"/>
+		<string key="800_37" loc-id="800_37" value="2B 铅笔"/>
+		<string key="800_38" loc-id="800_38" value="22 65 6"/>
+		<string key="800_39" loc-id="800_39" value="21 80 20 13"/>
+		<string key="800_40" loc-id="800_40" value="最后一个项目（不需要时删除）"/>
+	</category>
+
+	<category key="Str#">
+		<string key="9876_1" loc-id="9876_1" value="Painter 无法初始化其介面."/>
+		<string key="9876_2" loc-id="9876_2" value="Painter 无法初始化其 script 引擎."/>
+		<string key="9876_3" loc-id="9876_3" value="Painter 无法建立一个或多个必要的内存缓衝区。"/>
+		<string key="9876_4" loc-id="9876_4" value="Painter 无法载入其水花萤幕. "/>
+		<string key="9876_5" loc-id="9876_5" value="Painter 无法建立必要的 RIFF 结构。"/>
+		<string key="9876_6" loc-id="9876_6" value="Painter 无法建立必要的图片资源。"/>
+		<string key="9876_7" loc-id="9876_7" value="Painter 无法初始化必要的框架结构。"/>
+		<string key="9876_8" loc-id="9876_8" value="Painter 无法初始化其笔刷引擎."/>
+		<string key="9876_9" loc-id="9876_9" value="Painter 无法初始化其字元剖析结构。"/>
+		<string key="9876_10" loc-id="9876_10" value="Painter 无法初始化贝兹线结构."/>
+		<string key="9876_11" loc-id="9876_11" value="Painter 无法初始化形状著色器."/>
+		<string key="9876_12" loc-id="9876_12" value="Painter 无法建立您的使用者资料夹."/>
+	</category>
+
+	<category key="Str#">
+		<string key="9877_1" loc-id="9877_1" value="色彩浓度:"/>
+		<string key="9877_2" loc-id="9877_2" value="色彩混合："/>
+		<string key="9877_3" loc-id="9877_3" value="抖动:"/>
+		<string key="9877_4" loc-id="9877_4" value="纹路:"/>
+		<string key="9877_5" loc-id="9877_5" value="拉:"/>
+		<string key="9877_6" loc-id="9877_6" value="不透明度:"/>
+		<string key="9877_7" loc-id="9877_7" value="强度:"/>
+		<string key="9877_8" loc-id="9877_8" value="大小:"/>
+		<string key="9877_9" loc-id="9877_9" value="特徵:"/>
+		<string key="9877_10" loc-id="9877_10" value="流量:"/>
+		<string key="9877_11" loc-id="9877_11" value="扩散:"/>
+		<string key="9877_12" loc-id="9877_12" value="平滑度:"/>
+		<string key="9877_13" loc-id="9877_13" value="容量:"/>
+		<string key="9877_14" loc-id="9877_14" value="晕染:"/>
+		<string key="9877_15" loc-id="9877_15" value="湿缘:"/>
+		<string key="9877_16" loc-id="9877_16" value="量:"/>
+		<string key="9877_17" loc-id="9877_17" value="粘滞度:"/>
+		<string key="9877_18" loc-id="9877_18" value="渐变:"/>
+		<string key="9877_19" loc-id="9877_19" value="鬃毛："/>
+		<string key="9877_20" loc-id="9877_20" value="丛生:"/>
+		<string key="9877_21" loc-id="9877_21" value="减弱:"/>
+		<string key="9877_22" loc-id="9877_22" value="湿度:"/>
+	</category>
+
+	<category key="Str#">
+		<string key="9878_1" loc-id="9878_1" value=":"/>
+		<string key="9878_2" loc-id="9878_2" value="X"/>
+		<string key="9878_3" loc-id="9878_3" value="Y"/>
+	</category>
+
+	<category key="Str#">
+		<string key="9880_6" loc-id="9880_6" value="Resources\\Register\\CorelReg.exe"/>
+		<string key="9880_10" loc-id="9880_10" value="最近的文档"/>
+		<string key="9880_11" loc-id="9880_11" value="文档范本"/>
+	</category>
+
+	<category key="Str#"> <!-- AIFormat.r -->
+		<string key="15360_1" loc-id="15360_1" value="拾取"/>
+		<string key="15360_2" loc-id="15360_2" value="Adobe Illustrator 文件..."/>
+		<string key="15360_3" loc-id="15360_3" value="拾取"/>
+		<string key="15360_4" loc-id="15360_4" value="Illustrator EPSF 文件..."/>
+	</category>
+
+	<category key="Str#"> <!-- AIFormat.r -->
+	</category>
+
+	<category key="Str#"> <!-- AIFormat.r -->
+		<string key="16050_1" loc-id="16050_1" value="-108"/>
+		<string key="16050_2" loc-id="16050_2" value="滤镜无法完成，因为没有足够的内存（滤镜）。&#xA;&#xA;[^0]"/>
+		<string key="16050_3" loc-id="16050_3" value="271"/>
+		<string key="16050_4" loc-id="16050_4" value="滤镜无法完成，因为没有足够的内存（滤镜）。&#xA;&#xA;[^0]"/>
+		<string key="16050_6" loc-id="16050_6" value="滤镜无法完成，因为路径具有太多节点。&#xA;&#xA;[^0]"/>
+		<string key="16050_8" loc-id="16050_8" value="滤镜因为未知的错误而无法完成。&#xA;&#xA;[^0]"/>
+		<string key="16050_10" loc-id="16050_10" value="必须先选取路径。&#xA;&#xA;[^0]"/>
+		<string key="16050_12" loc-id="16050_12" value="文件输入器无法完成，因为没有足够的空间可以建立新物件。"/>
+		<string key="16050_13" loc-id="16050_13" value="&lt;其他&gt;"/>
+		<string key="16050_14" loc-id="16050_14" value="滤镜因为未知的错误而无法完成。&#xA;&#xA;[^0]"/>
+	</category>
+
+	<category key="Str#"> <!-- BrtCnt.r -->
+		<string key="15230_1" loc-id="15230_1" value="亮度和对比"/>
+		<string key="15230_2" loc-id="15230_2" value="亮度/对比"/>
+		<string key="15230_3" loc-id="15230_3" value="正在建立校正图层..."/>
+	</category>
+
+	<category key="Str#"> <!-- Burn and Tear.r -->
+		<string key="15250_1" loc-id="15250_1" value="暗化"/>
+		<string key="15250_2" loc-id="15250_2" value="撕裂"/>
+		<string key="15250_3" loc-id="15250_3" value="修饰斜边"/>
+	</category>
+
+	<category key="Str#"> <!-- Burn and Tear.r -->
+		<string key="15251_1" loc-id="15251_1" value="燃烧边界"/>
+		<string key="15251_2" loc-id="15251_2" value="火焰幅度"/>
+		<string key="15251_3" loc-id="15251_3" value="火焰强度"/>
+		<string key="15251_4" loc-id="15251_4" value="风向"/>
+		<string key="15251_5" loc-id="15251_5" value="风速"/>
+		<string key="15251_6" loc-id="15251_6" value="锯齿"/>
+		<string key="15251_7" loc-id="15251_7" value="边缘"/>
+		<string key="15251_8" loc-id="15251_8" value="强度"/>
+		<string key="15251_9" loc-id="15251_9" value="修饰斜边宽度"/>
+		<string key="15251_10" loc-id="15251_10" value="外部分割"/>
+		<string key="15251_11" loc-id="15251_11" value="边缘斜面"/>
+		<string key="15251_12" loc-id="15251_12" value="陡峭分割"/>
+		<string key="15251_13" loc-id="15251_13" value="陡峭高度"/>
+		<string key="15251_14" loc-id="15251_14" value="陡峭斜面"/>
+		<string key="15251_15" loc-id="15251_15" value="基本斜面"/>
+		<string key="15251_16" loc-id="15251_16" value="平滑化"/>
+		<string key="15251_17" loc-id="15251_17" value="光源方向"/>
+		<string key="15251_18" loc-id="15251_18" value="光源高度"/>
+		<string key="15251_19" loc-id="15251_19" value="亮度"/>
+		<string key="15251_20" loc-id="15251_20" value="散佈"/>
+		<string key="15251_21" loc-id="15251_21" value="打光"/>
+		<string key="15251_22" loc-id="15251_22" value="反射"/>
+		<string key="15251_23" loc-id="15251_23" value="完成此项运作的内存不足"/>
+	</category>
+
+	<category key="Str#"> <!-- Burn and Tear.r -->
+		<string key="15253_1" loc-id="15253_1" value="%4d°"/>
+		<string key="15253_3" loc-id="15253_3" value="选取暗化色彩"/>
+		<string key="15253_4" loc-id="15253_4" value="选择撕裂色彩"/>
+		<string key="15253_5" loc-id="15253_5" value="选取斜边外部色彩"/>
+		<string key="15253_6" loc-id="15253_6" value="选取光源色彩"/>
+		<string key="15253_7" loc-id="15253_7" value="%4d°"/>
+	</category>
+
+	<category key="Str#"> <!-- Equalize.r -->
+		<string key="15270_1" loc-id="15270_1" value="等化"/>
+		<string key="15270_2" loc-id="15270_2" value="亮度"/>
+	</category>
+
+	<category key="Str#"> <!-- GlassDistortion.r -->
+		<string key="15290_1" loc-id="15290_1" value="量"/>
+		<string key="15290_2" loc-id="15290_2" value="变化"/>
+		<string key="15290_3" loc-id="15290_3" value="方向"/>
+		<string key="15290_4" loc-id="15290_4" value="柔软度"/>
+		<string key="15290_5" loc-id="15290_5" value="%3d°"/>
+	</category>
+
+	<category key="Str#"> <!-- GlassDistortion.r -->
+		<string key="15291_1" loc-id="15291_1" value="玻璃折射变形"/>
+		<string key="15291_2" loc-id="15291_2" value="玻璃折射变形浮动"/>
+	</category>
+
+	<category key="Str#"> <!-- ImageSlicer.r -->
+		<string key="15400_1" loc-id="15400_1" value="图像分割器"/>
+		<string key="15400_2" loc-id="15400_2" value="图像切割器浮动"/>
+	</category>
+
+	<category key="Str#"> <!-- ImageSlicer.r -->
+		<string key="15401_1" loc-id="15401_1" value="无法建立 Html 文件。请确保\n文件的名称正确。"/>
+	</category>
+
+	<category key="Str#"> <!-- ImageSlicer.r -->
+		<string key="15403_1" loc-id="15403_1" value="&lt;!--&#xA;&#xA;File Created with Painter &#xA;&#xA;To move the sliced image table and/or JavaScript rollover code to&#xA;another HTML document, copy and paste portions as directed below.&#xA;&#xA;--&gt;&#xA;&#xA;"/>
+		<string key="15403_2" loc-id="15403_2" value="&lt;HTML&gt;&#xA;&lt;HEAD&gt;&#xA;&lt;TITLE&gt;Untitled&lt;/TITLE&gt;&#xA;&#xA;"/>
+		<string key="15403_3" loc-id="15403_3" value="&lt;html&gt;&#xA;&lt;head&gt;&#xA;&lt;title&gt;Untitled&lt;/title&gt;&#xA;&#xA;"/>
+		<string key="15403_4" loc-id="15403_4" value="&lt;!-- SLICED IMAGE TABLE&#xA;Insert the following block into the BODY section of your HTML document. --&gt;&#xA;&#xA;&#xA;&lt;!------------ BEGIN COPY here for sliced image table ------------&gt;&#xA;&#xA;"/>
+		<string key="15403_5" loc-id="15403_5" value="&lt;!------------ END COPY here for sliced image table ------------&gt;&#xA;&#xA;"/>
+		<string key="15403_6" loc-id="15403_6" value="&lt;!-- JAVASCRIPT ROLLOVER CODE&#xA;	Insert the following block into the HEAD section of your HTML document.&#xA;	Be careful to paste this outside of any existing SCRIPT sections. --&gt;&#xA;&#xA;&#xA;"/>
+		<string key="15403_7" loc-id="15403_7" value="&lt;!------------ BEGIN COPY here for JavaScript rollover code ------------&gt;&#xA;&#xA;"/>
+		<string key="15403_8" loc-id="15403_8" value="	// This JavaScript code was automatically generated by&#xA;	// Painter&#xA;&#xA;"/>
+		<string key="15403_9" loc-id="15403_9" value="***Note for localization:***&#xA;The following resources (10-&gt;15) define a function. Please be careful and localize only the comments and the on/off/text _on/_off/_text according to the values you gave them in the resources 15406&#xA;Franois Test: ŽÏ¾"/>
+		<string key="15403_10" loc-id="15403_10" value="	function doMouseOver( imgName, state ) {&#xA;		// performs mouseover image and status bar text swapping&#xA;		// imgName is the HTML image name specified in the &lt;img&gt; tag&#xA;		// state must be on, off or down&#xA;&#xA;"/>
+		<string key="15403_11" loc-id="15403_11" value="			window.status = &quot;&quot;;&#xA;				return false;&#xA;			}&#xA;		}&#xA;		return false;&#xA;	}&#xA;"/>
+		<string key="15403_12" loc-id="15403_12" value="		// replace image&#xA;		document.images[ imgName ].src = mouseOverArray[ imgName + &quot;_&quot; + state ].src;&#xA;		// if needed, display or clear the status bar text&#xA;"/>
+		<string key="15403_13" loc-id="15403_13" value="		if ( mouseOverArray[ imgName + &quot;_text&quot; ] != &quot;&quot; ) {&#xA;			if ( state != &quot;off&quot; ) {&#xA;"/>
+		<string key="15403_14" loc-id="15403_14" value="				window.status = mouseOverArray[ imgName + &quot;_text&quot; ];&#xA;				return true; //supresses display of link URL in on MouseOver&#xA;			} else {&#xA;"/>
+		<string key="15403_15" loc-id="15403_15" value="				window.status = &quot;&quot;;&#xA;				return false;&#xA;			}&#xA;		}&#xA;		return false;&#xA;	}&#xA;"/>
+		<string key="15403_16" loc-id="15403_16" value="&lt;!------------ END COPY here for JavaScript rollover code ------------&gt;&#xA;&#xA;"/>
+		<string key="15403_17" loc-id="15403_17" value="		// preload image "/>
+		<string key="15403_18" loc-id="15403_18" value="Note for localisation: I removed the following from str2 and str3&#xA;it corrupts the mouse down state on communicator mac. If it causes pbs, let me know. Frh&#xA;&#xA;&lt;META  HTTP-EQUIV=&quot;Content-Type&quot; CONTENT=&quot;text/html; charset=Windows-1251&quot;&gt;&#xA;&#xA;"/>
+	</category>
+
+	<category key="Str#"> <!-- ImageSlicer.r -->
+		<string key="15404_1" loc-id="15404_1" value="选择图像的输出目录."/>
+		<string key="15404_2" loc-id="15404_2" value="选择 Html 文件的名称."/>
+	</category>
+
+	<category key="Str#"> <!-- ImageSlicer.r -->
+		<string key="15405_1" loc-id="15405_1" value="图像"/>
+	</category>
+
+	<category key="Str#"> <!-- ImageSlicer.r -->
+		<string key="15406_1" loc-id="15406_1" value="滑鼠移出 (预设)."/>
+		<string key="15406_2" loc-id="15406_2" value="滑鼠滑过."/>
+		<string key="15406_3" loc-id="15406_3" value="滑鼠按下."/>
+		<string key="15406_4" loc-id="15406_4" value=" (2 种状态)"/>
+		<string key="15406_5" loc-id="15406_5" value=" (3 种状态)"/>
+	</category>
+
+	<category key="Str#"> <!-- Kaleidoscope.r -->
+		<string key="15300_1" loc-id="15300_1" value="万花筒"/>
+	</category>
+
+	<category key="Str#"> <!-- Liquid Lens.r -->
+		<string key="15200_1" loc-id="15200_1" value="液态滤镜"/>
+		<string key="15200_2" loc-id="15200_2" value="液态滤镜浮动"/>
+	</category>
+
+	<category key="Str#"> <!-- Liquid Lens.r -->
+		<string key="15201_1" loc-id="15201_1" value="量"/>
+		<string key="15201_2" loc-id="15201_2" value="平滑"/>
+		<string key="15201_3" loc-id="15201_3" value="大小"/>
+		<string key="15201_4" loc-id="15201_4" value="容量"/>
+		<string key="15201_5" loc-id="15201_5" value="间距"/>
+		<string key="15201_6" loc-id="15201_6" value="折射"/>
+	</category>
+
+	<category key="Str#"> <!-- LiquidMetal.r -->
+		<string key="15320_1" loc-id="15320_1" value="液态金属"/>
+		<string key="15320_2" loc-id="15320_2" value="液态金属浮动"/>
+	</category>
+
+	<category key="Str#"> <!-- LiquidMetal.r -->
+		<string key="15322_1" loc-id="15322_1" value="仿制来源"/>
+	</category>
+
+	<category key="Str#"> <!-- LiquidMetal.r -->
+		<string key="15321_1" loc-id="15321_1" value="量"/>
+		<string key="15321_2" loc-id="15321_2" value="平滑"/>
+		<string key="15321_3" loc-id="15321_3" value="大小"/>
+		<string key="15321_4" loc-id="15321_4" value="容量"/>
+		<string key="15321_5" loc-id="15321_5" value="间距"/>
+		<string key="15321_6" loc-id="15321_6" value="折射"/>
+		<string key="15321_7" loc-id="15321_7" value="内存空间不足，无法执行此操作。请按「删除」以移除浮动."/>
+	</category>
+
+	<category key="Str#"> <!-- Posterize.r -->
+		<string key="15340_1" loc-id="15340_1" value="极色化"/>
+	</category>
+
+	<category key="Str#">
+		<string key="15341_1" loc-id="15341_1" value="材质合成的来源选区太大。请制作较小的选区。"/>
+		<string key="15341_2" loc-id="15341_2" value="请选取较大的区域。最小尺寸为 4x4 像素。"/>
+	</category>
+
+	<category key="CautionAlert">
+		<string key="146" loc-id="CautionAlert_146" value="此操作将弄干您的数位水彩图层."/>
+	</category>
+
+</string-table>

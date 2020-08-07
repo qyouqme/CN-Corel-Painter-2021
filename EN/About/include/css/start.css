@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+/* Left/Top panel styles */
+
+body {
+	font-size: 1em;
+	color: #cccccc;
+	font-family: "Arial", "Helvetica", sans-serif;
+	overflow: hidden;
+}
+
+#Close {
+	position: absolute;
+	left: 22.3125em;
+	top: 0.0625em;
+	width: 2.75em;
+	height: 1.25em;
+}
+
+#Close img {
+	width: 2.75em;
+	height: 1.25em;
+}
+
+#Close:hover
+{ background-color: #4d4d4d; }
+
+#VersionNumber {
+	font-size: 0.75em;
+	position: absolute;
+	top: 9.75em;
+	left: 0.6666667em;
+	width: 19.2em;
+	text-align: left;
+	background-color: none;
+}
+
+#SerialNumber {
+	font-size: 0.75em;
+	position: absolute;
+	top: 9.75em;
+	left: 2.91em;
+	width: 30em;
+	text-align: right;
+	background-color: none;
+}
+
+	
+
+#ThanksFrame {
+	position: absolute;
+	left: 0.375em;
+	top: 10em;
+	width: 24.125em;
+	height: 11.875em;
+	background-color: none;
+}
+
+#Legal {
+	position: absolute;
+	top: 23em;
+	left: 0.625em;
+	width: 23.125em;
+	text-align: center;
+	background-color: none;
+	z-index: 10;
+}
+
+#Legal span {
+	font-size: 0.75em;
+}
+
+#Legal a:link, #Legal a:visited, #Legal a:active {
+	color: #cccccc;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 0.7em;
+}
+
+#Legal a:hover {
+	color: #6699ff;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 0.7em;
+}
+
+#ThanksContent {
+	position: absolute;
+	left: 0em;
+	top: 0em;
+	width: 100%;
+	font-size: 0.75em;
+}
+
+#ThanksAbout {
+	font-weight: 100;
+	margin-top: 0.25em;
+	font-style: normal;
+	text-align: center;
+}
+
+.ThanksHeading {
+	margin-top: 1.5em;
+	font-weight: bold;
+}
+
+.ThanksSubHeading {
+	font-weight: 200;
+	font-style: normal;
+	text-align: center;
+}

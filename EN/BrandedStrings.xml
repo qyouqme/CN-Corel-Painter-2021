@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Strings.xsl"?>
+<string-table>
+
+	<category key="Str#">
+		<string key="1_67" loc-id="1_67" value="执行 {ShortProductName} 的内存不足！"/>
+		<string key="1_139" loc-id="1_139" value="{ShortProductName} 无法以此名称储存！"/>
+		<string key="1_147" loc-id="1_147" value="{ShortProductName} 无法打开此点阵图档"/>
+		<string key="400_220" loc-id="400_220" value="{ShortProductName} 侦测到不支持的资源。请重新安装应用程序以还原资源."/>
+		<string key="400_224" loc-id="400_224" value="{ShortProductName}{betatag}"/>
+		<string key="1_637" loc-id="1_638" value="{SimpleProductName} 必须安装于 MacOS X 10.10 或以上的系统"/>
+		<string key="8_2" loc-id="8_2" value="{SimpleProductName}"/>
+		<string key="298_7" loc-id="298_7" value="&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;&gt;&#xA;&lt;html&gt;&#xA;	&lt;head&gt;&#xA;		&lt;title&gt;{FullProductName} 键盘快捷键&lt;/title&gt;"/>
+		<string key="298_16" loc-id="298_16" value="--&gt;&lt;/style&gt;&#xA;	&lt;/head&gt;&#xA;	&lt;body bgColor=&quot;#ffffff&quot;&gt;&#xA;		&lt;h1&gt;{FullProductName} 键盘快捷键&lt;/h1&gt;&#xA;		&lt;table cellSpacing=&quot;0&quot; cellPadding=&quot;0&quot; border=&quot;0&quot;&gt;"/>
+		<string key="298_8" loc-id="298_8" value="&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html;charset=utf-8&quot;&gt;&#xA;		&lt;meta content=&quot;{FullProductName}&quot; name=&quot;generator&quot;&gt;&#xA;		&lt;style type=&quot;text/css&quot; media=&quot;screen&quot;&gt;&#xA;			&lt;!--"/>
+		<string key="5_73" loc-id="5_73" value="%%Creator: {ShortProductName}&#xA;"/>
+		<string key="5_93" loc-id="5_93" value="%%Creator: {ShortProductName}&#xA;"/>
+		<string key="3_16" loc-id="3_16" value="{ShortProductName}{betatag} Temp"/>
+		<string key="3_17" loc-id="3_17" value="{ShortProductName}{betatag}.TMP"/>
+	</category>
+
+	<category key="Branding">
+		<string key="AppName" value="{FullProductName}"/>
+		<string key="Copyright" value="© 2020 Corel Corporation. All rights reserved. {FullProductName}"/>
+	</category>
+
+</string-table>

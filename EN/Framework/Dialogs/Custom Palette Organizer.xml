@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<painter-ui>
+  <dialog caption="Custom-Palette-Organizer|Title"
+		flow="auto"
+		auto-size="true"
+		theme="dialog-theme"
+		ok-caption="Custom-Palette-Organizer|Done"
+		cancel-caption=""
+		width="value:400; minimum:400; maximum:400;"
+		height="value:375; minimum:375; maximum:375;">
+
+	<container flow="equal-vertical" spacing="x:3;"	auto-size="true">
+		<container flow="equal-vertical" spacing="x:3;" height="value:250; minimum:250; maximum:250;">
+			<!-- Title -->
+			<label text-style="left:wrap:v-top" 
+				caption="Custom-Palette-Organizer|ListTitle"
+				/>
+			<container flow="equal-horizontal" spacing="x:3;" auto-size="true">
+				<container flow="equal-vertical" spacing="x:3;y:7" auto-size="true">
+					<!-- Lists -->
+					<list items="data-source:cp-list-source;"
+						height="value:208; minimum:208; maximum:208;" 
+						width="value:260; minimum:260; maximum:260;" 
+						selected="data-source:cp-selected;"
+						/>
+				</container>
+
+				<!-- Buttons -->
+				<container flow="equal-vertical" spacing="x:3;y:7" auto-size="true">
+					<!--Rename Button-->
+					<simple-button caption="Custom-Palette-Organizer|Rename"
+						enabled="data-source:buttons-enabled;"
+						auto-size="true"
+						text-style="fit"
+						onClick="onRenameClicked-source"
+						width="value:140; minimum:140; maximum:140;"
+						/>
+					<!--Delete Button-->
+					<simple-button caption="Custom-Palette-Organizer|Delete"
+						enabled="data-source:buttons-enabled;"
+						auto-size="true"
+						text-style="fit"
+						onClick="onDeleteClicked-source"
+						width="value:140; minimum:140; maximum:140;"
+						/>
+					
+					<container height="value:14; minimum:14; maximum:14;"/>
+				
+					<!--Save Button-->		
+					<simple-button caption="Custom-Palette-Organizer|Save"
+						enabled="data-source:buttons-enabled;"
+						auto-size="true"
+						text-style="fit"
+						onClick="onSaveClicked-source"
+						width="value:140; minimum:140; maximum:140;"
+						/>
+					<!--Export Button-->
+					<simple-button caption="Custom-Palette-Organizer|Export"
+						enabled="data-source:buttons-enabled;"
+						auto-size="true"
+						text-style="fit"
+						onClick="onExportClicked-source"
+						width="value:140; minimum:140; maximum:140;"
+						/>
+					
+					<container height="value:37; minimum:37; maximum:37;"/>
+					
+					<!--Import Button-->
+					<simple-button caption="Custom-Palette-Organizer|Import"
+						enabled="true"
+						auto-size="true"
+						text-style="fit"
+						onClick="onImportClicked-source"
+						width="value:140; minimum:140; maximum:140;" 
+						/>
+				</container>
+			</container>
+		</container>
+		
+		<container flow="equal-vertical" spacing="x:3;" height="value:135; minimum:135; maximum:135;">
+			<!--Save as BOX Labels-->
+			<label caption="Custom-Palette-Organizer|AsBox"
+				text-style="wrap" 
+				font-size="15"
+				/>
+			<label caption="Custom-Palette-Organizer|BoxDescription"
+				text-style="wrap" 
+				font-size="12"
+				width="value:395; minimum:395; maximum:395;"
+				Weight="1.25" 
+				/>
+				
+			<container height="value:7; minimum:7; maximum:7;"/>
+				
+			<!--Save as PAL Labels-->
+			<label caption="Custom-Palette-Organizer|AsPal"
+				text-style="wrap" 
+				font-size="15"
+				/>
+			<label caption="Custom-Palette-Organizer|PalDescription"
+				text-style="wrap" 
+				font-size="12"
+				width="value:395; minimum:395; maximum:395;"
+				weight="1.25"
+				/>
+		</container>
+	</container>
+  </dialog>
+</painter-ui>

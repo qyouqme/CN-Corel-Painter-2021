@@ -1,0 +1,52 @@
+
+<splash>
+	
+	<major-message platform="mac">
+		<layout x="-45" y="190" width="0" height="22"/>
+		<color red="135" green="135" blue="135" alpha="0"/>		
+		<font face="Helvetica" size="14.0"/>
+	</major-message>
+	
+	<minor-message platform="mac">
+		<layout x="-50" y="215" width="0" height="20"/>
+		<color red="135" green="135" blue="135" alpha="0"/>		
+		<font face="Helvetica" size="13.0"/>
+	</minor-message>
+	
+	<version platform="mac">
+		<layout x="-55" y="225" width="0" height="17"/>
+		<color red="135" green="135" blue="135" alpha="0"/>		
+		<font face="Helvetica" size="12.0"/>
+	</version>
+	
+	<copyright platform="mac">
+		<layout x="30" y="239" width="0" height="25"/>
+		<color red="135" green="135" blue="135" alpha="0"/>		
+		<font face="Helvetica" size="9.0"/>
+	</copyright>
+			
+	<major-message platform="win">
+		<layout x="180" y="240" width="0" height="22"/>
+		<color red="135" green="135" blue="135" alpha="0"/>	
+		<font face="MS Shell Dlg" size="11.0"/>
+	</major-message>
+	
+	<minor-message platform="win">
+		<layout x="180" y="270" width="0" height="20"/>
+		<color red="135" green="135" blue="135" alpha="0"/>		
+		<font face="MS Shell Dlg" size="10.0"/>
+	</minor-message>
+	
+	<version platform="win">
+		<layout x="180" y="290" width="0" height="17"/>
+		<color red="135" green="135" blue="135" alpha="0"/>	
+		<font face="MS Shell Dlg" size="10.0"/>
+	</version>
+	
+	<copyright platform="win">
+		<layout x="180" y="305" width="0" height="25"/>
+		<color red="135" green="135" blue="135" alpha="0"/>		
+		<font face="MS Shell Dlg" size="6.5"/>
+	</copyright>
+	
+</splash>

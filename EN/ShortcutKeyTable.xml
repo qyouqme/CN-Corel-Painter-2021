@@ -1,0 +1,485 @@
+<uiConfig>
+	<applicationInfo name="Corel Painter" version="21.00" framework="Corel Painter"/>
+	<shortcutKeyTables>
+		<!-- Main -->
+		<table tableID="MainShortcutKeyTable">
+			<keySequence itemRef="MenuSelect|All">
+				<key cmd="true">a</key>
+			</keySequence>
+			<keySequence itemRef="MenuEdit|Copy">
+				<key cmd="true">c</key>
+			</keySequence>
+			<keySequence itemRef="MenuEdit|Copy_Merged">
+				<key cmd="true" alt="true">c</key>
+			</keySequence>
+			<keySequence itemRef="MenuSelect|None">
+				<key cmd="true">d</key>
+			</keySequence>
+			<keySequence itemRef="MenuTonalControl|Equalize">
+				<key cmd="true" shift="true">e</key>
+			</keySequence>
+			<keySequence itemRef="MenuEffects|Fill">
+				<key cmd="true">f</key>
+			</keySequence>
+			<keySequence itemRef="MenuLayers|Group">
+				<key cmd="true">g</key>
+			</keySequence>
+			<keySequence itemRef="MenuTonalControl|Negative">
+				<key cmd="true" shift="true">i</key>
+			</keySequence>
+			<keySequence itemRef="MenuPreferences|General">
+				<key cmd="true">,</key>
+			</keySequence>
+			<keySequence itemRef="MenuPreferences|Brush_Tracking">
+				<key cmd="true" shift="true">,</key>
+			</keySequence>
+			<keySequence itemRef="MenuPreferences|Customize_Keys">
+				<key cmd="true" alt="true">,</key>
+			</keySequence>
+			<keySequence itemRef="MenuNozzlesPal|Load_Nozzle">
+				<key cmd="true">l</key>
+			</keySequence>
+			<keySequence itemRef="MenuWindow|Single_Document_View">
+				<key cmd="true">m</key>
+			</keySequence>
+			<keySequence itemRef="MenuFile|New">
+				<key cmd="true">n</key>
+			</keySequence>
+			<keySequence itemRef="MenuFile|Open">
+				<key cmd="true">o</key>
+			</keySequence>
+			<keySequence itemRef="MenuFile|Email">
+				<key cmd="true" alt="true">e</key>
+			</keySequence>
+			<keySequence itemRef="MenuFile|Print">
+				<key cmd="true">p</key>
+			</keySequence>
+			<keySequence itemRef="MenuFile|Quit">
+				<key cmd="true">q</key>
+			</keySequence>
+			<keySequence itemRef="MenuRulers|Show_Rulers">
+				<key cmd="true">r</key>
+			</keySequence>
+			<keySequence itemRef="MenuFile|HideSelf" os="mac">
+				<key cmd="true">h</key>
+			</keySequence>
+			<keySequence itemRef="MenuFile|HideOthers" os="mac">
+				<key cmd="true" alt="true">h</key>
+			</keySequence>
+			<keySequence itemRef="MenuFile|Save">
+				<key cmd="true">s</key>
+			</keySequence>
+			<keySequence itemRef="MenuCanvas|Tracing_Paper">
+				<key cmd="true">t</key>
+			</keySequence>
+			<keySequence itemRef="MenuLayers|Ungroup">
+				<key cmd="true">u</key>
+			</keySequence>
+			<keySequence itemRef="MenuEdit|Paste">
+				<key cmd="true" shift="true">v</key>
+			</keySequence>
+			<keySequence itemRef="MenuFile|Close">
+				<key cmd="true">w</key>
+			</keySequence>
+			<keySequence itemRef="MenuEdit|Cut">
+				<key cmd="true">x</key>
+			</keySequence>
+			<keySequence itemRef="MenuEdit|Redo">
+				<key cmd="true">y</key>
+			</keySequence>
+			<keySequence itemRef="MenuEdit|Undo">
+				<key cmd="true">z</key>
+			</keySequence>
+			<keySequence itemRef="MenuShapes|Duplicate">
+				<key cmd="true">]</key>
+			</keySequence>
+			<keySequence itemRef="MenuShapes|Set_Shape_Attributes">
+				<key cmd="true">[</key>
+			</keySequence>
+			<keySequence itemRef="MenuEffects|Last_Effect">
+				<key cmd="true">/</key>
+			</keySequence>
+			<keySequence itemRef="MenuEffects|2nd_Last_Effect">
+				<key cmd="true" alt="true">/</key>
+			</keySequence>
+			<keySequence itemRef="MenuGrid|Show_Grid">
+				<key cmd="true">'</key>
+			</keySequence>
+			<keySequence itemRef="MenuGuides|Show_Guides">
+				<key cmd="true">;</key>
+			</keySequence>
+			<keySequence itemRef="MenuWindow|Zoom_To_Fit">
+				<key cmd="true">0</key>
+			</keySequence>
+			<keySequence itemRef="Panel|Color">
+				<key cmd="true">1</key>
+			</keySequence>
+			<keySequence itemRef="Panel|Mixer">
+				<key cmd="true">2</key>
+			</keySequence>
+			<keySequence itemRef="Panel|ColorSetLibrary">
+				<key cmd="true">3</key>
+			</keySequence>
+			<keySequence itemRef="Panel|Layers">
+				<key cmd="true">4</key>
+			</keySequence>
+			<keySequence itemRef="Panel|Channels">
+				<key cmd="true">5</key>
+			</keySequence>
+			<keySequence itemRef="Panel|CloneSource">
+				<key cmd="true">6</key>
+			</keySequence>
+			<keySequence itemRef="Panel|Navigator">
+				<key cmd="true">7</key>
+			</keySequence>
+			<keySequence itemRef="Panel|Patterns">
+				<key cmd="true">8</key>
+			</keySequence>
+			<keySequence itemRef="Panel|Papers">
+				<key cmd="true">9</key>
+			</keySequence>
+			<keySequence itemRef="MenuWindow|Zoom_In">
+				<key cmd="true">+</key>
+			</keySequence>
+			<keySequence itemRef="MenuWindow|Zoom_In">
+				<key cmd="true">=</key>
+			</keySequence>
+			<keySequence itemRef="MenuWindow|Zoom_Out">
+				<key cmd="true">-</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Memory_Info">
+				<key shift="true">i</key>
+			</keySequence>
+			<keySequence itemRef="MenuShapes|Join_Endpoints">
+				<key shift="true">j</key>
+			</keySequence>
+			<keySequence itemRef="MenuColorsPal|Standard_Colors">
+				<key shift="true" test="true">o</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Quick_Curve">
+				<key shift="true">q</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Swap_colors">
+				<key shift="true">s</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Swap_colors">
+				<key shift="true">x</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Add_Point">
+				<key>a</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Brush">
+				<key>b</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Rubber_Stamp">
+				<key>'</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Cloner">
+				<key>;</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Eraser">
+				<key>n</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Dodge">
+				<key>-</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Burn">
+				<key>=</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Divine_Proportion">
+				<key>,</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Layout_Grid">
+				<key>/</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Crop">
+				<key>c</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Dropper">
+				<key>d</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Rotate_Page">
+				<key>e</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Layer_Adjuster">
+				<key>f</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Grabber">
+				<key>g</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Shape_Selection">
+				<key>h</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Rectangular_Shape">
+				<key>i</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Oval_Shape">
+				<key>j</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Paint_Bucket">
+				<key>k</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Lasso">
+				<key>l</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|PolySel">
+				<key shift="true">l</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Magnifier">
+				<key>m</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Oval_Selection">
+				<key>o</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Pen">
+				<key>p</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Quick_Curve">
+				<key>q</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Rectangular_Selection">
+				<key>r</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Selection_Adjuster">
+				<key>s</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Text">
+				<key>t</key>
+			</keySequence>
+			<keySequence itemRef="MenuColorsPal|Use_Clone_Color">
+				<key>u</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Brush_Line">
+				<key>v</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Magic_Wand">
+				<key>w</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Remove_Point">
+				<key>x</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Convert_Point">
+				<key>y</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Scissors">
+				<key>z</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Perspective_Guides">
+				<key>.</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Mirror Painting">
+				<key>`</key>
+			</keySequence>
+			<keySequence itemRef="Toolbox|Kaleidoscope">
+				<key shift="true">`</key>
+			</keySequence>
+			<keySequence itemRef="MenuTonalControl|Adjust_Colors">
+				<key cmd="true" shift="true">a</key>
+			</keySequence>
+			<keySequence itemRef="MenuTonalControl|BrightnessContrast">
+				<key cmd="true" shift="true">b</key>
+			</keySequence>
+			<keySequence itemRef="MenuSelect|Reselect">
+				<key cmd="true" shift="true">d</key>
+			</keySequence>
+			<keySequence itemRef="MenuEdit|Fade">
+				<key cmd="true" shift="true">f</key>
+			</keySequence>
+			<keySequence itemRef="MenuSelect|Load_Selection">
+				<key cmd="true" shift="true">g</key>
+			</keySequence>
+			<keySequence itemRef="MenuSelect|ShowHide_Marquee">
+				<key cmd="true" shift="true">h</key>
+			</keySequence>
+			<keySequence itemRef="MenuSelect|Invert">
+				<key cmd="true">i</key>
+			</keySequence>
+			<keySequence itemRef="MenuLayers|Dry_Digital_Watercolor">
+				<key cmd="true" shift="true">l</key>
+			</keySequence>
+			<keySequence itemRef="MenuLayers|New_Layer">
+				<key cmd="true" shift="true">n</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Tightest_Enclosing_Group">
+				<key cmd="true" shift="true">q</key>
+			</keySequence>
+			<keySequence itemRef="MenuFile|Page_Setup" os="win">
+				<key cmd="true" shift="true">p</key>
+			</keySequence>
+			<keySequence itemRef="MenuCanvas|Resize">
+				<key cmd="true" shift="true">r</key>
+			</keySequence>
+			<keySequence itemRef="MenuCanvas|Color_Management">
+				<key cmd="true" alt="true">k</key>
+			</keySequence>
+			<keySequence itemRef="MenuFile|Save_As">
+				<key cmd="true" shift="true">s</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Add_Color_to_Color_Set">
+				<key cmd="true" shift="true">t</key>
+			</keySequence>
+			<keySequence itemRef="MenuMasksPal|Clear">
+				<key cmd="true" shift="true">u</key>
+			</keySequence>
+			<keySequence itemRef="MenuEdit|Paste_In_Place">
+				<key cmd="true">v</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Close_All_Windows">
+				<key cmd="true" shift="true">w</key>
+			</keySequence>
+			<keySequence itemRef="MenuLayers|Collapse">
+				<key cmd="true">e</key>
+			</keySequence>
+			<keySequence itemRef="MenuColorsPal|Use_Clone_Color">
+				<key cmd="true" shift="true">y</key>
+			</keySequence>
+			<keySequence itemRef="MenuLayers|Select_All_Layers">
+				<key cmd="true" shift="true">1</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Select_None">
+				<key cmd="true" shift="true">2</key>
+			</keySequence>
+			<keySequence itemRef="MenuWindow|Zoom_In">
+				<key cmd="true" shift="true">=</key>
+			</keySequence>
+			<keySequence itemRef="MenuGuides|Snap_to_Guides">
+				<key cmd="true" shift="true">;</key>
+			</keySequence>
+			<keySequence itemRef="MenuEffects|Last_Effect">
+				<key cmd="true" shift="true">\</key>
+			</keySequence>
+			<keySequence itemRef="MenuWindow|Zoom_to_Actual_Pixels">
+				<key cmd="true" alt="true">0</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Snap_To_Grid">
+				<key cmd="true" alt="true">\</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Insert_Script_Delay">
+				<key>-</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Increase_Brush_Size">
+				<key>]</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Decrease_Brush_Size">
+				<key>[</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Set_Opacity_to_10%">
+				<key>1</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Set_Opacity_to_20%">
+				<key>2</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Set_Opacity_to_30%">
+				<key>3</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Set_Opacity_to_40%">
+				<key>4</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Set_Opacity_to_50%">
+				<key>5</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Set_Opacity_to_60%">
+				<key>6</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Set_Opacity_to_70%">
+				<key>7</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Set_Opacity_to_80%">
+				<key>8</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Set_Opacity_to_90%">
+				<key>9</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Set_Opacity_to_100%">
+				<key>0</key>
+			</keySequence>
+			<keySequence itemRef="MenuOrientation|Free_Transform">
+				<key cmd="true" alt="true">t</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|TransformDuplicate">
+				<key cmd="true" alt="true" shift="true">t</key>
+			</keySequence>
+			<keySequence itemRef="MenuFile|Iterative_Save">
+				<key cmd="true" alt="true">s</key>
+			</keySequence>
+			<keySequence itemRef="MenuWindow|Hide_Application_UI">
+				<key>VK_TAB</key>
+			</keySequence>
+			<keySequence itemRef="MenuWindow|Hide_Panels">
+				<key shift="true">VK_TAB</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|First_FrameNode">
+				<key>VK_HOME</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Last_FrameNode">
+				<key>VK_END</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Next_FrameNode">
+				<key>VK_PAGEUP</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Previous_FrameNode">
+				<key>VK_PAGEDOWN</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Delete_SelectionNode">
+				<key>VK_BACKSPACE</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Delete_Layer">
+				<key cmd="true">VK_BACKSPACE</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Move_Selection_Left">
+				<key shift="true">VK_LEFT</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Move_Selection_Right">
+				<key shift="true">VK_RIGHT</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Move_Selection_Up">
+				<key shift="true">VK_UP</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Move_Selection_Down">
+				<key shift="true">VK_DOWN</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Nudge_Selection_Left">
+				<key>VK_LEFT</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Nudge_Selection_Right">
+				<key>VK_RIGHT</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Nudge_Selection_Up">
+				<key>VK_UP</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Nudge_Selection_Down">
+				<key>VK_DOWN</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|ShowHide_PinnedColors">
+				<key cmd="true" alt="true">1</key>
+			</keySequence>
+			<keySequence itemRef="MenuSymmetry|MirrorMode">
+				<key cmd="true" alt="true">m</key>
+			</keySequence>
+			<keySequence itemRef="MenuSymmetry|SHMirrors">
+				<key cmd="true" shift="true">m</key>
+			</keySequence>
+			<keySequence itemRef="MenuSymmetry|KaleidoscopeMode">
+				<key cmd="true">k</key>
+			</keySequence>
+			<keySequence itemRef="MenuSymmetry|SHKaleidoscopePlanes">
+				<key cmd="true" shift="true">k</key>
+			</keySequence>
+			<keySequence itemRef="Panel|General">
+				<key cmd="true">b</key>
+			</keySequence>
+			<keySequence itemRef="MenuHelp|HelpTopics">
+				<key>VK_F1</key>
+			</keySequence>
+			<keySequence itemRef="MenuWindow|Presentation_Mode" os="win">
+				<key>VK_F11</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Next_Document" os="mac">
+				<key ctrl="true">VK_TAB</key>
+			</keySequence>
+			<keySequence itemRef="MenuOther|Previous_Document" os="mac">
+				<key ctrl="true" shift="true">VK_TAB</key>
+			</keySequence>
+		</table>
+	</shortcutKeyTables>
+</uiConfig>

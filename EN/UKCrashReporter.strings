@@ -1,0 +1,14 @@
+﻿/* Title of alert window when we had a crash: */
+"WANT_TO_SEND_CRASH_TITLE" = "要报告上次的崩溃情况吗？";
+
+/* Message for alert window when we had a crash: */
+"WANT_TO_SEND_CRASH" = "应用程序 %@ 最近曾发生崩溃。若要协助改善这种情况，您可以将系统的崩溃记录档发送至处理此程序的程序设计师，以便他们修正错误。要发送吗？";
+
+/* Name of OK button in alert window: */
+"WANT_TO_SEND_CRASH_SEND" = "发送";
+
+/* Name of Cancel button in alert window: */
+"WANT_TO_SEND_CRASH_DONT_SEND" = "不发送";
+
+/* URL of CGI script which we'll send the log to: */
+"CRASH_REPORT_CGI_URL" = "http://www.corel.com/servlet/MacCrashReporter";

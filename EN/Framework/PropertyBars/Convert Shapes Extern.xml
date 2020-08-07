@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<painter-ui xmlns="Corel::Painter::Framework"
+						xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+						xsi:schemaLocation="http://pntrwin-d-xp/schema/12.0/
+																http://pntrwin-d-xp/schema/12.0/PainterFramework.xsd">
+<container flow="equal-horizontal" spacing="0">
+	<container flow="equal-vertical" height="value:54;minimum:34;maximum:54;" spacing="0" width="value:357;minimum:357;maximum:357;">
+		<label caption="ShapeToolsPropertyBar|OptionsLabel" text-style="h-center" height="value:20;minimum:20;maximum:20;" font-size="12" visible="data-source:property-bar-with-labels;" />
+
+		<container flow="equal-horizontal" spacing="x:4;">
+			<divider stroke-width="0" width="value:3;minimum:3;maximum:3;" os="win" />
+			<divider stroke-width="0" width="value:2;minimum:2;maximum:2;" os="mac" />
+			
+			<container flow="equal-horizontal" spacing="0" width="value:69;minimum:69;maximum:69;">
+				<template name="dlg-checkbox">
+					<var name="data_source_checkbox" value="shape-fill-checked-ds"/>
+					<var name="caption_checkbox" value="Controls-Shapes|Fill"/>
+					<var name="label_width" value="value:30; maximum:30;"/>
+					<override name="checkbox" item="tool-tip" value="Controls-Shapes|13_tooltip" />
+					<override name="label" item="tool-tip" value="Controls-Shapes|13_tooltip" />
+				</template>
+				<!--   data-source="PB Default Shape Fill Color" -->
+				<selector
+					tool-tip="Controls-Shapes|7_tooltip"
+					data-source="selected-shape-fill-color"
+					flyout="ShapeFill-ColorSelectorFlyout.xml"
+					flyout-close-event="selected-shape-fill-color-flyout"
+					width="value:24;maximum:24;minimum:24;"
+					height="value:24;maximum:24;minimum:24;"
+					respect-modal-state="false"
+					default-flyout-size="x:210; y:400;"
+				/>
+			</container>
+			<divider width="value:10;minimum:10;maximum:10;" orientation="vertical" stroke-width="0" />
+			<container flow="equal-horizontal" spacing="0" width="value:84;minimum:84;maximum:84;">
+				<template name="dlg-checkbox">
+					<var name="data_source_checkbox" value="shape-stroke-checked-ds"/>
+					<var name="caption_checkbox" value="Controls-Shapes|Stroke"/>
+					<var name="label_width" value="value:45; maximum:45;"/>
+					<override name="checkbox" item="tool-tip" value="Controls-Shapes|12_tooltip" />
+					<override name="label" item="tool-tip" value="Controls-Shapes|12_tooltip" />
+				</template>
+				<!--        data-source="PB Default Shape Stroke Color" -->
+				<selector
+					tool-tip="Controls-Shapes|6_tooltip"
+					data-source="selected-shape-stroke-color"
+					flyout="ShapeStroke-ColorSelectorFlyout.xml"
+					flyout-close-event="selected-shape-stroke-color-flyout"
+					width="value:24;maximum:24;minimum:24;"
+					height="value:24;maximum:24;minimum:24;"
+					respect-modal-state="false"
+					default-flyout-size="x:210; y:400;"
+				/>
+			</container>
+			<divider width="value:10;minimum:10;maximum:10;" orientation="vertical" stroke-width="0" />
+			<template name="label-edit-dropdown">
+				<var name="caption" value="Shape-Attributes|Width" />
+				<var name="tooltip" value="Shape-Attributes|WidthTooltip" />
+				<var name="min" value="0" />
+				<var name="max" value="50" />
+				<var name="step" value="0.1" />
+				<var name="format" value="float" />
+				<var name="precision" value="1" />
+				<var name="data_source" value="shape-stroke-width-ds"/>
+			</template>
+			
+			<flyout
+				tool-tip="Shape-Attributes|Title"
+				src="Property Bars/Shape Prop Bar/Current Shape Attributes.png"
+				flyout="ShapeAttributes.xml"
+				flyout-anchor="bottom-left"
+				hold-time="0" />
+			</container>
+
+		</container>
+		
+	<divider orientation="vertical" height="value:52;minimum:32;maximum:52;"/>
+	
+	<container flow="equal-vertical" height="value:54;minimum:34;maximum:54;" spacing="0" width="value:275;minimum:275;maximum:275;">
+		<label caption="ShapeToolsPropertyBar|ShapeLabel" text-style="h-center" height="value:20;minimum:20;maximum:20;" font-size="12" visible="data-source:property-bar-with-labels;" />
+
+		<container flow="equal-horizontal" spacing="x:4;">
+		<divider stroke-width="0" width="value:3;minimum:3;maximum:3;" os="win" />
+		<divider stroke-width="0" width="value:2;minimum:2;maximum:2;" os="mac" />
+		
+			<container flow="equal-horizontal"  spacing="0" width="value:60;minimum:60;maximum:60;">
+				<label
+					caption="Controls-Shapes|Edit"
+					tool-tip="Controls-Shapes|EditTooltip"
+					width="value:36;minimum:36; maximum:36;" />
+				<divider width="value:5;minimum:5;maximum:5;" orientation="vertical" stroke-width="0"/>
+				<flyout
+					tool-tip="Controls-Shapes|EditTooltip"
+					width="value:24; minimum:24; maximum:24;"
+					height="value:24; minimum:24; maximum:24;"
+					onClick="shapes-quick-commands-action-clicked"
+					flyout-anchor="bottom-left"
+					flyout="ShapeCommands.xml"
+					hold-time="125"
+					src="data-source:shapes-quick-commands-icon-string;"
+					icon-enabled="data-source:shapes-quick-commands-enabled;" />
+			</container>
+			<divider width="value:10;minimum:10;maximum:10;" orientation="vertical" stroke-width="0"/>
+			<container flow="equal-horizontal" spacing="0" width="value:100;minimum:100;maximum:100;" >
+				<label caption="Controls-Shapes|Convert" width="value:45;minimum:45;maximum:45;" />
+				<divider width="value:5;minimum:5;maximum:5;" orientation="vertical" stroke-width="0"/>
+				<image-button
+					tool-tip="Controls-Shapes|9_tooltip"
+					onClick="proxy: function='Convert To Floater';"
+					enabled="data-source:convert-shape-to-layer-enabled"
+					src="Property Bars/Shape Prop Bar/Convert To Layer.png">
+				</image-button>
+				<image-button
+					tool-tip="Controls-Shapes|10_tooltip"
+					onClick="proxy: function='Make Selection';"
+					enabled="data-source:convert-shape-to-selection-enabled"
+					src="Property Bars/Shape Prop Bar/Convert To Selection.png">
+				</image-button>
+			</container>
+			<divider width="value:10;minimum:10;maximum:10;" orientation="vertical" stroke-width="0"/>
+			<container flow="equal-horizontal" spacing="0" width="value:64;minimum:64;maximum:64;">
+				<label
+					caption="LayersPropertyBar|AlignLayers"
+					tool-tip="LayersPropertyBar|AlignLayersTooltip"
+					width="value:35;minimum:35; maximum:35;" />
+				<divider width="value:5;minimum:5;maximum:5;" orientation="vertical" stroke-width="0"/>
+				<flyout
+					tool-tip="LayersPropertyBar|AlignLayersTooltip"
+					width="value:32; minimum:32; maximum:32;"
+					height="value:24; minimum:24; maximum:24;"
+					onClick="align-layers-action-clicked"
+					hold-time="125"
+					flyout-anchor="bottom-left"
+					src="data-source:align-layers-icon-string;"
+					icon-enabled="data-source:enable-layers-aligning;"
+					flyout="LayerAligning.xml" />
+			</container>
+
+		</container>
+
+	</container>
+<divider orientation="vertical" height="value:52;minimum:32;maximum:52;"/>
+</container>
+
+</painter-ui>

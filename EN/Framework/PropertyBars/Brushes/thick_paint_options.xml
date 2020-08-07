@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<painter-ui xmlns="Corel::Painter::Framework"
+						xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+						xsi:schemaLocation="http://pntrwin-d-xp/schema/12.0/
+																http://pntrwin-d-xp/schema/12.0/PainterFramework.xsd">
+	<container flow="equal-horizontal" theme="property-bar-theme" height="value:54;minimum:34;maximum:54;" spacing="0" auto-size="true">
+		<container flow="equal-vertical" height="value:54;minimum:34;maximum:54;" spacing="0" width="value:349;minimum:349;maximum:349;">
+			<label caption="PropertyBar|MediaLabel" text-style="h-center" height="value:20;minimum:20;maximum:20;" font-size="12" visible="data-source:property-bar-with-labels;" />
+
+			<container flow="equal-horizontal" spacing="x:2">
+				<divider stroke-width="0" width="value:2;minimum:2;maximum:2;" os="win" />
+
+				<template name="label-edit-dropdown">
+					<var name="caption" value="Thick Paint|Bleed" />
+					<var name="tooltip" value="Thick Paint|BleedToolTip" />
+					<var name="min" value="0" />
+					<var name="max" value="1" />
+					<var name="step" value="0.00999451" />
+					<var name="format" value="percent" />
+					<var name="precision" value="0" />
+					<var name="data_source" value="proxy&lt;Fixed&gt;: update-category='Brush Bleed'; function='Set Brush Bleed';" />
+					<var name="visible" value="data-source:thick-paint-bleed-visible;" />
+				</template>
+
+				<extern src="PropertyBars/Brushes/blending_slotted_extern.xml" />
+
+				<container flow="equal-horizontal">
+					<extern src="PropertyBars/Brushes/thick_paint_wetness_slotted_extern.xml" />
+				</container>
+				
+				<divider stroke-width="0" width="minimum:5;maximum:5;value:5;" os="win"/>
+					
+				<template name="label-edit-dropdown">
+					<var name="caption" value="Thick Paint|PaintLoad" />
+					<var name="tooltip" value="Thick Paint|PaintLoadToolTip" />
+					<var name="min" value="0" />
+					<var name="max" value="1" />
+					<var name="step" value="0.00999451" />
+					<var name="format" value="percent" />
+					<var name="precision" value="0" />
+					<var name="data_source" value="tp_load" />
+					<var name="enabled" value="data-source:tp_paint_loading_enabled;" />
+				</template>
+				
+				<image-button
+					tool-tip="Thick Paint|PaintLoadingToolTip"
+					data-source="tp_paint_loading"
+					src="Property Bars/Brush Prop Bars/Infinite Paint.png"
+					enabled="data-source:thick_paint_palette_enabled"/>
+
+				<container flow="equal-horizontal">
+					<extern src="PropertyBars/Brushes/thick_paint_media_slotted_extern.xml" />
+				</container>
+
+			</container>
+		</container>
+
+		<divider orientation="vertical" height="value:52;minimum:32;maximum:52;" />
+	</container>
+
+</painter-ui>

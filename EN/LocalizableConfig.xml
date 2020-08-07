@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Strings.xsl"?>
+
+<string-table>
+	
+	<category key="LanguageSearchPreference">
+		<string key="EnablePartialWordSearch" value ="false"/>
+	</category>
+	
+</string-table>

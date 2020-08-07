@@ -1,0 +1,1602 @@
+* {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+body.hint
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+p.AnchorDisclaimer
+{
+  color: #000000;
+  font-size: 0em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 35px;
+  margin-bottom: 0em;
+  padding-left: 0em;
+  padding-right: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+p.AnchorGraphic, div.AnchorGraphic
+{
+  color: #000000;
+  font-size: 0em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.3em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 25px;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+p.AnchorGraphicHint, div.AnchorGraphicHint
+{
+  font-size: 0em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 5px;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 15px;
+  text-align: center;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.AnchorHomeIcon, div.AnchorHomeIcon
+{
+  color: #000000;
+  font-size: 0em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.AnchorInset, div.AnchorInset
+{
+  color: #000000;
+  font-size: 0em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.3em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0.0em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.AnchorTable, div.AnchorTable
+{
+  color: #000000;
+  font-size: 0em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.3em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 35px;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+p.AnchorTableHint, div.AnchorTableHint
+{
+  font-size: 0em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 5px;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0.0em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+p.AnchorTip
+{
+  color: #000000;
+  font-size: 0em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 35px;
+  margin-bottom: 0em;
+  padding-left: 0em;
+  padding-right: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+p.AnchorNote
+{
+  color: #000000;
+  font-size: 0em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 35px;
+  margin-bottom: 0em;
+  padding-left: 0em;
+  padding-right: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+p.Note, div.Note
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 2em;
+  margin-left: 3em;
+  margin-right: 0em;
+  margin-top: -1em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+p.Tip
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 2em;
+  margin-left: 3em;
+  margin-right: 0em;
+  margin-top: -1em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+p.Last_Tip, div.Last_Tip
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  margin-left: 3em;
+  margin-right: 0em;
+  margin-top: -1.5em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.Last_Note, div.Last_Note
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  margin-left: 3em;
+  margin-right: 0em;
+  margin-top: -1.5em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.Body, div.Body
+{
+  color: #000000;
+  font-size: 0.7em;
+  line-height: 1.6em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 1.125em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+p.BodyHint, div.BodyHint
+{
+  font-size: 0.7em;
+  line-height: 1.5em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0.6em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.Body_First, div.Body_First
+{
+  color: #000000;
+  font-size: 0.7em;
+  line-height: 1.6em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 1.125em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.Body_Text, div.Body_Text
+{
+  color: #000000;
+  font-size: 0.7em;
+  line-height: 1.6em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 1.125em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+div.Breadcrumbs
+{
+  color: #000000;
+  font-size: 0.7em;
+  line-height: 1.3em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.2em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.Bullet_Indent, div.Bullet_Indent
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 3px;
+  margin-left: 0px;
+  margin-right: 0em;
+  margin-top: 3px;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.BulletIndentHint, div.BulletIndentHint
+{
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 3px;
+  margin-left: 0px;
+  margin-right: 0em;
+  margin-top: 3px;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.BulletInNoteTip, div.BulletInNoteTip
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0.6em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.BulletInTable, div.BulletInTable
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.0em;
+  margin-left: 0.7em;
+  margin-right: 0em;
+  margin-top: 0.0em;
+  text-align: left;
+  text-indent: -14.1732em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.Callout, div.Callout
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.CalloutNumber, div.CalloutNumber
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 0.0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.Caption, div.Caption
+{
+  color: #666666;
+  font-size: 0.7em;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 1em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 1em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+p.CaptionHint, div.CaptionHint
+{
+  font-size: 0.7em;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 1em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0.5em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+p.Caption1Line, div.Caption1Line
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  margin-left: 0.3em;
+  margin-right: 0em;
+  margin-top: 1em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.CaptionInTable, div.CaptionInTable
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.0em;
+  margin-left: 0.0em;
+  margin-right: 0.0em;
+  margin-top: 1em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.CaptionMultiLine, div.CaptionMultiLine
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 1em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.CaptionOneLine, div.CaptionOneLine
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 1em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+p.CaptionNoIndent, div.Caption
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 1em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 1em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+p.Chapter_Number, div.Chapter_Number
+{
+  color: #000000;
+  font-size: 0.1em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0.0em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.Code, div.Code
+{
+  color: #000000;
+  font-family: 'Courier New';
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 1em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 1em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+p.Copyright
+{
+  color: #666666;
+  font-size: 0.7em;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 4em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+p.Disclaimer, div.Disclaimer
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  margin-left: 3em;
+  margin-right: 0em;
+  margin-top: -1.5em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+p.FeatureEnhanced, div.FeatureEnhanced
+{
+  color: #000000;
+  font-size: 0.8em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 1.5em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+p.FeatureNew, div.FeatureNew
+{
+  color: #000000;
+  font-size: 0.8em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  margin-right: 2em;
+  margin-top: 1.5em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: middle;
+  float: left;
+
+}
+p.FeatureNewTag, div.FeatureNewTag
+{
+  color: #000000;
+  margin-bottom: 1em;
+  margin-left: 0em;
+  margin-right: 2em;
+  margin-top: 1.7em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: middle;
+
+}
+p.Glos_Definition, div.Glos_Definition
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 1.0em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+p.Copyright
+{
+  color: #666666;
+  font-size: 0.7em;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 4em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.Glos_Term, div.Glos_Term
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 0.0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 1em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+h1.Heading_1, div.Heading_1
+/*green*/
+/*requested value for margin-bottom: 1.125em */
+{
+  font-family: 'Segoe UI Light', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;	
+  color: #61A706;
+  font-size: 2.0em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 200;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+h2.Heading_2, div.Heading_2
+/*green*/
+/*requested value for margin-bottom: 1.125em */
+{
+  font-family: 'Segoe UI Light', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.0em;  
+  color: #61A706;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 200;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+h2.Heading2Hint, div.Heading2Hint
+{
+  font-size: 0.9em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 9px;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 1em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+h1 a, h2 a, p[class=Section] a, p[class=SectionExcludeFromOutput] a
+{
+  font-family: 'Segoe UI Light', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p.SectionExcludeFromOutput
+/*green*/
+/*requested value for margin-bottom: 1.125em */
+{
+ font-family: 'Segoe UI Light', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;	
+  color: #61A706;
+  font-size: 2.0em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 200;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+p.Heading2Intro
+{
+	visibility:hidden;
+	font-size: 0.1em;
+}
+p.Heading3Intro
+{
+  color: #000000;
+  font-size: 1.1em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.Heading3RunInHeadNew
+{
+  color: #000000;
+  font-size: 1em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 1.0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 2em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.HelpTopicCategory, div.HelpTopicCategory
+{
+  font-style: normal;
+  font-size: 9pt;
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+p.HelpTopicHint, div.HelpTopicHint
+{
+  font-style: normal;
+  font-size: 0.7em;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.6em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+p.Home_Links
+{
+  color: #000000;
+  font-size: 0.8em;
+  line-height: 1.3em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0.6em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+div.HomeLinksHeading
+{
+font-family: 'Segoe UI Light', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000000;
+  font-size: 1em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 2em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+  border-top: 1px solid #ccc;
+  padding-top: 1em;
+}
+
+p.HomePageTitle
+{
+  color: #000000;
+  font-size: 1.2em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 0.0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+div.HomePageSection
+{
+  color: #000000;
+  font-size: 1.2em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+div.HomePage_Heading
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 0.0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.TableTextHint
+{
+  font-style: normal;
+  font-size: 0.7em; 
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+div.TableTextHome
+{
+  color: #000000;
+  font-size: 0.7em;
+  line-height: 1.6em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 1.125em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+p.ToolNameHint, div.ToolNameHint
+{
+  font-size: 0.7em;
+  line-height: 1.5em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0.6em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+div.MiniTOC
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 15px;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.MiniTOC_Level1
+{
+  color: #000000;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 2px;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0px;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.Last_Step_Indent, div.Last_Step_Indent
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.3em;
+  margin-bottom: 9px;
+  margin-left: 15px;
+  margin-right: 0em;
+  margin-top: 3px;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+p.LearnMore
+{
+  font-size: 0.9em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 1em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.ListItemInTable
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 1em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0.5em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.NoteInStep, div.NoteInStep
+{
+  color: #000000;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.0em;
+  margin-left: 1.9em;
+  margin-right: 0em;
+  margin-top: 0.3em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.OnlineContent, div.OnlineContent
+{
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  line-height: 1.6em;
+  vertical-align: top;
+}
+
+p.Section
+/*green*/
+{
+  color: #61A706;
+  font-size: 2.2em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 8px;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.Sub_Heading, div.Sub_Heading
+{
+  color: #000000;
+  font-size: 0.8em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 1.5em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+p.StepIndentHint, div.StepIndentHint
+{
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 3px;
+  margin-left: 1em;
+  margin-right: 0em;
+  margin-top: 3px;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+span.Bold
+{
+  font-variant: normal;
+  font-weight: bold;
+  text-transform: none;
+  vertical-align: baseline;
+}
+span.VariableBold
+{
+  font-variant: normal;
+  font-weight: bold;
+  text-transform: none;
+  vertical-align: baseline;
+}
+span.Emphasis
+{
+  font-style: italic;
+  font-variant: normal;
+  font-weight: normal;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+span.Edit
+{
+  color: #F50237;	
+  font-variant: normal;
+  font-weight: bold;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+span.Code
+{
+  color: #000000;
+  font-family: 'Courier New';
+  font-size: 1em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+span.Italic
+{
+  font-style: italic;
+  font-variant: normal;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+span.Number
+{
+  color: #000000;
+  font-size: 1.0em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+span.Onestep
+{
+  color: #000000;
+  font-family: 'Arial';
+  font-size: 1.0em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+span.UI_for_Captions
+{
+  color: #000000;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: bold;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+span.UI_for_Steps
+{
+  font-variant: normal;
+  font-weight: bold;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+span.UI_for_Steps_in_Tables
+{
+  color: #000000;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+div.pListItemInTable
+{
+  color: #000000;
+  font-size:0.7em;
+  line-height: 1.3em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+}
+div[id=feedback]
+{
+  margin-top: 3em;
+}
+div.Small_Caps
+{
+font-variant:small-caps;
+}
+p.TableTextHome
+{
+  color: #000000;
+  font-size: 0.7em;
+  line-height: 1em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 1.125em;
+  text-align: left;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: baseline;
+
+}
+table.HomeLinks
+{
+  border-collapse: collapse;
+  border-spacing: 4px;
+  margin-bottom: 0.0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0.3em;
+  padding-bottom: 0em;
+  padding-left: 0em;
+  padding-right: 0em;
+  padding-top: 0.3em;
+  text-align: left;
+  width: 100%;
+}
+table.Ventura_Table
+{
+  border-collapse: collapse;
+  border-spacing: 4px;
+  margin-bottom: 0.0em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0.3em;
+  padding-bottom: 0em;
+  padding-left: 0em;
+  padding-right: 0em;
+  padding-top: 0.3em;
+  text-align: left;
+  width: 100%;
+}
+
+table.Indented
+{
+  border-collapse: collapse;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.3em;
+  margin-bottom: 0px;
+  margin-left: 0px ;
+  margin-right: 0px;
+  margin-top: 3px;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0px;
+  text-transform: none;
+  width: 100%;
+}
+table.MiniTOC
+{
+  border-collapse: collapse;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.3em;
+  margin-bottom: 2em;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 9px;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0px;
+  text-transform: none;
+  width: 100%;
+}
+table.OrderedList
+{
+  border-collapse: collapse;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.3em;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0.3em;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0px;
+  text-transform: none;
+  width: 100%;
+}
+
+table.UnorderedListSecondLevel
+{
+  border-collapse: collapse;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.3em;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 3px;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0px;
+  text-transform: none;
+  width: 100%;
+}
+table.UnorderedListBulletInTipNote
+{
+  border-collapse: collapse;
+  font-size: 0.7em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.3em;
+  margin-bottom: 0px;
+  margin-left: 3em;
+  margin-right: 0px;
+  margin-top: 3px;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0px;
+  text-transform: none;
+  width: 100%;
+}
+table[class=ToDoHead] td
+{
+padding-left: 1em;
+}
+table.ToDoHead
+/* procedure headings are dark gray agains a light gray background*/
+{
+  height: 25px;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #000000;
+  margin-bottom: 1.6em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 2.5em;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0em;
+  text-transform: none;
+  vertical-align: middle;
+  width: 100%;
+  background-color: #E6E6E6;	
+}
+
+img.Default
+{
+  position: relative;
+  top: 6px;
+}
+img.Home_Icon
+{
+  top: 0px;
+  vertical-align: top;
+}
+img.Inline
+{
+  top: 6px;
+  vertical-align: middle;
+}
+img.svg
+{
+  top: 6px;
+  vertical-align: middle;
+}
+img.svg_inline_hint
+{
+  top: 6px;
+  vertical-align: middle;
+  border: 1px hidden;
+}
+embed.svg_inline_hint
+{
+  top: 6px;
+  vertical-align: middle;
+}
+img.FX_Reference
+{
+  top: 6px;
+  vertical-align: middle;
+  border: 1px solid #e7e7e7;
+}
+img.Sample_Large
+{
+  top: 6px;
+  vertical-align: middle;
+  border: 1px solid #e7e7e7;
+}
+img.Sample_Medium
+{
+  top: 6px;
+  vertical-align: middle;
+  border: 1px solid #e7e7e7;
+}
+img.Sample_Medium_SVG
+{
+  top: 6px;
+  vertical-align: middle;
+  border: 1px solid #e7e7e7;
+}
+img.Sample_Small
+{
+  top: 6px;
+  vertical-align: middle;
+    border: 1px solid #e7e7e7;
+}
+img.Sample_Small_Hint
+{
+  display: block;
+  top: 6px;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.Sample_Table
+{
+  top: 6px;
+  vertical-align: middle;
+  border: 1px solid #e7e7e7;
+}
+img.svg_inline_hint
+{
+  top: 6px;
+  vertical-align: middle;
+}
+
+img.svg_sample_hint
+{
+  vertical-align: middle;
+}
+
+img.svg_sample_medium
+{
+  top: 6px;
+  vertical-align: middle;
+  border: 1px solid #e7e7e7;
+}
+img.svg_sample_small
+{
+  top: 6px;
+  vertical-align: middle;
+  border: 1px solid #e7e7e7;
+}
+img.Screen_Icon
+{
+  top: 6px;
+  vertical-align: middle;
+}
+img.Screen_Large
+{
+  top: 6px;
+  vertical-align: middle;
+  border: 1px solid #e7e7e7;
+
+}
+
+img.Screen_Medium
+{
+  top: 6px;
+  vertical-align: middle;
+  border: 1px solid #e7e7e7;
+
+}
+img.Screen_Small
+{
+  top: 6px;
+  vertical-align: middle;
+  border: 1px solid #e7e7e7;
+}
+
+
+p.Movie
+{
+  color: #000000;
+  font-size: 0.8em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0.4em;
+  margin-bottom: 0em;
+  padding-left: 0em;
+  padding-right: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+p.MovieText
+{
+  color: #000000;
+  font-size: 0.8em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 0.4em;
+  margin-bottom: 0em;
+  padding-left: 0em;
+  padding-right: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+
+.XRefAppleHelpAnchor a, .HelpTopicHint a, a.hint-to-help-link {
+	color: #1D9BF6; 
+	text-decoration: underline;
+	cursor: pointer;
+}

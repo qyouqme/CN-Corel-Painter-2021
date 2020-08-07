@@ -1,0 +1,3471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string-table>
+
+	<category key="Str#" comment="Acrylics Resource Names">
+		<string key="17002_1" loc-id="17002_1" value="拾取鬃毛"/>
+		<string key="17002_2" loc-id="17002_2" value="干笔刷 10"/>
+		<string key="17002_3" loc-id="17002_3" value="干笔刷 20"/>
+		<string key="17002_4" loc-id="17002_4" value="干笔刷 30"/>
+		<string key="17002_5" loc-id="17002_5" value="釉彩亚克力笔 10"/>
+		<string key="17002_6" loc-id="17002_6" value="釉彩亚克力笔 20"/>
+		<string key="17002_7" loc-id="17002_7" value="釉彩亚克力笔 30"/>
+		<string key="17002_8" loc-id="17002_8" value="不透光亚克力笔 10"/>
+		<string key="17002_9" loc-id="17002_9" value="不透光亚克力笔 20"/>
+		<string key="17002_10" loc-id="17002_10" value="不透光亚克力笔 30"/>
+		<string key="17002_11" loc-id="17002_11" value="不透光细节笔刷 3"/>
+		<string key="17002_12" loc-id="17002_12" value="不透光细节笔刷 5"/>
+		<string key="17002_13" loc-id="17002_13" value="粗亚克力鬃毛 10"/>
+		<string key="17002_14" loc-id="17002_14" value="粗亚克力鬃毛 20"/>
+		<string key="17002_15" loc-id="17002_15" value="粗亚克力鬃毛 30"/>
+		<string key="17002_16" loc-id="17002_16" value="粗平头亚克力笔 10"/>
+		<string key="17002_17" loc-id="17002_17" value="粗平头亚克力笔 20"/>
+		<string key="17002_18" loc-id="17002_18" value="粗平头亚克力笔 30"/>
+		<string key="17002_19" loc-id="17002_19" value="粗圆头亚克力笔 10"/>
+		<string key="17002_20" loc-id="17002_20" value="粗圆头亚克力笔 20"/>
+		<string key="17002_21" loc-id="17002_21" value="粗圆头亚克力笔 30"/>
+		<string key="17002_22" loc-id="17002_22" value="粗不透光亚克力笔 10"/>
+		<string key="17002_23" loc-id="17002_23" value="粗不透光亚克力笔 20"/>
+		<string key="17002_24" loc-id="17002_24" value="粗不透光亚克力笔 30"/>
+		<string key="17002_25" loc-id="17002_25" value="湿亚克力笔 10"/>
+		<string key="17002_26" loc-id="17002_26" value="湿亚克力笔 20"/>
+		<string key="17002_27" loc-id="17002_27" value="湿亚克力笔 30"/>
+		<string key="17002_28" loc-id="17002_28" value="湿细节笔刷 5"/>
+		<string key="17002_29" loc-id="17002_29" value="湿柔亚克力笔 10"/>
+		<string key="17002_30" loc-id="17002_30" value="湿柔亚克力笔 20"/>
+		<string key="17002_31" loc-id="17002_31" value="湿柔亚克力笔 30"/>
+		<string key="17002_32" loc-id="17002_32" value="仿真干平头"/>
+		<string key="17002_33" loc-id="17002_33" value="仿真长鬃毛"/>
+		<string key="17002_34" loc-id="17002_34" value="仿真湿笔刷"/>
+	</category>
+	<category key="Str#" comment="Airbrushes Resource Names">
+		<string key="17003_1" loc-id="17003_1" value="宽滚轮喷枪 20"/>
+		<string key="17003_2" loc-id="17003_2" value="宽滚轮喷枪 30"/>
+		<string key="17003_3" loc-id="17003_3" value="宽滚轮喷枪 40"/>
+		<string key="17003_4" loc-id="17003_4" value="宽滚轮喷枪 50"/>
+		<string key="17003_5" loc-id="17003_5" value="粗糙喷溅"/>
+		<string key="17003_6" loc-id="17003_6" value="细节喷枪"/>
+		<string key="17003_7" loc-id="17003_7" value="数位喷枪"/>
+		<string key="17003_8" loc-id="17003_8" value="细致细节喷枪 3"/>
+		<string key="17003_9" loc-id="17003_9" value="细致细节喷枪 5"/>
+		<string key="17003_10" loc-id="17003_10" value="细致细节喷枪 8"/>
+		<string key="17003_11" loc-id="17003_11" value="细致喷溅"/>
+		<string key="17003_12" loc-id="17003_12" value="细尖轻柔喷枪 20"/>
+		<string key="17003_13" loc-id="17003_13" value="细尖轻柔喷枪 30"/>
+		<string key="17003_14" loc-id="17003_14" value="细尖轻柔喷枪 40"/>
+		<string key="17003_15" loc-id="17003_15" value="细尖轻柔喷枪 50"/>
+		<string key="17003_16" loc-id="17003_16" value="细致滚轮喷枪"/>
+		<string key="17003_17" loc-id="17003_17" value="精细喷溅 50"/>
+		<string key="17003_18" loc-id="17003_18" value="涂鸦"/>
+		<string key="17003_19" loc-id="17003_19" value="反转压力"/>
+		<string key="17003_20" loc-id="17003_20" value="粉状喷溅"/>
+		<string key="17003_21" loc-id="17003_21" value="图素喷溅"/>
+		<string key="17003_22" loc-id="17003_22" value="轻柔喷枪 20"/>
+		<string key="17003_23" loc-id="17003_23" value="轻柔喷枪 30"/>
+		<string key="17003_24" loc-id="17003_24" value="轻柔喷枪 40"/>
+		<string key="17003_25" loc-id="17003_25" value="轻柔喷枪 50"/>
+		<string key="17003_26" loc-id="17003_26" value="锥形细节喷枪 3"/>
+		<string key="17003_27" loc-id="17003_27" value="锥形细节喷枪 5"/>
+		<string key="17003_28" loc-id="17003_28" value="锥形细节喷枪 8"/>
+		<string key="17003_29" loc-id="17003_29" value="小型轻柔喷枪 5"/>
+		<string key="17003_30" loc-id="17003_30" value="小型喷洒喷枪"/>
+		<string key="17003_31" loc-id="17003_31" value="变化喷洒"/>
+	</category>
+	<category key="Str#" comment="Art Pen Brushes Resource Names">
+		<string key="17004_1" loc-id="17004_1" value="毡制艺术马克笔"/>
+		<string key="17004_2" loc-id="17004_2" value="粒状书法"/>
+		<string key="17004_3" loc-id="17004_3" value="粒状边缘书法"/>
+		<string key="17004_4" loc-id="17004_4" value="软覆盖笔刷"/>
+		<string key="17004_5" loc-id="17004_5" value="软平抹油画"/>
+		<string key="17004_6" loc-id="17004_6" value="方形粒状蜡笔"/>
+		<string key="17004_7" loc-id="17004_7" value="尖细驼毛笔"/>
+		<string key="17004_8" loc-id="17004_8" value="渐细胶彩画"/>
+		<string key="17004_9" loc-id="17004_9" value="细光滑书法"/>
+		<string key="17004_10" loc-id="17004_10" value="旧油蜡笔"/>
+	</category>
+	<category key="Str#" comment="Artists' Oils Resource Names">
+		<string key="17006_1" loc-id="17006_1" value="混色笔鬃毛"/>
+		<string key="17006_2" loc-id="17006_2" value="涂抹笔刷"/>
+		<string key="17006_3" loc-id="17006_3" value="混色笔调色刀"/>
+		<string key="17006_4" loc-id="17006_4" value="鬃毛笔刷"/>
+		<string key="17006_5" loc-id="17006_5" value="块状笔刷"/>
+		<string key="17006_6" loc-id="17006_6" value="块状细平头"/>
+		<string key="17006_7" loc-id="17006_7" value="干鬃毛"/>
+		<string key="17006_8" loc-id="17006_8" value="干笔刷"/>
+		<string key="17006_9" loc-id="17006_9" value="干块状厚涂颜料"/>
+		<string key="17006_10" loc-id="17006_10" value="干调色刀"/>
+		<string key="17006_11" loc-id="17006_11" value="纹路渐变笔"/>
+		<string key="17006_12" loc-id="17006_12" value="纹路风干笔刷"/>
+		<string key="17006_13" loc-id="17006_13" value="纹路厚涂颜料"/>
+		<string key="17006_14" loc-id="17006_14" value="厚涂颜料油画"/>
+		<string key="17006_15" loc-id="17006_15" value="厚涂彩料调色刀"/>
+		<string key="17006_16" loc-id="17006_16" value="混色器细平头"/>
+		<string key="17006_17" loc-id="17006_17" value="油画调色刀"/>
+		<string key="17006_18" loc-id="17006_18" value="油性鬃毛"/>
+		<string key="17006_19" loc-id="17006_19" value="涂抹厚涂颜料"/>
+		<string key="17006_20" loc-id="17006_20" value="轻柔渐变笔笔刷"/>
+		<string key="17006_21" loc-id="17006_21" value="柔合纹理笔刷"/>
+		<string key="17006_22" loc-id="17006_22" value="柔合纹理厚涂颜料"/>
+		<string key="17006_23" loc-id="17006_23" value="锥形油画笔"/>
+		<string key="17006_24" loc-id="17006_24" value="厚涂彩料"/>
+		<string key="17006_25" loc-id="17006_25" value="湿笔刷"/>
+		<string key="17006_26" loc-id="17006_26" value="湿厚涂颜料"/>
+		<string key="17006_27" loc-id="17006_27" value="湿油性渐变笔"/>
+		<string key="17006_28" loc-id="17006_28" value="湿油性笔刷"/>
+		<string key="17006_29" loc-id="17006_29" value="湿油性厚涂颜料"/>
+		<string key="17006_30" loc-id="17006_30" value="湿油性调色刀"/>
+	</category>
+	<category key="Str#" comment="Artists Resource Names">
+		<string key="17005_1" loc-id="17005_1" value="自动凡高画笔"/>
+		<string key="17005_2" loc-id="17005_2" value="印象派"/>
+		<string key="17005_3" loc-id="17005_3" value="萨金特笔刷"/>
+		<string key="17005_4" loc-id="17005_4" value="秀拉"/>
+		<string key="17005_5" loc-id="17005_5" value="立体派"/>
+		<string key="17005_6" loc-id="17005_6" value="凡高"/>
+	</category>
+	<category key="Str#" comment="Auto Painting Styles Resource Names">
+		<string key="17704_1" loc-id="17704_1" value="预设值"/>
+	</category>
+	<category key="Str#" comment="Blenders Resource Names">
+		<string key="17007_1" loc-id="17007_1" value="模糊"/>
+		<string key="17007_2" loc-id="17007_2" value="粗糙油性渐变笔 10"/>
+		<string key="17007_3" loc-id="17007_3" value="粗糙油性渐变笔 20"/>
+		<string key="17007_4" loc-id="17007_4" value="粗糙油性渐变笔 30"/>
+		<string key="17007_5" loc-id="17007_5" value="粗糙涂抹"/>
+		<string key="17007_6" loc-id="17007_6" value="细节渐变笔 3"/>
+		<string key="17007_7" loc-id="17007_7" value="细节渐变笔 5"/>
+		<string key="17007_8" loc-id="17007_8" value="晕染模糊"/>
+		<string key="17007_9" loc-id="17007_9" value="平头纹路擦笔 10"/>
+		<string key="17007_10" loc-id="17007_10" value="平头纹路擦笔 20"/>
+		<string key="17007_11" loc-id="17007_11" value="平头纹路擦笔 30"/>
+		<string key="17007_12" loc-id="17007_12" value="纹路渐变笔 10"/>
+		<string key="17007_13" loc-id="17007_13" value="纹路渐变笔 20"/>
+		<string key="17007_14" loc-id="17007_14" value="纹路渐变笔30"/>
+		<string key="17007_15" loc-id="17007_15" value="纹路水化 30"/>
+		<string key="17007_16" loc-id="17007_16" value="纹路水化"/>
+		<string key="17007_17" loc-id="17007_17" value="只加水"/>
+		<string key="17007_18" loc-id="17007_18" value="油性渐变笔 20"/>
+		<string key="17007_19" loc-id="17007_19" value="油性渐变笔 30"/>
+		<string key="17007_20" loc-id="17007_20" value="油性渐变笔 40"/>
+		<string key="17007_21" loc-id="17007_21" value="尖头擦笔 10"/>
+		<string key="17007_22" loc-id="17007_22" value="尖头擦笔 20"/>
+		<string key="17007_23" loc-id="17007_23" value="尖头擦笔 30"/>
+		<string key="17007_24" loc-id="17007_24" value="圆头渐变笔笔刷 10"/>
+		<string key="17007_25" loc-id="17007_25" value="圆头渐变笔笔刷 20"/>
+		<string key="17007_26" loc-id="17007_26" value="圆头渐变笔笔刷 30"/>
+		<string key="17007_27" loc-id="17007_27" value="流动"/>
+		<string key="17007_28" loc-id="17007_28" value="涂抹"/>
+		<string key="17007_29" loc-id="17007_29" value="污点"/>
+		<string key="17007_30" loc-id="17007_30" value="轻柔渐变笔擦笔 10"/>
+		<string key="17007_31" loc-id="17007_31" value="轻柔渐变笔擦笔 20"/>
+		<string key="17007_32" loc-id="17007_32" value="轻柔渐变笔擦笔 30"/>
+		<string key="17007_33" loc-id="17007_33" value="水化分岔"/>
+		<string key="17007_34" loc-id="17007_34" value="仿真尖头渐变笔"/>
+		<string key="17007_35" loc-id="17007_35" value="仿真短渐变笔"/>
+	</category>
+	<category key="Str#" comment="Brush Looks Resource Names">
+		<string key="17501_1" loc-id="17501_1" value="桂叶飘落"/>
+		<string key="17501_2" loc-id="17501_2" value="银杏笔绘装饰"/>
+		<string key="17501_3" loc-id="17501_3" value="装饰性喷洒"/>
+		<string key="17501_4" loc-id="17501_4" value="浓密树状"/>
+		<string key="17501_5" loc-id="17501_5" value="丛林霓虹"/>
+		<string key="17501_6" loc-id="17501_6" value="丛林藤蔓围栏"/>
+		<string key="17501_7" loc-id="17501_7" value="淡紫色霓虹"/>
+		<string key="17501_8" loc-id="17501_8" value="细小树枝"/>
+		<string key="17501_9" loc-id="17501_9" value="细小绿色藤蔓"/>
+		<string key="17501_10" loc-id="17501_10" value="橙色霓虹"/>
+		<string key="17501_11" loc-id="17501_11" value="西番莲花蕾"/>
+		<string key="17501_12" loc-id="17501_12" value="西番莲花"/>
+		<string key="17501_13" loc-id="17501_13" value="西番莲叶片"/>
+		<string key="17501_14" loc-id="17501_14" value="花瓣围栏"/>
+		<string key="17501_15" loc-id="17501_15" value="红色条纹霓虹"/>
+		<string key="17501_16" loc-id="17501_16" value="红色条纹小路"/>
+		<string key="17501_17" loc-id="17501_17" value="银色管状围栏"/>
+		<string key="17501_18" loc-id="17501_18" value="阳光霓虹"/>
+		<string key="17501_19" loc-id="17501_19" value="树干"/>
+		<string key="17501_20" loc-id="17501_20" value="城市设备"/>
+		<string key="17501_21" loc-id="17501_21" value="鲜艳条纹"/>
+	</category>
+	<category key="Str#" comment="Calligraphy Resource Names">
+		<string key="17008_1" loc-id="17008_1" value="宽纹路向量笔 40"/>
+		<string key="17008_2" loc-id="17008_2" value="宽平滑向量笔 40"/>
+		<string key="17008_3" loc-id="17008_3" value="书法笔刷 10"/>
+		<string key="17008_4" loc-id="17008_4" value="书法笔刷 20"/>
+		<string key="17008_5" loc-id="17008_5" value="书法向量笔 25"/>
+		<string key="17008_6" loc-id="17008_6" value="书法"/>
+		<string key="17008_7" loc-id="17008_7" value="干墨水"/>
+		<string key="17008_8" loc-id="17008_8" value="纹路向量笔 15"/>
+		<string key="17008_9" loc-id="17008_9" value="平滑边缘 15"/>
+		<string key="17008_10" loc-id="17008_10" value="细纹路向量笔 10"/>
+		<string key="17008_11" loc-id="17008_11" value="细平滑向量笔 10"/>
+		<string key="17008_12" loc-id="17008_12" value="宽笔触 50"/>
+		<string key="17008_13" loc-id="17008_13" value="仿真变化笔尖向量笔"/>
+	</category>
+	<category key="Str#" comment="Chalk Resource Names">
+		<string key="17009_1" loc-id="17009_1" value="硬质粉彩笔 10"/>
+		<string key="17009_2" loc-id="17009_2" value="硬质粉彩笔 20"/>
+		<string key="17009_3" loc-id="17009_3" value="硬质粉彩笔 30"/>
+		<string key="17009_4" loc-id="17009_4" value="钝头纹路粉彩笔 10"/>
+		<string key="17009_5" loc-id="17009_5" value="钝头纹路粉彩笔 20"/>
+		<string key="17009_6" loc-id="17009_6" value="钝头纹路粉彩笔 30"/>
+		<string key="17009_7" loc-id="17009_7" value="大号粉彩笔"/>
+		<string key="17009_8" loc-id="17009_8" value="尖锐粉彩笔"/>
+		<string key="17009_9" loc-id="17009_9" value="方形粉彩笔 35"/>
+		<string key="17009_10" loc-id="17009_10" value="方形粉彩笔"/>
+		<string key="17009_11" loc-id="17009_11" value="锥形画家粉彩笔 10"/>
+		<string key="17009_12" loc-id="17009_12" value="锥形画家粉彩笔 20"/>
+		<string key="17009_13" loc-id="17009_13" value="锥形大号粉彩笔 20"/>
+		<string key="17009_14" loc-id="17009_14" value="锥形大号粉彩笔 30"/>
+		<string key="17009_15" loc-id="17009_15" value="锥形大号粉彩笔 40"/>
+		<string key="17009_16" loc-id="17009_16" value="变化粉彩笔"/>
+		<string key="17009_17" loc-id="17009_17" value="宽度变化粉彩笔"/>
+		<string key="17009_18" loc-id="17009_18" value="仿真粗粉彩笔"/>
+		<string key="17009_19" loc-id="17009_19" value="仿真凝重粉彩笔"/>
+		<string key="17009_20" loc-id="17009_20" value="仿真轻柔粉彩笔"/>
+	</category>
+	<category key="Str#" comment="Charcoal Resource Names">
+		<string key="17010_1" loc-id="17010_1" value="炭铅笔 3"/>
+		<string key="17010_2" loc-id="17010_2" value="炭铅笔 5"/>
+		<string key="17010_3" loc-id="17010_3" value="炭铅笔 7"/>
+		<string key="17010_4" loc-id="17010_4" value="炭笔"/>
+		<string key="17010_5" loc-id="17010_5" value="钝头炭铅笔 3"/>
+		<string key="17010_6" loc-id="17010_6" value="钝头炭铅笔 5"/>
+		<string key="17010_7" loc-id="17010_7" value="钝头炭铅笔 7"/>
+		<string key="17010_8" loc-id="17010_8" value="砂炭笔"/>
+		<string key="17010_9" loc-id="17010_9" value="凝重炭铅笔 3"/>
+		<string key="17010_10" loc-id="17010_10" value="凝重炭铅笔 5"/>
+		<string key="17010_11" loc-id="17010_11" value="凝重炭铅笔 7"/>
+		<string key="17010_12" loc-id="17010_12" value="凝重炭条 10"/>
+		<string key="17010_13" loc-id="17010_13" value="凝重炭条 20"/>
+		<string key="17010_14" loc-id="17010_14" value="凝重炭条 30"/>
+		<string key="17010_15" loc-id="17010_15" value="尖锐炭铅笔 3"/>
+		<string key="17010_16" loc-id="17010_16" value="尖锐炭铅笔 5"/>
+		<string key="17010_17" loc-id="17010_17" value="尖锐炭铅笔 7"/>
+		<string key="17010_18" loc-id="17010_18" value="轻柔炭铅笔 3"/>
+		<string key="17010_19" loc-id="17010_19" value="轻柔炭铅笔 5"/>
+		<string key="17010_20" loc-id="17010_20" value="轻柔炭铅笔 7"/>
+		<string key="17010_21" loc-id="17010_21" value="轻柔炭笔"/>
+		<string key="17010_22" loc-id="17010_22" value="轻柔藤蔓炭笔 10"/>
+		<string key="17010_23" loc-id="17010_23" value="轻柔藤蔓炭笔 20"/>
+		<string key="17010_24" loc-id="17010_24" value="轻柔藤蔓炭笔 30"/>
+	</category>
+	<category key="Str#" comment="Cloners Resource Names">
+		<string key="17011_1" loc-id="17011_1" value="鬃毛笔刷仿制笔"/>
+		<string key="17011_2" loc-id="17011_2" value="鬃毛油性仿制笔"/>
+		<string key="17011_3" loc-id="17011_3" value="驼毛厚涂仿制工具"/>
+		<string key="17011_4" loc-id="17011_4" value="驼毛油性仿制笔"/>
+		<string key="17011_5" loc-id="17011_5" value="粉笔仿制笔"/>
+		<string key="17011_6" loc-id="17011_6" value="仿制笔喷溅"/>
+		<string key="17011_7" loc-id="17011_7" value="花纹喷溅仿制笔 50"/>
+		<string key="17011_8" loc-id="17011_8" value="彩色铅笔仿制笔 3"/>
+		<string key="17011_9" loc-id="17011_9" value="蜡笔仿制工具"/>
+		<string key="17011_10" loc-id="17011_10" value="大雨仿制工具"/>
+		<string key="17011_11" loc-id="17011_11" value="毡制向量笔仿制工具"/>
+		<string key="17011_12" loc-id="17011_12" value="纤维仿制工具"/>
+		<string key="17011_13" loc-id="17011_13" value="细致胶彩仿制工具 15"/>
+		<string key="17011_14" loc-id="17011_14" value="细致喷溅仿制工具 35"/>
+		<string key="17011_15" loc-id="17011_15" value="扁平涂料仿制笔"/>
+		<string key="17011_16" loc-id="17011_16" value="平头油画仿制工具"/>
+		<string key="17011_17" loc-id="17011_17" value="毛发仿制工具"/>
+		<string key="17011_18" loc-id="17011_18" value="涂鸦仿制工具 20"/>
+		<string key="17011_19" loc-id="17011_19" value="印象派仿制笔"/>
+		<string key="17011_20" loc-id="17011_20" value="融化仿制工具"/>
+		<string key="17011_21" loc-id="17011_21" value="油画笔刷仿制工具"/>
+		<string key="17011_22" loc-id="17011_22" value="铅笔素描仿制工具"/>
+		<string key="17011_23" loc-id="17011_23" value="涂抹鬃毛仿制工具"/>
+		<string key="17011_24" loc-id="17011_24" value="涂抹驼毛仿制工具"/>
+		<string key="17011_25" loc-id="17011_25" value="涂抹平头仿制工具"/>
+		<string key="17011_26" loc-id="17011_26" value="柔化仿制笔"/>
+		<string key="17011_27" loc-id="17011_27" value="喷洒仿制喷溅"/>
+		<string key="17011_28" loc-id="17011_28" value="直接仿制笔"/>
+		<string key="17011_29" loc-id="17011_29" value="材质喷溅仿制工具"/>
+		<string key="17011_30" loc-id="17011_30" value="粗鬃毛仿制工具 20"/>
+		<string key="17011_31" loc-id="17011_31" value="粗驼毛仿制工具 20"/>
+		<string key="17011_32" loc-id="17011_32" value="粗平头仿制工具 20"/>
+		<string key="17011_33" loc-id="17011_33" value="梵谷仿制工具"/>
+		<string key="17011_34" loc-id="17011_34" value="水彩仿制工具"/>
+		<string key="17011_35" loc-id="17011_35" value="水彩细致仿制工具"/>
+		<string key="17011_36" loc-id="17011_36" value="水彩流动仿制工具"/>
+		<string key="17011_37" loc-id="17011_37" value="水彩洗涤仿制工具"/>
+		<string key="17011_38" loc-id="17011_38" value="湿油画仿制工具 10"/>
+		<string key="17011_39" loc-id="17011_39" value="X 双线 4P"/>
+		<string key="17011_40" loc-id="17011_40" value="X 透视 4P"/>
+		<string key="17011_41" loc-id="17011_41" value="X 透视拼接 4P"/>
+		<string key="17011_42" loc-id="17011_42" value="X 旋转 2P"/>
+		<string key="17011_43" loc-id="17011_43" value="X 旋转、镜射 2P"/>
+		<string key="17011_44" loc-id="17011_44" value="X 旋转、缩放 2P"/>
+		<string key="17011_45" loc-id="17011_45" value="X 旋转、缩放、修剪 3P"/>
+		<string key="17011_46" loc-id="17011_46" value="X 缩放 2P"/>
+	</category>
+	<category key="Str#" comment="Color Talk Presets Resource Names">
+		<string key="17502_1" loc-id="17502_1" value="red green ramp"/>
+		<string key="17502_2" loc-id="17502_2" value="hue-value gamut map"/>
+		<string key="17502_3" loc-id="17502_3" value="circular linear ramp"/>
+		<string key="17502_4" loc-id="17502_4" value="candy swirl"/>
+		<string key="17502_5" loc-id="17502_5" value="HSV hexcone slice v=0.5"/>
+		<string key="17502_6" loc-id="17502_6" value="LAB square"/>
+		<string key="17502_7" loc-id="17502_7" value="smooth dab"/>
+	</category>
+	<category key="Str#" comment="Colored Pencils Resource Names">
+		<string key="17012_1" loc-id="17012_1" value="彩色铅笔"/>
+		<string key="17012_2" loc-id="17012_2" value="覆盖彩色铅笔 3"/>
+		<string key="17012_3" loc-id="17012_3" value="覆盖彩色铅笔 5"/>
+		<string key="17012_4" loc-id="17012_4" value="覆盖彩色铅笔 7"/>
+		<string key="17012_5" loc-id="17012_5" value="纹路彩色铅笔 3"/>
+		<string key="17012_6" loc-id="17012_6" value="纹路彩色铅笔 5"/>
+		<string key="17012_7" loc-id="17012_7" value="纹路彩色铅笔 7"/>
+		<string key="17012_8" loc-id="17012_8" value="凝重彩色铅笔 3"/>
+		<string key="17012_9" loc-id="17012_9" value="凝重彩色铅笔 5"/>
+		<string key="17012_10" loc-id="17012_10" value="凝重彩色铅笔 7"/>
+		<string key="17012_11" loc-id="17012_11" value="油性彩色铅笔 3"/>
+		<string key="17012_12" loc-id="17012_12" value="油性彩色铅笔 5"/>
+		<string key="17012_13" loc-id="17012_13" value="油性彩色铅笔 7"/>
+		<string key="17012_14" loc-id="17012_14" value="尖锐彩色铅笔 3"/>
+		<string key="17012_15" loc-id="17012_15" value="尖锐彩色铅笔 5"/>
+		<string key="17012_16" loc-id="17012_16" value="尖锐彩色铅笔 7"/>
+		<string key="17012_17" loc-id="17012_17" value="变化彩色铅笔"/>
+		<string key="17012_18" loc-id="17012_18" value="仿真尖锐彩色铅笔"/>
+		<string key="17012_19" loc-id="17012_19" value="仿真轻柔彩色铅笔"/>
+	</category>
+	<category key="Str#" comment="Conte Resource Names">
+		<string key="17013_1" loc-id="17013_1" value="钝头康特笔 15"/>
+		<string key="17013_2" loc-id="17013_2" value="钝头康特笔 22"/>
+		<string key="17013_3" loc-id="17013_3" value="钝头康特笔 8"/>
+		<string key="17013_4" loc-id="17013_4" value="方形康特笔 15"/>
+		<string key="17013_5" loc-id="17013_5" value="方形康特笔 22"/>
+		<string key="17013_6" loc-id="17013_6" value="方形康特笔 8"/>
+		<string key="17013_7" loc-id="17013_7" value="锥形康特笔 15"/>
+		<string key="17013_8" loc-id="17013_8" value="锥形康特笔 22"/>
+		<string key="17013_9" loc-id="17013_9" value="锥形康特笔 8"/>
+		<string key="17013_10" loc-id="17013_10" value="仿真凝重康特笔"/>
+		<string key="17013_11" loc-id="17013_11" value="仿真轻柔康特笔"/>
+	</category>
+	<category key="Str#" comment="Crayons Resource Names">
+		<string key="17014_1" loc-id="17014_1" value="基本蜡笔"/>
+		<string key="17014_2" loc-id="17014_2" value="钝头蜡笔 12"/>
+		<string key="17014_3" loc-id="17014_3" value="钝头蜡笔 7"/>
+		<string key="17014_4" loc-id="17014_4" value="凝重纹路蜡笔 12"/>
+		<string key="17014_5" loc-id="17014_5" value="凝重纹路蜡笔 7"/>
+		<string key="17014_6" loc-id="17014_6" value="中号钝头蜡笔 12"/>
+		<string key="17014_7" loc-id="17014_7" value="中号钝头蜡笔 7"/>
+		<string key="17014_8" loc-id="17014_8" value="尖头蜡笔 12"/>
+		<string key="17014_9" loc-id="17014_9" value="尖头蜡笔 7"/>
+		<string key="17014_10" loc-id="17014_10" value="蜡状蜡笔"/>
+	</category>
+	<category key="Str#" comment="Digital Watercolor Resource Names">
+		<string key="17015_1" loc-id="17015_1" value="宽水彩笔刷"/>
+		<string key="17015_2" loc-id="17015_2" value="粗糙干笔刷"/>
+		<string key="17015_3" loc-id="17015_3" value="粗糙蓬状笔刷"/>
+		<string key="17015_4" loc-id="17015_4" value="粗糙水笔"/>
+		<string key="17015_5" loc-id="17015_5" value="扩散水彩"/>
+		<string key="17015_6" loc-id="17015_6" value="干笔刷"/>
+		<string key="17015_7" loc-id="17015_7" value="细尖水笔"/>
+		<string key="17015_8" loc-id="17015_8" value="精细蓬状笔刷"/>
+		<string key="17015_9" loc-id="17015_9" value="平头水彩渐变笔"/>
+		<string key="17015_10" loc-id="17015_10" value="微湿橡皮擦"/>
+		<string key="17015_11" loc-id="17015_11" value="新简单渐变笔"/>
+		<string key="17015_12" loc-id="17015_12" value="新简单晕染"/>
+		<string key="17015_13" loc-id="17015_13" value="新式单纯水笔"/>
+		<string key="17015_14" loc-id="17015_14" value="尖头简单水笔"/>
+		<string key="17015_15" loc-id="17015_15" value="尖头湿橡皮擦"/>
+		<string key="17015_16" loc-id="17015_16" value="纯水鬃毛"/>
+		<string key="17015_17" loc-id="17015_17" value="纯水笔刷"/>
+		<string key="17015_18" loc-id="17015_18" value="圆头水化渐变笔"/>
+		<string key="17015_19" loc-id="17015_19" value="结晶点水彩笔"/>
+		<string key="17015_20" loc-id="17015_20" value="抖动水分晕染"/>
+		<string key="17015_21" loc-id="17015_21" value="轻柔宽笔刷"/>
+		<string key="17015_22" loc-id="17015_22" value="轻柔晕染笔刷"/>
+		<string key="17015_23" loc-id="17015_23" value="轻柔圆头渐变笔"/>
+		<string key="17015_24" loc-id="17015_24" value="喷洒水笔"/>
+		<string key="17015_25" loc-id="17015_25" value="渐细水分晕染"/>
+		<string key="17015_26" loc-id="17015_26" value="洗涤笔刷"/>
+		<string key="17015_27" loc-id="17015_27" value="湿橡皮擦"/>
+		<string key="17015_28" loc-id="17015_28" value="仿真榛型笔水彩"/>
+		<string key="17015_29" loc-id="17015_29" value="仿真平头水彩"/>
+		<string key="17015_30" loc-id="17015_30" value="仿真锥形水彩"/>
+	</category>
+	<category key="Str#" comment="Distortion Resource Names">
+		<string key="17016_1" loc-id="17016_1" value="膨胀"/>
+		<string key="17016_2" loc-id="17016_2" value="粗糙笔刷搬移器"/>
+		<string key="17016_3" loc-id="17016_3" value="粗糙扭曲"/>
+		<string key="17016_4" loc-id="17016_4" value="混淆"/>
+		<string key="17016_5" loc-id="17016_5" value="晕染"/>
+		<string key="17016_6" loc-id="17016_6" value="扭曲"/>
+		<string key="17016_7" loc-id="17016_7" value="纹路扭曲 10"/>
+		<string key="17016_8" loc-id="17016_8" value="纹路扭曲 20"/>
+		<string key="17016_9" loc-id="17016_9" value="纹路扭曲 30"/>
+		<string key="17016_10" loc-id="17016_10" value="纹路搬移器 20"/>
+		<string key="17016_11" loc-id="17016_11" value="纹路搬移器 30"/>
+		<string key="17016_12" loc-id="17016_12" value="纹路搬移器 40"/>
+		<string key="17016_13" loc-id="17016_13" value="飓风"/>
+		<string key="17016_14" loc-id="17016_14" value="石纹分岔"/>
+		<string key="17016_15" loc-id="17016_15" value="挤压"/>
+		<string key="17016_16" loc-id="17016_16" value="涂抹鬃毛"/>
+		<string key="17016_17" loc-id="17016_17" value="细扭曲"/>
+		<string key="17016_18" loc-id="17016_18" value="液化"/>
+		<string key="17016_19" loc-id="17016_19" value="水泡 35"/>
+	</category>
+	<category key="Str#" comment="Erasers Resource Names">
+		<string key="17017_1" loc-id="17017_1" value="单图素橡皮擦"/>
+		<string key="17017_2" loc-id="17017_2" value="漂白"/>
+		<string key="17017_3" loc-id="17017_3" value="块状橡皮擦 10"/>
+		<string key="17017_4" loc-id="17017_4" value="块状橡皮擦 20"/>
+		<string key="17017_5" loc-id="17017_5" value="暗色化"/>
+		<string key="17017_6" loc-id="17017_6" value="清除全部凝重笔画"/>
+		<string key="17017_7" loc-id="17017_7" value="清除全部轻柔笔画"/>
+		<string key="17017_8" loc-id="17017_8" value="橡皮擦"/>
+		<string key="17017_9" loc-id="17017_9" value="平头暗色化 10"/>
+		<string key="17017_10" loc-id="17017_10" value="扁平橡皮擦"/>
+		<string key="17017_11" loc-id="17017_11" value="柔和漂白 10"/>
+		<string key="17017_12" loc-id="17017_12" value="柔和漂白 7"/>
+		<string key="17017_13" loc-id="17017_13" value="尖头漂白 15"/>
+		<string key="17017_14" loc-id="17017_14" value="尖头漂白 7"/>
+		<string key="17017_15" loc-id="17017_15" value="尖头橡皮擦 15"/>
+		<string key="17017_16" loc-id="17017_16" value="尖头橡皮擦 7"/>
+		<string key="17017_17" loc-id="17017_17" value="矩形橡皮擦 10"/>
+		<string key="17017_18" loc-id="17017_18" value="矩形橡皮擦 20"/>
+		<string key="17017_19" loc-id="17017_19" value="锥形漂白 10"/>
+		<string key="17017_20" loc-id="17017_20" value="锥形漂白 20"/>
+		<string key="17017_21" loc-id="17017_21" value="锥形漂白 30"/>
+		<string key="17017_22" loc-id="17017_22" value="锥形暗色化 10"/>
+		<string key="17017_23" loc-id="17017_23" value="锥形暗色化 20"/>
+		<string key="17017_24" loc-id="17017_24" value="锥形暗色化 30"/>
+		<string key="17017_25" loc-id="17017_25" value="锥形橡皮擦 10"/>
+		<string key="17017_26" loc-id="17017_26" value="锥形橡皮擦 20"/>
+		<string key="17017_27" loc-id="17017_27" value="锥形橡皮擦 30"/>
+		<string key="17017_28" loc-id="17017_28" value="仿真凝重橡皮擦"/>
+		<string key="17017_29" loc-id="17017_29" value="仿真尖头橡皮擦"/>
+		<string key="17017_30" loc-id="17017_30" value="仿真轻柔橡皮擦"/>
+	</category>
+	<category key="Str#" comment="F-X Resource Names">
+		<string key="17018_1" loc-id="17018_1" value="混淆"/>
+		<string key="17018_2" loc-id="17018_2" value="仙女光点"/>
+		<string key="17018_3" loc-id="17018_3" value="火"/>
+		<string key="17018_4" loc-id="17018_4" value="毛发笔刷"/>
+		<string key="17018_5" loc-id="17018_5" value="发光"/>
+		<string key="17018_6" loc-id="17018_6" value="渐层平头笔刷 20"/>
+		<string key="17018_7" loc-id="17018_7" value="渐层线"/>
+		<string key="17018_8" loc-id="17018_8" value="轻柔图形笔刷"/>
+		<string key="17018_9" loc-id="17018_9" value="图形笔刷"/>
+		<string key="17018_10" loc-id="17018_10" value="发丝喷溅"/>
+		<string key="17018_11" loc-id="17018_11" value="霓虹笔"/>
+		<string key="17018_12" loc-id="17018_12" value="钢琴键"/>
+		<string key="17018_13" loc-id="17018_13" value="碎片"/>
+		<string key="17018_14" loc-id="17018_14" value="橡胶滚轴"/>
+	</category>
+	<category key="Str#" comment="Felt Pens Resource Names">
+		<string key="17019_1" loc-id="17019_1" value="艺术马克笔"/>
+		<string key="17019_2" loc-id="17019_2" value="硬质尖笔 3"/>
+		<string key="17019_3" loc-id="17019_3" value="硬质尖笔 5"/>
+		<string key="17019_4" loc-id="17019_4" value="硬质尖笔 7"/>
+		<string key="17019_5" loc-id="17019_5" value="设计用马克笔 10"/>
+		<string key="17019_6" loc-id="17019_6" value="设计用马克笔 20"/>
+		<string key="17019_7" loc-id="17019_7" value="设计用马克笔 30"/>
+		<string key="17019_8" loc-id="17019_8" value="脏污马克笔 10"/>
+		<string key="17019_9" loc-id="17019_9" value="脏污马克笔 20"/>
+		<string key="17019_10" loc-id="17019_10" value="脏污马克笔"/>
+		<string key="17019_11" loc-id="17019_11" value="毡制马克笔"/>
+		<string key="17019_12" loc-id="17019_12" value="细点马克笔 5"/>
+		<string key="17019_13" loc-id="17019_13" value="细尖笔"/>
+		<string key="17019_14" loc-id="17019_14" value="中号毡制尖笔"/>
+		<string key="17019_15" loc-id="17019_15" value="可塑马克笔 10"/>
+		<string key="17019_16" loc-id="17019_16" value="可塑马克笔 20"/>
+		<string key="17019_17" loc-id="17019_17" value="可塑马克笔 30"/>
+	</category>
+	<category key="Str#" comment="Golden Grid Presets Resource Names">
+		<string key="17511_1" loc-id="17511_1" value="预设水平"/>
+		<string key="17511_2" loc-id="17511_2" value="预设垂直"/>
+	</category>
+	<category key="Str#" comment="Gouache Resource Names">
+		<string key="17020_1" loc-id="17020_1" value="宽覆盖式笔刷 40"/>
+		<string key="17020_2" loc-id="17020_2" value="细节不透光 10"/>
+		<string key="17020_3" loc-id="17020_3" value="细节不透光 5"/>
+		<string key="17020_4" loc-id="17020_4" value="细节不透光 7"/>
+		<string key="17020_5" loc-id="17020_5" value="细鬃毛 10"/>
+		<string key="17020_6" loc-id="17020_6" value="细鬃毛 20"/>
+		<string key="17020_7" loc-id="17020_7" value="细鬃毛 30"/>
+		<string key="17020_8" loc-id="17020_8" value="细致圆头胶彩 10"/>
+		<string key="17020_9" loc-id="17020_9" value="细致圆头胶彩 20"/>
+		<string key="17020_10" loc-id="17020_10" value="细致圆头胶彩 30"/>
+		<string key="17020_11" loc-id="17020_11" value="平头不透光胶彩 10"/>
+		<string key="17020_12" loc-id="17020_12" value="平头不透光胶彩 20"/>
+		<string key="17020_13" loc-id="17020_13" value="平头不透光胶彩 30"/>
+		<string key="17020_14" loc-id="17020_14" value="不透光平滑笔刷 10"/>
+		<string key="17020_15" loc-id="17020_15" value="不透光平滑笔刷 20"/>
+		<string key="17020_16" loc-id="17020_16" value="不透光平滑笔刷 30"/>
+		<string key="17020_17" loc-id="17020_17" value="粗胶彩平头 10"/>
+		<string key="17020_18" loc-id="17020_18" value="粗胶彩平头 20"/>
+		<string key="17020_19" loc-id="17020_19" value="粗胶彩平头 30"/>
+		<string key="17020_20" loc-id="17020_20" value="粗胶彩圆头 10"/>
+		<string key="17020_21" loc-id="17020_21" value="粗胶彩圆头 20"/>
+		<string key="17020_22" loc-id="17020_22" value="粗胶彩圆头 30"/>
+		<string key="17020_23" loc-id="17020_23" value="湿胶彩圆头 10"/>
+		<string key="17020_24" loc-id="17020_24" value="湿胶彩圆头 20"/>
+		<string key="17020_25" loc-id="17020_25" value="湿胶彩圆头 30"/>
+	</category>
+	<category key="Str#" comment="Gradients Resource Names">
+		<string key="17503_1" loc-id="17503_1" value="主色彩转副色彩"/>
+		<string key="17503_2" loc-id="17503_2" value="暖灰色范围"/>
+		<string key="17503_3" loc-id="17503_3" value="游泳池"/>
+		<string key="17503_4" loc-id="17503_4" value="热带水果"/>
+		<string key="17503_5" loc-id="17503_5" value="鲜艳彩色条纹"/>
+		<string key="17503_6" loc-id="17503_6" value="水中霓虹"/>
+		<string key="17503_7" loc-id="17503_7" value="不锈钢"/>
+		<string key="17503_8" loc-id="17503_8" value="天桥"/>
+		<string key="17503_9" loc-id="17503_9" value="睡莲花"/>
+		<string key="17503_10" loc-id="17503_10" value="色泽化"/>
+		<string key="17503_11" loc-id="17503_11" value="蓝紫"/>
+		<string key="17503_12" loc-id="17503_12" value="铭黄天空"/>
+		<string key="17503_13" loc-id="17503_13" value="淡紫色霓虹"/>
+		<string key="17503_14" loc-id="17503_14" value="奇妙霓虹"/>
+		<string key="17503_15" loc-id="17503_15" value="暗淡天空"/>
+		<string key="17503_16" loc-id="17503_16" value="丛林叶片绿"/>
+		<string key="17503_17" loc-id="17503_17" value="水池光"/>
+		<string key="17503_18" loc-id="17503_18" value="桉树皮"/>
+		<string key="17503_19" loc-id="17503_19" value="鲜艳混合"/>
+		<string key="17503_20" loc-id="17503_20" value="红色条纹"/>
+		<string key="17503_21" loc-id="17503_21" value="紫色漩涡"/>
+		<string key="17503_22" loc-id="17503_22" value="橘色霓虹"/>
+		<string key="17503_23" loc-id="17503_23" value="夏季日落"/>
+		<string key="17503_24" loc-id="17503_24" value="绿色高速公路"/>
+		<string key="17503_25" loc-id="17503_25" value="蝴蝶王"/>
+		<string key="17503_26" loc-id="17503_26" value="氧化"/>
+		<string key="17503_27" loc-id="17503_27" value="深褐"/>
+		<string key="17503_28" loc-id="17503_28" value="石灰光"/>
+		<string key="17503_29" loc-id="17503_29" value="亮光闪电条纹"/>
+		<string key="17503_30" loc-id="17503_30" value="丛林霓虹"/>
+		<string key="17503_31" loc-id="17503_31" value="橙色火焰"/>
+		<string key="17503_32" loc-id="17503_32" value="绿色色泽"/>
+		<string key="17503_33" loc-id="17503_33" value="火样霓虹"/>
+		<string key="17503_34" loc-id="17503_34" value="鲜绿色黎明"/>
+		<string key="17503_35" loc-id="17503_35" value="叶脉"/>
+		<string key="17503_36" loc-id="17503_36" value="彩色长条"/>
+		<string key="17503_37" loc-id="17503_37" value="红铜"/>
+		<string key="17503_38" loc-id="17503_38" value="多云的天空"/>
+		<string key="17503_39" loc-id="17503_39" value="彩虹挤压"/>
+		<string key="17503_40" loc-id="17503_40" value="12 点"/>
+		<string key="17503_41" loc_id="17503_41" value="主色转透明"/>
+		<string key="17503_42" loc_id="17503_42" value="深邃蓝天"/>
+		<string key="17503_43" loc_id="17503_43" value="草地"/>
+		<string key="17503_44" loc_id="17503_44" value="浓雾早晨"/>
+		<string key="17503_45" loc_id="17503_45" value="夜空"/>
+		<string key="17503_46" loc_id="17503_46" value="温暖肌肤"/>
+		<string key="17503_47" loc_id="17503_47" value="阴影调节"/>
+		<string key="17503_48" loc_id="17503_48" value="反光"/>
+		<string key="17503_49" loc_id="17503_49" value="苍白肌肤"/>
+		<string key="17503_50" loc_id="17503_50" value="光影"/>
+		<string key="17503_51" loc_id="17503_51" value="灯光隧道"/>
+		<string key="17503_52" loc_id="17503_52" value="最后灯光"/>
+		<string key="17503_53" loc_id="17503_53" value="傍晚"/>
+		<string key="17503_54" loc_id="17503_54" value="黑暗危险"/>
+		<string key="17503_55" loc_id="17503_55" value="深天蓝"/>
+		<string key="17503_56" loc_id="17503_56" value="木质圆柱"/>
+		<string key="17503_57" loc_id="17503_57" value="金属圆柱"/>
+		<string key="17503_58" loc_id="17503_58" value="青铜"/>
+		<string key="17503_59" loc_id="17503_59" value="黑金属"/>
+		<string key="17503_60" loc_id="17503_60" value="黄昏"/>
+		<string key="17503_61" loc_id="17503_61" value="金属"/>
+		<string key="17503_62" loc_id="17503_62" value="暖光"/>
+		<string key="17503_63" loc_id="17503_63" value="浅雕刻"/>
+		<string key="17503_64" loc_id="17503_64" value="深雕刻"/>
+		<string key="17503_65" loc_id="17503_65" value="轨道上"/>
+		<string key="17503_66" loc_id="17503_66" value="眼睛"/>
+		<string key="17503_67" loc_id="17503_67" value="素颜"/>
+		<string key="17503_68" loc_id="17503_68" value="海滩"/>
+		<string key="17503_69" loc_id="17503_69" value="微暗粉色天空"/>
+		<string key="17503_70" loc_id="17503_70" value="野外迷雾"/>
+		<string key="17503_71" loc_id="17503_71" value="反射"/>
+		<string key="17503_72" loc_id="17503_72" value="浓烟迷雾色泽"/>
+		<string key="17503_73" loc_id="17503_73" value="黄金迷雾"/>
+		<string key="17503_74" loc_id="17503_74" value="玫瑰薄雾"/>
+		<string key="17503_75" loc_id="17503_75" value="橘黄蓝色泽"/>
+		<string key="17503_76" loc_id="17503_76" value="朝霞色泽"/>
+		<string key="17503_77" loc_id="17503_77" value="春天光晕色泽"/>
+		<string key="17503_78" loc_id="17503_78" value="黄金转蓝色泽"/>
+		<string key="17503_79" loc_id="17503_79" value="绿转黄金色泽"/>
+		<string key="17503_80" loc_id="17503_80" value="紫色海洋"/>
+		<string key="17503_81" loc_id="17503_81" value="多云晚霞"/>
+		<string key="17503_82" loc_id="17503_82" value="风暴"/>
+		<string key="17503_83" loc_id="17503_83" value="森林"/>
+		<string key="17503_84" loc_id="17503_84" value="草原"/>
+		<string key="17503_85" loc_id="17503_85" value="土地"/>
+		<string key="17503_86" loc_id="17503_86" value="大潮升"/>
+		<string key="17503_87" loc_id="17503_87" value="节日"/>
+	</category>
+	<category key="Str#" comment="Image Hose Resource Names">
+		<string key="17021_1" loc-id="17021_1" value="线性角度 B"/>
+		<string key="17021_2" loc-id="17021_2" value="线性角度 W"/>
+		<string key="17021_3" loc-id="17021_3" value="线性大小 P 角度 B"/>
+		<string key="17021_4" loc-id="17021_4" value="线性大小 P 角度 D"/>
+		<string key="17021_5" loc-id="17021_5" value="线性大小 P 角度 R"/>
+		<string key="17021_6" loc-id="17021_6" value="线性大小 P 角度 W"/>
+		<string key="17021_7" loc-id="17021_7" value="线性大小 P"/>
+		<string key="17021_8" loc-id="17021_8" value="线性大小 R 角度 D"/>
+		<string key="17021_9" loc-id="17021_9" value="线性大小 R"/>
+		<string key="17021_10" loc-id="17021_10" value="线性大小 W"/>
+		<string key="17021_11" loc-id="17021_11" value="喷溅角度 B"/>
+		<string key="17021_12" loc-id="17021_12" value="喷溅角度 W"/>
+		<string key="17021_13" loc-id="17021_13" value="喷溅大小 P 角度 B"/>
+		<string key="17021_14" loc-id="17021_14" value="喷溅大小 P 角度 D"/>
+		<string key="17021_15" loc-id="17021_15" value="喷溅大小 P 角度 R"/>
+		<string key="17021_16" loc-id="17021_16" value="喷溅大小 P 角度 W"/>
+		<string key="17021_17" loc-id="17021_17" value="喷溅大小 P"/>
+		<string key="17021_18" loc-id="17021_18" value="喷溅大小 R 角度 D"/>
+		<string key="17021_19" loc-id="17021_19" value="喷溅大小 R"/>
+		<string key="17021_20" loc-id="17021_20" value="喷溅大小 W"/>
+	</category>
+	<category key="Str#" comment="Impasto Resource Names">
+		<string key="17022_1" loc-id="17022_1" value="蚀刻厚涂"/>
+		<string key="17022_2" loc-id="17022_2" value="透明清漆"/>
+		<string key="17022_3" loc-id="17022_3" value="深度色彩橡皮擦"/>
+		<string key="17022_4" loc-id="17022_4" value="深度等化"/>
+		<string key="17022_5" loc-id="17022_5" value="深度橡皮擦"/>
+		<string key="17022_6" loc-id="17022_6" value="深度铁头球杆"/>
+		<string key="17022_7" loc-id="17022_7" value="深度分岔"/>
+		<string key="17022_8" loc-id="17022_8" value="深度涂抹"/>
+		<string key="17022_9" loc-id="17022_9" value="扭曲厚涂"/>
+		<string key="17022_10" loc-id="17022_10" value="纤维"/>
+		<string key="17022_11" loc-id="17022_11" value="软胶"/>
+		<string key="17022_12" loc-id="17022_12" value="纹路浮雕"/>
+		<string key="17022_13" loc-id="17022_13" value="图形笔刷"/>
+		<string key="17022_14" loc-id="17022_14" value="花纹笔厚涂"/>
+		<string key="17022_15" loc-id="17022_15" value="刷式画刀"/>
+		<string key="17022_16" loc-id="17022_16" value="不透光鬃毛喷溅"/>
+		<string key="17022_17" loc-id="17022_17" value="不透光平头"/>
+		<string key="17022_18" loc-id="17022_18" value="不透光圆头"/>
+		<string key="17022_19" loc-id="17022_19" value="调色刀"/>
+		<string key="17022_20" loc-id="17022_20" value="花纹浮雕"/>
+		<string key="17022_21" loc-id="17022_21" value="圆头驼毛"/>
+		<string key="17022_22" loc-id="17022_22" value="涂抹鬃毛喷溅"/>
+		<string key="17022_23" loc-id="17022_23" value="涂抹鬃毛"/>
+		<string key="17022_24" loc-id="17022_24" value="油性平头"/>
+		<string key="17022_25" loc-id="17022_25" value="涂抹圆头"/>
+		<string key="17022_26" loc-id="17022_26" value="涂抹清漆"/>
+		<string key="17022_27" loc-id="17022_27" value="透明纹理"/>
+		<string key="17022_28" loc-id="17022_28" value="细致纹理"/>
+		<string key="17022_29" loc-id="17022_29" value="浓重纹理 "/>
+		<string key="17022_30" loc-id="17022_30" value="变化纹理 "/>
+		<string key="17022_31" loc-id="17022_31" value="粗鬃毛 10"/>
+		<string key="17022_32" loc-id="17022_32" value="粗鬃毛 20"/>
+		<string key="17022_33" loc-id="17022_33" value="粗鬃毛 30"/>
+		<string key="17022_34" loc-id="17022_34" value="浓厚透明清漆 20"/>
+		<string key="17022_35" loc-id="17022_35" value="粗圆头 10"/>
+		<string key="17022_36" loc-id="17022_36" value="粗圆头 20"/>
+		<string key="17022_37" loc-id="17022_37" value="粗圆头 30"/>
+		<string key="17022_38" loc-id="17022_38" value="粗锥形平头 10"/>
+		<string key="17022_39" loc-id="17022_39" value="粗锥形平头 20"/>
+		<string key="17022_40" loc-id="17022_40" value="粗锥形平头 30"/>
+		<string key="17022_41" loc-id="17022_41" value="粗湿平头 20"/>
+		<string key="17022_42" loc-id="17022_42" value="粗湿圆头 20"/>
+		<string key="17022_43" loc-id="17022_43" value="变化平头不透光"/>
+		<string key="17022_44" loc-id="17022_44" value="湿鬃毛"/>
+	</category>
+	<category key="Str#" comment="Layout Grid Presets Resource Names">
+		<string key="17512_1" loc-id="17512_1" value="三等分规则"/>
+		<string key="17512_2" loc-id="17512_2" value="3 x 5 格线"/>
+		<string key="17512_3" loc-id="17512_3" value="5 x 5 格线"/>
+	</category>
+	<category key="Str#" comment="Lighting Presets Resource Names">
+		<string key="17505_1" loc-id="17505_1" value="渐进对角线光"/>
+		<string key="17505_2" loc-id="17505_2" value="渐进光 2"/>
+		<string key="17505_3" loc-id="17505_3" value="水花色彩光"/>
+		<string key="17505_4" loc-id="17505_4" value="蓝色舞台灯光"/>
+		<string key="17505_5" loc-id="17505_5" value="舞台灯光"/>
+		<string key="17505_6" loc-id="17505_6" value="暖球形灯光"/>
+		<string key="17505_7" loc-id="17505_7" value="滑动照明光"/>
+		<string key="17505_8" loc-id="17505_8" value="渐进冷光"/>
+		<string key="17505_9" loc-id="17505_9" value="渐进暖光"/>
+		<string key="17505_10" loc-id="17505_10" value="冷球形灯光"/>
+		<string key="17505_11" loc-id="17505_11" value="追踪照明光"/>
+		<string key="17505_12" loc-id="17505_12" value="阅读照明"/>
+		<string key="17505_13" loc-id="17505_13" value="蓝色灯光"/>
+		<string key="17505_14" loc-id="17505_14" value="暖照明灯光"/>
+		<string key="17505_15" loc-id="17505_15" value="渐进光"/>
+		<string key="17505_16" loc-id="17505_16" value="可读光"/>
+		<string key="17505_17" loc-id="17505_17" value="对角线聚光灯光"/>
+		<string key="17505_18" loc-id="17505_18" value="半暗淡"/>
+		<string key="17505_19" loc-id="17505_19" value="双筒聚光灯光"/>
+		<string key="17505_20" loc-id="17505_20" value="三色"/>
+		<string key="17505_21" loc-id="17505_21" value="平光"/>
+		<string key="17505_22" loc-id="17505_22" value="单筒聚光灯光"/>
+		<string key="17505_23" loc-id="17505_23" value="平面光"/>
+		<string key="17505_24" loc-id="17505_24" value="中央聚光灯光"/>
+	</category>
+	<category key="Str#" comment="Liquid Ink Resource Names">
+		<string key="17023_1" loc-id="17023_1" value="喷枪阻抗"/>
+		<string key="17023_2" loc-id="17023_2" value="喷枪"/>
+		<string key="17023_3" loc-id="17023_3" value="书法平头 15"/>
+		<string key="17023_4" loc-id="17023_4" value="书法平头"/>
+		<string key="17023_5" loc-id="17023_5" value="块状墨水 4"/>
+		<string key="17023_6" loc-id="17023_6" value="粗糙喷枪阻抗"/>
+		<string key="17023_7" loc-id="17023_7" value="粗糙喷枪"/>
+		<string key="17023_8" loc-id="17023_8" value="粗糙鬃毛阻抗"/>
+		<string key="17023_9" loc-id="17023_9" value="粗糙鬃毛"/>
+		<string key="17023_10" loc-id="17023_10" value="粗糙驼毛阻抗"/>
+		<string key="17023_11" loc-id="17023_11" value="粗糙驼毛"/>
+		<string key="17023_12" loc-id="17023_12" value="粗糙平头阻抗"/>
+		<string key="17023_13" loc-id="17023_13" value="粗糙平头"/>
+		<string key="17023_14" loc-id="17023_14" value="深度鬃毛"/>
+		<string key="17023_15" loc-id="17023_15" value="深度驼毛"/>
+		<string key="17023_16" loc-id="17023_16" value="深度平头"/>
+		<string key="17023_17" loc-id="17023_17" value="墨滴 4"/>
+		<string key="17023_18" loc-id="17023_18" value="干鬃毛"/>
+		<string key="17023_19" loc-id="17023_19" value="干驼毛"/>
+		<string key="17023_20" loc-id="17023_20" value="干平头"/>
+		<string key="17023_21" loc-id="17023_21" value="橡皮擦"/>
+		<string key="17023_22" loc-id="17023_22" value="细点橡皮擦"/>
+		<string key="17023_23" loc-id="17023_23" value="细点"/>
+		<string key="17023_24" loc-id="17023_24" value="图形鬃毛阻抗"/>
+		<string key="17023_25" loc-id="17023_25" value="图形鬃毛"/>
+		<string key="17023_26" loc-id="17023_26" value="圆形驼毛阻抗"/>
+		<string key="17023_27" loc-id="17023_27" value="圆形驼毛"/>
+		<string key="17023_28" loc-id="17023_28" value="圆形平头阻抗"/>
+		<string key="17023_29" loc-id="17023_29" value="圆形平头"/>
+		<string key="17023_30" loc-id="17023_30" value="尖头平头"/>
+		<string key="17023_31" loc-id="17023_31" value="锯齿状画刀"/>
+		<string key="17023_32" loc-id="17023_32" value="平滑鬃毛阻抗"/>
+		<string key="17023_33" loc-id="17023_33" value="平滑鬃毛"/>
+		<string key="17023_34" loc-id="17023_34" value="平滑驼毛阻抗"/>
+		<string key="17023_35" loc-id="17023_35" value="平滑驼毛"/>
+		<string key="17023_36" loc-id="17023_36" value="平滑平头阻抗"/>
+		<string key="17023_37" loc-id="17023_37" value="平滑平头"/>
+		<string key="17023_38" loc-id="17023_38" value="平滑画刀"/>
+		<string key="17023_39" loc-id="17023_39" value="平滑分岔"/>
+		<string key="17023_40" loc-id="17023_40" value="平滑圆头尖"/>
+		<string key="17023_41" loc-id="17023_41" value="平滑粗鬃毛 12"/>
+		<string key="17023_42" loc-id="17023_42" value="平滑粗平头 12"/>
+		<string key="17023_43" loc-id="17023_43" value="平滑粗圆头 12"/>
+		<string key="17023_44" loc-id="17023_44" value="柔化色彩"/>
+		<string key="17023_45" loc-id="17023_45" value="柔化边缘和色彩"/>
+		<string key="17023_46" loc-id="17023_46" value="柔化边缘"/>
+		<string key="17023_47" loc-id="17023_47" value="稀鬃毛阻抗"/>
+		<string key="17023_48" loc-id="17023_48" value="稀鬃毛"/>
+		<string key="17023_49" loc-id="17023_49" value="稀驼毛阻抗"/>
+		<string key="17023_50" loc-id="17023_50" value="稀驼毛"/>
+		<string key="17023_51" loc-id="17023_51" value="稀平头阻抗"/>
+		<string key="17023_52" loc-id="17023_52" value="稀平头"/>
+		<string key="17023_53" loc-id="17023_53" value="锥形鬃毛 15"/>
+		<string key="17023_54" loc-id="17023_54" value="锥形粗鬃毛"/>
+		<string key="17023_55" loc-id="17023_55" value="粗鬃毛"/>
+		<string key="17023_56" loc-id="17023_56" value="快速喷枪"/>
+		<string key="17023_57" loc-id="17023_57" value="快速素描笔"/>
+	</category>
+	<category key="Str#" comment="Marbling Presets Resource Names">
+		<string key="17506_1" loc-id="17506_1" value="T2B 分岔"/>
+		<string key="17506_2" loc-id="17506_2" value="独特式分岔"/>
+		<string key="17506_3" loc-id="17506_3" value="水平花冠"/>
+		<string key="17506_4" loc-id="17506_4" value="垂直独特式分岔"/>
+		<string key="17506_5" loc-id="17506_5" value="水平胶化"/>
+		<string key="17506_6" loc-id="17506_6" value="垂直胶化"/>
+		<string key="17506_7" loc-id="17506_7" value="花束"/>
+		<string key="17506_8" loc-id="17506_8" value="垂直独特式"/>
+	</category>
+	<category key="Str#" comment="Markers Resource Names">
+		<string key="17038_1" loc-id="17038_1" value="方尖马克笔"/>
+		<string key="17038_2" loc-id="17038_2" value="干方尖马克笔"/>
+		<string key="17038_3" loc-id="17038_3" value="细尖马克笔"/>
+		<string key="17038_4" loc-id="17038_4" value="漏水马克笔"/>
+		<string key="17038_5" loc-id="17038_5" value="平头涂绘马克笔"/>
+		<string key="17038_6" loc-id="17038_6" value="尖头涂绘马克笔"/>
+		<string key="17038_7" loc-id="17038_7" value="圆尖马克笔"/>
+		<string key="17038_8" loc-id="17038_8" value="擦痕干笔尖马克笔"/>
+		<string key="17038_9" loc-id="17038_9" value="尖锐马克笔"/>
+		<string key="17038_10" loc-id="17038_10" value="变化方尖马克笔"/>
+	</category>
+	<category key="Str#" comment="Oil Pastels Resource Names">
+		<string key="17024_1" loc-id="17024_1" value="粗油画粉蜡笔 10"/>
+		<string key="17024_2" loc-id="17024_2" value="粗油画粉蜡笔 20"/>
+		<string key="17024_3" loc-id="17024_3" value="粗油画粉蜡笔 30"/>
+		<string key="17024_4" loc-id="17024_4" value="油画粉蜡笔 10"/>
+		<string key="17024_5" loc-id="17024_5" value="油画粉蜡笔 20"/>
+		<string key="17024_6" loc-id="17024_6" value="油画粉蜡笔 30"/>
+		<string key="17024_7" loc-id="17024_7" value="油画粉蜡笔"/>
+		<string key="17024_8" loc-id="17024_8" value="圆头油画粉蜡笔 10"/>
+		<string key="17024_9" loc-id="17024_9" value="圆头油画粉蜡笔 20"/>
+		<string key="17024_10" loc-id="17024_10" value="圆头油画粉蜡笔 30"/>
+		<string key="17024_11" loc-id="17024_11" value="轻柔油画粉蜡笔 10"/>
+		<string key="17024_12" loc-id="17024_12" value="轻柔油画粉蜡笔 15"/>
+		<string key="17024_13" loc-id="17024_13" value="轻柔油画粉蜡笔 20"/>
+		<string key="17024_14" loc-id="17024_14" value="变化油画粉蜡笔 10"/>
+		<string key="17024_15" loc-id="17024_15" value="变化油画粉蜡笔 20"/>
+		<string key="17024_16" loc-id="17024_16" value="变化油画粉蜡笔 30"/>
+		<string key="17024_17" loc-id="17024_17" value="变化油画粉蜡笔"/>
+		<string key="17024_18" loc-id="17024_18" value="仿真凝重粉蜡笔"/>
+		<string key="17024_19" loc-id="17024_19" value="仿真轻柔粉蜡笔"/>
+	</category>
+	<category key="Str#" comment="Oils Resource Names">
+		<string key="17025_1" loc-id="17025_1" value="鬃毛油画 20"/>
+		<string key="17025_2" loc-id="17025_2" value="鬃毛油画 30"/>
+		<string key="17025_3" loc-id="17025_3" value="细节油画笔刷 10"/>
+		<string key="17025_4" loc-id="17025_4" value="细节油画笔刷 15"/>
+		<string key="17025_5" loc-id="17025_5" value="细节油画笔刷 5"/>
+		<string key="17025_6" loc-id="17025_6" value="细驼毛 10"/>
+		<string key="17025_7" loc-id="17025_7" value="细驼毛 20"/>
+		<string key="17025_8" loc-id="17025_8" value="细驼毛 30"/>
+		<string key="17025_9" loc-id="17025_9" value="细致羽化油画 20"/>
+		<string key="17025_10" loc-id="17025_10" value="细致羽化油画 30"/>
+		<string key="17025_11" loc-id="17025_11" value="细致轻柔釉彩 20"/>
+		<string key="17025_12" loc-id="17025_12" value="细致轻柔釉彩 30"/>
+		<string key="17025_13" loc-id="17025_13" value="平头油画 10"/>
+		<string key="17025_14" loc-id="17025_14" value="平头油画 20"/>
+		<string key="17025_15" loc-id="17025_15" value="平头油画 30"/>
+		<string key="17025_16" loc-id="17025_16" value="平头油画 40"/>
+		<string key="17025_17" loc-id="17025_17" value="釉彩平头 20"/>
+		<string key="17025_18" loc-id="17025_18" value="釉彩平头 30"/>
+		<string key="17025_19" loc-id="17025_19" value="釉彩圆头 10"/>
+		<string key="17025_20" loc-id="17025_20" value="釉彩圆头 20"/>
+		<string key="17025_21" loc-id="17025_21" value="釉彩圆头 30"/>
+		<string key="17025_22" loc-id="17025_22" value="中号鬃毛油画 15"/>
+		<string key="17025_23" loc-id="17025_23" value="中号鬃毛油画 25"/>
+		<string key="17025_24" loc-id="17025_24" value="不透光鬃毛喷溅"/>
+		<string key="17025_25" loc-id="17025_25" value="不透光平头"/>
+		<string key="17025_26" loc-id="17025_26" value="不透光圆头"/>
+		<string key="17025_27" loc-id="17025_27" value="圆头驼毛"/>
+		<string key="17025_28" loc-id="17025_28" value="涂抹鬃毛喷溅"/>
+		<string key="17025_29" loc-id="17025_29" value="油性平头"/>
+		<string key="17025_30" loc-id="17025_30" value="涂抹圆头"/>
+		<string key="17025_31" loc-id="17025_31" value="锥形平头油画 15"/>
+		<string key="17025_32" loc-id="17025_32" value="锥形圆头油画 15"/>
+		<string key="17025_33" loc-id="17025_33" value="粗油画鬃毛 10"/>
+		<string key="17025_34" loc-id="17025_34" value="粗油画鬃毛 20"/>
+		<string key="17025_35" loc-id="17025_35" value="粗油画鬃毛 30"/>
+		<string key="17025_36" loc-id="17025_36" value="粗油画平头 10"/>
+		<string key="17025_37" loc-id="17025_37" value="粗油画平头 20"/>
+		<string key="17025_38" loc-id="17025_38" value="粗油画平头 30"/>
+		<string key="17025_39" loc-id="17025_39" value="粗湿驼毛 10"/>
+		<string key="17025_40" loc-id="17025_40" value="粗湿驼毛 20"/>
+		<string key="17025_41" loc-id="17025_41" value="粗湿驼毛 30"/>
+		<string key="17025_42" loc-id="17025_42" value="粗湿油画 10"/>
+		<string key="17025_43" loc-id="17025_43" value="粗湿油画 20"/>
+		<string key="17025_44" loc-id="17025_44" value="粗湿油画 30"/>
+		<string key="17025_45" loc-id="17025_45" value="变化平头"/>
+		<string key="17025_46" loc-id="17025_46" value="变化圆头"/>
+	</category>
+	<category key="Str#" comment="Painter Brushes Resource Names">
+		<string key="17701_1" loc-id="17701_1" value="亚克力笔"/>
+		<string key="17701_2" loc-id="17701_2" value="喷枪"/>
+		<string key="17701_3" loc-id="17701_3" value="艺术笔刷"/>
+		<string key="17701_4" loc-id="17701_4" value="艺术家"/>
+		<string key="17701_5" loc-id="17701_5" value="画家油画"/>
+		<string key="17701_6" loc-id="17701_6" value="混色笔"/>
+		<string key="17701_7" loc-id="17701_7" value="书法"/>
+		<string key="17701_8" loc-id="17701_8" value="粉彩笔"/>
+		<string key="17701_9" loc-id="17701_9" value="炭笔"/>
+		<string key="17701_10" loc-id="17701_10" value="仿制笔"/>
+		<string key="17701_11" loc-id="17701_11" value="彩色铅笔"/>
+		<string key="17701_12" loc-id="17701_12" value="康特笔"/>
+		<string key="17701_13" loc-id="17701_13" value="蜡笔"/>
+		<string key="17701_14" loc-id="17701_14" value="数位水彩"/>
+		<string key="17701_15" loc-id="17701_15" value="扭曲"/>
+		<string key="17701_16" loc-id="17701_16" value="橡皮擦"/>
+		<string key="17701_17" loc-id="17701_17" value="特效"/>
+		<string key="17701_18" loc-id="17701_18" value="毡制向量笔"/>
+		<string key="17701_19" loc-id="17701_19" value="胶彩"/>
+		<string key="17701_20" loc-id="17701_20" value="影像水管"/>
+		<string key="17701_21" loc-id="17701_21" value="厚涂颜料"/>
+		<string key="17701_22" loc-id="17701_22" value="油墨"/>
+		<string key="17701_23" loc-id="17701_23" value="油画粉蜡笔"/>
+		<string key="17701_24" loc-id="17701_24" value="油画"/>
+		<string key="17701_25" loc-id="17701_25" value="画刀"/>
+		<string key="17701_26" loc-id="17701_26" value="粉蜡笔"/>
+		<string key="17701_27" loc-id="17701_27" value="花纹画笔"/>
+		<string key="17701_28" loc-id="17701_28" value="铅笔"/>
+		<string key="17701_29" loc-id="17701_29" value="向量笔"/>
+		<string key="17701_30" loc-id="17701_30" value="照片"/>
+		<string key="17701_31" loc-id="17701_31" value="仿真鬃毛笔刷"/>
+		<string key="17701_32" loc-id="17701_32" value="灵巧笔触笔刷"/>
+		<string key="17701_33" loc-id="17701_33" value="海绵"/>
+		<string key="17701_34" loc-id="17701_34" value="苏美"/>
+		<string key="17701_35" loc-id="17701_35" value="染色"/>
+		<string key="17701_36" loc-id="17701_36" value="水彩"/>
+		<string key="17701_37" loc-id="17701_37" value="马克笔"/>
+	</category>
+	<category key="Str#" comment="Painter Color Set Resource Names">
+		<string key="17700_1" loc-id="17700_1" value="柠檬黄"/>
+		<string key="17700_2" loc-id="17700_2" value="柠檬色"/>
+		<string key="17700_3" loc-id="17700_3" value="柠檬镉黄"/>
+		<string key="17700_4" loc-id="17700_4" value="铋黄"/>
+		<string key="17700_5" loc-id="17700_5" value="透明黄"/>
+		<string key="17700_6" loc-id="17700_6" value="黄色"/>
+		<string key="17700_7" loc-id="17700_7" value="铬黄"/>
+		<string key="17700_8" loc-id="17700_8" value="浅镉黄"/>
+		<string key="17700_9" loc-id="17700_9" value="深印度黄"/>
+		<string key="17700_10" loc-id="17700_10" value="印度黄"/>
+		<string key="17700_11" loc-id="17700_11" value="镉黄"/>
+		<string key="17700_12" loc-id="17700_12" value="深黄"/>
+		<string key="17700_13" loc-id="17700_13" value="深镉黄"/>
+		<string key="17700_14" loc-id="17700_14" value="镉橙"/>
+		<string key="17700_15" loc-id="17700_15" value="橙色"/>
+		<string key="17700_16" loc-id="17700_16" value="肤色"/>
+		<string key="17700_17" loc-id="17700_17" value="镉猩红"/>
+		<string key="17700_18" loc-id="17700_18" value="深猩红"/>
+		<string key="17700_19" loc-id="17700_19" value="红"/>
+		<string key="17700_20" loc-id="17700_20" value="镉红"/>
+		<string key="17700_21" loc-id="17700_21" value="亮红"/>
+		<string key="17700_22" loc-id="17700_22" value="深红"/>
+		<string key="17700_23" loc-id="17700_23" value="深镉红"/>
+		<string key="17700_24" loc-id="17700_24" value="喹吖啶酮红"/>
+		<string key="17700_25" loc-id="17700_25" value="恒红"/>
+		<string key="17700_26" loc-id="17700_26" value="深玫瑰红"/>
+		<string key="17700_27" loc-id="17700_27" value="玫瑰茜红"/>
+		<string key="17700_28" loc-id="17700_28" value="深茜红"/>
+		<string key="17700_29" loc-id="17700_29" value="深恒茜红"/>
+		<string key="17700_30" loc-id="17700_30" value="洋红"/>
+		<string key="17700_31" loc-id="17700_31" value="钴紫"/>
+		<string key="17700_32" loc-id="17700_32" value="淡紫"/>
+		<string key="17700_33" loc-id="17700_33" value="紫色"/>
+		<string key="17700_34" loc-id="17700_34" value="群青紫"/>
+		<string key="17700_35" loc-id="17700_35" value="淡紫蓝"/>
+		<string key="17700_36" loc-id="17700_36" value="恒洋红"/>
+		<string key="17700_37" loc-id="17700_37" value="洋红"/>
+		<string key="17700_38" loc-id="17700_38" value="喹吖啶酮洋红"/>
+		<string key="17700_39" loc-id="17700_39" value="深紫红"/>
+		<string key="17700_40" loc-id="17700_40" value="紫茜红"/>
+		<string key="17700_41" loc-id="17700_41" value="锰蓝"/>
+		<string key="17700_42" loc-id="17700_42" value="天蓝"/>
+		<string key="17700_43" loc-id="17700_43" value="钴蓝"/>
+		<string key="17700_44" loc-id="17700_44" value="深钴蓝"/>
+		<string key="17700_45" loc-id="17700_45" value="蓝绿"/>
+		<string key="17700_46" loc-id="17700_46" value="红蓝"/>
+		<string key="17700_47" loc-id="17700_47" value="群青"/>
+		<string key="17700_48" loc-id="17700_48" value="法国群青"/>
+		<string key="17700_49" loc-id="17700_49" value="阴丹士林蓝"/>
+		<string key="17700_50" loc-id="17700_50" value="普鲁士蓝"/>
+		<string key="17700_51" loc-id="17700_51" value="靛蓝"/>
+		<string key="17700_52" loc-id="17700_52" value="酞菁蓝"/>
+		<string key="17700_53" loc-id="17700_53" value="钴蓝绿"/>
+		<string key="17700_54" loc-id="17700_54" value="浅钴蓝绿"/>
+		<string key="17700_55" loc-id="17700_55" value="钴绿"/>
+		<string key="17700_56" loc-id="17700_56" value="浅镉绿"/>
+		<string key="17700_57" loc-id="17700_57" value="祖母绿"/>
+		<string key="17700_58" loc-id="17700_58" value="浅恒绿"/>
+		<string key="17700_59" loc-id="17700_59" value="恒绿"/>
+		<string key="17700_60" loc-id="17700_60" value="深恒绿"/>
+		<string key="17700_61" loc-id="17700_61" value="土绿"/>
+		<string key="17700_62" loc-id="17700_62" value="氧化铬绿"/>
+		<string key="17700_63" loc-id="17700_63" value="深铬绿"/>
+		<string key="17700_64" loc-id="17700_64" value="亚铬酸钴绿"/>
+		<string key="17700_65" loc-id="17700_65" value="深绿"/>
+		<string key="17700_66" loc-id="17700_66" value="黄绿"/>
+		<string key="17700_67" loc-id="17700_67" value="绿"/>
+		<string key="17700_68" loc-id="17700_68" value="普鲁士绿"/>
+		<string key="17700_69" loc-id="17700_69" value="草绿"/>
+		<string key="17700_70" loc-id="17700_70" value="橄榄绿"/>
+		<string key="17700_71" loc-id="17700_71" value="金绿"/>
+		<string key="17700_72" loc-id="17700_72" value="亮黄"/>
+		<string key="17700_73" loc-id="17700_73" value="浅那布勒斯黄"/>
+		<string key="17700_74" loc-id="17700_74" value="那布勒斯黄"/>
+		<string key="17700_75" loc-id="17700_75" value="深那布勒斯黄"/>
+		<string key="17700_76" loc-id="17700_76" value="浅黄赭"/>
+		<string key="17700_77" loc-id="17700_77" value="浅黄赭"/>
+		<string key="17700_78" loc-id="17700_78" value="深金赭"/>
+		<string key="17700_79" loc-id="17700_79" value="黄赭"/>
+		<string key="17700_80" loc-id="17700_80" value="生赭"/>
+		<string key="17700_81" loc-id="17700_81" value="金赭"/>
+		<string key="17700_82" loc-id="17700_82" value="赭红"/>
+		<string key="17700_83" loc-id="17700_83" value="氧化棕"/>
+		<string key="17700_84" loc-id="17700_84" value="褐紫红"/>
+		<string key="17700_85" loc-id="17700_85" value="棕赭"/>
+		<string key="17700_86" loc-id="17700_86" value="红赭"/>
+		<string key="17700_87" loc-id="17700_87" value="土玫瑰红"/>
+		<string key="17700_88" loc-id="17700_88" value="浅红"/>
+		<string key="17700_89" loc-id="17700_89" value="威尼斯红"/>
+		<string key="17700_90" loc-id="17700_90" value="印度红"/>
+		<string key="17700_91" loc-id="17700_91" value="深马尔斯紫"/>
+		<string key="17700_92" loc-id="17700_92" value="棕茜红"/>
+		<string key="17700_93" loc-id="17700_93" value="深褐"/>
+		<string key="17700_94" loc-id="17700_94" value="范戴克棕"/>
+		<string key="17700_95" loc-id="17700_95" value="浅生褐"/>
+		<string key="17700_96" loc-id="17700_96" value="生褐绿"/>
+		<string key="17700_97" loc-id="17700_97" value="生褐"/>
+		<string key="17700_98" loc-id="17700_98" value="戴维斯灰"/>
+		<string key="17700_99" loc-id="17700_99" value="炭灰"/>
+		<string key="17700_100" loc-id="17700_100" value="潘尼灰"/>
+		<string key="17700_101" loc-id="17700_101" value="蓝黑"/>
+		<string key="17700_102" loc-id="17700_102" value="马尔斯黑"/>
+		<string key="17700_103" loc-id="17700_103" value="象牙黑"/>
+		<string key="17700_104" loc-id="17700_104" value="煤烟黑"/>
+		<string key="17700_105" loc-id="17700_105" value="黑色"/>
+		<string key="17700_106" loc-id="17700_106" value="二萘嵌苯黑"/>
+		<string key="17700_107" loc-id="17700_107" value="金色"/>
+		<string key="17700_108" loc-id="17700_108" value="文艺复兴金"/>
+		<string key="17700_109" loc-id="17700_109" value="红铜"/>
+		<string key="17700_110" loc-id="17700_110" value="青铜色"/>
+		<string key="17700_111" loc-id="17700_111" value="白镴色"/>
+		<string key="17700_112" loc-id="17700_112" value="银色"/>
+		<string key="17700_113" loc-id="17700_113" value="钛白"/>
+	</category>
+	<category key="Str#" comment="Painter Nozzles Resource Names">
+		<string key="17000_1" loc-id="17000_1" value="桂叶"/>
+		<string key="17000_2" loc-id="17000_2" value="西番莲花"/>
+		<string key="17000_3" loc-id="17000_3" value="西番莲花蕾"/>
+		<string key="17000_4" loc-id="17000_4" value="西番莲叶片"/>
+		<string key="17000_5" loc-id="17000_5" value="城市设备"/>
+		<string key="17000_6" loc-id="17000_6" value="石墙"/>
+		<string key="17000_7" loc-id="17000_7" value="小屋"/>
+		<string key="17000_8" loc-id="17000_8" value="飞行伞"/>
+		<string key="17000_9" loc-id="17000_9" value="绿草束"/>
+		<string key="17000_10" loc-id="17000_10" value="豕草"/>
+		<string key="17000_11" loc-id="17000_11" value="芙蓉红"/>
+		<string key="17000_12" loc-id="17000_12" value="粉蝶花"/>
+		<string key="17000_13" loc-id="17000_13" value="灰泥"/>
+		<string key="17000_14" loc-id="17000_14" value="棕榈树"/>
+		<string key="17000_15" loc-id="17000_15" value="栀子"/>
+		<string key="17000_16" loc-id="17000_16" value="燕子"/>
+		<string key="17000_17" loc-id="17000_17" value="加拿大鹅"/>
+		<string key="17000_101" loc-id="17000_101" value="砂砾"/>
+		<string key="17000_102" loc-id="17000_102" value="碎片"/>
+		<string key="17000_103" loc-id="17000_103" value="玻璃卵石"/>
+		<string key="17000_104" loc-id="17000_104" value="石块"/>
+		<string key="17000_105" loc-id="17000_105" value="万花筒 1"/>
+		<string key="17000_106" loc-id="17000_106" value="万花筒 2"/>
+		<string key="17000_107" loc-id="17000_107" value="泥土"/>
+		<string key="17000_108" loc-id="17000_108" value="混凝土"/>
+		<string key="17000_109" loc-id="17000_109" value="锈斑"/>
+		<string key="17000_110" loc-id="17000_110" value="立方体"/>
+		<string key="17000_111" loc-id="17000_111" value="轮子"/>
+		<string key="17000_112" loc-id="17000_112" value="蜡烛"/>
+		<string key="17000_113" loc-id="17000_113" value="色彩鲜艳的花朵"/>
+		<string key="17000_114" loc-id="17000_114" value="皮肤与胡渣"/>
+		<string key="17000_115" loc-id="17000_115" value="皮肤与雀斑"/>
+		<string key="17000_116" loc-id="17000_116" value="花瓣"/>
+	</category>
+	<category key="Str#" comment="Painter Papers Resource Names">
+		<string key="17500_1" loc-id="17500_1" value="基本纸"/>
+		<string key="17500_2" loc-id="17500_2" value="小网点纸"/>
+		<string key="17500_3" loc-id="17500_3" value="画家粗糙纸"/>
+		<string key="17500_4" loc-id="17500_4" value="沙质粉蜡笔纸"/>
+		<string key="17500_5" loc-id="17500_5" value="粗炭纸"/>
+		<string key="17500_6" loc-id="17500_6" value="织物纹路纸"/>
+		<string key="17500_7" loc-id="17500_7" value="硬质直纹纸"/>
+		<string key="17500_8" loc-id="17500_8" value="石膏画布"/>
+		<string key="17500_9" loc-id="17500_9" value="细致点纸"/>
+		<string key="17500_10" loc-id="17500_10" value="新条纹纸"/>
+		<string key="17500_11" loc-id="17500_11" value="木屑纸"/>
+		<string key="17500_12" loc-id="17500_12" value="画家画布"/>
+		<string key="17500_13" loc-id="17500_13" value="炭纸"/>
+		<string key="17500_14" loc-id="17500_14" value="仿真木屑纸"/>
+		<string key="17500_15" loc-id="17500_15" value="粗纹手工纸"/>
+		<string key="17500_16" loc-id="17500_16" value="粗糙棉质画布"/>
+		<string key="17500_17" loc-id="17500_17" value="细致硬质纹路纸"/>
+		<string key="17500_18" loc-id="17500_18" value="磨损路面纸"/>
+		<string key="17500_19" loc-id="17500_19" value="义大利水彩纸"/>
+		<string key="17500_20" loc-id="17500_20" value="亚麻画布"/>
+		<string key="17500_21" loc-id="17500_21" value="卵石板纸"/>
+		<string key="17500_22" loc-id="17500_22" value="热压纸"/>
+		<string key="17500_23" loc-id="17500_23" value="法国水彩纸"/>
+		<string key="17500_24" loc-id="17500_24" value="大理石基板"/>
+		<string key="17500_25" loc-id="17500_25" value="角状纸张"/>
+		<string key="17500_101" loc-id="17500_101" value="冷压水彩"/>
+		<string key="17500_102" loc-id="17500_102" value="手工水彩"/>
+		<string key="17500_103" loc-id="17500_103" value="粗糙水彩"/>
+		<string key="17500_104" loc-id="17500_104" value="软压水彩"/>
+		<string key="17500_105" loc-id="17500_105" value="羽化领地"/>
+		<string key="17500_106" loc-id="17500_106" value="窗霜"/>
+		<string key="17500_107" loc-id="17500_107" value="狂乱"/>
+		<string key="17500_108" loc-id="17500_108" value="水平混乱"/>
+		<string key="17500_109" loc-id="17500_109" value="粗糙水彩纸"/>
+		<string key="17500_110" loc-id="17500_110" value="手工直纹纸"/>
+		<string key="17500_200" loc-id="17500_200" value="巨型外凸"/>
+		<string key="17500_201" loc-id="17500_201" value="粗擦痕素描"/>
+		<string key="17500_202" loc-id="17500_202" value="肋条状花瓣"/>
+		<string key="17500_203" loc-id="17500_203" value="画布"/>
+		<string key="17500_204" loc-id="17500_204" value="长串白米"/>
+		<string key="17500_205" loc-id="17500_205" value="精巧的迷宫"/>
+		<string key="17500_206" loc-id="17500_206" value="拐杖"/>
+		<string key="17500_207" loc-id="17500_207" value="复杂描绘"/>
+		<string key="17500_208" loc-id="17500_208" value="金属气泡"/>
+		<string key="17500_209" loc-id="17500_209" value="细微的裂缝"/>
+		<string key="17500_210" loc-id="17500_210" value="光滑的"/>
+		<string key="17500_211" loc-id="17500_211" value="高反差随机裂缝"/>
+		<string key="17500_212" loc-id="17500_212" value="变异的皱折"/>
+		<string key="17500_213" loc-id="17500_213" value="大型画布"/>
+		<string key="17500_214" loc-id="17500_214" value="河流中的岩石"/>
+		<string key="17500_215" loc-id="17500_215" value="三方格布"/>
+		<string key="17500_216" loc-id="17500_216" value="蚀刻"/>
+		<string key="17500_217" loc-id="17500_217" value="同心的"/>
+		<string key="17500_218" loc-id="17500_218" value="提篮编织"/>
+		<string key="17500_219" loc-id="17500_219" value="缓和"/>
+		<string key="17500_220" loc-id="17500_220" value="标准画家画布"/>
+		<string key="17500_221" loc-id="17500_221" value="粗纹手工纸"/>
+		<string key="17500_222" loc-id="17500_222" value="冷压水彩"/>
+		<string key="17500_223" loc-id="17500_223" value="义大利水彩画"/>
+		<string key="17500_224" loc-id="17500_224" value="棉质旧画布"/>
+		<string key="17500_225" loc-id="17500_225" value="粗硬纸板"/>
+		<string key="17500_226" loc-id="17500_226" value="混凝土"/>
+		<string key="17500_227" loc-id="17500_227" value="块状直纹纸"/>
+		<string key="17500_228" loc-id="17500_228" value="材质化网点"/>
+		<string key="17500_229" loc-id="17500_229" value="粗砂纸"/>
+	</category>
+	<category key="Str#" comment="Painter Patterns Resource Names">
+		<string key="17001_1" loc-id="17001_1" value="子母石莲花"/>
+		<string key="17001_2" loc-id="17001_2" value="植物纹路"/>
+		<string key="17001_3" loc-id="17001_3" value="丛林藤蔓"/>
+		<string key="17001_4" loc-id="17001_4" value="银杏填充装饰"/>
+		<string key="17001_5" loc-id="17001_5" value="银杏笔绘装饰"/>
+		<string key="17001_6" loc-id="17001_6" value="细小绿色藤蔓"/>
+		<string key="17001_7" loc-id="17001_7" value="树枝"/>
+		<string key="17001_8" loc-id="17001_8" value="树干围栏"/>
+		<string key="17001_9" loc-id="17001_9" value="银色管状围栏"/>
+		<string key="17001_10" loc-id="17001_10" value="湖泊鸭子"/>
+		<string key="17001_11" loc-id="17001_11" value="砂砾"/>
+		<string key="17001_12" loc-id="17001_12" value="莲花花瓣"/>
+		<string key="17001_13" loc-id="17001_13" value="窗霜"/>
+		<string key="17001_14" loc-id="17001_14" value="图形鬃毛"/>
+		<string key="17001_15" loc-id="17001_15" value="羽化领地"/>
+		<string key="17001_16" loc-id="17001_16" value="蕾丝缎带"/>
+		<string key="17001_17" loc-id="17001_17" value="拉开的钢丝绒"/>
+		<string key="17001_18" loc-id="17001_18" value="狂乱"/>
+		<string key="17001_19" loc-id="17001_19" value="缆线"/>
+		<string key="17001_20" loc-id="17001_20" value="闪耀的缆线"/>
+		<string key="17001_21" loc-id="17001_21" value="法式双重接缝"/>
+		<string key="17001_22" loc-id="17001_22" value="拉链"/>
+		<string key="17001_23" loc-id="17001_23" value="蓝色纱线束"/>
+		<string key="17001_24" loc-id="17001_24" value="多刺玫瑰藤"/>
+		<string key="17001_25" loc-id="17001_25" value="链条"/>
+		<string key="17001_26" loc-id="17001_26" value="蜂巢"/>
+		<string key="17001_27" loc-id="17001_27" value="花瓣"/>
+		<string key="17001_28" loc-id="17001_28" value="钢琴键"/>
+		<string key="17001_29" loc-id="17001_29" value="树皮"/>
+		<string key="17001_30" loc-id="17001_30" value="砖块"/>
+		<string key="17001_31" loc-id="17001_31" value="皮革"/>
+		<string key="17001_32" loc-id="17001_32" value="草地"/>
+		<string key="17001_33" loc-id="17001_33" value="音乐"/>
+		<string key="17001_34" loc-id="17001_34" value="危险"/>
+		<string key="17001_35" loc-id="17001_35" value="火"/>
+		<string key="17001_36" loc-id="17001_36" value="苔藓"/>
+		<string key="17001_37" loc-id="17001_37" value="损坏的墙"/>
+		<string key="17001_38" loc-id="17001_38" value="路径"/>
+	</category>
+	<category key="Str#" comment="Painter Portfolio Resource Names">
+		<string key="17601_1" loc-id="17601_1" value="西红柿片"/>
+		<string key="17601_2" loc-id="17601_2" value="海贝"/>
+		<string key="17601_3" loc-id="17601_3" value="吉他"/>
+		<string key="17601_4" loc-id="17601_4" value="大理石"/>
+		<string key="17601_5" loc-id="17601_5" value="伪装"/>
+		<string key="17601_6" loc-id="17601_6" value="叶片"/>
+		<string key="17601_7" loc-id="17601_7" value="钳子"/>
+		<string key="17601_8" loc-id="17601_8" value="环形物"/>
+		<string key="17601_9" loc-id="17601_9" value="铁锤"/>
+		<string key="17601_10" loc-id="17601_10" value="南瓜"/>
+		<string key="17601_11" loc-id="17601_11" value="海钱"/>
+		<string key="17601_12" loc-id="17601_12" value="草莓"/>
+		<string key="17601_13" loc-id="17601_13" value="扳手"/>
+		<string key="17601_14" loc-id="17601_14" value="老虎钳"/>
+		<string key="17601_15" loc-id="17601_15" value="棒棒糖"/>
+		<string key="17601_16" loc-id="17601_16" value="栏"/>
+		<string key="17601_17" loc-id="17601_17" value="千斤顶"/>
+		<string key="17601_18" loc-id="17601_18" value="圈状物"/>
+		<string key="17601_19" loc-id="17601_19" value="猜谜"/>
+		<string key="17601_20" loc-id="17601_20" value="笔刷"/>
+		<string key="17601_21" loc-id="17601_21" value="滚轮"/>
+		<string key="17601_22" loc-id="17601_22" value="钢琴"/>
+		<string key="17601_23" loc-id="17601_23" value="滑车"/>
+		<string key="17601_24" loc-id="17601_24" value="蜡烛"/>
+	</category>
+	<category key="Str#" comment="Painter Scripts Resource Names">
+		<string key="17702_1" loc-id="17702_1" value="Tim Warnock 1"/>
+		<string key="17702_2" loc-id="17702_2" value="Greg Smith 1"/>
+		<string key="17702_3" loc-id="17702_3" value="Greg Smith 2"/>
+		<string key="17702_4" loc-id="17702_4" value="Don Seegmiller 1"/>
+		<string key="17702_5" loc-id="17702_5" value="Don Seegmiller 2"/>
+		<string key="17702_6" loc-id="17702_6" value="Don Seegmiller 3"/>
+	</category>
+	<category key="Str#" comment="Painter Selections Resource Names">
+		<string key="17600_1" loc-id="17600_1" value="球形"/>
+		<string key="17600_2" loc-id="17600_2" value="经典箭头"/>
+		<string key="17600_3" loc-id="17600_3" value="不规则箭头"/>
+		<string key="17600_4" loc-id="17600_4" value="士官"/>
+		<string key="17600_5" loc-id="17600_5" value="心形"/>
+		<string key="17600_6" loc-id="17600_6" value="楔形"/>
+		<string key="17600_7" loc-id="17600_7" value="想法泡泡"/>
+		<string key="17600_8" loc-id="17600_8" value="弯曲箭头"/>
+		<string key="17600_9" loc-id="17600_9" value="螺旋"/>
+		<string key="17600_10" loc-id="17600_10" value="三曲线"/>
+		<string key="17600_11" loc-id="17600_11" value="老式钥匙"/>
+		<string key="17600_12" loc-id="17600_12" value="星形"/>
+		<string key="17600_13" loc-id="17600_13" value="曲线"/>
+		<string key="17600_14" loc-id="17600_14" value="起泡木板"/>
+		<string key="17600_15" loc-id="17600_15" value="倒三角形"/>
+		<string key="17600_16" loc-id="17600_16" value="圆角正方形"/>
+		<string key="17600_17" loc-id="17600_17" value="中心"/>
+		<string key="17600_18" loc-id="17600_18" value="雏菊贴纸"/>
+		<string key="17600_19" loc-id="17600_19" value="圆形"/>
+		<string key="17600_20" loc-id="17600_20" value="螺钉"/>
+	</category>
+	<category key="Str#" comment="Palette Knives Resource Names">
+		<string key="17026_1" loc-id="17026_1" value="刷式画刀"/>
+		<string key="17026_2" loc-id="17026_2" value="霓虹调色刀 30"/>
+		<string key="17026_3" loc-id="17026_3" value="调色刀"/>
+		<string key="17026_4" loc-id="17026_4" value="尖锐三刃画刀 3"/>
+		<string key="17026_5" loc-id="17026_5" value="涂抹调色刀 10"/>
+		<string key="17026_6" loc-id="17026_6" value="涂抹调色刀 20"/>
+		<string key="17026_7" loc-id="17026_7" value="涂抹调色刀 30"/>
+		<string key="17026_8" loc-id="17026_8" value="涂抹调色刀 40"/>
+		<string key="17026_9" loc-id="17026_9" value="精细调色刀 10"/>
+		<string key="17026_10" loc-id="17026_10" value="精细调色刀 20"/>
+		<string key="17026_11" loc-id="17026_11" value="精细调色刀 30"/>
+		<string key="17026_12" loc-id="17026_12" value="精细调色刀 40"/>
+		<string key="17026_13" loc-id="17026_13" value="精细调色刀 50"/>
+		<string key="17026_14" loc-id="17026_14" value="小调色刀 5"/>
+		<string key="17026_15" loc-id="17026_15" value="小涂抹画刀 5"/>
+		<string key="17026_16" loc-id="17026_16" value="小精细画刀 5"/>
+	</category>
+	<category key="Str#" comment="Pastels Resource Names">
+		<string key="17027_1" loc-id="17027_1" value="画家粉蜡笔"/>
+		<string key="17027_2" loc-id="17027_2" value="平头凝重粉蜡笔 40"/>
+		<string key="17027_3" loc-id="17027_3" value="平头轻柔粉蜡笔 40"/>
+		<string key="17027_4" loc-id="17027_4" value="钝头粉蜡笔铅笔 3"/>
+		<string key="17027_5" loc-id="17027_5" value="粉蜡笔铅笔 3"/>
+		<string key="17027_6" loc-id="17027_6" value="圆头凝重粉蜡笔 10"/>
+		<string key="17027_7" loc-id="17027_7" value="圆头凝重粉蜡笔 25"/>
+		<string key="17027_8" loc-id="17027_8" value="圆头凝重粉蜡笔 40"/>
+		<string key="17027_9" loc-id="17027_9" value="圆头轻柔粉蜡笔 10"/>
+		<string key="17027_10" loc-id="17027_10" value="圆头轻柔粉蜡笔 25"/>
+		<string key="17027_11" loc-id="17027_11" value="圆头轻柔粉蜡笔 40"/>
+		<string key="17027_12" loc-id="17027_12" value="圆头 X 轻柔粉蜡笔 10"/>
+		<string key="17027_13" loc-id="17027_13" value="圆头 X 轻柔粉蜡笔 20"/>
+		<string key="17027_14" loc-id="17027_14" value="圆头 X 轻柔粉蜡笔 30"/>
+		<string key="17027_15" loc-id="17027_15" value="尖锐粉蜡笔铅笔 3"/>
+		<string key="17027_16" loc-id="17027_16" value="轻柔粉蜡笔铅笔 3"/>
+		<string key="17027_17" loc-id="17027_17" value="软粉蜡笔"/>
+		<string key="17027_18" loc-id="17027_18" value="方形凝重粉蜡笔 10"/>
+		<string key="17027_19" loc-id="17027_19" value="方形凝重粉蜡笔 25"/>
+		<string key="17027_20" loc-id="17027_20" value="方形凝重粉蜡笔 40"/>
+		<string key="17027_21" loc-id="17027_21" value="方形轻柔粉蜡笔 10"/>
+		<string key="17027_22" loc-id="17027_22" value="方形轻柔粉蜡笔 20"/>
+		<string key="17027_23" loc-id="17027_23" value="方形轻柔粉蜡笔 30"/>
+		<string key="17027_24" loc-id="17027_24" value="方形 X 轻柔粉蜡笔 10"/>
+		<string key="17027_25" loc-id="17027_25" value="方形 X 轻柔粉蜡笔 20"/>
+		<string key="17027_26" loc-id="17027_26" value="方形 X 轻柔粉蜡笔 30"/>
+		<string key="17027_27" loc-id="17027_27" value="锥形粉蜡笔 10"/>
+		<string key="17027_28" loc-id="17027_28" value="锥形粉蜡笔 20"/>
+		<string key="17027_29" loc-id="17027_29" value="锥形粉蜡笔 30"/>
+		<string key="17027_30" loc-id="17027_30" value="仿真凝重粉蜡笔"/>
+		<string key="17027_31" loc-id="17027_31" value="仿真轻柔粉蜡笔"/>
+	</category>
+	<category key="Str#" comment="Pattern Pens Resource Names">
+		<string key="17028_1" loc-id="17028_1" value="花纹粉彩笔"/>
+		<string key="17028_2" loc-id="17028_2" value="渐层色彩花纹马克笔"/>
+		<string key="17028_3" loc-id="17028_3" value="花纹马克笔"/>
+		<string key="17028_4" loc-id="17028_4" value="屏蔽花纹画笔"/>
+		<string key="17028_5" loc-id="17028_5" value="小花纹笔"/>
+		<string key="17028_6" loc-id="17028_6" value="柔边花纹画笔"/>
+		<string key="17028_7" loc-id="17028_7" value="透明花纹笔"/>
+		<string key="17028_8" loc-id="17028_8" value="花纹画笔"/>
+	</category>
+	<category key="Str#" comment="Pencils Resource Names">
+		<string key="17029_1" loc-id="17029_1" value="2B 铅笔"/>
+		<string key="17029_2" loc-id="17029_2" value="覆盖铅笔"/>
+		<string key="17029_3" loc-id="17029_3" value="扁形铅笔"/>
+		<string key="17029_4" loc-id="17029_4" value="纹路表面铅笔 2"/>
+		<string key="17029_5" loc-id="17029_5" value="纹路表面铅笔 3"/>
+		<string key="17029_6" loc-id="17029_6" value="纹路表面铅笔 5"/>
+		<string key="17029_7" loc-id="17029_7" value="纹路铅笔 3"/>
+		<string key="17029_8" loc-id="17029_8" value="纹路铅笔 5"/>
+		<string key="17029_9" loc-id="17029_9" value="纹路变数铅笔"/>
+		<string key="17029_10" loc-id="17029_10" value="油滑铅笔 3"/>
+		<string key="17029_11" loc-id="17029_11" value="油滑铅笔 5"/>
+		<string key="17029_12" loc-id="17029_12" value="油滑铅笔 8"/>
+		<string key="17029_13" loc-id="17029_13" value="自动铅笔 1.5"/>
+		<string key="17029_14" loc-id="17029_14" value="自动铅笔 1"/>
+		<string key="17029_15" loc-id="17029_15" value="自动铅笔 2"/>
+		<string key="17029_16" loc-id="17029_16" value="油性变化铅笔"/>
+		<string key="17029_17" loc-id="17029_17" value="尖锐铅笔"/>
+		<string key="17029_18" loc-id="17029_18" value="素描铅笔 3"/>
+		<string key="17029_19" loc-id="17029_19" value="素描铅笔 5"/>
+		<string key="17029_20" loc-id="17029_20" value="可塑铅笔"/>
+		<string key="17029_21" loc-id="17029_21" value="仿真 2B 铅笔"/>
+		<string key="17029_22" loc-id="17029_22" value="仿真 2H 制图铅笔"/>
+		<string key="17029_23" loc-id="17029_23" value="仿真 4H 凝重铅笔"/>
+		<string key="17029_24" loc-id="17029_24" value="仿真 6B 轻柔铅笔"/>
+	</category>
+	<category key="Str#" comment="Pens Resource Names">
+		<string key="17030_1" loc-id="17030_1" value="1 种像素"/>
+		<string key="17030_2" loc-id="17030_2" value="原子笔 1.5"/>
+		<string key="17030_3" loc-id="17030_3" value="竹笔 10"/>
+		<string key="17030_4" loc-id="17030_4" value="竹笔 20"/>
+		<string key="17030_5" loc-id="17030_5" value="带刺铁线笔 7"/>
+		<string key="17030_6" loc-id="17030_6" value="三线并排笔 3"/>
+		<string key="17030_7" loc-id="17030_7" value="速写向量笔 3"/>
+		<string key="17030_8" loc-id="17030_8" value="速写向量笔 5"/>
+		<string key="17030_9" loc-id="17030_9" value="细点"/>
+		<string key="17030_10" loc-id="17030_10" value="平头色彩"/>
+		<string key="17030_11" loc-id="17030_11" value="渐层向量笔"/>
+		<string key="17030_12" loc-id="17030_12" value="渐层重复向量笔"/>
+		<string key="17030_13" loc-id="17030_13" value="漏水笔"/>
+		<string key="17030_14" loc-id="17030_14" value="纤维笔"/>
+		<string key="17030_15" loc-id="17030_15" value="芦苇笔 10"/>
+		<string key="17030_16" loc-id="17030_16" value="芦苇笔  15"/>
+		<string key="17030_17" loc-id="17030_17" value="芦苇笔  7"/>
+		<string key="17030_18" loc-id="17030_18" value="圆头尖笔 10"/>
+		<string key="17030_19" loc-id="17030_19" value="圆头尖笔 20"/>
+		<string key="17030_20" loc-id="17030_20" value="耙笔"/>
+		<string key="17030_21" loc-id="17030_21" value="涂鸦笔"/>
+		<string key="17030_22" loc-id="17030_22" value="平滑墨水笔"/>
+		<string key="17030_23" loc-id="17030_23" value="平滑圆头笔 1.5"/>
+		<string key="17030_24" loc-id="17030_24" value="平滑圆头笔 3"/>
+		<string key="17030_25" loc-id="17030_25" value="平滑圆头笔 5"/>
+		<string key="17030_26" loc-id="17030_26" value="可塑向量笔 3"/>
+		<string key="17030_27" loc-id="17030_27" value="可塑向量笔 5"/>
+		<string key="17030_28" loc-id="17030_28" value="仿真滴水向量笔"/>
+		<string key="17030_29" loc-id="17030_29" value="仿真细点向量笔"/>
+		<string key="17030_30" loc-id="17030_30" value="仿真变化宽度向量笔"/>
+	</category>
+	<category key="Str#" comment="Perspective Grid Presets Resource Names">
+		<string key="17507_1" loc-id="17507_1" value="预设 1"/>
+		<string key="17507_2" loc-id="17507_2" value="预设 2"/>
+		<string key="17507_3" loc-id="17507_3" value="预设 3"/>
+	</category>
+	<category key="Str#" comment="Photo Resource Names">
+		<string key="17031_1" loc-id="17031_1" value="加入纹路"/>
+		<string key="17031_2" loc-id="17031_2" value="模糊"/>
+		<string key="17031_3" loc-id="17031_3" value="暗化"/>
+		<string key="17031_4" loc-id="17031_4" value="彩化"/>
+		<string key="17031_5" loc-id="17031_5" value="晕染模糊"/>
+		<string key="17031_6" loc-id="17031_6" value="亮化"/>
+		<string key="17031_7" loc-id="17031_7" value="细致晕染 30"/>
+		<string key="17031_8" loc-id="17031_8" value="加入彩度"/>
+		<string key="17031_9" loc-id="17031_9" value="擦痕移除"/>
+		<string key="17031_10" loc-id="17031_10" value="锐利化"/>
+	</category>
+	<category key="Str#" comment="Real Bristle Brushes Resource Names">
+		<string key="17032_1" loc-id="17032_1" value="平头仿真渐变笔"/>
+		<string key="17032_2" loc-id="17032_2" value="圆头仿真渐变笔"/>
+		<string key="17032_3" loc-id="17032_3" value="锥形仿真渐变笔"/>
+		<string key="17032_4" loc-id="17032_4" value="短仿真扇形"/>
+		<string key="17032_5" loc-id="17032_5" value="轻柔仿真扇形"/>
+		<string key="17032_6" loc-id="17032_6" value="不透光仿真平头"/>
+		<string key="17032_7" loc-id="17032_7" value="平头仿真"/>
+		<string key="17032_8" loc-id="17032_8" value="短仿真油画"/>
+		<string key="17032_9" loc-id="17032_9" value="涂抹仿真油画"/>
+		<string key="17032_10" loc-id="17032_10" value="柔湿仿真油画"/>
+		<string key="17032_11" loc-id="17032_11" value="仿真圆头鬃毛"/>
+		<string key="17032_12" loc-id="17032_12" value="圆头仿真"/>
+		<string key="17032_13" loc-id="17032_13" value="仿真锥形鬃毛"/>
+		<string key="17032_14" loc-id="17032_14" value="平头仿真锥形"/>
+		<string key="17032_15" loc-id="17032_15" value="圆头仿真锥形"/>
+		<string key="17032_16" loc-id="17032_16" value="仿真锥形湿平头"/>
+	</category>
+	<category key="Str#" comment="Sketch Effect Presets Resource Names">
+	</category>
+	<category key="Str#" comment="Smart Stroke Brushes Resource Names">
+		<string key="17033_1" loc-id="17033_1" value="亚克力拾取鬃毛"/>
+		<string key="17033_2" loc-id="17033_2" value="亚克力干笔刷"/>
+		<string key="17033_3" loc-id="17033_3" value="轻柔粉彩笔"/>
+		<string key="17033_4" loc-id="17033_4" value="材质粉彩笔"/>
+		<string key="17033_5" loc-id="17033_5" value="炭笔"/>
+		<string key="17033_6" loc-id="17033_6" value="彩色铅笔"/>
+		<string key="17033_7" loc-id="17033_7" value="胶彩粗平头"/>
+		<string key="17033_8" loc-id="17033_8" value="胶彩粗圆头"/>
+		<string key="17033_9" loc-id="17033_9" value="粉蜡笔粉彩笔"/>
+		<string key="17033_10" loc-id="17033_10" value="锥形粉蜡笔"/>
+		<string key="17033_11" loc-id="17033_11" value="密海绵"/>
+		<string key="17033_12" loc-id="17033_12" value="轻柔海绵"/>
+		<string key="17033_13" loc-id="17033_13" value="水彩宽笔刷"/>
+		<string key="17033_14" loc-id="17033_14" value="水彩流动"/>
+		<string key="17033_15" loc-id="17033_15" value="水彩喷洒水笔"/>
+		<string key="17033_16" loc-id="17033_16" value="水彩轻柔晕染笔刷"/>
+	</category>
+	<category key="Str#" comment="Smart Strokes Styles Resource Names">
+		<string key="17703_1" loc-id="17703_1" value="预设值"/>
+	</category>
+	<category key="Str#" comment="Sponges Resource Names">
+		<string key="17034_1" loc-id="17034_1" value="密海绵 60"/>
+		<string key="17034_2" loc-id="17034_2" value="细致海绵 60"/>
+		<string key="17034_3" loc-id="17034_3" value="釉彩海绵 60"/>
+		<string key="17034_4" loc-id="17034_4" value="纹路湿海绵 160"/>
+		<string key="17034_5" loc-id="17034_5" value="纹路湿海绵 70"/>
+		<string key="17034_6" loc-id="17034_6" value="载色湿海绵 160"/>
+		<string key="17034_7" loc-id="17034_7" value="载色湿海绵 70"/>
+		<string key="17034_8" loc-id="17034_8" value="涂抹湿海绵 160"/>
+		<string key="17034_9" loc-id="17034_9" value="涂抹湿海绵 60"/>
+		<string key="17034_10" loc-id="17034_10" value="海绵"/>
+		<string key="17034_11" loc-id="17034_11" value="方形海绵 100"/>
+		<string key="17034_12" loc-id="17034_12" value="湿海绵 160"/>
+		<string key="17034_13" loc-id="17034_13" value="湿海绵 70"/>
+	</category>
+	<category key="Str#" comment="Strokes Resource Names">
+		<string key="17510_1" loc-id="17510_1" value="压力调节"/>
+		<string key="17510_2" loc-id="17510_2" value="360 度支点旋转"/>
+		<string key="17510_3" loc-id="17510_3" value="大小/支点调节"/>
+		<string key="17510_4" loc-id="17510_4" value="大小/倾斜调节"/>
+		<string key="17510_5" loc-id="17510_5" value="淡入/淡出"/>
+		<string key="17510_6" loc-id="17510_6" value="短笔触"/>
+		<string key="17510_7" loc-id="17510_7" value="支点旋转"/>
+		<string key="17510_8" loc-id="17510_8" value="C 曲线"/>
+		<string key="17510_9" loc-id="17510_9" value="圆形"/>
+		<string key="17510_10" loc-id="17510_10" value="对角线"/>
+		<string key="17510_11" loc-id="17510_11" value="细线"/>
+		<string key="17510_12" loc-id="17510_12" value="媒材尖"/>
+		<string key="17510_13" loc-id="17510_13" value="着色区域"/>
+		<string key="17510_14" loc-id="17510_14" value="大着色区域"/>
+		<string key="17510_15" loc-id="17510_15" value="短笔尖"/>
+		<string key="17510_16" loc-id="17510_16" value="单素描线 1"/>
+		<string key="17510_17" loc-id="17510_17" value="单素描线 2"/>
+		<string key="17510_18" loc-id="17510_18" value="素描圆"/>
+		<string key="17510_19" loc-id="17510_19" value="素描正方形"/>
+		<string key="17510_20" loc-id="17510_20" value="泼溅"/>
+		<string key="17510_21" loc-id="17510_21" value="方形"/>
+		<string key="17510_22" loc-id="17510_22" value="曲线"/>
+		<string key="17510_23" loc-id="17510_23" value="大幅度 S 曲线"/>
+		<string key="17510_24" loc-id="17510_24" value="旋涡形"/>
+		<string key="17510_25" loc-id="17510_25" value="三角形"/>
+		<string key="17510_26" loc-id="17510_26" value="Z 字形"/>
+	</category>
+	<category key="Str#" comment="Sumi-e Resource Names">
+		<string key="17035_1" loc-id="17035_1" value="粗糙鬃毛苏美"/>
+		<string key="17035_2" loc-id="17035_2" value="细节苏美"/>
+		<string key="17035_3" loc-id="17035_3" value="数位苏美"/>
+		<string key="17035_4" loc-id="17035_4" value="干墨水"/>
+		<string key="17035_5" loc-id="17035_5" value="大号细致苏美"/>
+		<string key="17035_6" loc-id="17035_6" value="小号细致苏美"/>
+		<string key="17035_7" loc-id="17035_7" value="大号平头苏美"/>
+		<string key="17035_8" loc-id="17035_8" value="小号平头苏美"/>
+		<string key="17035_9" loc-id="17035_9" value="平头湿苏美 20"/>
+		<string key="17035_10" loc-id="17035_10" value="不透光鬃毛苏美 "/>
+		<string key="17035_11" loc-id="17035_11" value="轻柔鬃毛苏美 30"/>
+		<string key="17035_12" loc-id="17035_12" value="苏美笔刷"/>
+		<string key="17035_13" loc-id="17035_13" value="锥形数位苏美"/>
+		<string key="17035_14" loc-id="17035_14" value="大号锥形苏美"/>
+		<string key="17035_15" loc-id="17035_15" value="小号锥形苏美"/>
+		<string key="17035_16" loc-id="17035_16" value="粗分叉苏美"/>
+		<string key="17035_17" loc-id="17035_17" value="细鬃毛苏美 20"/>
+		<string key="17035_18" loc-id="17035_18" value="变化粗苏美"/>
+		<string key="17035_19" loc-id="17035_19" value="变化细苏美 20"/>
+		<string key="17035_20" loc-id="17035_20" value="变化细苏美 40"/>
+		<string key="17035_21" loc-id="17035_21" value="湿鬃毛苏美 20"/>
+		<string key="17035_22" loc-id="17035_23" value="仿真苏美干笔刷"/>
+		<string key="17035_23" loc-id="17035_24" value="仿真苏美湿笔刷"/>
+	</category>
+	<category key="Str#" comment="Tinting Resource Names">
+		<string key="17036_1" loc-id="17036_1" value="基本圆刷"/>
+		<string key="17036_2" loc-id="17036_2" value="尖细橡皮擦"/>
+		<string key="17036_3" loc-id="17036_3" value="渐变鬃毛 10"/>
+		<string key="17036_4" loc-id="17036_4" value="鬃毛笔刷 10"/>
+		<string key="17036_5" loc-id="17036_5" value="晕染 1"/>
+		<string key="17036_6" loc-id="17036_6" value="晕染 2"/>
+		<string key="17036_7" loc-id="17036_7" value="方向性晕染"/>
+		<string key="17036_8" loc-id="17036_8" value="纹路釉彩圆头 15"/>
+		<string key="17036_9" loc-id="17036_9" value="凝重纹路圆头"/>
+		<string key="17036_10" loc-id="17036_10" value="油性圆头 35"/>
+		<string key="17036_11" loc-id="17036_11" value="撒盐"/>
+		<string key="17036_12" loc-id="17036_12" value="轻柔橡皮擦"/>
+		<string key="17036_13" loc-id="17036_13" value="轻柔釉彩圆头 15"/>
+		<string key="17036_14" loc-id="17036_14" value="轻柔纹路圆头"/>
+		<string key="17036_15" loc-id="17036_15" value="柔化"/>
+		<string key="17036_16" loc-id="17036_16" value="锥形橡皮擦 20"/>
+	</category>
+	<category key="Str#" comment="Underpainting Presets Resource Names">
+		<string key="17513_1" loc-id="17513_1" value="浅色化"/>
+		<string key="17513_2" loc-id="17513_2" value="暗色化"/>
+		<string key="17513_3" loc-id="17513_3" value="降低对比"/>
+		<string key="17513_4" loc-id="17513_4" value="增加对比"/>
+		<string key="17513_5" loc-id="17513_5" value="高对比"/>
+		<string key="17513_6" loc-id="17513_6" value="调整的高对比"/>
+		<string key="17513_7" loc-id="17513_7" value="色彩偏移"/>
+		<string key="17513_8" loc-id="17513_8" value="色彩更改"/>
+		<string key="17513_9" loc-id="17513_9" value="降低饱和度"/>
+		<string key="17513_10" loc-id="17513_10" value="增加饱和度"/>
+		<string key="17513_11" loc-id="17513_11" value="浓色"/>
+		<string key="17513_12" loc-id="17513_12" value="黑白"/>
+	</category>
+	<category key="Str#" comment="Watercolor Resource Names">
+		<string key="17037_1" loc-id="17037_1" value="流动漂白"/>
+		<string key="17037_2" loc-id="17037_2" value="漂白喷洒"/>
+		<string key="17037_3" loc-id="17037_3" value="晕染鬃毛"/>
+		<string key="17037_4" loc-id="17037_4" value="晕染驼毛"/>
+		<string key="17037_5" loc-id="17037_5" value="晕染平头"/>
+		<string key="17037_6" loc-id="17037_6" value="晕染纹路驼毛"/>
+		<string key="17037_7" loc-id="17037_7" value="晕染纹路平头"/>
+		<string key="17037_8" loc-id="17037_8" value="干鬃毛"/>
+		<string key="17037_9" loc-id="17037_9" value="干驼毛"/>
+		<string key="17037_10" loc-id="17037_10" value="干平头"/>
+		<string key="17037_11" loc-id="17037_11" value="晕染橡皮擦"/>
+		<string key="17037_12" loc-id="17037_12" value="弄干橡皮擦"/>
+		<string key="17037_13" loc-id="17037_13" value="纹路橡皮擦"/>
+		<string key="17037_14" loc-id="17037_14" value="撒盐橡皮擦"/>
+		<string key="17037_15" loc-id="17037_15" value="弄湿橡皮擦"/>
+		<string key="17037_16" loc-id="17037_16" value="细鬃毛"/>
+		<string key="17037_17" loc-id="17037_17" value="细驼毛"/>
+		<string key="17037_18" loc-id="17037_18" value="细致平头"/>
+		<string key="17037_19" loc-id="17037_19" value="细致调色刀"/>
+		<string key="17037_20" loc-id="17037_20" value="纹路洗涤鬃毛"/>
+		<string key="17037_21" loc-id="17037_21" value="纹路洗涤驼毛"/>
+		<string key="17037_22" loc-id="17037_22" value="纹路洗涤平头"/>
+		<string key="17037_23" loc-id="17037_23" value="流动喷枪"/>
+		<string key="17037_24" loc-id="17037_24" value="流动洗涤鬃毛"/>
+		<string key="17037_25" loc-id="17037_25" value="流动洗涤驼毛"/>
+		<string key="17037_26" loc-id="17037_26" value="流动洗涤平头"/>
+		<string key="17037_27" loc-id="17037_27" value="流动湿鬃毛"/>
+		<string key="17037_28" loc-id="17037_28" value="流动湿驼毛"/>
+		<string key="17037_29" loc-id="17037_29" value="流动湿平头"/>
+		<string key="17037_30" loc-id="17037_30" value="简单圆头洗涤"/>
+		<string key="17037_31" loc-id="17037_31" value="平滑流动鬃毛 30"/>
+		<string key="17037_32" loc-id="17037_32" value="平滑流动驼毛 30"/>
+		<string key="17037_33" loc-id="17037_33" value="平滑流动平头 30"/>
+		<string key="17037_34" loc-id="17037_34" value="轻柔鬃毛"/>
+		<string key="17037_35" loc-id="17037_35" value="轻柔驼毛"/>
+		<string key="17037_36" loc-id="17037_36" value="轻柔平头"/>
+		<string key="17037_37" loc-id="17037_37" value="轻柔流动洗涤 "/>
+		<string key="17037_38" loc-id="17037_38" value="喷洒水笔"/>
+		<string key="17037_39" loc-id="17037_39" value="湿海绵纹路"/>
+		<string key="17037_40" loc-id="17037_40" value="湿海绵"/>
+		<string key="17037_41" loc-id="17037_41" value="洗涤鬃毛"/>
+		<string key="17037_42" loc-id="17037_42" value="洗涤驼毛"/>
+		<string key="17037_43" loc-id="17037_43" value="洗涤平头"/>
+		<string key="17037_44" loc-id="17037_44" value="洗涤尖头平头"/>
+		<string key="17037_45" loc-id="17037_45" value="水性釉彩平头 30"/>
+		<string key="17037_46" loc-id="17037_46" value="水性釉彩圆头 30"/>
+		<string key="17037_47" loc-id="17037_47" value="水性尖头平头 30"/>
+		<string key="17037_48" loc-id="17037_48" value="水性轻柔鬃毛 20"/>
+		<string key="17037_49" loc-id="17037_49" value="湿鬃毛"/>
+		<string key="17037_50" loc-id="17037_50" value="湿驼毛"/>
+		<string key="17037_51" loc-id="17037_51" value="湿平头"/>
+		<string key="17037_52" loc-id="17037_52" value="湿洗涤平头 35"/>
+		<string key="17037_53" loc-id="17037_53" value="仿真榛型笔"/>
+		<string key="17037_54" loc-id="17037_54" value="平头仿真"/>
+		<string key="17037_55" loc-id="17037_55" value="锥形仿真"/>
+	</category>
+	<category key="Str#" comment="Weaves Resource Names">
+		<string key="17504_1" loc-id="17504_1" value="亮彩格"/>
+		<string key="17504_2" loc-id="17504_2" value="抽象艺术"/>
+		<string key="17504_3" loc-id="17504_3" value="粉彩格布"/>
+		<string key="17504_4" loc-id="17504_4" value="浮线 X"/>
+		<string key="17504_5" loc-id="17504_5" value="彩色"/>
+		<string key="17504_6" loc-id="17504_6" value="星形迷宫"/>
+		<string key="17504_7" loc-id="17504_7" value="流行格布"/>
+		<string key="17504_8" loc-id="17504_8" value="屏蔽"/>
+		<string key="17504_9" loc-id="17504_9" value="方格缎布"/>
+		<string key="17504_10" loc-id="17504_10" value="阴影织布"/>
+		<string key="17504_11" loc-id="17504_11" value="阴影 1"/>
+		<string key="17504_12" loc-id="17504_12" value="阴影欧普艺术"/>
+		<string key="17504_13" loc-id="17504_13" value="标准"/>
+		<string key="17504_14" loc-id="17504_14" value="John Madison 布"/>
+		<string key="17504_15" loc-id="17504_15" value="菱形缎布"/>
+		<string key="17504_16" loc-id="17504_16" value="彩色格布"/>
+		<string key="17504_17" loc-id="17504_17" value="方格布"/>
+		<string key="17504_18" loc-id="17504_18" value="星纹布"/>
+		<string key="17504_19" loc-id="17504_19" value="波浪纹布"/>
+		<string key="17504_20" loc-id="17504_20" value="绿纹布"/>
+		<string key="17504_21" loc-id="17504_21" value="精美纹路"/>
+		<string key="17504_22" loc-id="17504_22" value="棋盘菱形"/>
+		<string key="17504_23" loc-id="17504_23" value="高尔夫格布"/>
+		<string key="17504_24" loc-id="17504_24" value="棕色、蓝色与白色"/>
+		<string key="17504_25" loc-id="17504_25" value="小型紫格布"/>
+		<string key="17504_26" loc-id="17504_26" value="单纯的棕色与蓝色"/>
+		<string key="17504_27" loc-id="17504_27" value="神职人员"/>
+		<string key="17504_28" loc-id="17504_28" value="红色条纹"/>
+		<string key="17504_29" loc-id="17504_29" value="细格布"/>
+		<string key="17504_30" loc-id="17504_30" value="跳河"/>
+		<string key="17504_31" loc-id="17504_31" value="红色、黑色与黄色"/>
+		<string key="17504_32" loc-id="17504_32" value="主要的"/>
+		<string key="17504_33" loc-id="17504_33" value="野餐"/>
+		<string key="17504_34" loc-id="17504_34" value="天空中的织布"/>
+		<string key="17504_35" loc-id="17504_35" value="灰暗的天空"/>
+		<string key="17504_36" loc-id="17504_36" value="整体斜线"/>
+		<string key="17504_37" loc-id="17504_37" value="亮格布"/>
+		<string key="17504_38" loc-id="17504_38" value="菱形条纹"/>
+		<string key="17504_39" loc-id="17504_39" value="裂纹"/>
+		<string key="17504_40" loc-id="17504_40" value="三角形"/>
+	</category>
+	<category key="Str#" comment="Woodcut Presets Resource Names">
+	</category>
+
+	<category key="Str#" comment="Acrylics Resource Names">
+		<string key="17101_1" loc-id="17101_1" value="鬃毛笔刷"/>
+		<string key="17101_2" loc-id="17101_2" value="拾取鬃毛"/>
+		<string key="17101_3" loc-id="17101_3" value="块状笔刷"/>
+		<string key="17101_4" loc-id="17101_4" value="块状细平头"/>
+		<string key="17101_5" loc-id="17101_5" value="干鬃毛"/>
+		<string key="17101_6" loc-id="17101_6" value="干笔刷"/>
+		<string key="17101_7" loc-id="17101_7" value="釉彩亚克力笔"/>
+		<string key="17101_8" loc-id="17101_8" value="纹路风干笔刷"/>
+		<string key="17101_9" loc-id="17101_9" value="不透光亚克力笔"/>
+		<string key="17101_10" loc-id="17101_10" value="不透光细节笔刷"/>
+		<string key="17101_11" loc-id="17101_11" value="仿真干平头"/>
+		<string key="17101_12" loc-id="17101_12" value="仿真长鬃毛"/>
+		<string key="17101_13" loc-id="17101_13" value="仿真湿笔刷"/>
+		<string key="17101_14" loc-id="17101_14" value="柔合纹理笔刷"/>
+		<string key="17101_15" loc-id="17101_15" value="粗亚克力鬃毛"/>
+		<string key="17101_16" loc-id="17101_16" value="粗平头亚克力笔"/>
+		<string key="17101_17" loc-id="17101_17" value="粗圆头亚克力笔"/>
+		<string key="17101_18" loc-id="17101_18" value="粗不透光亚克力笔"/>
+		<string key="17101_19" loc-id="17101_19" value="湿亚克力笔"/>
+		<string key="17101_20" loc-id="17101_20" value="湿笔刷"/>
+		<string key="17101_21" loc-id="17101_21" value="湿细节笔刷"/>
+		<string key="17101_22" loc-id="17101_22" value="湿柔亚克力笔"/>
+	</category>
+	<category key="Str#" comment="Airbrushes Resource Names">
+		<string key="17102_1" loc-id="17102_1" value="宽滚轮喷枪"/>
+		<string key="17102_2" loc-id="17102_2" value="粗糙喷溅"/>
+		<string key="17102_3" loc-id="17102_3" value="细节喷枪"/>
+		<string key="17102_4" loc-id="17102_4" value="数位喷枪"/>
+		<string key="17102_5" loc-id="17102_5" value="数位刚硬边缘喷枪"/>
+		<string key="17102_6" loc-id="17102_6" value="数位轻柔平头喷枪"/>
+		<string key="17102_7" loc-id="17102_7" value="数位轻柔流量喷枪"/>
+		<string key="17102_8" loc-id="17102_8" value="数位软压喷枪"/>
+		<string key="17102_9" loc-id="17102_9" value="数位轻柔速度喷枪"/>
+		<string key="17102_10" loc-id="17102_10" value="数位锥形软喷枪"/>
+		<string key="17102_11" loc-id="17102_11" value="细致细节喷枪"/>
+		<string key="17102_12" loc-id="17102_12" value="细致喷溅"/>
+		<string key="17102_13" loc-id="17102_13" value="细尖轻柔喷枪"/>
+		<string key="17102_14" loc-id="17102_14" value="细致滚轮喷枪"/>
+		<string key="17102_15" loc-id="17102_15" value="精细喷溅"/>
+		<string key="17102_16" loc-id="17102_16" value="涂鸦"/>
+		<string key="17102_17" loc-id="17102_17" value="反转压力"/>
+		<string key="17102_18" loc-id="17102_18" value="粉状喷溅"/>
+		<string key="17102_19" loc-id="17102_19" value="图素喷溅"/>
+		<string key="17102_20" loc-id="17102_20" value="轻柔喷枪"/>
+		<string key="17102_21" loc-id="17102_21" value="锥形细节喷枪"/>
+		<string key="17102_22" loc-id="17102_22" value="小型轻柔喷枪"/>
+		<string key="17102_23" loc-id="17102_23" value="小型喷洒喷枪"/>
+		<string key="17102_24" loc-id="17102_24" value="变化喷洒"/>
+	</category>
+	<category key="Str#" comment="Artists Resource Names">
+		<string key="17103_1" loc-id="17103_1" value="自动梵谷"/>
+		<string key="17103_2" loc-id="17103_2" value="印象派"/>
+		<string key="17103_3" loc-id="17103_3" value="萨金特笔刷"/>
+		<string key="17103_4" loc-id="17103_4" value="秀拉"/>
+		<string key="17103_5" loc-id="17103_5" value="立体派"/>
+		<string key="17103_6" loc-id="17103_6" value="梵谷"/>
+	</category>
+	<category key="Str#" comment="Blenders Resource Names">
+		<string key="17104_1" loc-id="17104_1" value="混色笔鬃毛"/>
+		<string key="17104_2" loc-id="17104_2" value="涂抹笔刷"/>
+		<string key="17104_3" loc-id="17104_3" value="模糊"/>
+		<string key="17104_4" loc-id="17104_4" value="粗糙油性渐变笔"/>
+		<string key="17104_5" loc-id="17104_5" value="粗糙涂抹"/>
+		<string key="17104_6" loc-id="17104_6" value="细节渐变笔"/>
+		<string key="17104_7" loc-id="17104_7" value="晕染模糊"/>
+		<string key="17104_8" loc-id="17104_8" value="平头纹路擦笔"/>
+		<string key="17104_9" loc-id="17104_9" value="纹路渐变笔"/>
+		<string key="17104_10" loc-id="17104_10" value="纹路水化"/>
+		<string key="17104_11" loc-id="17104_11" value="只加水"/>
+		<string key="17104_12" loc-id="17104_12" value="混色器细平头"/>
+		<string key="17104_13" loc-id="17104_13" value="油性渐变笔"/>
+		<string key="17104_14" loc-id="17104_14" value="尖头擦笔"/>
+		<string key="17104_15" loc-id="17104_15" value="平头仿真渐变笔"/>
+		<string key="17104_16" loc-id="17104_16" value="圆头仿真渐变笔"/>
+		<string key="17104_17" loc-id="17104_17" value="锥形仿真渐变笔"/>
+		<string key="17104_18" loc-id="17104_18" value="仿真尖头渐变笔"/>
+		<string key="17104_19" loc-id="17104_19" value="仿真短渐变笔"/>
+		<string key="17104_20" loc-id="17104_20" value="圆头渐变笔笔刷"/>
+		<string key="17104_21" loc-id="17104_21" value="流动"/>
+		<string key="17104_22" loc-id="17104_22" value="涂抹"/>
+		<string key="17104_23" loc-id="17104_23" value="污点"/>
+		<string key="17104_24" loc-id="17104_24" value="轻柔渐变笔笔刷"/>
+		<string key="17104_25" loc-id="17104_25" value="轻柔渐变笔擦笔"/>
+		<string key="17104_26" loc-id="17104_26" value="水化分岔"/>
+		<string key="17104_27" loc-id="17104_27" value="湿油性渐变笔"/>
+	</category>
+	<category key="Str#" comment="Chalk &amp; Crayons Resource Names">
+		<string key="17105_1" loc-id="17105_1" value="基本蜡笔"/>
+		<string key="17105_2" loc-id="17105_2" value="硬质粉彩笔"/>
+		<string key="17105_3" loc-id="17105_3" value="钝头蜡笔"/>
+		<string key="17105_4" loc-id="17105_4" value="钝头纹路粉彩笔"/>
+		<string key="17105_5" loc-id="17105_5" value="凝重纹路蜡笔"/>
+		<string key="17105_6" loc-id="17105_6" value="大号粉彩笔"/>
+		<string key="17105_7" loc-id="17105_7" value="中号钝头蜡笔"/>
+		<string key="17105_8" loc-id="17105_8" value="尖头蜡笔"/>
+		<string key="17105_9" loc-id="17105_9" value="仿真粗粉彩笔"/>
+		<string key="17105_10" loc-id="17105_10" value="仿真凝重粉彩笔"/>
+		<string key="17105_11" loc-id="17105_11" value="仿真轻柔粉彩笔"/>
+		<string key="17105_12" loc-id="17105_12" value="尖锐粉彩笔"/>
+		<string key="17105_13" loc-id="17105_13" value="方形粉彩笔"/>
+		<string key="17105_14" loc-id="17105_14" value="锥形大号粉彩笔"/>
+		<string key="17105_15" loc-id="17105_15" value="变化粉彩笔"/>
+		<string key="17105_16" loc-id="17105_16" value="宽度变化粉彩笔"/>
+		<string key="17105_17" loc-id="17105_17" value="蜡状蜡笔"/>
+	</category>
+	<category key="Str#" comment="Charcoal &amp; Conte Resource Names">
+		<string key="17106_1" loc-id="17106_1" value="炭铅笔"/>
+		<string key="17106_2" loc-id="17106_2" value="炭笔"/>
+		<string key="17106_3" loc-id="17106_3" value="钝头炭铅笔"/>
+		<string key="17106_4" loc-id="17106_4" value="钝头康特笔"/>
+		<string key="17106_5" loc-id="17106_5" value="砂炭笔"/>
+		<string key="17106_6" loc-id="17106_6" value="凝重炭铅笔"/>
+		<string key="17106_7" loc-id="17106_7" value="凝重炭条"/>
+		<string key="17106_8" loc-id="17106_8" value="仿真凝重康特笔"/>
+		<string key="17106_9" loc-id="17106_9" value="仿真轻柔康特笔"/>
+		<string key="17106_10" loc-id="17106_10" value="尖锐炭铅笔"/>
+		<string key="17106_11" loc-id="17106_11" value="轻柔炭铅笔"/>
+		<string key="17106_12" loc-id="17106_12" value="轻柔炭笔"/>
+		<string key="17106_13" loc-id="17106_13" value="轻柔藤蔓炭笔"/>
+		<string key="17106_14" loc-id="17106_14" value="方形康特笔"/>
+		<string key="17106_15" loc-id="17106_15" value="锥形康特笔"/>
+	</category>
+	<category key="Str#" comment="Cloners Resource Names">
+		<string key="17107_3" loc-id="17107_3" value="鬃毛笔刷仿制笔"/>
+		<string key="17107_4" loc-id="17107_4" value="鬃毛油性仿制笔"/>
+		<string key="17107_5" loc-id="17107_5" value="驼毛厚涂仿制工具"/>
+		<string key="17107_6" loc-id="17107_6" value="驼毛油性仿制笔"/>
+		<string key="17107_7" loc-id="17107_7" value="粉笔仿制笔"/>
+		<string key="17107_11" loc-id="17107_11" value="仿制笔喷溅"/>
+		<string key="17107_12" loc-id="17107_12" value="花纹喷溅仿制笔"/>
+		<string key="17107_13" loc-id="17107_13" value="彩色铅笔仿制笔"/>
+		<string key="17107_15" loc-id="17107_15" value="蜡笔仿制工具"/>
+		<string key="17107_16" loc-id="17107_16" value="大雨仿制工具"/>
+		<string key="17107_17" loc-id="17107_17" value="毡制向量笔仿制工具"/>
+		<string key="17107_18" loc-id="17107_18" value="纤维仿制工具"/>
+		<string key="17107_19" loc-id="17107_19" value="细致胶彩仿制工具"/>
+		<string key="17107_20" loc-id="17107_20" value="细致喷溅仿制工具"/>
+		<string key="17107_21" loc-id="17107_21" value="扁平涂料仿制笔"/>
+		<string key="17107_22" loc-id="17107_22" value="平头油画仿制工具"/>
+		<string key="17107_23" loc-id="17107_23" value="毛发仿制工具"/>
+		<string key="17107_26" loc-id="17107_26" value="涂鸦仿制工具"/>
+		<string key="17107_27" loc-id="17107_27" value="印象派仿制笔"/>
+		<string key="17107_28" loc-id="17107_28" value="融化仿制工具"/>
+		<string key="17107_29" loc-id="17107_29" value="油画笔刷仿制工具"/>
+		<string key="17107_32" loc-id="17107_32" value="铅笔素描仿制工具"/>
+		<string key="17107_33" loc-id="17107_33" value="涂抹鬃毛仿制工具"/>
+		<string key="17107_34" loc-id="17107_34" value="涂抹驼毛仿制工具"/>
+		<string key="17107_35" loc-id="17107_35" value="涂抹平头仿制工具"/>
+		<string key="17107_36" loc-id="17107_36" value="柔化仿制笔"/>
+		<string key="17107_37" loc-id="17107_37" value="喷洒仿制喷溅"/>
+		<string key="17107_40" loc-id="17107_40" value="直接仿制笔"/>
+		<string key="17107_41" loc-id="17107_41" value="材质喷溅仿制工具"/>
+		<string key="17107_42" loc-id="17107_42" value="粗鬃毛仿制工具"/>
+		<string key="17107_43" loc-id="17107_43" value="粗驼毛仿制工具"/>
+		<string key="17107_44" loc-id="17107_44" value="粗平头仿制工具"/>
+		<string key="17107_45" loc-id="17107_45" value="梵谷仿制工具"/>
+		<string key="17107_47" loc-id="17107_47" value="水彩仿制工具"/>
+		<string key="17107_48" loc-id="17107_48" value="水彩细致仿制工具"/>
+		<string key="17107_49" loc-id="17107_49" value="水彩流动仿制工具"/>
+		<string key="17107_53" loc-id="17107_53" value="水彩洗涤仿制工具"/>
+		<string key="17107_54" loc-id="17107_54" value="湿油画仿制工具"/>
+		<string key="17107_55" loc-id="17107_55" value="X 双线 4P"/>
+		<string key="17107_56" loc-id="17107_56" value="X 透视 4P"/>
+		<string key="17107_57" loc-id="17107_57" value="X 透视拼接 4P"/>
+		<string key="17107_58" loc-id="17107_58" value="X 旋转 2P"/>
+		<string key="17107_59" loc-id="17107_59" value="X 旋转、镜射 2P"/>
+		<string key="17107_60" loc-id="17107_60" value="X 旋转、缩放 2P"/>
+		<string key="17107_61" loc-id="17107_61" value="X 旋转、缩放、修剪 3P"/>
+		<string key="17107_62" loc-id="17107_62" value="X 缩放 2P"/>
+	</category>
+	<category key="Str#" comment="Digital Watercolor Resource Names">
+		<string key="17108_1" loc-id="17108_1" value="宽水彩笔刷"/>
+		<string key="17108_2" loc-id="17108_2" value="粗糙干笔刷"/>
+		<string key="17108_3" loc-id="17108_3" value="粗糙蓬状笔刷"/>
+		<string key="17108_4" loc-id="17108_4" value="粗糙水笔"/>
+		<string key="17108_5" loc-id="17108_5" value="扩散水彩"/>
+		<string key="17108_6" loc-id="17108_6" value="干笔刷"/>
+		<string key="17108_7" loc-id="17108_7" value="细尖水笔"/>
+		<string key="17108_8" loc-id="17108_8" value="精细蓬状笔刷"/>
+		<string key="17108_9" loc-id="17108_9" value="平头水彩渐变笔"/>
+		<string key="17108_10" loc-id="17108_10" value="微湿橡皮擦"/>
+		<string key="17108_11" loc-id="17108_11" value="新简单渐变笔"/>
+		<string key="17108_12" loc-id="17108_12" value="新简单晕染"/>
+		<string key="17108_13" loc-id="17108_13" value="新式单纯水笔"/>
+		<string key="17108_14" loc-id="17108_14" value="尖头简单水笔"/>
+		<string key="17108_15" loc-id="17108_15" value="尖头湿橡皮擦"/>
+		<string key="17108_16" loc-id="17108_16" value="纯水鬃毛"/>
+		<string key="17108_17" loc-id="17108_17" value="纯水笔刷"/>
+		<string key="17108_18" loc-id="17108_18" value="仿真榛型笔水彩"/>
+		<string key="17108_19" loc-id="17108_19" value="仿真平头水彩"/>
+		<string key="17108_20" loc-id="17108_20" value="仿真锥形水彩"/>
+		<string key="17108_21" loc-id="17108_21" value="圆头水化渐变笔"/>
+		<string key="17108_22" loc-id="17108_22" value="结晶点水彩笔"/>
+		<string key="17108_23" loc-id="17108_23" value="简单水笔"/>
+		<string key="17108_24" loc-id="17108_24" value="轻柔宽笔刷"/>
+		<string key="17108_25" loc-id="17108_25" value="轻柔晕染笔刷"/>
+		<string key="17108_26" loc-id="17108_26" value="轻柔圆头渐变笔"/>
+		<string key="17108_27" loc-id="17108_27" value="喷洒水笔"/>
+		<string key="17108_28" loc-id="17108_28" value="锥形晕染水笔"/>
+		<string key="17108_29" loc-id="17108_29" value="洗涤笔刷"/>
+		<string key="17108_30" loc-id="17108_30" value="湿橡皮擦"/>
+	</category>
+	<category key="Str#" comment="Erasers Resource Names">
+		<string key="17109_1" loc-id="17109_1" value="单图素橡皮擦"/>
+		<string key="17109_2" loc-id="17109_2" value="漂白"/>
+		<string key="17109_3" loc-id="17109_3" value="块状橡皮擦"/>
+		<string key="17109_4" loc-id="17109_4" value="暗色化"/>
+		<string key="17109_5" loc-id="17109_5" value="清除全部凝重笔画"/>
+		<string key="17109_6" loc-id="17109_6" value="清除全部轻柔笔画"/>
+		<string key="17109_7" loc-id="17109_7" value="橡皮擦"/>
+		<string key="17109_8" loc-id="17109_8" value="平头暗色化"/>
+		<string key="17109_9" loc-id="17109_9" value="扁平橡皮擦"/>
+		<string key="17109_10" loc-id="17109_10" value="柔和漂白"/>
+		<string key="17109_11" loc-id="17109_11" value="尖头漂白"/>
+		<string key="17109_12" loc-id="17109_12" value="尖头橡皮擦"/>
+		<string key="17109_13" loc-id="17109_13" value="仿真轻柔橡皮擦"/>
+		<string key="17109_14" loc-id="17109_14" value="仿真尖头橡皮擦"/>
+		<string key="17109_15" loc-id="17109_15" value="仿真凝重橡皮擦"/>
+		<string key="17109_16" loc-id="17109_16" value="矩形橡皮擦"/>
+		<string key="17109_17" loc-id="17109_17" value="锥形漂白"/>
+		<string key="17109_18" loc-id="17109_18" value="锥形暗色化"/>
+		<string key="17109_19" loc-id="17109_19" value="锥形橡皮擦"/>
+	</category>
+	<category key="Str#" comment="F-X Resource Names">
+		<string key="17110_1" loc-id="17110_1" value="膨胀"/>
+		<string key="17110_2" loc-id="17110_2" value="粗糙笔刷搬移器"/>
+		<string key="17110_3" loc-id="17110_3" value="粗糙扭曲"/>
+		<string key="17110_4" loc-id="17110_4" value="混淆"/>
+		<string key="17110_5" loc-id="17110_5" value="晕染"/>
+		<string key="17110_6" loc-id="17110_6" value="扭曲"/>
+		<string key="17110_7" loc-id="17110_7" value="仙女光点"/>
+		<string key="17110_8" loc-id="17110_8" value="火"/>
+		<string key="17110_9" loc-id="17110_9" value="毛发笔刷"/>
+		<string key="17110_10" loc-id="17110_10" value="发光"/>
+		<string key="17110_11" loc-id="17110_11" value="渐层平头笔刷"/>
+		<string key="17110_12" loc-id="17110_12" value="渐层线"/>
+		<string key="17110_13" loc-id="17110_13" value="纹路扭曲"/>
+		<string key="17110_14" loc-id="17110_14" value="纹路搬移器"/>
+		<string key="17110_15" loc-id="17110_15" value="轻柔图形笔刷"/>
+		<string key="17110_16" loc-id="17110_16" value="图形笔刷"/>
+		<string key="17110_17" loc-id="17110_17" value="发丝喷溅"/>
+		<string key="17110_18" loc-id="17110_18" value="飓风"/>
+		<string key="17110_19" loc-id="17110_19" value="石纹分岔"/>
+		<string key="17110_20" loc-id="17110_20" value="霓虹笔"/>
+		<string key="17110_21" loc-id="17110_21" value="钢琴键"/>
+		<string key="17110_22" loc-id="17110_22" value="挤压"/>
+		<string key="17110_23" loc-id="17110_23" value="碎片"/>
+		<string key="17110_24" loc-id="17110_24" value="涂抹鬃毛"/>
+		<string key="17110_25" loc-id="17110_25" value="橡胶滚轴"/>
+		<string key="17110_26" loc-id="17110_26" value="细扭曲"/>
+		<string key="17110_27" loc-id="17110_27" value="液化"/>
+		<string key="17110_28" loc-id="17110_28" value="水泡"/>
+	</category>
+	<category key="Str#" comment="Gel Resource Names">
+		<string key="17111_1" loc-id="17111_1" value="胶化喷枪"/>
+		<string key="17111_2" loc-id="17111_2" value="宽胶化"/>
+		<string key="17111_3" loc-id="17111_3" value="胶化驼毛"/>
+		<string key="17111_4" loc-id="17111_4" value="胶化拾取"/>
+		<string key="17111_5" loc-id="17111_5" value="胶化粗糙笔刷"/>
+		<string key="17111_6" loc-id="17111_6" value="胶化细节"/>
+		<string key="17111_7" loc-id="17111_7" value="胶化碎形"/>
+		<string key="17111_8" loc-id="17111_8" value="胶化纹路鬃毛"/>
+		<string key="17111_9" loc-id="17111_9" value="胶化纹路平头"/>
+		<string key="17111_10" loc-id="17111_10" value="胶化纹路圆头"/>
+	</category>
+	<category key="Str#" comment="Gouache Resource Names">
+		<string key="17112_1" loc-id="17112_1" value="宽覆盖式笔刷"/>
+		<string key="17112_2" loc-id="17112_2" value="细节不透光"/>
+		<string key="17112_3" loc-id="17112_3" value="细鬃毛"/>
+		<string key="17112_4" loc-id="17112_4" value="细致圆头胶彩"/>
+		<string key="17112_5" loc-id="17112_5" value="平头不透光胶彩"/>
+		<string key="17112_6" loc-id="17112_6" value="不透光平滑笔刷"/>
+		<string key="17112_7" loc-id="17112_7" value="渐细胶彩画"/>
+		<string key="17112_8" loc-id="17112_8" value="粗胶彩平头"/>
+		<string key="17112_9" loc-id="17112_9" value="粗胶彩圆头"/>
+		<string key="17112_10" loc-id="17112_10" value="湿胶彩圆头"/>
+	</category>
+	<category key="Str#" comment="Image Hose Resource Names">
+		<string key="17113_1" loc-id="17113_1" value="线性角度 B"/>
+		<string key="17113_2" loc-id="17113_2" value="线性角度 W"/>
+		<string key="17113_3" loc-id="17113_3" value="线性大小 P 角度 B"/>
+		<string key="17113_4" loc-id="17113_4" value="线性大小 P 角度 D"/>
+		<string key="17113_5" loc-id="17113_5" value="线性大小 P 角度 R"/>
+		<string key="17113_6" loc-id="17113_6" value="线性大小 P 角度 W"/>
+		<string key="17113_7" loc-id="17113_7" value="线性大小 P"/>
+		<string key="17113_8" loc-id="17113_8" value="线性大小 R 角度 D"/>
+		<string key="17113_9" loc-id="17113_9" value="线性大小 R"/>
+		<string key="17113_10" loc-id="17113_10" value="线性大小 W"/>
+		<string key="17113_11" loc-id="17113_11" value="喷溅角度 B"/>
+		<string key="17113_12" loc-id="17113_12" value="喷溅角度 W"/>
+		<string key="17113_13" loc-id="17113_13" value="喷溅大小 P 角度 B"/>
+		<string key="17113_14" loc-id="17113_14" value="喷溅大小 P 角度 D"/>
+		<string key="17113_15" loc-id="17113_15" value="喷溅大小 P 角度 R"/>
+		<string key="17113_16" loc-id="17113_16" value="喷溅大小 P 角度 W"/>
+		<string key="17113_17" loc-id="17113_17" value="喷溅大小 P"/>
+		<string key="17113_18" loc-id="17113_18" value="喷溅大小 R 角度 D"/>
+		<string key="17113_19" loc-id="17113_19" value="喷溅大小 R"/>
+		<string key="17113_20" loc-id="17113_20" value="喷溅大小 W"/>
+	</category>
+	<category key="Str#" comment="Impasto Resource Names">
+		<string key="17114_1" loc-id="17114_1" value="蚀刻厚涂"/>
+		<string key="17114_2" loc-id="17114_2" value="透明清漆"/>
+		<string key="17114_3" loc-id="17114_3" value="深度色彩橡皮擦"/>
+		<string key="17114_4" loc-id="17114_4" value="深度等化"/>
+		<string key="17114_5" loc-id="17114_5" value="深度橡皮擦"/>
+		<string key="17114_6" loc-id="17114_6" value="深度铁头球杆"/>
+		<string key="17114_7" loc-id="17114_7" value="深度分岔"/>
+		<string key="17114_8" loc-id="17114_8" value="深度涂抹"/>
+		<string key="17114_9" loc-id="17114_9" value="扭曲厚涂"/>
+		<string key="17114_10" loc-id="17114_10" value="干块状厚涂颜料"/>
+		<string key="17114_11" loc-id="17114_11" value="纤维"/>
+		<string key="17114_12" loc-id="17114_12" value="软胶"/>
+		<string key="17114_13" loc-id="17114_13" value="纹路浮雕"/>
+		<string key="17114_14" loc-id="17114_14" value="纹路厚涂颜料"/>
+		<string key="17114_15" loc-id="17114_15" value="图形笔刷"/>
+		<string key="17114_16" loc-id="17114_16" value="厚涂颜料油画"/>
+		<string key="17114_17" loc-id="17114_17" value="花纹笔厚涂"/>
+		<string key="17114_18" loc-id="17114_18" value="刷式画刀"/>
+		<string key="17114_19" loc-id="17114_19" value="不透光鬃毛喷溅"/>
+		<string key="17114_20" loc-id="17114_20" value="不透光平头"/>
+		<string key="17114_21" loc-id="17114_21" value="不透光圆头"/>
+		<string key="17114_22" loc-id="17114_22" value="调色刀"/>
+		<string key="17114_23" loc-id="17114_23" value="花纹浮雕"/>
+		<string key="17114_24" loc-id="17114_24" value="圆头驼毛"/>
+		<string key="17114_25" loc-id="17114_25" value="涂抹鬃毛喷溅"/>
+		<string key="17114_26" loc-id="17114_26" value="涂抹鬃毛"/>
+		<string key="17114_27" loc-id="17114_27" value="油性平头"/>
+		<string key="17114_28" loc-id="17114_28" value="涂抹厚涂颜料"/>
+		<string key="17114_29" loc-id="17114_29" value="涂抹圆头"/>
+		<string key="17114_30" loc-id="17114_30" value="涂抹清漆"/>
+		<string key="17114_31" loc-id="17114_31" value="柔合纹理厚涂颜料"/>
+		<string key="17114_32" loc-id="17114_32" value="透明纹理"/>
+		<string key="17114_33" loc-id="17114_33" value="细致纹理"/>
+		<string key="17114_34" loc-id="17114_34" value="浓重纹理 "/>
+		<string key="17114_35" loc-id="17114_35" value="变化纹理 "/>
+		<string key="17114_36" loc-id="17114_36" value="粗鬃毛"/>
+		<string key="17114_37" loc-id="17114_37" value="浓厚透明清漆"/>
+		<string key="17114_38" loc-id="17114_38" value="粗圆头"/>
+		<string key="17114_39" loc-id="17114_39" value="粗锥形平头"/>
+		<string key="17114_40" loc-id="17114_40" value="粗湿平头"/>
+		<string key="17114_41" loc-id="17114_41" value="厚涂彩料"/>
+		<string key="17114_42" loc-id="17114_42" value="粗湿圆头"/>
+		<string key="17114_43" loc-id="17114_43" value="变化平头不透光"/>
+		<string key="17114_44" loc-id="17114_44" value="湿鬃毛"/>
+		<string key="17114_45" loc-id="17114_45" value="湿厚涂颜料"/>
+		<string key="17114_46" loc-id="17114_46" value="湿油性厚涂颜料"/>
+	</category>
+	<category key="Str#" comment="Liquid Ink Resource Names">
+		<string key="17115_1" loc-id="17115_1" value="喷枪阻抗"/>
+		<string key="17115_2" loc-id="17115_2" value="喷枪"/>
+		<string key="17115_3" loc-id="17115_3" value="书法平头"/>
+		<string key="17115_4" loc-id="17115_4" value="块状墨水"/>
+		<string key="17115_5" loc-id="17115_5" value="粗糙喷枪阻抗"/>
+		<string key="17115_6" loc-id="17115_6" value="粗糙喷枪"/>
+		<string key="17115_7" loc-id="17115_7" value="粗糙鬃毛阻抗"/>
+		<string key="17115_8" loc-id="17115_8" value="粗糙鬃毛"/>
+		<string key="17115_9" loc-id="17115_9" value="粗糙驼毛阻抗"/>
+		<string key="17115_10" loc-id="17115_10" value="粗糙驼毛"/>
+		<string key="17115_11" loc-id="17115_11" value="粗糙平头阻抗"/>
+		<string key="17115_12" loc-id="17115_12" value="粗糙平头"/>
+		<string key="17115_13" loc-id="17115_13" value="深度鬃毛"/>
+		<string key="17115_14" loc-id="17115_14" value="深度驼毛"/>
+		<string key="17115_15" loc-id="17115_15" value="深度平头"/>
+		<string key="17115_16" loc-id="17115_16" value="墨滴"/>
+		<string key="17115_17" loc-id="17115_17" value="干鬃毛"/>
+		<string key="17115_18" loc-id="17115_18" value="干驼毛"/>
+		<string key="17115_19" loc-id="17115_19" value="干平头"/>
+		<string key="17115_20" loc-id="17115_20" value="橡皮擦"/>
+		<string key="17115_21" loc-id="17115_21" value="细点橡皮擦"/>
+		<string key="17115_22" loc-id="17115_22" value="细点"/>
+		<string key="17115_23" loc-id="17115_23" value="图形鬃毛阻抗"/>
+		<string key="17115_24" loc-id="17115_24" value="图形鬃毛"/>
+		<string key="17115_25" loc-id="17115_25" value="圆形驼毛阻抗"/>
+		<string key="17115_26" loc-id="17115_26" value="圆形驼毛"/>
+		<string key="17115_27" loc-id="17115_27" value="圆形平头阻抗"/>
+		<string key="17115_28" loc-id="17115_28" value="圆形平头"/>
+		<string key="17115_29" loc-id="17115_29" value="尖头平头"/>
+		<string key="17115_30" loc-id="17115_30" value="锯齿状画刀"/>
+		<string key="17115_31" loc-id="17115_31" value="平滑鬃毛阻抗"/>
+		<string key="17115_32" loc-id="17115_32" value="平滑鬃毛"/>
+		<string key="17115_33" loc-id="17115_33" value="平滑驼毛阻抗"/>
+		<string key="17115_34" loc-id="17115_34" value="平滑驼毛"/>
+		<string key="17115_35" loc-id="17115_35" value="平滑平头阻抗"/>
+		<string key="17115_36" loc-id="17115_36" value="平滑平头"/>
+		<string key="17115_37" loc-id="17115_37" value="平滑画刀"/>
+		<string key="17115_38" loc-id="17115_38" value="平滑分岔"/>
+		<string key="17115_39" loc-id="17115_39" value="平滑圆头尖"/>
+		<string key="17115_40" loc-id="17115_40" value="平滑粗鬃毛"/>
+		<string key="17115_41" loc-id="17115_41" value="平滑粗平头"/>
+		<string key="17115_42" loc-id="17115_42" value="平滑粗圆头"/>
+		<string key="17115_43" loc-id="17115_43" value="柔化色彩"/>
+		<string key="17115_44" loc-id="17115_44" value="柔化边缘和色彩"/>
+		<string key="17115_45" loc-id="17115_45" value="柔化边缘"/>
+		<string key="17115_46" loc-id="17115_46" value="稀鬃毛阻抗"/>
+		<string key="17115_47" loc-id="17115_47" value="稀鬃毛"/>
+		<string key="17115_48" loc-id="17115_48" value="稀驼毛阻抗"/>
+		<string key="17115_49" loc-id="17115_49" value="稀驼毛"/>
+		<string key="17115_50" loc-id="17115_50" value="稀平头阻抗"/>
+		<string key="17115_51" loc-id="17115_51" value="稀平头"/>
+		<string key="17115_52" loc-id="17115_52" value="锥形鬃毛"/>
+		<string key="17115_53" loc-id="17115_53" value="锥形粗鬃毛"/>
+		<string key="17115_54" loc-id="17115_54" value="粗鬃毛"/>
+		<string key="17115_55" loc-id="17115_55" value="快速喷枪"/>
+		<string key="17115_56" loc-id="17115_56" value="快速素描笔"/>
+	</category>
+	<category key="Str#" comment="Markers Resource Names">
+		<string key="17116_1" loc-id="17116_1" value="艺术马克笔"/>
+		<string key="17116_2" loc-id="17116_2" value="硬质尖笔"/>
+		<string key="17116_3" loc-id="17116_3" value="方尖马克笔"/>
+		<string key="17116_4" loc-id="17116_4" value="设计用马克笔"/>
+		<string key="17116_5" loc-id="17116_5" value="脏污马克笔"/>
+		<string key="17116_6" loc-id="17116_6" value="干方尖马克笔"/>
+		<string key="17116_7" loc-id="17116_7" value="毡制艺术马克笔"/>
+		<string key="17116_8" loc-id="17116_8" value="毡制马克笔"/>
+		<string key="17116_9" loc-id="17116_9" value="细点马克笔"/>
+		<string key="17116_10" loc-id="17116_10" value="细尖马克笔"/>
+		<string key="17116_11" loc-id="17116_11" value="细尖笔"/>
+		<string key="17116_12" loc-id="17116_12" value="平头涂绘马克笔"/>
+		<string key="17116_13" loc-id="17116_13" value="漏水马克笔"/>
+		<string key="17116_14" loc-id="17116_14" value="中号毡制尖笔"/>
+		<string key="17116_15" loc-id="17116_15" value="尖头涂绘马克笔"/>
+		<string key="17116_16" loc-id="17116_16" value="圆尖马克笔"/>
+		<string key="17116_17" loc-id="17116_17" value="擦痕干笔尖马克笔"/>
+		<string key="17116_18" loc-id="17116_18" value="尖锐马克笔"/>
+		<string key="17116_19" loc-id="17116_19" value="可塑马克笔"/>
+		<string key="17116_20" loc-id="17116_20" value="变化方尖马克笔"/>
+	</category>
+	<category key="Str#" comment="Oils Resource Names">
+		<string key="17117_1" loc-id="17117_1" value="鬃毛油画"/>
+		<string key="17117_2" loc-id="17117_2" value="细节油画笔刷"/>
+		<string key="17117_3" loc-id="17117_3" value="细驼毛"/>
+		<string key="17117_4" loc-id="17117_4" value="细致羽化油画"/>
+		<string key="17117_5" loc-id="17117_5" value="细致轻柔釉彩"/>
+		<string key="17117_6" loc-id="17117_6" value="平头油画"/>
+		<string key="17117_7" loc-id="17117_7" value="釉彩平头"/>
+		<string key="17117_8" loc-id="17117_8" value="釉彩圆头"/>
+		<string key="17117_9" loc-id="17117_9" value="中号鬃毛油画"/>
+		<string key="17117_10" loc-id="17117_10" value="油性鬃毛"/>
+		<string key="17117_11" loc-id="17117_11" value="不透光鬃毛喷溅"/>
+		<string key="17117_12" loc-id="17117_12" value="不透光平头"/>
+		<string key="17117_13" loc-id="17117_13" value="不透光圆头"/>
+		<string key="17117_14" loc-id="17117_14" value="短仿真扇形"/>
+		<string key="17117_15" loc-id="17117_15" value="轻柔仿真扇形"/>
+		<string key="17117_16" loc-id="17117_16" value="不透光仿真平头"/>
+		<string key="17117_17" loc-id="17117_17" value="平头仿真"/>
+		<string key="17117_18" loc-id="17117_18" value="短仿真油画"/>
+		<string key="17117_19" loc-id="17117_19" value="涂抹仿真油画"/>
+		<string key="17117_20" loc-id="17117_20" value="柔湿仿真油画"/>
+		<string key="17117_21" loc-id="17117_21" value="仿真圆头鬃毛"/>
+		<string key="17117_22" loc-id="17117_22" value="圆头仿真"/>
+		<string key="17117_23" loc-id="17117_23" value="仿真锥形鬃毛"/>
+		<string key="17117_24" loc-id="17117_24" value="平头仿真锥形"/>
+		<string key="17117_25" loc-id="17117_25" value="圆头仿真锥形"/>
+		<string key="17117_26" loc-id="17117_26" value="仿真锥形湿平头"/>
+		<string key="17117_27" loc-id="17117_27" value="圆头驼毛"/>
+		<string key="17117_28" loc-id="17117_28" value="涂抹鬃毛喷溅"/>
+		<string key="17117_29" loc-id="17117_29" value="油性平头"/>
+		<string key="17117_30" loc-id="17117_30" value="涂抹圆头"/>
+		<string key="17117_31" loc-id="17117_31" value="软覆盖笔刷"/>
+		<string key="17117_32" loc-id="17117_32" value="软平抹油画"/>
+		<string key="17117_33" loc-id="17117_33" value="尖细驼毛笔"/>
+		<string key="17117_34" loc-id="17117_34" value="锥形平头油画"/>
+		<string key="17117_35" loc-id="17117_35" value="锥形油画笔"/>
+		<string key="17117_36" loc-id="17117_36" value="锥形圆头油画"/>
+		<string key="17117_37" loc-id="17117_37" value="粗油画鬃毛"/>
+		<string key="17117_38" loc-id="17117_38" value="粗油画平头"/>
+		<string key="17117_39" loc-id="17117_39" value="粗湿驼毛"/>
+		<string key="17117_40" loc-id="17117_40" value="粗湿油画"/>
+		<string key="17117_41" loc-id="17117_41" value="变化平头"/>
+		<string key="17117_42" loc-id="17117_42" value="变化圆头"/>
+		<string key="17117_43" loc-id="17117_43" value="湿油性笔刷"/>
+	</category>
+	<category key="Str#" comment="Palette Knives Resource Names">
+		<string key="17118_1" loc-id="17118_1" value="混色笔调色刀"/>
+		<string key="17118_2" loc-id="17118_2" value="干调色刀"/>
+		<string key="17118_3" loc-id="17118_3" value="厚涂彩料调色刀"/>
+		<string key="17118_4" loc-id="17118_4" value="刷式画刀"/>
+		<string key="17118_5" loc-id="17118_5" value="霓虹调色刀"/>
+		<string key="17118_6" loc-id="17118_6" value="油画调色刀"/>
+		<string key="17118_7" loc-id="17118_7" value="调色刀"/>
+		<string key="17118_8" loc-id="17118_8" value="尖锐三刃画刀"/>
+		<string key="17118_9" loc-id="17118_9" value="涂抹调色刀"/>
+		<string key="17118_10" loc-id="17118_10" value="精细调色刀"/>
+		<string key="17118_11" loc-id="17118_11" value="小调色刀"/>
+		<string key="17118_12" loc-id="17118_12" value="小涂抹画刀"/>
+		<string key="17118_13" loc-id="17118_13" value="小精细画刀"/>
+		<string key="17118_14" loc-id="17118_14" value="湿油性调色刀"/>
+	</category>
+	<category key="Str#" comment="Pastels Resource Names">
+		<string key="17119_1" loc-id="17119_1" value="画家粉蜡笔"/>
+		<string key="17119_2" loc-id="17119_2" value="平头凝重粉蜡笔"/>
+		<string key="17119_3" loc-id="17119_3" value="平头轻柔粉蜡笔"/>
+		<string key="17119_4" loc-id="17119_4" value="粗油画粉蜡笔"/>
+		<string key="17119_5" loc-id="17119_5" value="钝头粉蜡笔铅笔"/>
+		<string key="17119_6" loc-id="17119_6" value="油画粉蜡笔"/>
+		<string key="17119_7" loc-id="17119_7" value="粉蜡笔铅笔"/>
+		<string key="17119_8" loc-id="17119_8" value="仿真凝重粉蜡笔"/>
+		<string key="17119_9" loc-id="17119_9" value="仿真轻柔粉蜡笔"/>
+		<string key="17119_10" loc-id="17119_10" value="圆头凝重粉蜡笔"/>
+		<string key="17119_11" loc-id="17119_11" value="圆头油画粉蜡笔"/>
+		<string key="17119_12" loc-id="17119_12" value="圆头轻柔粉蜡笔"/>
+		<string key="17119_13" loc-id="17119_13" value="圆头 X 轻柔粉蜡笔"/>
+		<string key="17119_14" loc-id="17119_14" value="尖锐粉蜡笔铅笔"/>
+		<string key="17119_15" loc-id="17119_15" value="轻柔油画粉蜡笔"/>
+		<string key="17119_16" loc-id="17119_16" value="轻柔粉蜡笔铅笔"/>
+		<string key="17119_17" loc-id="17119_17" value="软粉蜡笔"/>
+		<string key="17119_18" loc-id="17119_18" value="方形粒状蜡笔"/>
+		<string key="17119_19" loc-id="17119_19" value="方形凝重粉蜡笔"/>
+		<string key="17119_20" loc-id="17119_20" value="方形轻柔粉蜡笔"/>
+		<string key="17119_21" loc-id="17119_21" value="方形 X 轻柔粉蜡笔"/>
+		<string key="17119_22" loc-id="17119_22" value="锥形粉蜡笔"/>
+		<string key="17119_23" loc-id="17119_23" value="变化油画粉蜡笔"/>
+		<string key="17119_24" loc-id="17119_24" value="旧油腊笔"/>
+	</category>
+	<category key="Str#" comment="Pattern Pens Resource Names">
+		<string key="17120_1" loc-id="17120_1" value="花纹粉彩笔"/>
+		<string key="17120_2" loc-id="17120_2" value="渐层色彩花纹马克笔"/>
+		<string key="17120_3" loc-id="17120_3" value="花纹马克笔"/>
+		<string key="17120_4" loc-id="17120_4" value="屏蔽花纹画笔"/>
+		<string key="17120_5" loc-id="17120_5" value="小花纹笔"/>
+		<string key="17120_6" loc-id="17120_6" value="柔边花纹画笔"/>
+		<string key="17120_7" loc-id="17120_7" value="透明花纹笔"/>
+		<string key="17120_8" loc-id="17120_8" value="花纹画笔"/>
+	</category>
+	<category key="Str#" comment="Pencils Resource Names">
+		<string key="17121_1" loc-id="17121_1" value="2B 铅笔"/>
+		<string key="17121_2" loc-id="17121_2" value="彩色铅笔"/>
+		<string key="17121_3" loc-id="17121_3" value="覆盖彩色铅笔"/>
+		<string key="17121_4" loc-id="17121_4" value="覆盖铅笔"/>
+		<string key="17121_5" loc-id="17121_5" value="扁形铅笔"/>
+		<string key="17121_6" loc-id="17121_6" value="纹路彩色铅笔"/>
+		<string key="17121_7" loc-id="17121_7" value="纹路表面铅笔"/>
+		<string key="17121_8" loc-id="17121_8" value="纹路铅笔"/>
+		<string key="17121_9" loc-id="17121_9" value="纹路变数铅笔"/>
+		<string key="17121_10" loc-id="17121_10" value="油滑铅笔"/>
+		<string key="17121_11" loc-id="17121_11" value="凝重彩色铅笔"/>
+		<string key="17121_12" loc-id="17121_12" value="自动铅笔"/>
+		<string key="17121_13" loc-id="17121_13" value="油性彩色铅笔"/>
+		<string key="17121_14" loc-id="17121_14" value="油性变化铅笔"/>
+		<string key="17121_15" loc-id="17121_15" value="仿真 2B 铅笔"/>
+		<string key="17121_16" loc-id="17121_16" value="仿真 2H 制图铅笔"/>
+		<string key="17121_17" loc-id="17121_17" value="仿真 4H 凝重铅笔"/>
+		<string key="17121_18" loc-id="17121_18" value="仿真 6B 轻柔铅笔"/>
+		<string key="17121_19" loc-id="17121_19" value="仿真尖锐彩色铅笔"/>
+		<string key="17121_20" loc-id="17121_20" value="仿真轻柔彩色铅笔"/>
+		<string key="17121_21" loc-id="17121_21" value="尖锐彩色铅笔"/>
+		<string key="17121_22" loc-id="17121_22" value="尖锐铅笔"/>
+		<string key="17121_23" loc-id="17121_23" value="素描铅笔"/>
+		<string key="17121_24" loc-id="17121_24" value="可塑铅笔"/>
+		<string key="17121_25" loc-id="17121_25" value="变化彩色铅笔"/>
+	</category>
+	<category key="Str#" comment="Pens Resource Names">
+		<string key="17122_1" loc-id="17122_1" value="1 种像素"/>
+		<string key="17122_2" loc-id="17122_2" value="原子笔"/>
+		<string key="17122_3" loc-id="17122_3" value="竹笔"/>
+		<string key="17122_4" loc-id="17122_4" value="带刺铁线笔"/>
+		<string key="17122_5" loc-id="17122_5" value="宽纹路向量笔"/>
+		<string key="17122_6" loc-id="17122_6" value="宽平滑向量笔"/>
+		<string key="17122_7" loc-id="17122_7" value="书法笔刷"/>
+		<string key="17122_8" loc-id="17122_8" value="书法向量笔"/>
+		<string key="17122_9" loc-id="17122_9" value="书法"/>
+		<string key="17122_10" loc-id="17122_10" value="三线并排笔"/>
+		<string key="17122_11" loc-id="17122_11" value="速写向量笔"/>
+		<string key="17122_12" loc-id="17122_12" value="干墨水"/>
+		<string key="17122_13" loc-id="17122_13" value="细点"/>
+		<string key="17122_14" loc-id="17122_14" value="平头色彩"/>
+		<string key="17122_15" loc-id="17122_15" value="渐层向量笔"/>
+		<string key="17122_16" loc-id="17122_16" value="渐层重复向量笔"/>
+		<string key="17122_17" loc-id="17122_17" value="粒状书法"/>
+		<string key="17122_18" loc-id="17122_18" value="粒状边缘书法"/>
+		<string key="17122_19" loc-id="17122_19" value="纹路向量笔"/>
+		<string key="17122_20" loc-id="17122_20" value="漏水笔"/>
+		<string key="17122_21" loc-id="17122_21" value="纤维笔"/>
+		<string key="17122_22" loc-id="17122_22" value="仿真滴水向量笔"/>
+		<string key="17122_23" loc-id="17122_23" value="仿真细点向量笔"/>
+		<string key="17122_24" loc-id="17122_24" value="仿真变化笔尖向量笔"/>
+		<string key="17122_25" loc-id="17122_25" value="仿真变化宽度向量笔"/>
+		<string key="17122_26" loc-id="17122_26" value="芦苇笔"/>
+		<string key="17122_27" loc-id="17122_27" value="圆头尖笔"/>
+		<string key="17122_28" loc-id="17122_28" value="耙笔"/>
+		<string key="17122_29" loc-id="17122_29" value="涂鸦笔"/>
+		<string key="17122_30" loc-id="17122_30" value="平滑边缘"/>
+		<string key="17122_31" loc-id="17122_31" value="平滑墨水笔"/>
+		<string key="17122_32" loc-id="17122_32" value="平滑圆头笔"/>
+		<string key="17122_33" loc-id="17122_33" value="可塑向量笔"/>
+		<string key="17122_34" loc-id="17122_34" value="细纹路向量笔"/>
+		<string key="17122_35" loc-id="17122_35" value="细光滑书法"/>
+		<string key="17122_36" loc-id="17122_36" value="细平滑向量笔"/>
+		<string key="17122_37" loc-id="17122_37" value="宽笔触"/>
+	</category>
+	<category key="Str#" comment="Photo Resource Names">
+		<string key="17123_1" loc-id="17123_1" value="加入纹路"/>
+		<string key="17123_2" loc-id="17123_2" value="模糊"/>
+		<string key="17123_3" loc-id="17123_3" value="暗化"/>
+		<string key="17123_4" loc-id="17123_4" value="彩化喷枪"/>
+		<string key="17123_5" loc-id="17123_5" value="彩化"/>
+		<string key="17123_6" loc-id="17123_6" value="晕染模糊"/>
+		<string key="17123_7" loc-id="17123_7" value="亮化"/>
+		<string key="17123_8" loc-id="17123_8" value="细致晕染"/>
+		<string key="17123_9" loc-id="17123_9" value="加入彩度"/>
+		<string key="17123_10" loc-id="17123_10" value="擦痕移除"/>
+		<string key="17123_11" loc-id="17123_11" value="锐利化"/>
+	</category>
+	<category key="Str#" comment="Real Watercolor Resource Names">
+		<string key="17124_1" loc-id="17124_1" value="在干燥纸张上风干"/>
+		<string key="17124_2" loc-id="17124_2" value="碎形干燥清除"/>
+		<string key="17124_3" loc-id="17124_3" value="碎形干燥"/>
+		<string key="17124_4" loc-id="17124_4" value="碎形纹路"/>
+		<string key="17124_5" loc-id="17124_5" value="碎形清洗边缘"/>
+		<string key="17124_6" loc-id="17124_6" value="碎形清洗湿润"/>
+		<string key="17124_7" loc-id="17124_7" value="碎形清洗"/>
+		<string key="17124_8" loc-id="17124_8" value="纹路湿润"/>
+		<string key="17124_9" loc-id="17124_9" value="轻鬃毛"/>
+		<string key="17124_10" loc-id="17124_10" value="轻边缘"/>
+		<string key="17124_11" loc-id="17124_11" value="仿真纹路清洗"/>
+		<string key="17124_12" loc-id="17124_12" value="仿真椭圆清洗"/>
+		<string key="17124_13" loc-id="17124_13" value="仿真尖头鬃毛"/>
+		<string key="17124_14" loc-id="17124_14" value="仿真湿鬃毛"/>
+		<string key="17124_15" loc-id="17124_15" value="仿真湿细节"/>
+		<string key="17124_16" loc-id="17124_16" value="仿真湿榛型笔"/>
+		<string key="17124_17" loc-id="17124_17" value="仿真湿平头边缘"/>
+		<string key="17124_18" loc-id="17124_18" value="仿真湿平头"/>
+		<string key="17124_19" loc-id="17124_19" value="仿真湿海绵"/>
+		<string key="17124_20" loc-id="17124_20" value="仿真湿清洗"/>
+		<string key="17124_21" loc-id="17124_21" value="粗糙边缘"/>
+		<string key="17124_22" loc-id="17124_22" value="剪贴簿"/>
+		<string key="17124_23" loc-id="17124_23" value="喷洒干燥"/>
+		<string key="17124_24" loc-id="17124_24" value="喷洒湿润"/>
+		<string key="17124_25" loc-id="17124_25" value="在湿纸张上浸湿"/>
+		<string key="17124_26" loc-id="17124_26" value="湿铅笔"/>
+		<string key="17124_27" loc-id="17124_27" value="湿橡皮擦"/>
+		<string key="17124_28" loc-id="17124_28" value="流线贴图湿缘"/>
+		<string key="17124_29" loc-id="17124_29" value="融化流线贴图"/>
+		<string key="17124_30" loc-id="17124_30" value="流线贴图杂缘"/>
+	</category>
+	<category key="Str#" comment="Real Wet Oil Resource Names">
+		<string key="17125_1" loc-id="17125_1" value="蚀刻纹路"/>
+		<string key="17125_2" loc-id="17125_2" value="蚀刻液体"/>
+		<string key="17125_3" loc-id="17125_3" value="液体纹路渐变笔"/>
+		<string key="17125_4" loc-id="17125_4" value="液体纹路"/>
+		<string key="17125_5" loc-id="17125_5" value="液体油墨"/>
+		<string key="17125_6" loc-id="17125_6" value="松脂渐变笔"/>
+		<string key="17125_7" loc-id="17125_7" value="松脂纹路"/>
+		<string key="17125_8" loc-id="17125_8" value="松脂"/>
+		<string key="17125_9" loc-id="17125_9" value="湿渐变笔"/>
+		<string key="17125_10" loc-id="17125_10" value="湿鬃毛"/>
+		<string key="17125_11" loc-id="17125_11" value="湿纹路"/>
+		<string key="17125_12" loc-id="17125_12" value="湿油墨"/>
+	</category>
+	<category key="Str#" comment="Sponges Resource Names">
+		<string key="17126_1" loc-id="17126_1" value="密海绵"/>
+		<string key="17126_2" loc-id="17126_2" value="细致海绵"/>
+		<string key="17126_3" loc-id="17126_3" value="釉彩海绵"/>
+		<string key="17126_4" loc-id="17126_4" value="纹路湿海绵"/>
+		<string key="17126_5" loc-id="17126_5" value="载色湿海绵"/>
+		<string key="17126_6" loc-id="17126_6" value="涂抹湿海绵"/>
+		<string key="17126_7" loc-id="17126_7" value="海绵"/>
+		<string key="17126_8" loc-id="17126_8" value="方形海绵"/>
+		<string key="17126_9" loc-id="17126_9" value="湿海绵"/>
+	</category>
+	<category key="Str#" comment="Sumi-e Resource Names">
+		<string key="17127_1" loc-id="17127_1" value="粗糙鬃毛苏美"/>
+		<string key="17127_2" loc-id="17127_2" value="细节苏美"/>
+		<string key="17127_3" loc-id="17127_3" value="数位苏美"/>
+		<string key="17127_4" loc-id="17127_4" value="干墨水"/>
+		<string key="17127_5" loc-id="17127_5" value="大号细致苏美"/>
+		<string key="17127_6" loc-id="17127_6" value="小号细致苏美"/>
+		<string key="17127_7" loc-id="17127_7" value="大号平头苏美"/>
+		<string key="17127_8" loc-id="17127_8" value="小号平头苏美"/>
+		<string key="17127_9" loc-id="17127_9" value="平头湿苏美"/>
+		<string key="17127_10" loc-id="17127_10" value="不透光鬃毛苏美 "/>
+		<string key="17127_11" loc-id="17127_11" value="仿真苏美干笔刷"/>
+		<string key="17127_12" loc-id="17127_12" value="仿真苏美湿笔刷"/>
+		<string key="17127_13" loc-id="17127_13" value="轻柔鬃毛苏美"/>
+		<string key="17127_14" loc-id="17127_14" value="苏美笔刷"/>
+		<string key="17127_15" loc-id="17127_15" value="锥形数位苏美"/>
+		<string key="17127_16" loc-id="17127_16" value="大号锥形苏美"/>
+		<string key="17127_17" loc-id="17127_17" value="小号锥形苏美"/>
+		<string key="17127_18" loc-id="17127_18" value="粗分叉苏美"/>
+		<string key="17127_19" loc-id="17127_19" value="细鬃毛苏美"/>
+		<string key="17127_20" loc-id="17127_20" value="变化粗苏美"/>
+		<string key="17127_21" loc-id="17127_21" value="变化细苏美"/>
+		<string key="17127_22" loc-id="17127_22" value="湿鬃毛苏美"/>
+	</category>
+	<category key="Str#" comment="Tinting Resource Names">
+		<string key="17128_1" loc-id="17128_1" value="基本圆刷"/>
+		<string key="17128_2" loc-id="17128_2" value="尖细橡皮擦"/>
+		<string key="17128_3" loc-id="17128_3" value="渐变鬃毛"/>
+		<string key="17128_4" loc-id="17128_4" value="鬃毛笔刷"/>
+		<string key="17128_5" loc-id="17128_5" value="晕染 1"/>
+		<string key="17128_6" loc-id="17128_6" value="晕染 2"/>
+		<string key="17128_7" loc-id="17128_7" value="方向性晕染"/>
+		<string key="17128_8" loc-id="17128_8" value="纹路釉彩圆头"/>
+		<string key="17128_9" loc-id="17128_9" value="凝重纹路圆头"/>
+		<string key="17128_10" loc-id="17128_10" value="油性圆头"/>
+		<string key="17128_11" loc-id="17128_11" value="撒盐"/>
+		<string key="17128_12" loc-id="17128_12" value="轻柔橡皮擦"/>
+		<string key="17128_13" loc-id="17128_13" value="轻柔釉彩圆头"/>
+		<string key="17128_14" loc-id="17128_14" value="轻柔纹路圆头"/>
+		<string key="17128_15" loc-id="17128_15" value="柔化"/>
+		<string key="17128_16" loc-id="17128_16" value="锥形橡皮擦"/>
+	</category>
+	<category key="Str#" comment="Watercolor Resource Names">
+		<string key="17129_1" loc-id="17129_1" value="流动漂白"/>
+		<string key="17129_2" loc-id="17129_2" value="漂白喷洒"/>
+		<string key="17129_3" loc-id="17129_3" value="晕染鬃毛"/>
+		<string key="17129_4" loc-id="17129_4" value="晕染驼毛"/>
+		<string key="17129_5" loc-id="17129_5" value="晕染平头"/>
+		<string key="17129_6" loc-id="17129_6" value="晕染纹路驼毛"/>
+		<string key="17129_7" loc-id="17129_7" value="晕染纹路平头"/>
+		<string key="17129_8" loc-id="17129_8" value="干鬃毛"/>
+		<string key="17129_9" loc-id="17129_9" value="干驼毛"/>
+		<string key="17129_10" loc-id="17129_10" value="干平头"/>
+		<string key="17129_11" loc-id="17129_11" value="晕染橡皮擦"/>
+		<string key="17129_12" loc-id="17129_12" value="弄干橡皮擦"/>
+		<string key="17129_13" loc-id="17129_13" value="纹路橡皮擦"/>
+		<string key="17129_14" loc-id="17129_14" value="撒盐橡皮擦"/>
+		<string key="17129_15" loc-id="17129_15" value="弄湿橡皮擦"/>
+		<string key="17129_16" loc-id="17129_16" value="细鬃毛"/>
+		<string key="17129_17" loc-id="17129_17" value="细驼毛"/>
+		<string key="17129_18" loc-id="17129_18" value="细致平头"/>
+		<string key="17129_19" loc-id="17129_19" value="细致调色刀"/>
+		<string key="17129_20" loc-id="17129_20" value="纹路洗涤鬃毛"/>
+		<string key="17129_21" loc-id="17129_21" value="纹路洗涤驼毛"/>
+		<string key="17129_22" loc-id="17129_22" value="纹路洗涤平头"/>
+		<string key="17129_23" loc-id="17129_23" value="流动喷枪"/>
+		<string key="17129_24" loc-id="17129_24" value="流动洗涤鬃毛"/>
+		<string key="17129_25" loc-id="17129_25" value="流动洗涤驼毛"/>
+		<string key="17129_26" loc-id="17129_26" value="流动洗涤平头"/>
+		<string key="17129_27" loc-id="17129_27" value="流动湿鬃毛"/>
+		<string key="17129_28" loc-id="17129_28" value="流动湿驼毛"/>
+		<string key="17129_29" loc-id="17129_29" value="流动湿平头"/>
+		<string key="17129_30" loc-id="17129_30" value="简单圆头洗涤"/>
+		<string key="17129_31" loc-id="17129_31" value="平滑流动鬃毛"/>
+		<string key="17129_32" loc-id="17129_32" value="平滑流动驼毛"/>
+		<string key="17129_33" loc-id="17129_33" value="平滑流动平头"/>
+		<string key="17129_34" loc-id="17129_34" value="轻柔鬃毛"/>
+		<string key="17129_35" loc-id="17129_35" value="轻柔驼毛"/>
+		<string key="17129_36" loc-id="17129_36" value="轻柔平头"/>
+		<string key="17129_37" loc-id="17129_37" value="轻柔流动洗涤 "/>
+		<string key="17129_38" loc-id="17129_38" value="喷洒水笔"/>
+		<string key="17129_39" loc-id="17129_39" value="湿海绵纹路"/>
+		<string key="17129_40" loc-id="17129_40" value="湿海绵"/>
+		<string key="17129_41" loc-id="17129_41" value="洗涤鬃毛"/>
+		<string key="17129_42" loc-id="17129_42" value="洗涤驼毛"/>
+		<string key="17129_43" loc-id="17129_43" value="洗涤平头"/>
+		<string key="17129_44" loc-id="17129_44" value="洗涤尖头平头"/>
+		<string key="17129_45" loc-id="17129_45" value="水性釉彩平头"/>
+		<string key="17129_46" loc-id="17129_46" value="水性釉彩圆头"/>
+		<string key="17129_47" loc-id="17129_47" value="水性尖头平头"/>
+		<string key="17129_48" loc-id="17129_48" value="水性轻柔鬃毛"/>
+		<string key="17129_49" loc-id="17129_49" value="湿鬃毛"/>
+		<string key="17129_50" loc-id="17129_50" value="湿驼毛"/>
+		<string key="17129_51" loc-id="17129_51" value="湿平头"/>
+		<string key="17129_52" loc-id="17129_52" value="湿洗涤平头"/>
+	</category>
+	<category key="Str#" comment="Smart Stroke Resource Names">
+		<string key="17130_1" loc-id="17130_1" value="亚克力拾取鬃毛"/>
+		<string key="17130_2" loc-id="17130_2" value="亚克力干笔刷"/>
+		<string key="17130_8" loc-id="17130_8" value="轻柔粉彩笔"/>
+		<string key="17130_9" loc-id="17130_9" value="材质粉彩笔"/>
+		<string key="17130_10" loc-id="17130_10" value="炭笔"/>
+		<string key="17130_14" loc-id="17130_14" value="彩色铅笔"/>
+		<string key="17130_24" loc-id="17130_24" value="胶彩粗平头"/>
+		<string key="17130_25" loc-id="17130_25" value="胶彩粗圆头"/>
+		<string key="17130_30" loc-id="17130_30" value="粉蜡笔粉彩笔"/>
+		<string key="17130_31" loc-id="17130_31" value="锥形粉蜡笔"/>
+		<string key="17130_38" loc-id="17130_38" value="密海绵"/>
+		<string key="17130_39" loc-id="17130_39" value="轻柔海绵"/>
+		<string key="17130_46" loc-id="17130_46" value="水彩宽笔刷"/>
+		<string key="17130_50" loc-id="17130_50" value="水彩流动"/>
+		<string key="17130_51" loc-id="17130_51" value="水彩轻柔晕染笔刷"/>
+		<string key="17130_52" loc-id="17130_52" value="水彩喷洒水笔"/>
+	</category>
+	<category key="Str#" comment="Flowmaps Resource Names">
+		<string key="17131_1" loc-id="17131_1" value="云彩"/>
+		<string key="17131_2" loc-id="17131_2" value="砂砾"/>
+		<string key="17131_3" loc-id="17131_3" value="细致点纸"/>
+		<string key="17131_4" loc-id="17131_4" value="羽化领地"/>
+		<string key="17131_5" loc-id="17131_5" value="狂乱"/>
+		<string key="17131_6" loc-id="17131_6" value="高对比的云彩"/>
+		<string key="17131_7" loc-id="17131_7" value="窗霜"/>
+		<string key="17131_8" loc-id="17131_8" value="水平流动"/>
+		<string key="17131_9" loc-id="17131_9" value="采用大理石的"/>
+		<string key="17131_10" loc-id="17131_10" value="鱼皮"/>
+		<string key="17131_11" loc-id="17131_11" value="炽热熔岩"/>
+		<string key="17131_12" loc-id="17131_12" value="细线"/>
+		<string key="17131_13" loc-id="17131_13" value="自然的垂直"/>
+		<string key="17131_14" loc-id="17131_14" value="柔软形态"/>
+		<string key="17131_15" loc-id="17131_15" value="图形漩涡"/>
+		<string key="17131_16" loc-id="17131_16" value="蜂巢"/>
+		<string key="17131_17" loc-id="17131_17" value="风吹式"/>
+		<string key="17131_18" loc-id="17131_18" value="自由流线"/>
+		<string key="17131_19" loc-id="17131_19" value="飞扬微粒"/>
+		<string key="17131_20" loc-id="17131_20" value="弹簧微粒"/>
+	</category>
+
+	<category key="Str#" comment="Inspirational Mixers Names">
+		<string key="17132_1" loc-id="17132_1" value="Jeremy Sutton 的混色板"/>
+		<string key="17132_2" loc-id="17132_2" value="John Malcolm 的混色板"/>
+		<string key="17132_3" loc-id="17132_3" value="Karen Bonaker 的混色板"/>
+		<string key="17132_4" loc-id="17132_4" value="Skip Allen 的混色板"/>
+		<string key="17132_5" loc-id="17132_5" value="却彭达维斯的混色板"/>
+	</category>
+
+	<category key="Str#" comment="Painter X3 Brushes">
+		<string key="17133_1" loc-id="17133_1" value="粗糙喷溅抖动"/>
+		<string key="17133_2" loc-id="17133_2" value="胶化碎形抖动"/>
+		<string key="17133_3" loc-id="17133_3" value="浓密喷枪抖动"/>
+		<string key="17133_4" loc-id="17133_4" value="陈旧马克笔抖动"/>
+		<string key="17133_5" loc-id="17133_5" value="轻边缘抖动"/>
+		<string key="17133_6" loc-id="17133_6" value="仿真粉彩笔抖动"/>
+		<string key="17133_7" loc-id="17133_7" value="色彩水管抖动"/>
+	</category>
+
+	<category key="Str#" comment="Painter X3 Brushes">
+		<string key="17134_1" loc-id="17134_1" value="粗糙湿鬃毛"/>
+		<string key="17134_2" loc-id="17134_2" value="细致轻柔笔刷"/>
+		<string key="17134_3" loc-id="17134_3" value="纹路抖动海绵"/>
+		<string key="17134_4" loc-id="17134_4" value="仿真块状宽鬃毛"/>
+		<string key="17134_5" loc-id="17134_5" value="仿真油画榛型笔"/>
+		<string key="17134_6" loc-id="17134_6" value="仿真湿流线贴图洗涤"/>
+		<string key="17134_7" loc-id="17134_7" value="仿真湿抖动海绵"/>
+	</category>
+
+	<category key="Str#" comment="Painter X3 Brushes">
+		<string key="17135_1" loc-id="17135_1" value="尖头调色刀笔刷抖动"/>
+		<string key="17135_2" loc-id="17135_2" value="尖头调色刀犁痕抖动"/>
+		<string key="17135_3" loc-id="17135_3" value="仿真潮湿线"/>
+		<string key="17135_4" loc-id="17135_4" value="仿真潮湿材质"/>
+	</category>
+
+	<category key="Str#" comment="Painter X3 Brushes">
+		<string key="17136_1" loc-id="17136_1" value="稠密厚涂区块抖动"/>
+		<string key="17136_2" loc-id="17136_2" value="胶彩分岔抖动"/>
+		<string key="17136_3" loc-id="17136_3" value="纹路混色笔厚涂抖动"/>
+		<string key="17136_4" loc-id="17136_4" value="粗糙厚涂抖动"/>
+		<string key="17136_5" loc-id="17136_5" value="粗糙萨金特笔刷抖动"/>
+		<string key="17136_6" loc-id="17136_6" value="厚涂仿制笔抖动蚀刻"/>
+		<string key="17136_7" loc-id="17136_7" value="浓重厚涂图章抖动"/>
+		<string key="17136_8" loc-id="17136_8" value="拾取厚涂混色笔抖动"/>
+		<string key="17136_9" loc-id="17136_9" value="轻柔水化分岔混色笔"/>
+	</category>
+
+	<category key="Str#" comment="Painter X3 Brushes">
+		<string key="17137_1" loc-id="17137_1" value="萨金特大幅度抖动"/>
+		<string key="17137_2" loc-id="17137_2" value="印象派混色笔抖动"/>
+		<string key="17137_3" loc-id="17137_3" value="花纹粉彩笔抖动"/>
+		<string key="17137_4" loc-id="17137_4" value="曲线花纹粉彩笔抖动"/>
+		<string key="17137_5" loc-id="17137_5" value="雾状抖动"/>
+		<string key="17137_6" loc-id="17137_6" value="粗糙涂抹混色笔抖动"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2015 Brushes">
+		<string key="17138_1" loc-id="17138_1" value="仿真湿抖动平滑流量"/>
+		<string key="17138_2" loc-id="17138_2" value="粒状蜡笔抖动平滑"/>
+		<string key="17138_3" loc-id="17138_3" value="流动有机体材质"/>
+		<string key="17138_4" loc-id="17138_4" value="重力鬃毛"/>
+		<string key="17138_5" loc-id="17138_5" value="弹簧羽化素描"/>
+		<string key="17138_6" loc-id="17138_6" value="弹簧 (粗)"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2015 Brushes">
+		<string key="17139_1" loc-id="17139_1" value="弹簧概念着色区域"/>
+		<string key="17139_2" loc-id="17139_2" value="弹簧概念产物"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2015 Brushes">
+		<string key="17140_1" loc-id="17140_1" value="重力素描"/>
+		<string key="17140_2" loc-id="17140_2" value="仿真湿抖动平滑变数"/>
+		<string key="17140_3" loc-id="17140_3" value="微粒弹簧有机体仿制笔"/>
+		<string key="17140_4" loc-id="17140_4" value="微粒弹簧轻柔混色笔"/>
+		<string key="17140_5" loc-id="17140_5" value="微粒弹簧轻柔仿制笔"/>
+		<string key="17140_6" loc-id="17140_6" value="湿润媒介"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2015 Brushes">
+		<string key="17141_1" loc-id="17141_1" value="重力装饰简化"/>
+		<string key="17141_2" loc-id="17141_2" value="重力锯齿状光源笔"/>
+		<string key="17141_3" loc-id="17141_3" value="油性抖动平滑仿制笔"/>
+		<string key="17141_4" loc-id="17141_4" value="弹簧变数梦幻"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2015 Brushes">
+		<string key="17142_1" loc-id="17142_1" value="弹簧网眼概念"/>
+		<string key="17142_2" loc-id="17142_2" value="素描抖动平滑"/>
+		<string key="17142_3" loc-id="17142_3" value="概念艺术抖动平滑"/>
+		<string key="17142_4" loc-id="17142_4" value="重力概念建立"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2015 Brushes">
+		<string key="17143_1" loc-id="17143_1" value="弹簧火焰光晕"/>
+		<string key="17143_2" loc-id="17143_2" value="流动闪光"/>
+		<string key="17143_3" loc-id="17143_3" value="流动烟火光晕"/>
+		<string key="17143_4" loc-id="17143_4" value="弹簧蜘蛛网"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2015 Brushes">
+		<string key="17144_1" loc-id="17144_1" value="流线贴图舞者"/>
+		<string key="17144_2" loc-id="17144_2" value="弹簧磨损的绳索光晕"/>
+		<string key="17144_3" loc-id="17144_3" value="微粒流动鬃毛精细仿制笔"/>
+		<string key="17144_4" loc-id="17144_4" value="微粒弹簧虫洞仿制笔"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2015 Brushes">
+		<string key="17145_1" loc-id="17145_1" value="微粒弹簧边缘缎带仿制笔"/>
+		<string key="17145_2" loc-id="17145_2" value="飘逸的毛皮尾巴"/>
+		<string key="17145_3" loc-id="17145_3" value="重力惰性素描"/>
+		<string key="17145_4" loc-id="17145_4" value="微粒流线贴图皮毛渐变笔"/>
+		<string key="17145_5" loc-id="17145_5" value="弹簧绢花"/>
+		<string key="17145_6" loc-id="17145_6" value="弹簧果冻管"/>
+		<string key="17145_7" loc-id="17145_7" value="流水效果"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2015 Brushes">
+		<string key="17146_1" loc-id="17146_1" value="弹簧火球"/>
+		<string key="17146_2" loc-id="17146_2" value="弹簧链 (烟雾状)"/>
+		<string key="17146_3" loc-id="17146_3" value="弹簧核心 (烟雾状)"/>
+		<string key="17146_4" loc-id="17146_4" value="流动色彩表现"/>
+		<string key="17146_5" loc-id="17146_5" value="流动极光"/>
+		<string key="17146_6" loc-id="17146_6" value="重力纹路轨道飞行器"/>
+		<string key="17146_7" loc-id="17146_7" value="微粒弹簧载色刀"/>
+		<string key="17146_8" loc-id="17146_8" value="微粒弹簧油性拖把"/>
+		<string key="17146_9" loc-id="17146_9" value="微粒弹簧油画蓬状仿制笔"/>
+		<string key="17146_10" loc-id="17146_10" value="弹簧彩虹丝绸"/>
+		<string key="17146_11" loc-id="17146_11" value="纹路渐变笔抖动平滑"/>
+		<string key="17146_12" loc-id="17146_12" value="流动彩虹喷洒装置"/>
+		<string key="17146_13" loc-id="17146_13" value="飘逸的毛皮"/>
+		<string key="17146_14" loc-id="17146_14" value="春绸缎带"/>
+		<string key="17146_15" loc-id="17146_15" value="流线贴图强化器"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Acrylics and Gouache">
+		<string key="17147_1" loc-id="17147_1" value="不透光亚克力笔"/>
+		<string key="17147_2" loc-id="17147_2" value="不透光细节笔刷"/>
+		<string key="17147_3" loc-id="17147_3" value="仿真干平头"/>
+		<string key="17147_4" loc-id="17147_4" value="粗亚克力鬃毛"/>
+		<string key="17147_5" loc-id="17147_5" value="湿细节笔刷"/>
+		<string key="17147_6" loc-id="17147_6" value="鬃毛喷溅细节不透光"/>
+		<string key="17147_7" loc-id="17147_7" value="胶彩分岔抖动"/>
+		<string key="17147_8" loc-id="17147_8" value="不透光平滑笔刷"/>
+		<string key="17147_9" loc-id="17147_9" value="亚克力胶化洗涤"/>
+		<string key="17147_10" loc-id="17147_10" value="拾取鬃毛"/>
+		<string key="17147_11" loc-id="17147_11" value="斑纹重力笔刷"/>
+		<string key="17147_12" loc-id="17147_12" value="斑纹 (湿和干)"/>
+		<string key="17147_13" loc-id="17147_13" value="釉彩亚克力笔"/>
+		<string key="17147_14" loc-id="17147_14" value="仿真长鬃毛"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Artists' Oils">
+		<string key="17148_1" loc-id="17148_1" value="鬃毛笔刷"/>
+		<string key="17148_2" loc-id="17148_2" value="干调色刀"/>
+		<string key="17148_3" loc-id="17148_3" value="纹路风干笔刷"/>
+		<string key="17148_4" loc-id="17148_4" value="油性鬃毛"/>
+		<string key="17148_5" loc-id="17148_5" value="仿真块状宽鬃毛"/>
+		<string key="17148_6" loc-id="17148_6" value="不透光仿真平头"/>
+		<string key="17148_7" loc-id="17148_7" value="涂抹仿真油画"/>
+		<string key="17148_8" loc-id="17148_8" value="仿真锥形湿平头"/>
+		<string key="17148_9" loc-id="17148_9" value="锥形油画笔"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Airbrushes">
+		<string key="17149_1" loc-id="17149_1" value="宽滚轮喷枪"/>
+		<string key="17149_2" loc-id="17149_2" value="粗糙喷溅抖动"/>
+		<string key="17149_3" loc-id="17149_3" value="细节喷枪"/>
+		<string key="17149_4" loc-id="17149_4" value="数位轻柔速度喷枪"/>
+		<string key="17149_5" loc-id="17149_5" value="粉状喷溅"/>
+		<string key="17149_6" loc-id="17149_6" value="图素喷溅"/>
+		<string key="17149_7" loc-id="17149_7" value="变化喷洒"/>
+		<string key="17149_8" loc-id="17149_8" value="数位喷枪"/>
+		<string key="17149_9" loc-id="17149_9" value="喷洒喷枪"/>
+		<string key="17149_10" loc-id="17149_10" value="数位纹路喷枪"/>
+		<string key="17149_11" loc-id="17149_11" value="细致喷溅"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Audio Expression">
+		<string key="17150_1" loc-id="17150_1" value="调色刀仿制笔音讯舞者"/>
+		<string key="17150_2" loc-id="17150_2" value="斑纹液态油墨音讯溅污"/>
+		<string key="17150_3" loc-id="17150_3" value="屏蔽花纹音讯笔"/>
+		<string key="17150_4" loc-id="17150_4" value="梵谷音讯涂刷"/>
+		<string key="17150_5" loc-id="17150_5" value="仿真水彩音讯脉冲"/>
+		<string key="17150_6" loc-id="17150_6" value="云朵音讯搅乱器"/>
+		<string key="17150_7" loc-id="17150_7" value="斑纹蜡笔音讯脉冲"/>
+		<string key="17150_8" loc-id="17150_8" value="斑纹喷枪音讯脉冲"/>
+		<string key="17150_9" loc-id="17150_9" value="微粒音讯静态"/>
+		<string key="17150_10" loc-id="17150_10" value="微粒纹路音讯喷溅"/>
+		<string key="17150_11" loc-id="17150_11" value="微粒音讯舞者"/>
+		<string key="17150_12" loc-id="17150_12" value="轻柔斑纹音讯脉冲"/>
+		<string key="17150_13" loc-id="17150_13" value="微粒折纸音讯脉冲"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Artists' Favorites">
+		<string key="17151_1" loc-id="17151_1" value="印象派混色笔抖动"/>
+		<string key="17151_2" loc-id="17151_2" value="萨金特笔刷"/>
+		<string key="17151_3" loc-id="17151_3" value="涂鸦笔"/>
+		<string key="17151_4" loc-id="17151_4" value="粗糙萨金特笔刷抖动"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Blenders">
+		<string key="17152_1" loc-id="17152_1" value="混色笔鬃毛"/>
+		<string key="17152_2" loc-id="17152_2" value="粗糙油性渐变笔"/>
+		<string key="17152_3" loc-id="17152_3" value="粗糙涂抹"/>
+		<string key="17152_4" loc-id="17152_4" value="晕染模糊"/>
+		<string key="17152_5" loc-id="17152_5" value="纹路混色笔厚涂抖动"/>
+		<string key="17152_6" loc-id="17152_6" value="纹路渐变笔"/>
+		<string key="17152_7" loc-id="17152_7" value="微粒弹簧轻柔混色笔"/>
+		<string key="17152_8" loc-id="17152_8" value="尖头蜡笔"/>
+		<string key="17152_9" loc-id="17152_9" value="涂抹"/>
+		<string key="17152_10" loc-id="17152_10" value="斑纹粗糙油性混色笔"/>
+		<string key="17152_11" loc-id="17152_11" value="纹路水化"/>
+		<string key="17152_12" loc-id="17152_12" value="只加水"/>
+		<string key="17152_13" loc-id="17152_13" value="粗糙涂抹抖动混色笔"/>
+		<string key="17152_14" loc-id="17152_14" value="釉彩混色笔"/>
+		<string key="17152_15" loc-id="17152_15" value="油性混色笔"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Chalk, Crayons, Conte, and Pastels">
+		<string key="17153_1" loc-id="17153_1" value="基本蜡笔"/>
+		<string key="17153_2" loc-id="17153_2" value="概念艺术抖动平滑"/>
+		<string key="17153_3" loc-id="17153_3" value="仿真粗粉彩笔"/>
+		<string key="17153_4" loc-id="17153_4" value="轻柔炭铅笔"/>
+		<string key="17153_5" loc-id="17153_5" value="宽度变化粉彩笔"/>
+		<string key="17153_6" loc-id="17153_6" value="平头凝重粉蜡笔"/>
+		<string key="17153_7" loc-id="17153_7" value="粗油画粉蜡笔"/>
+		<string key="17153_8" loc-id="17153_8" value="油画粉蜡笔"/>
+		<string key="17153_9" loc-id="17153_9" value="方形凝重粉蜡笔"/>
+		<string key="17153_10" loc-id="17153_10" value="粗轻柔粉蜡笔"/>
+		<string key="17153_11" loc-id="17153_11" value="旧方形粉蜡笔"/>
+		<string key="17153_12" loc-id="17153_12" value="钝头炭铅笔"/>
+		<string key="17153_13" loc-id="17153_13" value="仿真轻柔康特笔"/>
+		<string key="17153_14" loc-id="17153_14" value="圆头油画粉蜡笔"/>
+		<string key="17153_15" loc-id="17153_15" value="轻柔藤蔓炭笔"/>
+		<string key="17153_16" loc-id="17153_16" value="锥形粉蜡笔"/>
+		<string key="17153_17" loc-id="17153_17" value="变化油画粉蜡笔"/>
+		<string key="17153_18" loc-id="17153_18" value="钝头康特笔"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Cloners">
+		<string key="17154_1" loc-id="17154_1" value="粉笔仿制笔"/>
+		<string key="17154_2" loc-id="17154_2" value="仿制笔喷溅"/>
+		<string key="17154_3" loc-id="17154_3" value="毛发仿制工具"/>
+		<string key="17154_4" loc-id="17154_4" value="微粒流动鬃毛精细仿制笔"/>
+		<string key="17154_5" loc-id="17154_5" value="微粒弹簧油画蓬状仿制笔"/>
+		<string key="17154_6" loc-id="17154_6" value="微粒弹簧虫洞仿制笔"/>
+		<string key="17154_7" loc-id="17154_7" value="柔化仿制笔"/>
+		<string key="17154_8" loc-id="17154_8" value="直接仿制笔"/>
+		<string key="17154_9" loc-id="17154_9" value="材质喷溅仿制工具"/>
+		<string key="17154_10" loc-id="17154_10" value="梵谷仿制工具"/>
+		<string key="17154_11" loc-id="17154_11" value="鬃毛混色仿制笔"/>
+		<string key="17154_12" loc-id="17154_12" value="驼毛厚涂仿制工具"/>
+		<string key="17154_13" loc-id="17154_13" value="斑纹蛋糕装饰仿制笔"/>
+		<string key="17154_14" loc-id="17154_14" value="斑纹刀仿制笔"/>
+		<string key="17154_15" loc-id="17154_15" value="纤维仿制工具"/>
+		<string key="17154_16" loc-id="17154_16" value="扁平涂料仿制笔"/>
+		<string key="17154_17" loc-id="17154_17" value="抖动蚀刻厚涂颜料仿制笔"/>
+		<string key="17154_18" loc-id="17154_18" value="斑纹粉蜡仿制笔"/>
+		<string key="17154_19" loc-id="17154_19" value="喷洒仿制喷溅"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Dynamic Speckles">
+		<string key="17155_1" loc-id="17155_1" value="鬃毛轻柔渲染压力表现"/>
+		<string key="17155_2" loc-id="17155_2" value="仿真鬃毛轻柔渲染"/>
+		<string key="17155_3" loc-id="17155_3" value="仿真鬃毛厚涂轻柔渲染"/>
+		<string key="17155_4" loc-id="17155_4" value="海绵微粒"/>
+		<string key="17155_5" loc-id="17155_5" value="左旋微粒外挂模组"/>
+		<string key="17155_6" loc-id="17155_6" value="微粒轻柔渲染混色笔"/>
+		<string key="17155_7" loc-id="17155_7" value="微粒纹路马克笔研磨剂"/>
+		<string key="17155_8" loc-id="17155_8" value="仿真鬃毛滴水法"/>
+		<string key="17155_9" loc-id="17155_9" value="仿真湿旧鬃毛"/>
+		<string key="17155_10" loc-id="17155_10" value="微粒链条纹路覆盖"/>
+		<string key="17155_11" loc-id="17155_11" value="微粒火种光晕"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Digital Watercolor">
+		<string key="17156_1" loc-id="17156_1" value="宽水彩笔刷"/>
+		<string key="17156_2" loc-id="17156_2" value="粗糙水笔"/>
+		<string key="17156_3" loc-id="17156_3" value="细尖水笔"/>
+		<string key="17156_4" loc-id="17156_4" value="微湿橡皮擦"/>
+		<string key="17156_5" loc-id="17156_5" value="新简单晕染"/>
+		<string key="17156_6" loc-id="17156_6" value="结晶点水彩笔"/>
+		<string key="17156_7" loc-id="17156_7" value="轻柔圆头渐变笔"/>
+		<string key="17156_8" loc-id="17156_8" value="湿橡皮擦"/>
+		<string key="17156_9" loc-id="17156_9" value="抖动水分晕染"/>
+		<string key="17156_10" loc-id="17156_10" value="喷洒水笔"/>
+		<string key="17156_11" loc-id="17156_11" value="渐细水分晕染"/>
+		<string key="17156_12" loc-id="17156_12" value="粗糙蓬状笔刷 2"/>
+		<string key="17156_13" loc-id="17156_13" value="斑纹粗糙干笔刷"/>
+		<string key="17156_14" loc-id="17156_14" value="纯水鬃毛 2"/>
+		<string key="17156_15" loc-id="17156_15" value="水彩海绵"/>
+		<string key="17156_16" loc-id="17156_16" value="粗糙干笔刷"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Erasers">
+		<string key="17157_1" loc-id="17157_1" value="单图素橡皮擦"/>
+		<string key="17157_2" loc-id="17157_2" value="块状橡皮擦"/>
+		<string key="17157_3" loc-id="17157_3" value="清除全部凝重笔画"/>
+		<string key="17157_4" loc-id="17157_4" value="清除全部轻柔笔画"/>
+		<string key="17157_5" loc-id="17157_5" value="尖头漂白"/>
+		<string key="17157_6" loc-id="17157_6" value="仿真凝重橡皮擦"/>
+		<string key="17157_7" loc-id="17157_7" value="仿真轻柔橡皮擦"/>
+		<string key="17157_8" loc-id="17157_8" value="锥形暗色化"/>
+		<string key="17157_9" loc-id="17157_9" value="斑纹橡皮擦"/>
+		<string key="17157_10" loc-id="17157_10" value="斑纹轻柔边缘橡皮擦"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - FX and Image Hose">
+		<string key="17158_1" loc-id="17158_1" value="扭曲"/>
+		<string key="17158_2" loc-id="17158_2" value="飘逸的毛皮尾巴"/>
+		<string key="17158_3" loc-id="17158_3" value="雾状抖动"/>
+		<string key="17158_4" loc-id="17158_4" value="发光"/>
+		<string key="17158_5" loc-id="17158_5" value="渐层线"/>
+		<string key="17158_6" loc-id="17158_6" value="飓风"/>
+		<string key="17158_7" loc-id="17158_7" value="石纹分岔"/>
+		<string key="17158_8" loc-id="17158_8" value="微粒流动极光"/>
+		<string key="17158_9" loc-id="17158_9" value="微粒流动烟火光晕"/>
+		<string key="17158_10" loc-id="17158_10" value="微粒重力锯齿状光源笔"/>
+		<string key="17158_11" loc-id="17158_11" value="微粒弹簧链 (烟雾状)"/>
+		<string key="17158_12" loc-id="17158_12" value="微粒弹簧火球"/>
+		<string key="17158_13" loc-id="17158_13" value="微粒弹簧彩虹丝绸"/>
+		<string key="17158_14" loc-id="17158_14" value="微粒弹簧丝绸缎带"/>
+		<string key="17158_15" loc-id="17158_15" value="水泡"/>
+		<string key="17158_16" loc-id="17158_16" value="线性大小 P 角度 B"/>
+		<string key="17158_17" loc-id="17158_17" value="喷溅大小 P 角度 R"/>
+		<string key="17158_18" loc-id="17158_18" value="喷溅大小 P 角度 W"/>
+		<string key="17158_19" loc-id="17158_19" value="线性大小 P"/>
+		<string key="17158_20" loc-id="17158_20" value="喷溅大小 P"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Impasto">
+		<string key="17159_1" loc-id="17159_1" value="蚀刻厚涂"/>
+		<string key="17159_2" loc-id="17159_2" value="透明清漆"/>
+		<string key="17159_3" loc-id="17159_3" value="深度色彩橡皮擦"/>
+		<string key="17159_4" loc-id="17159_4" value="深度等化"/>
+		<string key="17159_5" loc-id="17159_5" value="深度橡皮擦"/>
+		<string key="17159_6" loc-id="17159_6" value="深度铁头球杆"/>
+		<string key="17159_7" loc-id="17159_7" value="深度分岔"/>
+		<string key="17159_8" loc-id="17159_8" value="深度涂抹"/>
+		<string key="17159_9" loc-id="17159_9" value="扭曲厚涂"/>
+		<string key="17159_10" loc-id="17159_10" value="纤维"/>
+		<string key="17159_11" loc-id="17159_11" value="纹路浮雕"/>
+		<string key="17159_12" loc-id="17159_12" value="图形笔刷"/>
+		<string key="17159_13" loc-id="17159_13" value="花纹笔厚涂"/>
+		<string key="17159_14" loc-id="17159_14" value="花纹浮雕"/>
+		<string key="17159_15" loc-id="17159_15" value="变化纹理 "/>
+		<string key="17159_16" loc-id="17159_16" value="粗糙厚涂抖动"/>
+		<string key="17159_17" loc-id="17159_17" value="斑纹鬃毛厚涂"/>
+		<string key="17159_18" loc-id="17159_18" value="软胶"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Liquid Ink">
+		<string key="17160_1" loc-id="17160_1" value="书法平头"/>
+		<string key="17160_2" loc-id="17160_2" value="粗糙喷枪阻抗"/>
+		<string key="17160_3" loc-id="17160_3" value="粗糙驼毛阻抗"/>
+		<string key="17160_4" loc-id="17160_4" value="墨滴"/>
+		<string key="17160_5" loc-id="17160_5" value="干驼毛"/>
+		<string key="17160_6" loc-id="17160_6" value="橡皮擦"/>
+		<string key="17160_7" loc-id="17160_7" value="锯齿状画刀"/>
+		<string key="17160_8" loc-id="17160_8" value="平滑驼毛"/>
+		<string key="17160_9" loc-id="17160_9" value="柔化边缘和色彩"/>
+		<string key="17160_10" loc-id="17160_10" value="喷枪"/>
+		<string key="17160_11" loc-id="17160_11" value="微粒硬质外力创伤"/>
+		<string key="17160_12" loc-id="17160_12" value="微粒裂纹喷枪"/>
+		<string key="17160_13" loc-id="17160_13" value="微粒水滴状土褐色"/>
+		<string key="17160_14" loc-id="17160_14" value="微粒重力油墨气泡"/>
+		<string key="17160_15" loc-id="17160_15" value="微粒松树"/>
+		<string key="17160_16" loc-id="17160_16" value="溅污喷枪"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Markers">
+		<string key="17161_1" loc-id="17161_1" value="艺术马克笔"/>
+		<string key="17161_2" loc-id="17161_2" value="方尖马克笔"/>
+		<string key="17161_3" loc-id="17161_3" value="脏污马克笔"/>
+		<string key="17161_4" loc-id="17161_4" value="细尖笔"/>
+		<string key="17161_5" loc-id="17161_5" value="漏水马克笔"/>
+		<string key="17161_6" loc-id="17161_6" value="擦痕干笔尖马克笔"/>
+		<string key="17161_7" loc-id="17161_7" value="陈旧马克笔抖动"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Sumi-e">
+		<string key="17162_1" loc-id="17162_1" value="平头湿苏美"/>
+		<string key="17162_2" loc-id="17162_2" value="粗分叉苏美"/>
+		<string key="17162_3" loc-id="17162_3" value="湿鬃毛苏美"/>
+		<string key="17162_4" loc-id="17162_4" value="干油墨苏美"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Oils">
+		<string key="17163_1" loc-id="17163_1" value="稠密厚涂区块抖动"/>
+		<string key="17163_2" loc-id="17163_2" value="细致轻柔笔刷"/>
+		<string key="17163_3" loc-id="17163_3" value="细致轻柔釉彩"/>
+		<string key="17163_4" loc-id="17163_4" value="中号鬃毛油画"/>
+		<string key="17163_5" loc-id="17163_5" value="微粒弹簧油性拖把"/>
+		<string key="17163_6" loc-id="17163_6" value="软覆盖笔刷"/>
+		<string key="17163_7" loc-id="17163_7" value="粗湿油画"/>
+		<string key="17163_8" loc-id="17163_8" value="细节油画笔刷"/>
+		<string key="17163_9" loc-id="17163_9" value="斑纹细致油画笔刷"/>
+		<string key="17163_10" loc-id="17163_10" value="细致羽化油画"/>
+		<string key="17163_11" loc-id="17163_11" value="仿真块状湿平头"/>
+		<string key="17163_12" loc-id="17163_12" value="涂抹圆头"/>
+		<string key="17163_13" loc-id="17163_13" value="鬃毛油画"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Palette Knives and Sponges">
+		<string key="17164_1" loc-id="17164_1" value="混色笔调色刀"/>
+		<string key="17164_2" loc-id="17164_2" value="纹路抖动海绵"/>
+		<string key="17164_3" loc-id="17164_3" value="刷式画刀"/>
+		<string key="17164_4" loc-id="17164_4" value="载色湿海绵"/>
+		<string key="17164_5" loc-id="17164_5" value="调色刀"/>
+		<string key="17164_6" loc-id="17164_6" value="尖头调色刀犁痕抖动"/>
+		<string key="17164_7" loc-id="17164_7" value="尖锐三刃画刀"/>
+		<string key="17164_8" loc-id="17164_8" value="涂抹湿海绵"/>
+		<string key="17164_9" loc-id="17164_9" value="粗糙油性混色笔斑纹"/>
+		<string key="17164_10" loc-id="17164_10" value="厚涂海绵混色笔"/>
+		<string key="17164_11" loc-id="17164_11" value="密海绵"/>
+		<string key="17164_12" loc-id="17164_12" value="斑纹粗糙油性混色笔"/>
+		<string key="17164_13" loc-id="17164_13" value="斑纹纹路载色调色刀"/>
+		<string key="17164_14" loc-id="17164_14" value="斑纹调色刀"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Particles">
+		<string key="17165_1" loc-id="17165_1" value="流线贴图强化器"/>
+		<string key="17165_2" loc-id="17165_2" value="飘逸的毛皮"/>
+		<string key="17165_3" loc-id="17165_3" value="重力装饰简化"/>
+		<string key="17165_4" loc-id="17165_4" value="弹簧概念产物"/>
+		<string key="17165_5" loc-id="17165_5" value="弹簧磨损的绳索光晕"/>
+		<string key="17165_6" loc-id="17165_6" value="弹簧核心 (烟雾状)"/>
+		<string key="17165_7" loc-id="17165_7" value="流动轻柔渲染压力表现"/>
+		<string key="17165_8" loc-id="17165_8" value="重力仿真湿油画"/>
+		<string key="17165_9" loc-id="17165_9" value="流动破裂接缝光晕"/>
+		<string key="17165_10" loc-id="17165_10" value="流动闪光 2"/>
+		<string key="17165_11" loc-id="17165_11" value="重力鬃毛"/>
+		<string key="17165_12" loc-id="17165_12" value="弹簧光剑光晕"/>
+		<string key="17165_13" loc-id="17165_13" value="重力惰性素描"/>
+		<string key="17165_14" loc-id="17165_14" value="弹簧 (粗)"/>
+		<string key="17165_15" loc-id="17165_15" value="弹簧彩虹丝绸"/>
+		<string key="17165_16" loc-id="17165_16" value="流线毛皮喷雾器"/>
+		<string key="17165_17" loc-id="17165_17" value="弹簧火焰光晕"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Patterns">
+		<string key="17166_1" loc-id="17166_1" value="花纹粉彩笔抖动"/>
+		<string key="17166_2" loc-id="17166_2" value="花纹粉彩笔"/>
+		<string key="17166_3" loc-id="17166_3" value="花纹马克笔"/>
+		<string key="17166_4" loc-id="17166_4" value="屏蔽花纹画笔"/>
+		<string key="17166_5" loc-id="17166_5" value="小花纹笔"/>
+		<string key="17166_6" loc-id="17166_6" value="柔边花纹画笔"/>
+		<string key="17166_7" loc-id="17166_7" value="花纹画笔"/>
+		<string key="17166_8" loc-id="17166_8" value="透明花纹笔"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Pens and Pencils">
+		<string key="17167_1" loc-id="17167_1" value="2B 铅笔"/>
+		<string key="17167_2" loc-id="17167_2" value="书法笔刷"/>
+		<string key="17167_3" loc-id="17167_3" value="三线并排笔"/>
+		<string key="17167_4" loc-id="17167_4" value="覆盖彩色铅笔"/>
+		<string key="17167_5" loc-id="17167_5" value="渐层向量笔"/>
+		<string key="17167_6" loc-id="17167_6" value="漏水笔"/>
+		<string key="17167_7" loc-id="17167_7" value="自动铅笔"/>
+		<string key="17167_8" loc-id="17167_8" value="重力惰性素描"/>
+		<string key="17167_9" loc-id="17167_9" value="仿真 2B 铅笔"/>
+		<string key="17167_10" loc-id="17167_10" value="仿真 2H 制图铅笔"/>
+		<string key="17167_11" loc-id="17167_11" value="仿真 4H 凝重铅笔"/>
+		<string key="17167_12" loc-id="17167_12" value="仿真 6B 轻柔铅笔"/>
+		<string key="17167_13" loc-id="17167_13" value="仿真滴水向量笔"/>
+		<string key="17167_14" loc-id="17167_14" value="仿真变化笔尖向量笔"/>
+		<string key="17167_15" loc-id="17167_15" value="涂鸦笔"/>
+		<string key="17167_16" loc-id="17167_16" value="宽笔触"/>
+		<string key="17167_17" loc-id="17167_17" value="速写向量笔"/>
+		<string key="17167_18" loc-id="17167_18" value="平头色彩"/>
+		<string key="17167_19" loc-id="17167_19" value="油滑铅笔"/>
+		<string key="17167_20" loc-id="17167_20" value="纤维笔"/>
+		<string key="17167_21" loc-id="17167_21" value="可塑向量笔"/>
+		<string key="17167_22" loc-id="17167_22" value="渐层重复向量笔"/>
+		<string key="17167_23" loc-id="17167_23" value="霓虹笔"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Real Watercolor">
+		<string key="17168_1" loc-id="17168_1" value="碎形清洗边缘"/>
+		<string key="17168_2" loc-id="17168_2" value="纹路湿润"/>
+		<string key="17168_3" loc-id="17168_3" value="轻边缘"/>
+		<string key="17168_4" loc-id="17168_4" value="融化流线贴图"/>
+		<string key="17168_5" loc-id="17168_5" value="流线贴图杂缘"/>
+		<string key="17168_6" loc-id="17168_6" value="仿真湿细节"/>
+		<string key="17168_7" loc-id="17168_7" value="仿真湿流线贴图洗涤"/>
+		<string key="17168_8" loc-id="17168_8" value="仿真湿抖动平滑变数"/>
+		<string key="17168_9" loc-id="17168_9" value="仿真湿海绵"/>
+		<string key="17168_10" loc-id="17168_10" value="喷洒干燥"/>
+		<string key="17168_11" loc-id="17168_11" value="湿橡皮擦"/>
+		<string key="17168_12" loc-id="17168_12" value="斑纹流动调色刀"/>
+		<string key="17168_13" loc-id="17168_13" value="斑纹流动纸张呈现"/>
+		<string key="17168_14" loc-id="17168_14" value="斑纹金针花"/>
+		<string key="17168_15" loc-id="17168_15" value="轻鬃毛"/>
+		<string key="17168_16" loc-id="17168_16" value="仿真脏污水彩"/>
+		<string key="17168_17" loc-id="17168_17" value="仿真尖头鬃毛"/>
+		<string key="17168_18" loc-id="17168_18" value="仿真水彩素描笔"/>
+		<string key="17168_19" loc-id="17168_19" value="微粒毛皮喷枪"/>
+		<string key="17168_20" loc-id="17168_20" value="仿真湿笔刷"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Real Wet Oil">
+		<string key="17169_1" loc-id="17169_1" value="蚀刻纹路"/>
+		<string key="17169_2" loc-id="17169_2" value="蚀刻液体"/>
+		<string key="17169_3" loc-id="17169_3" value="液体纹路渐变笔"/>
+		<string key="17169_4" loc-id="17169_4" value="液体纹路"/>
+		<string key="17169_5" loc-id="17169_5" value="液体油墨"/>
+		<string key="17169_6" loc-id="17169_6" value="松脂渐变笔"/>
+		<string key="17169_7" loc-id="17169_7" value="松脂纹路"/>
+		<string key="17169_8" loc-id="17169_8" value="松脂"/>
+		<string key="17169_9" loc-id="17169_9" value="湿渐变笔"/>
+		<string key="17169_10" loc-id="17169_10" value="湿鬃毛"/>
+		<string key="17169_11" loc-id="17169_11" value="湿纹路"/>
+		<string key="17169_12" loc-id="17169_12" value="湿油墨"/>
+		<string key="17169_13" loc-id="17169_13" value="斑纹湿洗涤器"/>
+		<string key="17169_14" loc-id="17169_14" value="斑纹釉彩洗涤"/>
+		<string key="17169_15" loc-id="17169_15" value="斑纹纹路渗入"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Simple">
+		<string key="17170_1" loc-id="17170_1" value="2B 铅笔"/>
+		<string key="17170_2" loc-id="17170_2" value="设计用马克笔"/>
+		<string key="17170_3" loc-id="17170_3" value="数位喷枪"/>
+		<string key="17170_4" loc-id="17170_4" value="橡皮擦"/>
+		<string key="17170_5" loc-id="17170_5" value="只加水"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Watercolor">
+		<string key="17171_1" loc-id="17171_1" value="流动漂白"/>
+		<string key="17171_2" loc-id="17171_2" value="晕染橡皮擦"/>
+		<string key="17171_3" loc-id="17171_3" value="弄干橡皮擦"/>
+		<string key="17171_4" loc-id="17171_4" value="撒盐橡皮擦"/>
+		<string key="17171_5" loc-id="17171_5" value="流动喷枪"/>
+		<string key="17171_6" loc-id="17171_6" value="流动洗涤平头"/>
+		<string key="17171_7" loc-id="17171_7" value="轻柔平头"/>
+		<string key="17171_8" loc-id="17171_8" value="湿海绵纹路"/>
+		<string key="17171_9" loc-id="17171_9" value="湿润媒介"/>
+		<string key="17171_10" loc-id="17171_10" value="驼毛晕染"/>
+		<string key="17171_11" loc-id="17171_11" value="干驼毛"/>
+		<string key="17171_12" loc-id="17171_12" value="斑纹洗涤"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2016 Brushes - Smart Strokes">
+		<string key="17172_1" loc-id="17172_1" value="亚克力拾取鬃毛"/>
+		<string key="17172_2" loc-id="17172_2" value="亚克力干笔刷"/>
+		<string key="17172_3" loc-id="17172_3" value="轻柔粉彩笔"/>
+		<string key="17172_4" loc-id="17172_4" value="材质粉彩笔"/>
+		<string key="17172_5" loc-id="17172_5" value="炭笔"/>
+		<string key="17172_6" loc-id="17172_6" value="彩色铅笔"/>
+		<string key="17172_7" loc-id="17172_7" value="胶彩粗平头"/>
+		<string key="17172_8" loc-id="17172_8" value="胶彩粗圆头"/>
+		<string key="17172_9" loc-id="17172_9" value="粉蜡笔粉彩笔"/>
+		<string key="17172_10" loc-id="17172_10" value="锥形粉蜡笔"/>
+		<string key="17172_11" loc-id="17172_11" value="密海绵"/>
+		<string key="17172_12" loc-id="17172_12" value="轻柔海绵"/>
+		<string key="17172_13" loc-id="17172_13" value="水彩宽笔刷"/>
+		<string key="17172_14" loc-id="17172_14" value="水彩流动"/>
+		<string key="17172_15" loc-id="17172_15" value="水彩轻柔晕染笔刷"/>
+		<string key="17172_16" loc-id="17172_16" value="水彩喷洒水笔"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2017 Brushes - Paint Effect">
+		<string key="17173_1" loc-id="17173_1" value="柔化"/>
+		<string key="17173_2" loc-id="17173_2" value="重笔触"/>
+		<string key="17173_3" loc-id="17173_3" value="对角笔触"/>
+		<string key="17173_4" loc-id="17173_4" value="污点"/>
+		<string key="17173_5" loc-id="17173_5" value="软笔尖"/>
+		<string key="17173_6" loc-id="17173_6" value="抖动笔触"/>
+		<string key="17173_7" loc-id="17173_7" value="重笔尖"/>
+	</category>
+
+	<category key="Str#" comment="Texture Resource Names">
+		<string key="17174_1" loc-id="17174_1" value="甲板漆"/>
+		<string key="17174_2" loc-id="17174_2" value="气体"/>
+		<string key="17174_3" loc-id="17174_3" value="彩绘画布"/>
+		<string key="17174_4" loc-id="17174_4" value="剥落的油漆"/>
+		<string key="17174_5" loc-id="17174_5" value="油漆漩涡"/>
+		<string key="17174_6" loc-id="17174_6" value="着色基板"/>
+		<string key="17174_7" loc-id="17174_7" value="金属花砖"/>
+		<string key="17174_8" loc-id="17174_8" value="道路"/>
+		<string key="17174_9" loc-id="17174_9" value="混凝土"/>
+		<string key="17174_10" loc-id="17174_10" value="高科技"/>
+		<string key="17174_11" loc-id="17174_11" value="纹理"/>
+		<string key="17174_12" loc-id="17174_12" value="爬虫皮肤"/>
+		<string key="17174_13" loc-id="17174_13" value="交叉细线"/>
+		<string key="17174_14" loc-id="17174_14" value="苔藓岩石"/>
+		<string key="17174_15" loc-id="17174_15" value="泥土"/>
+		<string key="17174_16" loc-id="17174_16" value="粗糙"/>
+		<string key="17174_17" loc-id="17174_17" value="大理石"/>
+		<string key="17174_18" loc-id="17174_18" value="旧木材"/>
+		<string key="17174_19" loc-id="17174_19" value="岩石"/>
+		<string key="17174_20" loc-id="17174_20" value="波浪"/>
+		<string key="17174_21" loc-id="17174_21" value="眼影"/>
+		<string key="17174_22" loc-id="17174_22" value="外层空间"/>
+		<string key="17174_23" loc-id="17174_23" value="砖墙"/>
+		<string key="17174_24" loc-id="17174_24" value="裂纹"/>
+		<string key="17174_25" loc-id="17174_25" value="施工图纸"/>
+		<string key="17174_26" loc-id="17174_26" value="羊皮纸"/>
+		<string key="17174_27" loc-id="17174_27" value="君子兰"/>
+		<string key="17174_28" loc-id="17174_28" value="云彩"/>
+		<string key="17174_29" loc-id="17174_29" value="亚洲字符"/>
+		<string key="17174_30" loc-id="17174_30" value="马"/>
+		<string key="17174_31" loc-id="17174_31" value="小马"/>
+		<string key="17174_32" loc-id="17174_32" value="鱼"/>
+		<string key="17174_33" loc-id="17174_33" value="紫玉兰"/>
+		<string key="17174_34" loc-id="17174_34" value="绿茵"/>
+		<string key="17174_35" loc-id="17174_35" value="白狗"/>
+		<string key="17174_36" loc-id="17174_36" value="平滑的灰泥"/>
+		<string key="17174_37" loc-id="17174_37" value="有机事物"/>
+		<string key="17174_38" loc-id="17174_38" value="块状布料"/>
+		<string key="17174_39" loc-id="17174_39" value="地形"/>
+		<string key="17174_40" loc-id="17174_40" value="大理石"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2017 Brushes - Chalk, Pastel and Crayons (Additions)">
+		<string key="17175_1" loc-id="17175_1" value="透版流线贴图 - 纹路粉彩"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2017 Brushes - Cloners (Additions)">
+		<string key="17176_1" loc-id="17176_1" value="透版流线贴图 - 纹路仿制工具"/>
+		<string key="17176_2" loc-id="17176_2" value="透版流线贴图 - 鬃毛仿制工具"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2017 Brushes - Dab Stencils">
+		<string key="17177_1" loc-id="17177_1" value="流线贴图 - 光晕"/>
+		<string key="17177_2" loc-id="17177_2" value="材质透版 - 金属"/>
+		<string key="17177_3" loc-id="17177_3" value="纸张 - 平头"/>
+		<string key="17177_4" loc-id="17177_4" value="纸张 - 鬃毛釉彩"/>
+		<string key="17177_5" loc-id="17177_5" value="材质透版 - 软粉蜡笔"/>
+		<string key="17177_6" loc-id="17177_6" value="材质透版 - 湿微粒"/>
+		<string key="17177_7" loc-id="17177_7" value="流线贴图 - 光滑湿油彩"/>
+		<string key="17177_8" loc-id="17177_8" value="流线贴图 - 网点纸"/>
+		<string key="17177_9" loc-id="17177_9" value="纸张 - 海棉"/>
+		<string key="17177_10" loc-id="17177_10" value="材质透版 - 硬粉蜡笔"/>
+		<string key="17177_11" loc-id="17177_11" value="材质透版 - 湿流量"/>
+		<string key="17177_12" loc-id="17177_12" value="纸张 - 湿流量"/>
+		<string key="17177_13" loc-id="17177_13" value="流线贴图 - 湿油彩"/>
+		<string key="17177_14" loc-id="17177_14" value="材质透版 - 软性"/>
+		<string key="17177_15" loc-id="17177_15" value="流线贴图 - 粉彩笔"/>
+		<string key="17177_16" loc-id="17177_16" value="材质透版 - 湿叠法"/>
+		<string key="17177_17" loc-id="17177_17" value="材质透版 - 湿覆盖法"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2017 Brushes - Digital Watercolor (Additions)">
+		<string key="17178_1" loc-id="17178_1" value="透版流线贴图 - 纹路"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2017 Brushes - Glazing">
+		<string key="17179_1" loc-id="17179_1" value="透版材质 - 拾取榛型笔"/>
+		<string key="17179_2" loc-id="17179_2" value="建构"/>
+		<string key="17179_3" loc-id="17179_3" value="动态斑纹"/>
+		<string key="17179_4" loc-id="17179_4" value="平头"/>
+		<string key="17179_5" loc-id="17179_5" value="拾取"/>
+		<string key="17179_6" loc-id="17179_6" value="透版纸张 - 纹路细线"/>
+		<string key="17179_7" loc-id="17179_7" value="倍增青草"/>
+		<string key="17179_8" loc-id="17179_8" value="微粒流量"/>
+		<string key="17179_9" loc-id="17179_9" value="微粒重力"/>
+		<string key="17179_10" loc-id="17179_10" value="微粒弹簧"/>
+		<string key="17179_11" loc-id="17179_11" value="透版纸张 - 铅笔"/>
+		<string key="17179_12" loc-id="17179_12" value="云彩"/>
+		<string key="17179_13" loc-id="17179_13" value="素描"/>
+		<string key="17179_14" loc-id="17179_14" value="轻柔"/>
+		<string key="17179_15" loc-id="17179_15" value="静态鬃毛"/>
+		<string key="17179_16" loc-id="17179_16" value="透版流线贴图 - 凌乱笔尖"/>
+		<string key="17179_17" loc-id="17179_17" value="斑点仿真鬃毛"/>
+		<string key="17179_18" loc-id="17179_18" value="透版纸张 - 海棉笔尖"/>
+		<string key="17179_19" loc-id="17179_19" value="透版流线贴图 - 海棉"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2017 Brushes - Impasto (Additions)">
+		<string key="17180_1" loc-id="17180_1" value="透版流线贴图 - 动态斑点"/>
+		<string key="17180_2" loc-id="17180_2" value="透版材质 - 硬性笔刷"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2017 Brushes - Pens and Pencils (Additions)">
+		<string key="17181_1" loc-id="17181_1" value="透版流线贴图 - 仿真 2B 铅笔"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2017 Brushes - Real Watercolor (Additions)">
+		<string key="17182_1" loc-id="17182_1" value="流线贴图 - 变干"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2017 Brushes - Real Wet Oil (Additions)">
+		<string key="17183_1" loc-id="17183_1" value="透版纸张 - 纹路鬃毛"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2017 Brushes - Texture Cover">
+		<string key="17184_1" loc-id="17184_1" value="透版材质 - 拾取 - 色彩控制"/>
+		<string key="17184_2" loc-id="17184_2" value="拾取纹路 - 色彩控制"/>
+		<string key="17184_3" loc-id="17184_3" value="透版材质 - 精细拾取混色笔"/>
+		<string key="17184_4" loc-id="17184_4" value="动态斑点 - 色彩控制"/>
+		<string key="17184_5" loc-id="17184_5" value="动态斑点 - 色彩控制 - 污点"/>
+		<string key="17184_6" loc-id="17184_6" value="平头亮度"/>
+		<string key="17184_7" loc-id="17184_7" value="平头彩度"/>
+		<string key="17184_8" loc-id="17184_8" value="平头"/>
+		<string key="17184_9" loc-id="17184_9" value="软亮度"/>
+		<string key="17184_10" loc-id="17184_10" value="透版流线贴图 - 软性 - 色彩控制"/>
+		<string key="17184_11" loc-id="17184_11" value="喷枪"/>
+		<string key="17184_12" loc-id="17184_12" value="鬃毛纹路亮度"/>
+		<string key="17184_13" loc-id="17184_13" value="抖动 - 色彩控制"/>
+		<string key="17184_14" loc-id="17184_14" value="模糊材质转色彩控制"/>
+		<string key="17184_15" loc-id="17184_15" value="软亮度转材质色彩"/>
+		<string key="17184_16" loc-id="17184_16" value="透版流线贴图 - 可变的色彩"/>
+	</category>
+
+	<category key="Str#" comment="Painter 2017 Brushes - Texture Source Blending">
+		<string key="17185_1" loc-id="17185_1" value="基本 - 色彩控制"/>
+		<string key="17185_2" loc-id="17185_2" value="拾取 - 材质转色彩控制"/>
+		<string key="17185_3" loc-id="17185_3" value="透版纸张 - 粉彩污点"/>
+		<string key="17185_4" loc-id="17185_4" value="拾取深浅材质"/>
+		<string key="17185_5" loc-id="17185_5" value="透版材质 - 擦痕"/>
+		<string key="17185_6" loc-id="17185_6" value="透版材质 - 斑点"/>
+		<string key="17185_7" loc-id="17185_7" value="透版材质 - 逐渐淡化"/>
+		<string key="17185_8" loc-id="17185_8" value="透版材质 - 鬃毛材质亮度"/>
+		<string key="17185_9" loc-id="17185_9" value="透版流线贴图 - 纹路彩度"/>
+		<string key="17185_10" loc-id="17185_10" value="光晕泼溅 - 色彩控制"/>
+		<string key="17185_11" loc-id="17185_11" value="透版材质  - 纹路笔尖"/>
+		<string key="17185_12" loc-id="17185_12" value="透版材质 - 粗糙"/>
+		<string key="17185_13" loc-id="17185_13" value="软彩度"/>
+		<string key="17185_14" loc-id="17185_14" value="软性 - 色彩控制 - 污点"/>
+		<string key="17185_15" loc-id="17185_15" value="软亮度"/>
+		<string key="17185_16" loc-id="17185_16" value="斑纹重叠"/>
+		<string key="17185_17" loc-id="17185_17" value="透版流线贴图 - 海棉"/>
+		<string key="17185_18" loc-id="17185_18" value="透版流线贴图 - 色彩控制"/>
+		<string key="17185_19" loc-id="17185_19" value="轻柔"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Blenders">
+		<string key="17197_1" loc-id="17197_1" value="破碎的混色笔"/>
+		<string key="17197_2" loc-id="17197_2" value="透版油性混色笔"/>
+		<string key="17197_3" loc-id="17197_3" value="斑纹晕染混色笔"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Cloners">
+		<string key="17198_1" loc-id="17198_1" value="水彩仿制工具"/>
+		<string key="17198_2" loc-id="17198_2" value="厚涂材质浮雕仿制工具"/>
+		<string key="17198_3" loc-id="17198_3" value="干驼毛仿制工具"/>
+		<string key="17198_4" loc-id="17198_4" value="纹路油性仿制工具"/>
+		<string key="17198_5" loc-id="17198_5" value="粉蜡笔仿制工具"/>
+		<string key="17198_6" loc-id="17198_6" value="锥形油性仿制工具"/>
+		<string key="17198_7" loc-id="17198_7" value="粗糙刀仿制工具"/>
+		<string key="17198_8" loc-id="17198_8" value="萨金特鬃毛仿制工具"/>
+		<string key="17198_9" loc-id="17198_9" value="斑纹油性仿制工具"/>
+		<string key="17198_10" loc-id="17198_10" value="斑纹水彩仿制工具"/>
+		<string key="17198_11" loc-id="17198_11" value="湿油性仿制工具"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Sargent">
+		<string key="17199_1" loc-id="17199_1" value="滴水水母"/>
+		<string key="17199_2" loc-id="17199_2" value="清淡液态素描笔"/>
+		<string key="17199_3" loc-id="17199_3" value="仿真鬃毛 (轻柔)"/>
+		<string key="17199_4" loc-id="17199_4" value="含油污水"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Selection Brushes">
+		<string key="17200_1" loc-id="17200_1" value="碎形选取区"/>
+		<string key="17200_2" loc-id="17200_2" value="草地"/>
+		<string key="17200_3" loc-id="17200_3" value="硬交错选取区"/>
+		<string key="17200_4" loc-id="17200_4" value="漫画平面化"/>
+		<string key="17200_5" loc-id="17200_5" value="路径"/>
+		<string key="17200_6" loc-id="17200_6" value="软交错选取区"/>
+		<string key="17200_7" loc-id="17200_7" value="喷洒选取区"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Texture Cover">
+		<string key="17201_1" loc-id="17201_1" value="轻薄透明的色度 2.5D"/>
+		<string key="17201_2" loc-id="17201_2" value="沙暴纸 2.5D - 色彩控制"/>
+		<string key="17201_3" loc-id="17201_3" value="透版浮雕 2.5D"/>
+		<string key="17201_4" loc-id="17201_4" value="笔 2.5D - 色彩控制"/>
+		<string key="17201_5" loc-id="17201_5" value="喷枪 2.5D"/>
+		<string key="17201_6" loc-id="17201_6" value="概念 2.5D"/>
+		<string key="17201_7" loc-id="17201_7" value="粉蜡笔 2.5D - 色彩控制"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Texture Source Blending">
+		<string key="17202_1" loc-id="17202_1" value="素描笔 2.5D - 色彩控制"/>
+		<string key="17202_2" loc-id="17202_2" value="透版软浮雕 2.5D"/>
+		<string key="17202_3" loc-id="17202_3" value="表面建立工具 2.5D - 色彩控制"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Thick Paint">
+		<string key="17203_1" loc-id="17203_1" value="新增及刮擦美工刀"/>
+		<string key="17203_2" loc-id="17203_2" value="繁重载入的画刀"/>
+		<string key="17203_3" loc-id="17203_3" value="纹路油画抖动"/>
+		<string key="17203_4" loc-id="17203_4" value="载入的细分岔"/>
+		<string key="17203_5" loc-id="17203_5" value="纹路仿真鬃毛油画平头"/>
+		<string key="17203_6" loc-id="17203_6" value="纹路仿真鬃毛油画圆头"/>
+		<string key="17203_7" loc-id="17203_7" value="扇形画刀"/>
+		<string key="17203_8" loc-id="17203_8" value="繁重材质画刀"/>
+		<string key="17203_9" loc-id="17203_9" value="载入的平头画刀"/>
+		<string key="17203_10" loc-id="17203_10" value="载入的油画画刀"/>
+		<string key="17203_11" loc-id="17203_11" value="绘图管"/>
+		<string key="17203_12" loc-id="17203_12" value="短仿真鬃毛油画扇形"/>
+		<string key="17203_13" loc-id="17203_13" value="仿真鬃毛油画榛型笔"/>
+		<string key="17203_14" loc-id="17203_14" value="湿式仿真鬃毛油画"/>
+		<string key="17203_15" loc-id="17203_15" value="平滑圆头油画"/>
+		<string key="17203_16" loc-id="17203_16" value="橡皮擦画刀"/>
+		<string key="17203_17" loc-id="17203_17" value="深度橡皮擦"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - HARD MEDIA - Charcoal">
+		<string key="17204_1" loc-id="17204_1" value="钝头铅笔"/>
+		<string key="17204_2" loc-id="17204_2" value="硬木棍"/>
+		<string key="17204_3" loc-id="17204_3" value="尖锐铅笔"/>
+		<string key="17204_4" loc-id="17204_4" value="柔软藤蔓"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - HARD MEDIA - Conte">
+		<string key="17205_1" loc-id="17205_1" value="圆形"/>
+		<string key="17205_2" loc-id="17205_2" value="方形"/>
+		<string key="17205_3" loc-id="17205_3" value="木棍"/>
+		<string key="17205_4" loc-id="17205_4" value="三角形"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - HARD MEDIA - Pastels">
+		<string key="17206_1" loc-id="17206_1" value="刚硬"/>
+		<string key="17206_2" loc-id="17206_2" value="中等粗细"/>
+		<string key="17206_3" loc-id="17206_3" value="中"/>
+		<string key="17206_4" loc-id="17206_4" value="尖锐粉彩笔"/>
+		<string key="17206_5" loc-id="17206_5" value="轻柔"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - HARD MEDIA - Pencils">
+		<string key="17207_1" loc-id="17207_1" value="硬度 2H"/>
+		<string key="17207_2" loc-id="17207_2" value="硬度 3H"/>
+		<string key="17207_3" loc-id="17207_3" value="硬度 4H"/>
+		<string key="17207_4" loc-id="17207_4" value="硬度 H"/>
+		<string key="17207_5" loc-id="17207_5" value="HB"/>
+		<string key="17207_6" loc-id="17207_6" value="柔软度 2B"/>
+		<string key="17207_7" loc-id="17207_7" value="柔软度 3B"/>
+		<string key="17207_8" loc-id="17207_8" value="柔软度 4B"/>
+		<string key="17207_9" loc-id="17207_9" value="柔软度 5B"/>
+		<string key="17207_10" loc-id="17207_10" value="柔软度 6B"/>
+		<string key="17207_11" loc-id="17207_11" value="柔软度 B"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - INK - Markers">
+		<string key="17208_1" loc-id="17208_1" value="平头"/>
+		<string key="17208_2" loc-id="17208_2" value="细"/>
+		<string key="17208_3" loc-id="17208_3" value="平头"/>
+		<string key="17208_4" loc-id="17208_4" value="大"/>
+		<string key="17208_5" loc-id="17208_5" value="中"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - INK - Pens">
+		<string key="17209_1" loc-id="17209_1" value="速写"/>
+		<string key="17209_2" loc-id="17209_2" value="细"/>
+		<string key="17209_3" loc-id="17209_3" value="平滑速写"/>
+		<string key="17209_4" loc-id="17209_4" value="极细"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - PAINT - Acrylics">
+		<string key="17210_1" loc-id="17210_1" value="角度笔刷"/>
+		<string key="17210_2" loc-id="17210_2" value="细节笔刷"/>
+		<string key="17210_3" loc-id="17210_3" value="细节画刀"/>
+		<string key="17210_4" loc-id="17210_4" value="扇形笔刷"/>
+		<string key="17210_5" loc-id="17210_5" value="榛型笔笔刷"/>
+		<string key="17210_6" loc-id="17210_6" value="平头笔刷"/>
+		<string key="17210_7" loc-id="17210_7" value="刷式画刀"/>
+		<string key="17210_8" loc-id="17210_8" value="调色刀"/>
+		<string key="17210_9" loc-id="17210_9" value="长线笔刷"/>
+		<string key="17210_10" loc-id="17210_10" value="圆头笔刷"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - PAINT - Airbrushes">
+		<string key="17211_1" loc-id="17211_1" value="基本"/>
+		<string key="17211_2" loc-id="17211_2" value="宽"/>
+		<string key="17211_3" loc-id="17211_3" value="粗糙"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - PAINT - Glazing">
+		<string key="17212_1" loc-id="17212_1" value="角度笔刷"/>
+		<string key="17212_2" loc-id="17212_2" value="细节笔刷"/>
+		<string key="17212_3" loc-id="17212_3" value="扇形笔刷"/>
+		<string key="17212_4" loc-id="17212_4" value="平头笔刷"/>
+		<string key="17212_5" loc-id="17212_5" value="长线笔刷"/>
+		<string key="17212_6" loc-id="17212_6" value="海绵"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - PAINT - Oils">
+		<string key="17213_1" loc-id="17213_1" value="角度笔刷"/>
+		<string key="17213_2" loc-id="17213_2" value="细节笔刷"/>
+		<string key="17213_3" loc-id="17213_3" value="细节画刀"/>
+		<string key="17213_4" loc-id="17213_4" value="扇形笔刷"/>
+		<string key="17213_5" loc-id="17213_5" value="榛型笔笔刷"/>
+		<string key="17213_6" loc-id="17213_6" value="平头笔刷"/>
+		<string key="17213_7" loc-id="17213_7" value="刷式画刀"/>
+		<string key="17213_8" loc-id="17213_8" value="调色刀"/>
+		<string key="17213_9" loc-id="17213_9" value="长线笔刷"/>
+		<string key="17213_10" loc-id="17213_10" value="圆头笔刷"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - PAINT - Watercolor">
+		<string key="17214_1" loc-id="17214_1" value="干细节"/>
+		<string key="17214_2" loc-id="17214_2" value="干平头"/>
+		<string key="17214_3" loc-id="17214_3" value="干圆头"/>
+		<string key="17214_4" loc-id="17214_4" value="干海绵"/>
+		<string key="17214_5" loc-id="17214_5" value="结晶点水彩笔"/>
+		<string key="17214_6" loc-id="17214_6" value="喷洒"/>
+		<string key="17214_7" loc-id="17214_7" value="洗涤蓬状"/>
+		<string key="17214_8" loc-id="17214_8" value="洗涤圆头"/>
+		<string key="17214_9" loc-id="17214_9" value="湿细节"/>
+		<string key="17214_10" loc-id="17214_10" value="湿扇形"/>
+		<string key="17214_11" loc-id="17214_11" value="湿榛型笔"/>
+		<string key="17214_12" loc-id="17214_12" value="湿平头"/>
+		<string key="17214_13" loc-id="17214_13" value="湿蓬状"/>
+		<string key="17214_14" loc-id="17214_14" value="湿圆头"/>
+		<string key="17214_15" loc-id="17214_15" value="湿海绵"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - REFINING - Blenders">
+		<string key="17215_1" loc-id="17215_1" value="羚羊皮"/>
+		<string key="17215_2" loc-id="17215_2" value="干笔刷"/>
+		<string key="17215_3" loc-id="17215_3" value="平头擦笔"/>
+		<string key="17215_4" loc-id="17215_4" value="只加水"/>
+		<string key="17215_5" loc-id="17215_5" value="调色刀"/>
+		<string key="17215_6" loc-id="17215_6" value="尖头擦笔"/>
+		<string key="17215_7" loc-id="17215_7" value="纸卷"/>
+		<string key="17215_8" loc-id="17215_8" value="湿笔刷"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - REFINING - Erasers">
+		<string key="17216_1" loc-id="17216_1" value="细致硬质"/>
+		<string key="17216_2" loc-id="17216_2" value="细致软质"/>
+		<string key="17216_3" loc-id="17216_3" value="揉捏"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Stamps">
+		<string key="17217_1" loc-id="17217_1" value="树"/>
+		<string key="17217_2" loc-id="17217_2" value="飞机压印"/>
+		<string key="17217_4" loc-id="17217_4" value="原子"/>
+		<string key="17217_5" loc-id="17217_5" value="龙纹身"/>
+		<string key="17217_6" loc-id="17217_6" value="凹痕"/>
+		<string key="17217_7" loc-id="17217_7" value="岩石"/>
+		<string key="17217_9" loc-id="17217_9" value="疤痕"/>
+		<string key="17217_10" loc-id="17217_10" value="部落纹身"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Selection Brushes">
+		<string key="17218_1" loc-id="17218_1" value="刚硬"/>
+		<string key="17218_2" loc-id="17218_2" value="轻柔"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Airbrushes">
+		<string key="17219_1" loc-id="17219_1" value="平滑喷溅"/>
+		<string key="17219_2" loc-id="17219_2" value="随性喷枪"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Blenders">
+		<string key="17220_1" loc-id="17220_1" value="浓重模版混色笔"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Dab Stencils">
+		<string key="17221_1" loc-id="17221_1" value="纸张 - 数位水彩微粒"/>
+		<string key="17221_2" loc-id="17221_2" value="流线贴图 - 材质"/>
+		<string key="17221_3" loc-id="17221_3" value="纸张 - 萨金特"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Thick Paint">
+		<string key="17222_1" loc-id="17222_1" value="风干平头画刀"/>
+		<string key="17222_2" loc-id="17222_2" value="纹路平滑混色笔"/>
+		<string key="17222_3" loc-id="17222_3" value="载入的厚式和湿式"/>
+		<string key="17222_4" loc-id="17222_4" value="风干痕迹延伸"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Sargent">
+		<string key="17223_1" loc-id="17223_1" value="不均匀的背景"/>
+		<string key="17223_2" loc-id="17223_2" value="斑纹纹路凝重滴水法"/>
+		<string key="17223_3" loc-id="17223_3" value="简单"/>
+		<string key="17223_4" loc-id="17223_4" value="模版流线贴图"/>
+		<string key="17223_5" loc-id="17223_5" value="纹路压力画刀"/>
+		<string key="17223_6" loc-id="17223_6" value="斑纹黏贴式鬃毛"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Glazing">
+		<string key="17224_1" loc-id="17224_1" value="块状榛型笔"/>
+		<string key="17224_2" loc-id="17224_2" value="柔化网点"/>
+		<string key="17224_3" loc-id="17224_3" value="云彩网点"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Impasto">
+		<string key="17225_1" loc-id="17225_1" value="破裂清漆"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Real Watercolor">
+		<string key="17226_1" loc-id="17226_1" value="厚重圆头"/>
+		<string key="17226_2" loc-id="17226_2" value="轻柔圆头"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Real Wet Oil">
+		<string key="17227_1" loc-id="17227_1" value="厚重圆头"/>
+		<string key="17227_2" loc-id="17227_2" value="轻柔圆头"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Pattern Pens">
+		<string key="17228_1" loc-id="17228_1" value="透明无涂料"/>
+		<string key="17228_2" loc-id="17228_2" value="花纹画笔铅笔剖面图"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Fast and Ornate">
+		<string key="17229_1" loc-id="17229_1" value="鬃毛背景"/>
+		<string key="17229_2" loc-id="17229_2" value="鬃毛色彩"/>
+		<string key="17229_3" loc-id="17229_3" value="粉彩笔"/>
+		<string key="17229_4" loc-id="17229_4" value="粗糙混色笔"/>
+		<string key="17229_5" loc-id="17229_5" value="细部鬃毛"/>
+		<string key="17229_6" loc-id="17229_6" value="弄干数位水彩"/>
+		<string key="17229_7" loc-id="17229_7" value="温和颜料移除笔刷"/>
+		<string key="17229_8" loc-id="17229_8" value="大型海绵"/>
+		<string key="17229_9" loc-id="17229_9" value="釉彩鬃毛"/>
+		<string key="17229_10" loc-id="17229_10" value="微粒背景喷洒"/>
+		<string key="17229_11" loc-id="17229_11" value="微粒特征"/>
+		<string key="17229_12" loc-id="17229_12" value="轻柔鬃毛"/>
+		<string key="17229_13" loc-id="17229_13" value="柔光"/>
+		<string key="17229_14" loc-id="17229_14" value="湿式数位水彩"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Fast and Simple">
+		<string key="17230_1" loc-id="17230_1" value="大型橡皮擦"/>
+		<string key="17230_2" loc-id="17230_2" value="尖细橡皮擦"/>
+		<string key="17230_3" loc-id="17230_3" value="康特笔"/>
+		<string key="17230_4" loc-id="17230_4" value="平头色彩"/>
+		<string key="17230_5" loc-id="17230_5" value="马克笔"/>
+		<string key="17230_6" loc-id="17230_6" value="铅笔"/>
+		<string key="17230_7" loc-id="17230_7" value="轻柔混色笔"/>
+		<string key="17230_8" loc-id="17230_8" value="柔和色彩"/>
+		<string key="17230_9" loc-id="17230_9" value="轻柔橡皮擦"/>
+		<string key="17230_10" loc-id="17230_10" value="柔和釉彩"/>
+		<string key="17230_11" loc-id="17230_11" value="材质背景"/>
+		<string key="17230_12" loc-id="17230_12" value="纹路数位水彩"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - newbrushes">
+		<string key="17231_1" loc-id="17231_1" value="透版流线贴图 - 叠色法"/>
+		<string key="17231_2" loc-id="17231_2" value="交错色彩表现"/>
+		<string key="17231_3" loc-id="17231_3" value="平头纹路清洗"/>
+		<string key="17231_4" loc-id="17231_4" value="混色器"/>
+		<string key="17231_5" loc-id="17231_5" value="湿斑纹"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - updatedbrushes">
+		<string key="17232_1" loc-id="17232_1" value="细部晕染"/>
+		<string key="17232_2" loc-id="17232_2" value="粗糙蓬状笔刷"/>
+		<string key="17232_3" loc-id="17232_3" value="微湿橡皮擦"/>
+		<string key="17232_4" loc-id="17232_4" value="新简单晕染"/>
+		<string key="17232_5" loc-id="17232_5" value="鬃毛纯水"/>
+		<string key="17232_6" loc-id="17232_6" value="背景洗涤"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Clone Tinting">
+		<string key="17233_1" loc-id="17233_1" value="喷洒色泽"/>
+		<string key="17233_2" loc-id="17233_2" value="平头浓淡鬃毛"/>
+		<string key="17233_3" loc-id="17233_3" value="柔软浓淡"/>
+		<string key="17233_4" loc-id="17233_4" value="刚硬浓淡仿制工具"/>
+		<string key="17233_5" loc-id="17233_5" value="纹路浓淡画刀"/>
+		<string key="17233_6" loc-id="17233_6" value="微粒浓淡"/>
+		<string key="17233_7" loc-id="17233_7" value="浓淡铅笔"/>
+		<string key="17233_8" loc-id="17233_8" value="萨金特浓淡"/>
+		<string key="17233_9" loc-id="17233_9" value="浓淡和渐变萨金特"/>
+		<string key="17233_10" loc-id="17233_10" value="纹路浓淡渐淡"/>
+		<string key="17233_11" loc-id="17233_11" value="简单浓淡混色笔"/>
+		<string key="17233_12" loc-id="17233_12" value="柔软浓淡鬃毛"/>
+		<string key="17233_13" loc-id="17233_13" value="柔软浓淡仿制工具"/>
+		<string key="17233_14" loc-id="17233_14" value="油性细鬃毛"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - NTP">
+		<string key="17234_1" loc-id="17234_1" value="干鬃毛橡皮擦"/>
+		<string key="17234_2" loc-id="17234_2" value="布混色笔"/>
+		<string key="17234_3" loc-id="17234_3" value="载入的湿画刀"/>
+		<string key="17234_4" loc-id="17234_4" value="干尖头画刀"/>
+		<string key="17234_5" loc-id="17234_5" value="载入的干鬃毛"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - UTP">
+		<string key="17235_1" loc-id="17235_1" value="载入的干仿真鬃毛油画"/>
+		<string key="17235_2" loc-id="17235_2" value="干式仿真鬃毛油画"/>
+		<string key="17235_3" loc-id="17235_3" value="载入的湿仿真鬃毛油画"/>
+		<string key="17235_4" loc-id="17235_4" value="榛型笔仿真鬃毛油画"/>
+	</category>
+
+	<category key="Str#" comment="Brushes - Thick Paint Compatible">
+		<string key="17236_1" loc-id="17236_1" value="粉彩笔混色笔"/>
+		<string key="17236_2" loc-id="17236_2" value="干鬃毛痕迹延伸"/>
+		<string key="17236_3" loc-id="17236_3" value="干油性鬃毛"/>
+		<string key="17236_4" loc-id="17236_4" value="蚀刻"/>
+		<string key="17236_5" loc-id="17236_5" value="纹路不透光墨水"/>
+		<string key="17236_6" loc-id="17236_6" value="划线"/>
+		<string key="17236_7" loc-id="17236_7" value="光源纹理"/>
+		<string key="17236_8" loc-id="17236_8" value="油性风干粉蜡笔"/>
+		<string key="17236_9" loc-id="17236_9" value="厚涂颜料画刀"/>
+		<string key="17236_10" loc-id="17236_10" value="基本圆头画刀"/>
+		<string key="17236_11" loc-id="17236_11" value="萨金特仿制工具"/>
+		<string key="17236_12" loc-id="17236_12" value="轻柔鬃毛仿制工具"/>
+		<string key="17236_13" loc-id="17236_13" value="柔软厚仿制工具"/>
+		<string key="17236_14" loc-id="17236_14" value="柔软细鬃毛"/>
+		<string key="17236_15" loc-id="17236_15" value="厚萨金特"/>
+		<string key="17236_16" loc-id="17236_16" value="修补喷枪"/>
+	</category>
+
+</string-table>
